@@ -1193,7 +1193,7 @@ def evaluationSVM2Stage(listFeatureTrain, listLabelTrain, listFeatureTest, listL
     precision2Stage, recall2Stage, f1Score2Stage = getF1ScoreTotal(listLabelTest, listLabelPredict, numArg, listEncode)
     return precisionChunking, recallChunking, f1ScoreChunking, precisionIden, recallIden, f1ScoreIden, precisionClass, recallClass, f1ScoreClass,precision2Stage, recall2Stage, f1Score2Stage
 
-def evaluationSVM1Stage(listFeatureTrain, listLabelTrain, listFeatureTest, listLabelTest, numArg, listFeatureName, listEncode, listNumArgPerSen, listPredicateType):
+def evaluationSVM1Stage(listFeatureTrain, listLabelTrain, listFeatureTest, listLabelTest, numArg, listFeatureName, listEncode, listNumArgPerSen, listPredicateType, listArgCandidateRange):
     """Return result of Support Vector Machine classifier 1-step strategy
     """
     listFeatureTrain = convertToDataFrame(listFeatureTrain)
@@ -1211,8 +1211,9 @@ def evaluationSVM1Stage(listFeatureTrain, listLabelTrain, listFeatureTest, listL
     listPredicateType = np.asarray(listPredicateType)
     for item in listNumArgPerSen:
         predicateType = listPredicateType[count]
+        argCandidateRange = listArgCandidateRange[count:(count+item)]
         tempMatrix = densityMatrix[count:(count+item), :]
-        listLabelTemp, listVariableTemp = ilpSolving(tempMatrix, predicateType)
+        listLabelTemp, listVariableTemp = ilpSolving(tempMatrix, predicateType, argCandidateRange)
         listLabelILP.append(listLabelTemp)
         listVariable.append(listVariableTemp)
         count += item
@@ -1439,7 +1440,7 @@ def crossValidationSVM2Stage(listOfListFeatureTrain, listOfListFeatureTest, list
         listF1Score2Stage.append(f1Score2Stage)		
     return listPrecisionChunking, listRecallChunking, listF1ScoreChunking, listPrecisionIden, listRecallIden, listF1ScoreIden, listPrecisionClass, listRecallClass, listF1ScoreClass, listPrecision2Stage, listRecall2Stage, listF1Score2Stage
 
-def crossValidationSVM1Stage(listOfListFeatureTrain, listOfListFeatureTest, listOfListLabelTrain, listOfListLabelTest, listFeatureName, foldNumber, listOfListNumArg, listEncode, listOfListNumArgPerSen, listOfListPredicateType):
+def crossValidationSVM1Stage(listOfListFeatureTrain, listOfListFeatureTest, listOfListLabelTrain, listOfListLabelTest, listFeatureName, foldNumber, listOfListNumArg, listEncode, listOfListNumArgPerSen, listOfListPredicateType, listOfListArgCandidateRange):
     """k-fold Cross validation for Support Vector Machine classifier 1-step strategy
     """
     listPrecisionChunking = []
@@ -1467,7 +1468,8 @@ def crossValidationSVM1Stage(listOfListFeatureTrain, listOfListFeatureTest, list
         listPredicateType = listOfListPredicateType[i]
         numArg = listOfListNumArg[i]
         listNumArgPerSen = listOfListNumArgPerSen[i]
-        precisionChunking, recallChunking, f1ScoreChunking, precision1Stage, precisionClassify1Stage, recallClassify1Stage, f1ScoreClassify1Stage, recall1Stage, f1Score1Stage, listLabelILPNew, listLabelPredict, densityMatrix, listVariable, precisionArg, recallArg, f1ScoreArg = evaluationSVM1Stage(listFeatureTrain, listLabelTrain, listFeatureTest, listLabelTest, numArg, listFeatureName, listEncode, listNumArgPerSen, listPredicateType)
+        listArgCandidateRange = listOfListArgCandidateRange[i]
+        precisionChunking, recallChunking, f1ScoreChunking, precision1Stage, precisionClassify1Stage, recallClassify1Stage, f1ScoreClassify1Stage, recall1Stage, f1Score1Stage, listLabelILPNew, listLabelPredict, densityMatrix, listVariable, precisionArg, recallArg, f1ScoreArg = evaluationSVM1Stage(listFeatureTrain, listLabelTrain, listFeatureTest, listLabelTest, numArg, listFeatureName, listEncode, listNumArgPerSen, listPredicateType, listArgCandidateRange)
         listPrecisionChunking.append(precisionChunking)
         listRecallChunking.append(recallChunking)
         listF1ScoreChunking.append(f1ScoreChunking)
@@ -1636,6 +1638,7 @@ def kFold(listID, listTree, listRel, listArg, listWordName, listCluster, numberG
     groupListFeature = []
     groupInfo = []
     groupListNumArg = []
+    groupListArgCandidateRange = []
     for i in range(numberGroup):
         groupListID.append([])
         groupListTree.append([])
@@ -1651,14 +1654,15 @@ def kFold(listID, listTree, listRel, listArg, listWordName, listCluster, numberG
         groupInfo.append(sorted(getDataInformation(groupListArg[i])))
         # listID1, listTree1, listRel1, listArg1 = chunking(groupListID[i], groupListTree[i], groupListRel[i], groupListArg[i])
         print 'Group: ' + str(i)
-        listLabel, listFeature, listCount = getFeatureAllNode(groupListID[i], groupListTree[i], groupListRel[i], groupListArg[i], listWordName, listCluster)
+        listLabel, listFeature, listCount, listArgCandidateRange = getFeatureAllNode(groupListID[i], groupListTree[i], groupListRel[i], groupListArg[i], listWordName, listCluster)
         listLabel = getListLabelReduce(listLabel, listLabelReduce)
         groupListLabel.append(listLabel)
         groupListFeature.append(listFeature)
         for j in range(len(groupListArg[i])):
             listNumArg.append(len(groupListArg[i][j]))
         groupListNumArg.append(listCount)
-    return groupInfo, groupListLabel, groupListFeature, groupListNumArg
+        groupListArgCandidateRange.append(listArgCandidateRange)
+    return groupInfo, groupListLabel, groupListFeature, groupListNumArg, groupListArgCandidateRange
 
 def getListLabelReduce(listLabel, listLabelReduce):
     for i in range(len(listLabel)):
@@ -1807,11 +1811,12 @@ def getParameterSVM(listFeature, listLabel):
     clf.fit(listFeatureSVM, listLabel)
     return clf, enc
 
-def ilpSolving(densityMatrix, predicateType):
+def ilpSolving(densityMatrix, predicateType, argCandidateRange):
     shape = np.shape(densityMatrix)
     if(shape[1]!=27):
         densityMatrix = np.insert(densityMatrix,11,-10,axis=1)
     shape = np.shape(densityMatrix)
+    numWords = np.amax(argCandidateRange)+1
     prob = LpProblem("SRL", LpMaximize)
     numItem = shape[0]*shape[1]
     densityList = np.reshape(densityMatrix, numItem)
@@ -2100,6 +2105,7 @@ def getFeatureAllNode(listID, listTree, listRel, listArg, listWordName, listClus
     listFeature = []
     listLabel = []
     listCount = []
+    listArgCandidateRange = []
     for i in range(len(listTree)):
         id = listID[i]
         # print id
@@ -2119,6 +2125,11 @@ def getFeatureAllNode(listID, listTree, listRel, listArg, listWordName, listClus
         # tree.search_nodes(word = rel)[0].word = deleteUnderscore(tree.search_nodes(word = rel)[0].word)
         rel = deleteUnderscore(rel)
         # listRel[i][0] = deleteUnderscore(listRel[i][0])
+        dicLeaf = {}
+        i = 0
+        for leaf in tree:
+            dicLeaf[leaf] = i
+            i += 1
         voice = _getVoice(tree)
         positionDic = position(tree, predicateNode)
         """
@@ -2153,6 +2164,13 @@ def getFeatureAllNode(listID, listTree, listRel, listArg, listWordName, listClus
             feature.append(_getFunctionType(node))
             feature.append(phraseType(predicateNode.name))
             listFeature.append(feature)
+            begin = -1
+            end = -1
+            for leaf in node:
+                if begin == -1:
+                    begin = dicLeaf[leaf]
+                end = dicLeaf[leaf]
+            listArgCandidateRange.append([begin, end])
             cnt += 1
             for arg in args:
                 if isSame(getWord(node), arg[1]):
@@ -2165,7 +2183,7 @@ def getFeatureAllNode(listID, listTree, listRel, listArg, listWordName, listClus
             if not done:
                 listLabel.append('None')
         listCount.append(cnt)
-    return listLabel, listFeature, listCount
+    return listLabel, listFeature, listCount, listArgCandidateRange
 
 def checkUnderscore(listID, listTree, listRel, listArg):
     print 'checkUnderscore: '

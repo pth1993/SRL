@@ -48,21 +48,21 @@ lib.makePredicatenode(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
 print 'Getting Feature'
 # listLabel, listFeature, listCount = lib.getFeature(listIDAfterChunking, listTreeAfterChunking, listRelAfterChunking, listArgAfterChunking, listWordName, listCluster)
 
-listLabel, listFeature, listCount = lib.getFeatureAllNode(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, listWordName, listCluster)
-lib.checkUnderscore(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
+listLabel, listFeature, listCount, listArgCandidateRange = lib.getFeatureAllNode(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, listWordName, listCluster)
+# lib.checkUndersc ore(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
 
 listLabel = lib.getListLabelReduce(listLabel, listLabelOriginal)
 
 listLE, leLabel, listEncode = lib.getLabelEncoderParameter(listFeature, listLabel)
 print 'Separating Data'
 # groupInfo, groupListLabel, groupListFeature = lib.kFold(listID1Rel, listTree1Rel, listRel1Rel, listArg1Rel, listWordName, listCluster, foldNumber, listLabelOriginal)
-groupInfo, groupListLabel, groupListFeature, listOfListNumArgPerSen = lib.kFold(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, listWordName, listCluster, foldNumber, listLabelOriginal)
+groupInfo, groupListLabel, groupListFeature, listOfListNumArgPerSen, listOfListArgCandidateRange = lib.kFold(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, listWordName, listCluster, foldNumber, listLabelOriginal)
 
 print 'Transforming Data'
 listOfListFeatureTrain, listOfListFeatureTest, listOfListLabelTrain, listOfListLabelTest, listOfListNumArg, listOfListPredicateType = lib.crossValidation(groupListLabel, groupListFeature, listLE, leLabel, foldNumber, groupInfo)
 print 'Running Algorithm'
 
-listPrecisionChunking, listRecallChunking, listF1ScoreChunking, listPrecisionClassify1Stage, listRecallClassify1Stage, listF1ScoreClassify1Stage, listPrecision1Stage, listRecall1Stage, listF1Score1Stage, listOfListLabelPredict, listOfListLabelILP, listDensityMatrix, listOfListVariable, listPrecisionArg, listRecallArg, listF1ScoreArg = lib.crossValidationSVM1Stage(listOfListFeatureTrain, listOfListFeatureTest, listOfListLabelTrain, listOfListLabelTest, listFeatureName, foldNumber, listOfListNumArg, listEncode, listOfListNumArgPerSen, listOfListPredicateType)
+listPrecisionChunking, listRecallChunking, listF1ScoreChunking, listPrecisionClassify1Stage, listRecallClassify1Stage, listF1ScoreClassify1Stage, listPrecision1Stage, listRecall1Stage, listF1Score1Stage, listOfListLabelPredict, listOfListLabelILP, listDensityMatrix, listOfListVariable, listPrecisionArg, listRecallArg, listF1ScoreArg = lib.crossValidationSVM1Stage(listOfListFeatureTrain, listOfListFeatureTest, listOfListLabelTrain, listOfListLabelTest, listFeatureName, foldNumber, listOfListNumArg, listEncode, listOfListNumArgPerSen, listOfListPredicateType, listOfListArgCandidateRange)
 # listPrecisionChunking, listRecallChunking, listF1ScoreChunking, listPrecisionIden, listRecallIden, listF1ScoreIden, listPrecisionClass, listRecallClass, listF1ScoreClass, listPrecision2Stage, listRecall2Stage, listF1Score2Stage = lib.crossValidationSVM2Stage(listOfListFeatureTrain, listOfListFeatureTest, listOfListLabelTrain, listOfListLabelTest, listFeatureIdenName, listFeatureClassName, foldNumber, listOfListNumArg, listEncode)
 print 'Output'
 
