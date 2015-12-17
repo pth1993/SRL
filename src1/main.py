@@ -48,8 +48,8 @@ lib.makePredicatenode(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
 print 'Getting Feature'
 # listLabel, listFeature, listCount = lib.getFeature(listIDAfterChunking, listTreeAfterChunking, listRelAfterChunking, listArgAfterChunking, listWordName, listCluster)
 
-listLabel, listFeature, listCount = lib.getFeatureAllNode(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, listWordName, listCluster)
-lib.checkUnderscore(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
+listLabel, listFeature, listCount, lsitArgCandidateRange = lib.getFeatureAllNode(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, listWordName, listCluster)
+# lib.checkUndersc ore(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
 
 listLabel = lib.getListLabelReduce(listLabel, listLabelOriginal)
 

@@ -1651,7 +1651,7 @@ def kFold(listID, listTree, listRel, listArg, listWordName, listCluster, numberG
         groupInfo.append(sorted(getDataInformation(groupListArg[i])))
         # listID1, listTree1, listRel1, listArg1 = chunking(groupListID[i], groupListTree[i], groupListRel[i], groupListArg[i])
         print 'Group: ' + str(i)
-        listLabel, listFeature, listCount = getFeatureAllNode(groupListID[i], groupListTree[i], groupListRel[i], groupListArg[i], listWordName, listCluster)
+        listLabel, listFeature, listCount, listArgCandidateRange = getFeatureAllNode(groupListID[i], groupListTree[i], groupListRel[i], groupListArg[i], listWordName, listCluster)
         listLabel = getListLabelReduce(listLabel, listLabelReduce)
         groupListLabel.append(listLabel)
         groupListFeature.append(listFeature)
@@ -2100,6 +2100,7 @@ def getFeatureAllNode(listID, listTree, listRel, listArg, listWordName, listClus
     listFeature = []
     listLabel = []
     listCount = []
+    listArgCandidateRange = []
     for i in range(len(listTree)):
         id = listID[i]
         # print id
@@ -2119,6 +2120,11 @@ def getFeatureAllNode(listID, listTree, listRel, listArg, listWordName, listClus
         # tree.search_nodes(word = rel)[0].word = deleteUnderscore(tree.search_nodes(word = rel)[0].word)
         rel = deleteUnderscore(rel)
         # listRel[i][0] = deleteUnderscore(listRel[i][0])
+        dicLeaf = {}
+        i = 0
+        for leaf in tree:
+            dicLeaf[leaf] = i
+            i += 1
         voice = _getVoice(tree)
         positionDic = position(tree, predicateNode)
         """
@@ -2153,6 +2159,13 @@ def getFeatureAllNode(listID, listTree, listRel, listArg, listWordName, listClus
             feature.append(_getFunctionType(node))
             feature.append(phraseType(predicateNode.name))
             listFeature.append(feature)
+            begin = -1
+            end = -1
+            for leaf in node:
+                if begin == -1:
+                    begin = dicLeaf[leaf]
+                end = dicLeaf[leaf]
+            listArgCandidateRange.append([begin, end])
             cnt += 1
             for arg in args:
                 if isSame(getWord(node), arg[1]):
@@ -2165,7 +2178,7 @@ def getFeatureAllNode(listID, listTree, listRel, listArg, listWordName, listClus
             if not done:
                 listLabel.append('None')
         listCount.append(cnt)
-    return listLabel, listFeature, listCount
+    return listLabel, listFeature, listCount, listArgCandidateRange
 
 def checkUnderscore(listID, listTree, listRel, listArg):
     print 'checkUnderscore: '
