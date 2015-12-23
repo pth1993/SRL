@@ -1964,3 +1964,9 @@ def omitUnderscore(listID, listTree, listRel, listArg):
         # print type(listRel[i])
         if listRel[i].find('__') != -1:
             listRel[i] = deleteUnderscore(listRel[i])
+
+def getPartialData(listID, listTree, listRel, listArg, numberElements):
+    if numberElements < len(listID):
+        return listID[:numberElements], listTree[:numberElements], listRel[:numberElements], listArg[:numberElements]
+    else:
+        return listID, listTree, listRel, listArg

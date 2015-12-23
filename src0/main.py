@@ -21,7 +21,7 @@ listLabelOriginal = [u'ArgM-CAU', u'Arg4', u'ArgM-GOL', u'ArgM-EXT', u'ArgM-ADV'
 listLabelReduce = [u'Arg0', u'Arg1', u'ArgM-ADV', u'ArgM-DIR', u'ArgM-DIS', u'ArgM-EXT', u'ArgM-LOC', u'ArgM-MNR' , u'ArgM-MOD', u'ArgM-NEG', u'ArgM-PRP', u'ArgM-TMP']
 #listLabelReduce = [u'Arg0', u'Arg1', u'ArgM-TMP']
 foldNumber = 10
-numberElements = 200
+numberElements = 4800
 
 startTime = datetime.now()
 
@@ -50,9 +50,14 @@ listLabel, listFeature, listCount = lib.getFeature(listIDAfterChunking, listTree
 listLabel = lib.getListLabelReduce(listLabel, listLabelOriginal)
 
 listLE, leLabel, listEncode = lib.getLabelEncoderParameter(listFeature, listLabel)
+
+print 'Group ' + repr(numberElements) + ':'
+
 print 'Separating Data'
 # groupInfo, groupListLabel, groupListFeature = lib.kFold(listID1Rel, listTree1Rel, listRel1Rel, listArg1Rel, listWordName, listCluster, foldNumber, listLabelOriginal)
-groupInfo, groupListLabel, groupListFeature, listOfListNumArgPerSen = lib.kFold(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, listWordName, listCluster, foldNumber, listLabelOriginal)
+# groupInfo, groupListLabel, groupListFeature, listOfListNumArgPerSen = lib.kFold(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, listWordName, listCluster, foldNumber, listLabelOriginal)
+listIDPartial, listTreePartial, listRelPartial, listArgPartial = lib.getPartialData(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, numberElements)
+groupInfo, groupListLabel, groupListFeature, listOfListNumArgPerSen = lib.kFold(listIDPartial, listTreePartial, listRelPartial, listArgPartial, listWordName, listCluster, foldNumber, listLabelOriginal)
 
 print 'Transforming Data'
 listOfListFeatureTrain, listOfListFeatureTest, listOfListLabelTrain, listOfListLabelTest, listOfListNumArg, listOfListPredicateType = lib.crossValidation(groupListLabel, groupListFeature, listLE, leLabel, foldNumber, groupInfo)
