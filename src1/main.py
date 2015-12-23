@@ -54,9 +54,13 @@ listLabel, listFeature, listCount, listArgCandidateRange = lib.getFeatureAllNode
 listLabel = lib.getListLabelReduce(listLabel, listLabelOriginal)
 
 listLE, leLabel, listEncode = lib.getLabelEncoderParameter(listFeature, listLabel)
+
+print 'Group ' + repr(numberElements) + ':'
+
 print 'Separating Data'
+listIDPartial, listTreePartial, listRelPartial, listArgPartial = lib.getPartialData(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, numberElements)
 # groupInfo, groupListLabel, groupListFeature = lib.kFold(listID1Rel, listTree1Rel, listRel1Rel, listArg1Rel, listWordName, listCluster, foldNumber, listLabelOriginal)
-groupInfo, groupListLabel, groupListFeature, listOfListNumArgPerSen, listOfListArgCandidateRange = lib.kFold(listIDTotal, listTreeTotal, listRelTotal, listArgTotal, listWordName, listCluster, foldNumber, listLabelOriginal)
+groupInfo, groupListLabel, groupListFeature, listOfListNumArgPerSen, listOfListArgCandidateRange = lib.kFold(listIDPartial, listTreePartial, listRelPartial, listArgPartial, listWordName, listCluster, foldNumber, listLabelOriginal)
 
 print 'Transforming Data'
 listOfListFeatureTrain, listOfListFeatureTest, listOfListLabelTrain, listOfListLabelTest, listOfListNumArg, listOfListPredicateType = lib.crossValidation(groupListLabel, groupListFeature, listLE, leLabel, foldNumber, groupInfo)

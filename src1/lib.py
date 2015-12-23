@@ -2201,3 +2201,9 @@ def checkUnderscore(listID, listTree, listRel, listArg):
         # print predicateNode.word.encode('utf8')
         # predicateNode.word = deleteUnderscore(predicateNode.word)
     print '-------------------------->'
+
+def getPartialData(listID, listTree, listRel, listArg, numberElements):
+    if numberElements < len(listID):
+        return listID[:numberElements], listTree[:numberElements], listRel[:numberElements], listArg[:numberElements]
+    else:
+        return listID, listTree, listRel, listArg
