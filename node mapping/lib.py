@@ -690,7 +690,7 @@ def _getSubCategorization(predicateNode):
 
 def getContituentNodes(tree):
     constituents = []
-    for node in tree:
+    for node in tree.traverse('postorder'):
         try:
             aa = node.phrase
             constituents.append(node)
