@@ -2071,19 +2071,19 @@ def _getVoice(tree):
 
 # Edit
 def _getHeadWord(node):
-    for leaf in node:
-        if getTagFunction(leaf.name) == "H":
-            return leaf.word.strip()
-    return "None"
-    # return node.get_leaves()[0].word.strip()
+    # for leaf in node:
+    #     if getTagFunction(leaf.name) == "H":
+    #         return leaf.word.strip()
+    # return "None"
+    return node.get_leaves()[0].word.strip()
 
 # Edit
 def _getHeadWordType(node):
-    for leaf in node:
-        if getTagFunction(leaf.name) == "H":
-            return leaf.name
-    return "None"
-    # return node.get_leaves()[0].name
+    # for leaf in node:
+    #     if getTagFunction(leaf.name) == "H":
+    #         return leaf.name
+    # return "None"
+    return node.get_leaves()[0].name
 
 def _getSubCategorization(predicateNode):
     ancestor = predicateNode.up

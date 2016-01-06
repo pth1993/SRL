@@ -21,7 +21,7 @@ listLabelOriginal = [u'ArgM-CAU', u'Arg4', u'ArgM-GOL', u'ArgM-EXT', u'ArgM-ADV'
 listLabelReduce = [u'Arg0', u'Arg1', u'ArgM-ADV', u'ArgM-DIR', u'ArgM-DIS', u'ArgM-EXT', u'ArgM-LOC', u'ArgM-MNR' , u'ArgM-MOD', u'ArgM-NEG', u'ArgM-PRP', u'ArgM-TMP']
 #listLabelReduce = [u'Arg0', u'Arg1', u'ArgM-TMP']
 foldNumber = 10
-numberElements = 4800
+numberElements = 1000
 
 startTime = datetime.now()
 
