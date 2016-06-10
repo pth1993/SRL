@@ -40,7 +40,8 @@ listIDTotal, listTreeTotal, listRelTotal, listArgTotal = lib.mergeData(listID1Re
 # listIDAfterChunking, listTreeAfterChunking, listRelAfterChunking, listArgAfterChunking = lib.chunking(listID1Rel, listTree1Rel, listRel1Rel, listArg1Rel)
 #listIDAfterChunking, listTreeAfterChunking, listRelAfterChunking, listArgAfterChunking = lib.chunking(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
 listIDTotal, listTreeTotal, listRelTotal, listArgTotal = lib.filterData(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
-listIDAfterChunking, listTreeAfterChunking, listRelAfterChunking, listArgAfterChunking = lib.chunking(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
+# listIDAfterChunking, listTreeAfterChunking, listRelAfterChunking, listArgAfterChunking = lib.chunking(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
+listIDAfterChunking, listTreeAfterChunking, listRelAfterChunking, listArgAfterChunking = lib.prunching(listIDTotal, listTreeTotal, listRelTotal, listArgTotal)
 # lib.omitUnderscore(listIDAfterChunking, listTreeAfterChunking, listRelAfterChunking, listArgAfterChunking)
 
 print 'Getting Feature'

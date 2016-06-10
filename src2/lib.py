@@ -369,6 +369,68 @@ def chunking(listID, listTree, listRel, listArg):
     omitUnderscore(newListID, newListTree, newListRel, newListArg)
     return newListID, newListTree, newListRel, newListArg
 
+def prunching(listID, listTree, listRel, listArg):
+    newListID = []
+    newListTree = []
+    newListRel = []
+    newListArg = []
+    for i in range(len(listTree)):
+        id = listID[i]
+        tree = listTree[i]
+        rels = listRel[i]
+        args = listArg[i]
+        index = 0
+        for rel in rels:
+            if rel == '':
+                continue
+            if len(tree.search_nodes(word = rel)) > 0:
+                for j in range(len(tree.search_nodes(word = rel))):
+                    tempTree = tree.copy()
+                    currentNode = tempTree.search_nodes(word = rel)[j]
+                    while currentNode != tempTree:
+                        sisters = currentNode.get_sisters()
+                        hasCoordinaten = False
+                        for sister in sisters:
+                            if sister.name == 'CC':
+                                hasCoordinaten = True
+                                break
+                        if hasCoordinaten:
+                            for sister in sisters:
+                                sister.detach()
+                        else:
+                            for sister in currentNode.get_sisters():
+                                collect(sister)
+                        currentNode = currentNode.up
+                    newListID.append(id)
+                    newListTree.append(tempTree)
+                    newListRel.append(rel)
+                    newListArg.append(args)
+            else:
+                tempTree = tree.copy()
+                currentNode = getLeavesPredicate(tempTree, rel, id)
+                if currentNode == None:
+                    continue
+                while currentNode != tempTree:
+                    sisters = currentNode.get_sisters()
+                    hasCoordinaten = False
+                    for sister in sisters:
+                        if sister.name == 'CC':
+                            hasCoordinaten = True
+                            break
+                    if hasCoordinaten:
+                        for sister in sisters:
+                            sister.detach()
+                    else:
+                        for sister in currentNode.get_sisters():
+                            collect(sister)
+                    currentNode = currentNode.up
+                newListID.append(id)
+                newListTree.append(tempTree)
+                newListRel.append(rel)
+                newListArg.append(args)
+    omitUnderscore(newListID, newListTree, newListRel, newListArg)
+    return newListID, newListTree, newListRel, newListArg
+
 def unique(seq):
     """Return list of unique elements in list "seq"
     """
@@ -1567,7 +1629,8 @@ def kFold(listID, listTree, listRel, listArg, listWordName, listCluster, numberG
         groupListArg[(i%numberGroup)].append(listArg[i])
     for i in range(numberGroup):
         groupInfo.append(sorted(getDataInformation(groupListArg[i])))
-        listID1, listTree1, listRel1, listArg1 = chunking(groupListID[i], groupListTree[i], groupListRel[i], groupListArg[i])
+        # listID1, listTree1, listRel1, listArg1 = chunking(groupListID[i], groupListTree[i], groupListRel[i], groupListArg[i])
+        listID1, listTree1, listRel1, listArg1 = prunching(groupListID[i], groupListTree[i], groupListRel[i], groupListArg[i])
         listLabel, listFeature = getFeature(listID1, listTree1, listRel1, listArg1, listWordName, listCluster)
         listLabel = getListLabelReduce(listLabel, listLabelReduce)
         groupListLabel.append(listLabel)
