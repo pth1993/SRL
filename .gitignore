@@ -1,3 +1,4 @@
 *.xml
 *.txt
 *.pyc
+.idea/*
