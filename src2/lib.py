@@ -123,7 +123,7 @@ def isPhraseType(ss):
         if ss.find(tag) != -1:
             return True
     if len(ss) > 1:
-        if ss[1] == 'P':
+        if ss[1] == 'P' or ss[1] == 'p':
             return True
     return False
 
@@ -218,7 +218,7 @@ def collectTree1Rel(listID, listTree, listRel, listArg):
     newListRel = []
     newListArg = []
     for i in range(len(listTree)):
-        if len(listRel[i]) == 1 and len(listArg) > 0:
+        if len(listRel[i]) == 1 and len(listArg) > 0 and listRel[i][0] != '':
             newListID.append(listID[i])
             newListTree.append(listTree[i])
             newListRel.append(listRel[i])

@@ -1,12 +1,13 @@
 import lib
 from ete2 import Tree
+import codecs
 
 
 def inTree(ptree, ss):
     if ss == '':
         return []
-    if len(ptree.search_nodes(word = ss)) > 0:
-        return ptree.search_nodes(word = ss)
+    if len(ptree.search_nodes(word=ss)) > 0:
+        return ptree.search_nodes(word=ss)
     else:
         leaves = ptree.get_leaves()
         for i in range(len(leaves)):
@@ -18,12 +19,19 @@ def inTree(ptree, ss):
                         temp += ' ' + leaves[j].word
                     else:
                         if ss == temp:
-                            return True
+                            return leaves[i:j]
                         else:
                             temp = ''
                 if ss == temp:
-                    return True
-    return False
+                    return [leaves[i]]
+    return []
+
+
+def is_all_star(ss):
+    for c in ss:
+        if c != '*':
+            return False
+    return True
 
 
 dataFile = 'data.xml'
@@ -41,8 +49,63 @@ listIDTotal, listTreeTotal, listRelTotal, listArgTotal = \
                   listIDExtractFromMutliRel, listTreeExtractFromMutliRel,
                   listRelExtractFromMutliRel, listArgExtractFromMutliRel)
 
-for tree, rel in zip(listTreeTotal, listRelTotal):
+writable = True
+if writable:
+    writer = codecs.open('conll.txt', 'w', 'utf8')
+for tree, rel, args, _id in zip(listTreeTotal, listRelTotal, listArgTotal, listIDTotal):
+    tag = ''
+    BOI_tags = dict()
+    rel_nodes = inTree(tree, rel[0])
+    for node in rel_nodes:
+        BOI_tags[node] = ['Rel', 0]
+    for i, arg in enumerate(args):
+        arg_nodes = inTree(tree, arg[1])
+        for node in arg_nodes:
+            BOI_tags[node] = [arg[0], i+1]
     leaves = tree.get_leaves()
+    for i, leaf in enumerate(leaves):
+        if BOI_tags.get(leaf) is None:
+            leaf.add_features(prop='O')
+        else:
+            if i > 0 and BOI_tags.get(leaves[i-1]) is not None \
+                    and BOI_tags.get(leaves[i])[1] != BOI_tags.get(leaves[i-1])[1]:
+                leaf.add_features(prop='B-' + BOI_tags[leaf][0])
+            else:
+                leaf.add_features(prop='I-' + BOI_tags[leaf][0])
+    nodes = []
     for node in tree.traverse("preorder"):
-        print node.name
-    break
+        nodes.append(node)
+    cnt = 0
+    for i, node in enumerate(nodes):
+        if lib.isPhraseType(node.name) or lib.isSType(node.name):
+            tag += '(' + node.name
+            cnt += 1
+        else:
+            if not node.is_root():
+                tag += '*'
+                if node.is_leaf():
+                    if is_all_star(tag):
+                        tag = '*'
+                    if i < len(nodes) - 1:
+                        curNode = node
+                        sisters = nodes[i+1].get_sisters()
+                        while True:
+                            if curNode in sisters:
+                                break
+                            tag += ')'
+                            cnt -= 1
+                            curNode = curNode.up
+                    else:
+                        for _ in range(cnt):
+                            tag += ')'
+                        cnt = 0
+                    line = node.word + '\t' + node.name + '\t' + tag + '\t' + node.prop
+                    if writable:
+                        writer.write(line + '\n')
+                    tag = ''
+                else:
+                    print node.name
+    if writable:
+        writer.write('\n')
+if writable:
+    writer.close()
