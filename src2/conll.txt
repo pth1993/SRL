@@ -1,18 +1,18 @@
-Đất	N-H	(S-TTL(NP-SUB*	I-ARG0
-nghèo	A	*)	I-ARG0
+Đất	N-H	(S-TTL(NP-SUB*	I-Arg0
+nghèo	A	*)	I-Arg0
 trở mình	V-H	(VP*))	B-Rel
 
-Kia	P-H	(S(NP-SUB*)	I-ARG0
+Kia	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-những	L	(NP*	B-ARG1
+những	L	(NP*	B-Arg1
 ngôi	Nc-H	*	O
 nhà	N	*	O
 vách	N-H	(NP*	O
 đất	N	*))))	O
 
-giọng	N-H	(S(NP-SUB*	I-ARG0
-người	Nc-H	(NP*	I-ARG0
-cựu chiến binh	N	*))	I-ARG0
+giọng	N-H	(S(NP-SUB*	I-Arg0
+người	Nc-H	(NP*	I-Arg0
+cựu chiến binh	N	*))	I-Arg0
 nhẹ tênh	A-H	(AP-PRD*))	B-Rel
 
 Ruộng	N-H	(S(NP-SUB*)	I-Arg0
@@ -41,11 +41,11 @@ trước	N-H	(NP*))))))	I-Arg1
 còn	C	*	O
 bây giờ	P-H	(NP-TMP*)))))	O
 
-Chỗ	N-H	(S(NP-SUB*	I-Arg0-Carrier
-này	P	*)	I-Arg0-Carrier
+Chỗ	N-H	(S(NP-SUB*	I-Arg0
+này	P	*)	I-Arg0
 xưa	N-H	(NP-TMP*)	B-ArgM-TMP
 là	V-H	(VP*	B-Rel
-đồn bót	N-H	(NP*))	B-Arg1-Attribute
+đồn bót	N-H	(NP*))	B-Arg1
 nè	T	*)	B-ArgM-Partice
 
 Trên	E-H	(S(PP-LOC*	I-ArgM-LOC
@@ -65,7 +65,7 @@ của	E-H	(PP*	I-ArgM-ADV
 nhiều	A	(NP(Np-H(NP-SUB*	B-Arg0
 người	N-H	*)	I-Arg0
 nhắc	V-H	(VP*	B-Rel
-đến	E-H	(PP*	B-Arg1-Patient
+đến	E-H	(PP*	B-Arg1
 tổ	N-H	(NP*	O
 nhân dân	N	*)))))))))	O
 
@@ -77,7 +77,7 @@ phải	V-H	(VP*	B-ArgM-MOD
 làm gương	V-H	(VP*)))	B-Rel
 
 Mất	V-H	(S(NP-SUB(VP*	B-Rel
-hai	M	(NP-DOB(NP*	B-Arg1-Patient
+hai	M	(NP-DOB(NP*	B-Arg1
 cánh tay	N-H	*)	O
 một	M	(NP*	O
 mắt	N-H	*)))))	O
@@ -88,8 +88,8 @@ sống	V-H	*))	B-Rel
 
 À	I	(S*	O
 mà	C	*	O
-chuyện	N-H	(NP-SUB*	I-Arg0-Carrier
-đó	P	*)	I-Arg0-Carrier
+chuyện	N-H	(NP-SUB*	I-Arg0
+đó	P	*)	I-Arg0
 cũ	A-H	(AP-PRD*	B-Rel
 hết	R	*	B-ArgM-MNR
 rồi	R	*))	O
@@ -97,8 +97,8 @@ rồi	R	*))	O
 Rùi	C	(S*	I-ArgM-DIS
 đồng bào	N-H	(S(NP-SUB*)	B-Arg0
 bị	V-H	(VP*	B-ArgM-MOD
-lũ lụt	N-H	(NP-DOB*	B-Arg1-Patient
-hỏa hoạn	N-H	*)))	I-Arg1-Patient
+lũ lụt	N-H	(NP-DOB*	B-Arg1
+hỏa hoạn	N-H	*)))	I-Arg1
 người	Nc-H	(S(NP-SUB*	B-Arg0
 thương binh	N	*	I-Arg0
 ấy	P	*)	I-Arg0
@@ -107,7 +107,7 @@ lặn lội	V-H	*	B-Rel
 đi	V-H	(VP-PRP*	B-ArgM-PRP
 vận động	V	*))))	O
 
-Tất cả	P-H	(S-SPL(NP*	I-Arg0-Carrier
+Tất cả	P-H	(S-SPL(NP*	I-Arg0
 chỉ	R	(PP*	B-ArgM-EXT
 với	E-H	*	B-Rel
 hai	M	(NP*	B-ArgM-MNR
@@ -144,12 +144,12 @@ xanh	A-H	(AP-MNR*)))	B-ArgM-MNR
 
 Đến	E-H	(S(PP-TMP*	I-ArgM-ADV
 nay	P-H	(NP*))	I-ArgM-ADV
-ngôi	Nc-H	(NP-SUB*	B-Arg1-Patient
-nhà	N	*	I-Arg1-Patient
-ngói	N	*	I-Arg1-Patient
-ba	M	(NP*	I-Arg1-Patient
-gian	N-H	*)	I-Arg1-Patient
-vững chãi	A-H	(AP*))	I-Arg1-Patient
+ngôi	Nc-H	(NP-SUB*	B-Arg1
+nhà	N	*	I-Arg1
+ngói	N	*	I-Arg1
+ba	M	(NP*	I-Arg1
+gian	N-H	*)	I-Arg1
+vững chãi	A-H	(AP*))	I-Arg1
 xây	V-H	(VP*	B-Rel
 trên	E-H	(PP-LOC*	B-ArgM-LOC
 nền	N-H	(NP*	O
@@ -208,10 +208,10 @@ mới	A-H	*)))))	O
 
 Sẽ	R	(S-TTL(VP*	O
 tổ chức	V-H	*	I-Rel
-phố	N-H	(NP-DOB*	B-ARG1
-đi	V-H	(VP*	I-ARG1
-bộ	N	*))	I-ARG1
-tại	E-H	(PP-LOC*	B-ARGM-LOC
+phố	N-H	(NP-DOB*	B-Arg1
+đi	V-H	(VP*	I-Arg1
+bộ	N	*))	I-Arg1
+tại	E-H	(PP-LOC*	B-ArgM-LOC
 
 Cũng	R	(S(PP-TPC*	I-ArgM-DIS
 trong	E-H	*	B-ArgM-DSP
@@ -282,10 +282,10 @@ Hỗ trợ	V-H	(VP*	O
 du lịch	N-H	(NP-DOB*	O
 đồng quê	N	*))))))))))))))))))))))))))))))))))))))))))))))))	O
 
-Công trình	N-H	(S-TTL(NP-SUB*	I-ARG0
-mẫu	N	*)	I-ARG0
+Công trình	N-H	(S-TTL(NP-SUB*	I-Arg0
+mẫu	N	*)	I-Arg0
 thi công	V-H	(VP*	B-Rel
-bê bối	A-H	(AP*)))	B-ARGM-EXT
+bê bối	A-H	(AP*)))	B-ArgM-EXT
 
 Công trình	N-H	(S(S-SUB(NP-SUB*	O
 đường	N-H	(NP*	O
@@ -308,10 +308,10 @@ thi công	V-H	(Np(VP*)))))	O
 đã	R	(VP*	O
 gây	V-H	*	I-Rel
 ra	R	*	I-Rel
-rất	R	(NP-DOB*	B-ARGM-EXT
-nhiều	A	*	I-ARGM-EXT
-phiền phức	N-H	*	I-ARGM-EXT
-cho	E-H	(PP*	B-ARG2
+rất	R	(NP-DOB*	B-ArgM-EXT
+nhiều	A	*	I-ArgM-EXT
+phiền phức	N-H	*	I-ArgM-EXT
+cho	E-H	(PP*	B-Arg2
 người	N-H	(NP*	O
 dân	N	*	O
 khu vực	N	*))))))))	O
@@ -378,7 +378,7 @@ A5	Ny	*)))))))))	I-ArgM-TMP
 gia đình	N-H	(NP-SUB*	B-Arg0
 anh	Nc-H	(NP*	I-Arg0
 rơi	V-H	(Np(VP*	B-Rel
-vào	E-H	(PP*	B-Arg1-Location
+vào	E-H	(PP*	B-Arg1
 cảnh	N-H	(NP-DOB*	O
 túng quẫn	A	*	O
 gần	A-H	(AP*	O
@@ -398,10 +398,10 @@ bài	N-H	*	I-Arg0
 báo	N	*)	I-Arg0
 gán	V-H	(VP*	I-Arg0
 cho	E-H	(PP*	I-Arg0
-anh	N-H	(NP-DOB*))))))))	B-Arg1-Patient
+anh	N-H	(NP-DOB*))))))))	B-Arg1
 đã	R	(VP*	B-ArgM-TMP
 biến	V-H	*	B-Rel
-anh	N-H	(NP-DOB*)	B-Arg1-Patient
+anh	N-H	(NP-DOB*)	B-Arg1
 trở thành	V-H	(VP*	B-ArgM-PRP
 một	M	(SBAR(S(NP-SUB*	O
 người	N-H	*)	O
@@ -425,7 +425,7 @@ những	L	(NP*	I-Arg0
 người	N-H	*	I-Arg0
 nói	V-H	(VP*	B-Rel
 lên	R	*	O
-sự thật	N-H	(NP*))))))	I-Arg1-Patient
+sự thật	N-H	(NP*))))))	I-Arg1
 
 Để	C	(SQ*	I-ArgM-DIS
 rồi	C	*	B-ArgM-DIS
@@ -651,7 +651,7 @@ TP	Ny	*)	I-Arg0
 không	R	(VP*	B-ArgM-NEG
 nên	V-H	*	B-ArgM-MOD
 dừng	V-H	(VP*	B-Rel
-ở	E-H	(PP-LOC*	B-Arg1-Location
+ở	E-H	(PP-LOC*	B-Arg1
 đó	P-H	(NP*)))))	O
 
 Hơn	A-H	(S(AP-ADV*	I-ArgM-ADV
@@ -768,7 +768,7 @@ chúng tôi	P-H	(NP*))))))))))	O
 
 Công nhân	N-H	(S(NP-SUB*	I-Arg0
 kiện	V-H	(Np(VP*	B-Rel
-báo	N-H	(NP-DOB*	B-Arg1-Patient
+báo	N-H	(NP-DOB*	B-Arg1
 TP	Ny-H	(Np(NP*	O
 HCM	Ny	*)))))))	O
 
@@ -1123,7 +1123,7 @@ chế độ	N-H	(NP-DOB*	O
 Và	C	(S-TTL*	I-ArgM-DIS
 thất bại	N-H	(NP*	B-Arg0
 của	E-H	(PP*	B-Rel
-ông	N-H	(NP*	B-Arg1-Processor
+ông	N-H	(NP*	B-Arg1
 trung tướng	N-H	(NP*	O
 chủ tịch	N	*)))))	O
 
@@ -1173,12 +1173,12 @@ bùng binh	N-H	(NP*	I-ArgM-LOC
 chợ	N-H	(NP*	I-ArgM-LOC
 tuần hành	V-H	(Np(VP*	B-Rel
 thẳng	A	*	B-ArgM-TMP
-tới	E-H	(PP-LOC*	B-Arg4-Goal
+tới	E-H	(PP-LOC*	B-Arg4
 dinh	N-H	(NP*	O
 
-Cổng	N-H	(S(NP-LOC*	I-Arg0-Carrier
-số	N-H	(NP*	I-Arg0-Carrier
-5	M	*))	I-Arg0-Carrier
+Cổng	N-H	(S(NP-LOC*	I-Arg0
+số	N-H	(NP*	I-Arg0
+5	M	*))	I-Arg0
 cánh	N-H	(NP-SUB*	B-Arg0
 sắt	N	*	I-Arg0
 nan hoa	N-H	(NP*))	I-Arg0
@@ -1186,12 +1186,12 @@ nan hoa	N-H	(NP*))	I-Arg0
 đóng	V-H	*	B-Rel
 chặt	A-H	(AP*)))	B-ArgM-MNR
 
-Một số	L	(S(NP-TPC*	I-Arg0-Carrier
-tư liệu	N-H	*	I-Arg0-Carrier
-trong	E-H	(PP-LOC*	I-Arg0-Carrier
-bài	N-H	(NP*	I-Arg0-Carrier
-viết	V	*	I-Arg0-Carrier
-này	P	*)))	I-Arg0-Carrier
+Một số	L	(S(NP-TPC*	I-Arg0
+tư liệu	N-H	*	I-Arg0
+trong	E-H	(PP-LOC*	I-Arg0
+bài	N-H	(NP*	I-Arg0
+viết	V	*	I-Arg0
+này	P	*)))	I-Arg0
 chúng tôi	P-H	(NP-SUB*)	B-Arg0
 có	R	(VP*	O
 sử dụng	V-H	*	I-Rel
@@ -1267,7 +1267,7 @@ này	P	*))	I-Arg0
 sẽ	R	(VP*	B-ArgM-TMP
 góp phần	V-H	*	B-Rel
 hạn chế	V-H	(VP*	I-Rel
-thái độ	N-H	(NP-DOB*	B-Arg1-Patient
+thái độ	N-H	(NP-DOB*	B-Arg1
 như	C	*	O
 lời	N-H	(NP*	O
 Thủ tướng	N-H	(NP*	O
@@ -1603,7 +1603,7 @@ nền móng	N-H	(NP-DOB*))))	O
 
 Thưa	V-H	(S-PV(VP-VOC*	I-ArgM-DIS
 ông	N-H	(NP*))	I-ArgM-DIS
-sổ đỏ	N-H	(NP-SUB*)	B-Arg1-Patient
+sổ đỏ	N-H	(NP-SUB*)	B-Arg1
 đã	R	(VP*	B-ArgM-TMP
 được	V-H	*	B-ArgM-MOD
 giao	V-H	(SBAR(S(NP-SUB(VP*	B-Rel
@@ -1620,8 +1620,8 @@ tỉnh	N	*)	I-Arg0
 cho	V-H	(VP*	B-Rel
 phép	N-H	(NP*)))))))	O
 
-Tháp tùng	V-H	(S(VP-SUB*	I-Arg0-Identified
-bộ trưởng	N-H	(NP-DOB*	I-Arg0-Identified
+Tháp tùng	V-H	(S(VP-SUB*	I-Arg0
+bộ trưởng	N-H	(NP-DOB*	I-Arg0
 __là	V-H	(Np(VP(VP*	B-Rel
 một số	L	(NP*	O
 cán bộ	N-H	*	O
@@ -1697,13 +1697,13 @@ cho	E-H	(PP-IOB*	O
 nhân chứng	N-H	(NP*	O
 bộ trưởng	N-H	(NP*	O
 
-Đó	P-H	(S(NP-SUB*)	I-Arg0-Identified
+Đó	P-H	(S(NP-SUB*)	I-Arg0
 vừa	R	(VP(VP*	B-ArgM-TMP
 __là	V-H	*	B-Rel
-một	M	(NP*	B-Arg1-Identifier
-quyết định	N-H	*	I-Arg1-Identifier
-đúng	A-H	(AP*	I-Arg1-Identifier
-thẩm quyền	N-H	(NP-DOB*))))	I-Arg1-Identifier
+một	M	(NP*	B-Arg1
+quyết định	N-H	*	I-Arg1
+đúng	A-H	(AP*	I-Arg1
+thẩm quyền	N-H	(NP-DOB*))))	I-Arg1
 vừa	R	(VP*	B-ArgM-TMP
 là	V-H	*	O
 chủ trương	N-H	(NP*	O
@@ -2147,8 +2147,8 @@ quyết định	V-H	(VP*))))))))))))))))))))))))))))	O
 
 TP . HCM	Ny-H	(S(NP-SUB*)	O
 vay	V-H	(VP*	I-Rel
-500 tỉ	M	(NP-DOB*	B-Arg1-Patient
-đồng	Nu-H	*	I-Arg1-Patient
+500 tỉ	M	(NP-DOB*	B-Arg1
+đồng	Nu-H	*	I-Arg1
 triển khai	V-H	(VP-PRP*	B-ArgM-PRP
 gấp	A	*	O
 các	L	(NP-DOB*	O
@@ -2164,31 +2164,31 @@ cũng	R	(VP*	O
 đang	R	*	I-ArgM-TMP
 khẩn trương	V-H	*	B-Rel
 đầu tư	V-H	(VP*	I-Rel
-các	L	(NP-DOB*	B-Arg1-Patient
-dự án	N-H	*	I-Arg1-Patient
-mạng	N-H	(NP*	I-Arg1-Patient
-cấp	V-H	(VP*	I-Arg1-Patient
-nước	N-H	(NP-DOB*	I-Arg1-Patient
-cấp	N-H	(NP*	I-Arg1-Patient
-1	M-H	(QP*	I-Arg1-Patient
-2	M-H	*	I-Arg1-Patient
-3	M-H	*)))))	I-Arg1-Patient
-gồm	V-H	(VP*	I-Arg1-Patient
-10	M	(NP-DOB(NP*	I-Arg1-Patient
-dự án	N-H	*	I-Arg1-Patient
-mạng	N-H	(NP*	I-Arg1-Patient
-cấp	V-H	(VP*	I-Arg1-Patient
-nước	N-H	(NP-DOB*))	I-Arg1-Patient
-phía	N-H	(NP-LOC*	I-Arg1-Patient
-tây	N	*)))	I-Arg1-Patient
-và	C	*	I-Arg1-Patient
-năm	M	(NP*	I-Arg1-Patient
-dự án	N-H	*	I-Arg1-Patient
-mạng	N-H	(NP*	I-Arg1-Patient
-cấp	V-H	(VP*	I-Arg1-Patient
-nước	N-H	(NP-DOB*))	I-Arg1-Patient
-phía	N-H	(NP-LOC*	I-Arg1-Patient
-đông	N	*)))))	I-Arg1-Patient
+các	L	(NP-DOB*	B-Arg1
+dự án	N-H	*	I-Arg1
+mạng	N-H	(NP*	I-Arg1
+cấp	V-H	(VP*	I-Arg1
+nước	N-H	(NP-DOB*	I-Arg1
+cấp	N-H	(NP*	I-Arg1
+1	M-H	(QP*	I-Arg1
+2	M-H	*	I-Arg1
+3	M-H	*)))))	I-Arg1
+gồm	V-H	(VP*	I-Arg1
+10	M	(NP-DOB(NP*	I-Arg1
+dự án	N-H	*	I-Arg1
+mạng	N-H	(NP*	I-Arg1
+cấp	V-H	(VP*	I-Arg1
+nước	N-H	(NP-DOB*))	I-Arg1
+phía	N-H	(NP-LOC*	I-Arg1
+tây	N	*)))	I-Arg1
+và	C	*	I-Arg1
+năm	M	(NP*	I-Arg1
+dự án	N-H	*	I-Arg1
+mạng	N-H	(NP*	I-Arg1
+cấp	V-H	(VP*	I-Arg1
+nước	N-H	(NP-DOB*))	I-Arg1
+phía	N-H	(NP-LOC*	I-Arg1
+đông	N	*)))))	I-Arg1
 để	E-H	(PP-PRP*	O
 tiếp nhận	V-H	(VP(VP*	O
 thêm	V	*	O
@@ -2214,7 +2214,7 @@ hộ chiếu	N-H	(NP-DOB*)	I-ArgM-PRD
 ở	E	(PP-LOC*	I-ArgM-PRD
 Cũng	R	(NP(Np-H(VP*	O
 mất	V-H	*	I-Rel
-phí	N-H	(NP-DOB*	B-Arg1-Patient
+phí	N-H	(NP-DOB*	B-Arg1
 dịch vụ	N	*)))))))	O
 
 Nhưng	C	(S*	I-ArgM-DIS
@@ -2270,7 +2270,7 @@ hỏi	V-H	(VP*	B-Rel
 ai	P-H	(WHNP*)))	B-Arg1
 
 Vào	V-H	(SQ(NP-SUB(VP*	B-Rel
-đây	P-H	(NP-LOC*)	B-Arg1-Location
+đây	P-H	(NP-LOC*)	B-Arg1
 làm	V-H	(VP*	B-ArgM-PRP
 gì	P-H	(WHNP*)))))	O
 
@@ -2516,8 +2516,8 @@ bại liệt	A	*	B-ArgM-MNR
 nửa	L	(NP-DOB*	B-Arg1
 người	N-H	*)))))	O
 
-Chị	N-H	(S(NP-SUB*	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
+Chị	N-H	(S(NP-SUB*	I-Arg0
+của	E-H	(PP*	I-Arg0
 bị	V-H	(NP(Np-H(VP*	B-Rel
 bại liệt	A	*	B-ArgM-ADJ
 toàn thân	N-H	(NP-DOB*)))))))	B-Arg1
@@ -2644,32 +2644,32 @@ lo lắng	V-H	*	O
 cho	E-H	(PP*	O
 họ	P-H	(NP*))))))))))))	O
 
-Nỗ lực	N-H	(S(NP-SUB*	I-Arg0-Possessor
-của	E-H	(PP(PP*	I-Arg0-Possessor
-tôi	P-H	(NP*))	I-Arg0-Possessor
-và	C	*	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
-những	L	(NP(NP*	I-Arg0-Possessor
-người	N-H	*	I-Arg0-Possessor
-VN	Ny	*)	I-Arg0-Possessor
-người	N-H	(NP*	I-Arg0-Possessor
+Nỗ lực	N-H	(S(NP-SUB*	I-Arg0
+của	E-H	(PP(PP*	I-Arg0
+tôi	P-H	(NP*))	I-Arg0
+và	C	*	I-Arg0
+của	E-H	(PP*	I-Arg0
+những	L	(NP(NP*	I-Arg0
+người	N-H	*	I-Arg0
+VN	Ny	*)	I-Arg0
+người	N-H	(NP*	I-Arg0
 trong	E-H	(Np(PP-LOC*	B-ArgM-LOC
 chương trình	N-H	(NP*)))	I-ArgM-LOC
 sẽ	R	(VP*	B-ArgM-TMP
 tiếp tục	V-H	*)))))))	B-Rel
 
 Thay	V-H	(S(NP-SUB(VP*	I-Rel
-những	L	(NP-DOB*	B-Arg0-Carrier
-giọt	Nc-H	*	I-Arg0-Carrier
-nước mắt	N	*	I-Arg0-Carrier
+những	L	(NP-DOB*	B-Arg0
+giọt	Nc-H	*	I-Arg0
+nước mắt	N	*	I-Arg0
 bằng	E-H	(PP-PRP*	O
 những	L	(NP*	I-Arg1
 nụ	Nc-H	*	O
 cười	V	*))))))	O
 
-Các	L	(S(NP-SUB*	I-Arg0-Possessor
-dự án	N-H	*	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
+Các	L	(S(NP-SUB*	I-Arg0
+dự án	N-H	*	I-Arg0
+của	E-H	(PP*	I-Arg0
 đặt	V-H	(NP(Np-H(Np(Np(VP*	B-Rel
 ra	R	*	B-ArgM-DIR
 mục tiêu	N-H	(NP-DOB*	B-Arg1
@@ -2786,14 +2786,14 @@ gì	P-H	*	O
 nghe	V-H	(VP*	O
 thấy	V	*))))))	O
 
-206	M	(S-TTL(NP*	I-Arg0-Carrier
-ngày đêm	N-H	*	I-Arg0-Carrier
+206	M	(S-TTL(NP*	I-Arg0
+ngày đêm	N-H	*	I-Arg0
 khốn khổ	A	*))	B-Rel
 
-Nước mắt	N-H	(S(NP-SUB(NP*)	I-Arg1-Patient
-và	C	*	I-Arg1-Patient
-sự	Nc-H	(NP*	I-Arg1-Patient
-thảng thốt	V	*))	I-Arg1-Patient
+Nước mắt	N-H	(S(NP-SUB(NP*)	I-Arg1
+và	C	*	I-Arg1
+sự	Nc-H	(NP*	I-Arg1
+thảng thốt	V	*))	I-Arg1
 vẫn	R	(VP*	B-ArgM-TMP
 còn	R	*	B-ArgM-TMP
 hiện	V-H	*	B-Rel
@@ -2802,7 +2802,7 @@ trên	E-H	(PP-LOC*	B-ArgM-LOC
 từng	P	(NP*	O
 khuôn mặt	N-H	*))))	O
 
-Cuộc sống	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+Cuộc sống	N-H	(S(NP-SUB*)	I-Arg0
 kéo dài	V-H	(VP*	B-Rel
 như thế	X-H	(XP*)))	B-ArgM-MNR
 
@@ -2816,16 +2816,16 @@ mỗi	M	(NP-SUB*	B-Arg2
 người	N-H	*)	I-Arg2
 được	V-H	(VP*	B-ArgM-MOD
 phát	V-H	(SBAR(S(NP-SUB(VP*	B-Rel
-hai	M	(NP-DOB*	B-Arg1-Patient
-phần	N-H	*	I-Arg1-Patient
-cơm	N	*	I-Arg1-Patient
-ngày	N-H	(NP*)	I-Arg1-Patient
-cả	P	(SBAR(S(NP-SUB*	B-Arg0-Carrier
-suất	N-H	*	I-Arg0-Carrier
-trưa	N-H	(NP-TMP*	I-Arg0-Carrier
-và	C	*	I-Arg0-Carrier
-chiều	N-H	*))	I-Arg0-Carrier
-dồn	V-H	(VP*	B-Arg1-Attribute
+hai	M	(NP-DOB*	B-Arg1
+phần	N-H	*	I-Arg1
+cơm	N	*	I-Arg1
+ngày	N-H	(NP*)	I-Arg1
+cả	P	(SBAR(S(NP-SUB*	B-Arg0
+suất	N-H	*	I-Arg0
+trưa	N-H	(NP-TMP*	I-Arg0
+và	C	*	I-Arg0
+chiều	N-H	*))	I-Arg0
+dồn	V-H	(VP*	B-Arg1
 một	M	*))))))))))	O
 
 Cả	P	(S(NP-SUB*	I-Arg0
@@ -2833,7 +2833,7 @@ Cả	P	(S(NP-SUB*	I-Arg0
 tôi	P	*)	I-Arg0
 chẳng	R	(VP*	B-ArgM-NEG
 biết	V-H	*	B-Rel
-đến	E-H	(PP*	B-Arg1-Patient
+đến	E-H	(PP*	B-Arg1
 một	M	(NP*	O
 dòng	Nc-H	*	O
 nhật ký	N	*))))	O
@@ -2848,7 +2848,7 @@ Từ	E-H	(S-PV(PP-ADV*	I-ArgM-ADV
 người	Nc-H	(NP*	I-ArgM-ADV
 lao động	N	*	I-ArgM-ADV
 hợp pháp	A-H	(AP*)))	I-ArgM-ADV
-chúng tôi	P-H	(NP-SUB*)	B-Arg1-Patient
+chúng tôi	P-H	(NP-SUB*)	B-Arg1
 bị	V-H	(VP*	B-ArgM-MOD
 công ty	N-H	(SBAR(S(NP-SUB*)	B-Arg0
 biến	V-H	(VP*	B-Rel
@@ -2869,7 +2869,7 @@ Nhưng	C	(S*	I-ArgM-DIS
 chúng tôi	P-H	(NP-SUB*)	B-Arg0
 không	R	(VP*	B-ArgM-TMP
 còn	V-H	*	B-Rel
-sự	Nc-H	(NP-DOB*	B-Arg1-Patient
+sự	Nc-H	(NP-DOB*	B-Arg1
 lựa chọn	V	*)))	O
 
 Thật	T	(S-EXC(AP*	I-ArgM-Partice
@@ -2887,17 +2887,17 @@ trong	E-H	(PP-TMP*	B-ArgM-TMP
 khi	N-H	(NP*	O
 làm việc	V-H	(VP*))))))))	O
 
-Công ty	N-H	(S(NP-LOC*)	I-Arg0-Carrier
+Công ty	N-H	(S(NP-LOC*)	I-Arg0
 không	R	(NP-SUB*	B-Arg0
 ai	P-H	*)	I-Arg0
 dòm ngó	V-H	(VP*))	B-Rel
 
 Họ	P-H	(S(NP-SUB*)	I-Arg0
 đếm	V-H	(VP*	B-Rel
-từng	P	(NP-TMP*	B-Arg1-Patient
-ngày	N-H	*	I-Arg1-Patient
-trôi	V-H	(VP*	I-Arg1-Patient
-đi	R	*	I-Arg1-Patient
+từng	P	(NP-TMP*	B-Arg1
+ngày	N-H	*	I-Arg1
+trôi	V-H	(VP*	I-Arg1
+đi	R	*	I-Arg1
 trong	E-H	(PP-ADV*	B-ArgM-MNR
 gánh	N-H	(NP*	O
 nặng	A	*	O
@@ -2920,7 +2920,7 @@ người	N-H	(NP*	O
 xa	V-H	(AP*	O
 xứ	N	*))))))))	O
 
-Nơi	N-H	(S-TTL(NP*	I-Arg1-Location
+Nơi	N-H	(S-TTL(NP*	I-Arg1
 hò hẹn	V	*))	B-Rel
 
 Nhóm	N-H	(S(NP-SUB*	I-Arg0
@@ -2975,8 +2975,8 @@ sen	Nu-H	*	O
 bài	N-H	(NP*	O
 tiếng	N-H	(NP*	O
 
-Một	M	(S-TTL(NP*	I-Arg0-Carrier
-đêm	N-H	*	I-Arg0-Carrier
+Một	M	(S-TTL(NP*	I-Arg0
+đêm	N-H	*	I-Arg0
 ở	E-H	(PP-LOC*	B-Rel
 
 Năm	M	(S(NP-SUB*	I-Arg1
@@ -3027,7 +3027,7 @@ và	C	(NP(Np-H(Np-H(Np-H(Np-H(Np-H(Np-H*	O
 
 Đa số	L	(S(NP-SUB*	I-Arg0
 định cư	V-H	(Np-H(VP*	B-Rel
-tại	E-H	(PP(PP-LOC*	B-Arg1-Location
+tại	E-H	(PP(PP-LOC*	B-Arg1
 từ	E-H	(NP(Np-H(PP-TMP*	B-ArgM-TMP
 khoảng	A	(NP*	O
 70	M	*	O
@@ -3310,7 +3310,7 @@ H	Ny	*)))	I-Arg0
 viết	V-H	*	B-Rel
 và	C	*	I-Rel
 gửi	V-H	*	I-Rel
-đơn	N-H	(NP-DOB*	B-Arg1-Patient
+đơn	N-H	(NP-DOB*	B-Arg1
 này	P	*)))	O
 
 Thay vì	V-H	(S(VP-ADV*	I-ArgM-ADV
@@ -3414,7 +3414,7 @@ người	N-H	(NP-SUB*	I-Arg0
 fax	Vb-H	(VP*))	I-Arg0
 đã	R	(VP*	B-ArgM-TMP
 tháo	V-H	*	B-Rel
-máy	N-H	(NP-DOB*	B-Arg1-Patient
+máy	N-H	(NP-DOB*	B-Arg1
 lắp	V-H	(VP-PRP*	B-ArgM-PRP
 sang	V-H	(VP*	O
 đường	N-H	(NP-DOB*	O
@@ -3424,8 +3424,8 @@ này	P	*))))))	O
 Có thể	R	(S*	I-ArgM-ADV
 thủ phạm	N-H	(NP-SUB*)	B-Arg0
 đem	V-H	(VP*	B-Rel
-máy fax	N-H	(NP-DOB*	B-Arg1-Patient
-khác	A-H	(AP*))	I-Arg1-Patient
+máy fax	N-H	(NP-DOB*	B-Arg1
+khác	A-H	(AP*))	I-Arg1
 đến	E-H	(PP-LOC*	B-ArgM-LOC
 đường dây	N-H	(NP*	O
 điện thoại	N	*	O
@@ -3490,7 +3490,7 @@ mỹ phẩm	N	*)))	I-Arg0
 cũng	R	(VP*	B-ArgM-TMP
 không	R	*	B-ArgM-NEG
 sang	V-H	*	B-Rel
-VN	Ny-H	(NP-LOC*)))	B-Arg4-Goal
+VN	Ny-H	(NP-LOC*)))	B-Arg4
 
 Mọi	L	(S(NP-SUB*	I-Arg0
 phương án	N-H	*	I-Arg0
@@ -3612,8 +3612,8 @@ cửa hàng	N-H	(NP-DOB*	O
 ở	E-H	(PP-LOC*	O
 phố	N-H	(NP*	O
 
-Năm	M	(S(NP-SUB*	I-Arg0-Identified
-thám tử	N-H	*)	I-Arg0-Identified
+Năm	M	(S(NP-SUB*	I-Arg0
+thám tử	N-H	*)	I-Arg0
 là	V-H	(VP(VP*	B-Rel
 được	V-H	(NP-DOB(Np-H(Np-H(Np-H(Np-H(Np(VP*	O
 giao	V-H	(VP*	O
@@ -3698,7 +3698,7 @@ Hai	M	(S(NP-SUB*	I-Arg0
 người	N-H	*	I-Arg0
 khách	N	*)	I-Arg0
 *E*	V-H	(VP*	B-Rel
-từ	E-H	(PP-LOC*	B-Arg1-Location
+từ	E-H	(PP-LOC*	B-Arg1
 hiệu	N-H	(NP*	O
 giặt	V	*	O
 là	V	*))))	O
@@ -3737,7 +3737,7 @@ tiền	N	*	O
 trước	A	*))))))	O
 
 xin	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
-số	N-H	(NP-DOB*	B-Arg1-Processor
+số	N-H	(NP-DOB*	B-Arg1
 điện thoại	N	*	O
 của	E-H	(PP*	O
 người	N-H	(NP*	O
@@ -3748,11 +3748,11 @@ Mũi	N-H	(S(NP-SUB*	I-Arg0
 thứ	N	*	I-Arg0
 hai	M	*)	I-Arg0
 đến	V-H	(VP*	B-Rel
-gần	A-H	(AP-LOC*	B-Arg1-Location
+gần	A-H	(AP-LOC*	B-Arg1
 khu	N-H	(NP*	O
 nhà	N	*	O
 
-Đó	P-H	(S(NP-SUB*)	I-Arg0-Identified
+Đó	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
 một	M	(NP-DOB*	B-Arg1
 gia đình	N-H	*	I-Arg1
@@ -3810,8 +3810,8 @@ Hai	M	(S(NP-SUB*	I-Arg0
 thám tử	N-H	*)	I-Arg0
 chặn	V-H	(VP*	B-Rel
 hai	M	(NP-DOB*	O
-đầu	N-H	*	I-Arg1-Location
-phố	N	*	I-Arg1-Location
+đầu	N-H	*	I-Arg1
+phố	N	*	I-Arg1
 đón	V-H	(VP-PRP*	B-ArgM-PRP
 rình	V	*))))	O
 
@@ -3987,8 +3987,8 @@ ma	N	*	O
 trong	E-H	(PP*	O
 gang tấc	N-H	(NP*))))))	O
 
-Công việc	N-H	(S(NP-SUB*	I-Arg0-Carrier
-này	P	*)	I-Arg0-Carrier
+Công việc	N-H	(S(NP-SUB*	I-Arg0
+này	P	*)	I-Arg0
 không	R	(AP-PRD*	B-ArgM-NEG
 dễ dàng	A-H	*))	B-Rel
 
@@ -4026,9 +4026,9 @@ cải hóa	V	*	O
 một	M	(NP*	O
 con người	N-H	*))))))	O
 
-Đó	P-H	(S(NP-SUB*)	I-Arg0-Carrier
+Đó	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-nguyên nhân	N-H	(NP*	B-Arg1-Attribute
+nguyên nhân	N-H	(NP*	B-Arg1
 khách quan	A	*)))	O
 
 Băn khoăn	N-H	(S(NP-SUB*	I-Arg0
@@ -4120,7 +4120,7 @@ thứ	N-H	(NP*	O
 tư	M	*))))))))	O
 
 Đến	V-H	(S(NP-SUB(VP*	B-Rel
-trạm	N-H	(NP-LOC*	B-Arg4-Goal
+trạm	N-H	(NP-LOC*	B-Arg4
 thu	V-H	(VP*	O
 phí	N	*	O
 tạm	A-H	*)))))	O
@@ -4138,7 +4138,7 @@ ngày	N-H	*	I-ArgM-TMP
 này	P	*)	I-ArgM-TMP
 họ	P-H	(NP-SUB*)	B-Arg0
 trở lại	V-H	(VP*	B-Rel
-VN	Ny-H	(NP-LOC*)	B-Arg1-Location
+VN	Ny-H	(NP-LOC*)	B-Arg1
 theo	E-H	(PP(PP*	B-ArgM-ADV
 lời	N-H	(NP*	I-ArgM-ADV
 mời	V	*	I-ArgM-ADV
@@ -4210,9 +4210,9 @@ tuổi	Nu-H	*))	I-Arg0
 đã	R	(VP*	B-ArgM-TMP
 từng	R	*	B-ArgM-MOD
 nằm	V-H	*	B-Rel
-trên	E-H	(PP(PP-LOC*	B-Arg1-Location
-đường ray	N-H	(NP*	I-Arg1-Location
-xe lửa	N	*))	I-Arg1-Location
+trên	E-H	(PP(PP-LOC*	B-Arg1
+đường ray	N-H	(NP*	I-Arg1
+xe lửa	N	*))	I-Arg1
 để	E-H	(PP-PRP*	B-ArgM-PRP
 chặn	V-H	(VP*	O
 đoàn	Nc-H	(NP-DOB*	O
@@ -4278,7 +4278,7 @@ chống	V-H	(VP*	O
 phát xít	N-H	(NP-DOB*	O
 tại	E-H	(Np(PP-LOC*	O
 
-Đó	P-H	(S(NP-SUB*)	I-Arg0-Identified
+Đó	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
 cuộc	N-H	(NP-DOB*	B-Arg1
 chiến tranh	N	*	I-Arg1
@@ -4303,12 +4303,12 @@ nhân dân	N-H	(NP-DOB*))))))))))))	O
 
 Phong trào	N-H	(S(NP-SUB*)	I-Arg0
 lan truyền	V-H	(VP*	B-Rel
-mạnh mẽ	A-H	(AP-MNR*	B-Arg1-Attribute
+mạnh mẽ	A-H	(AP-MNR*	B-Arg1
 hơn	R	*)))	O
 
-Sự kiện	N-H	(S(NP-SUB*	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
-ông	N-H	(NP*)))	I-Arg0-Possessor
+Sự kiện	N-H	(S(NP-SUB*	I-Arg0
+của	E-H	(PP*	I-Arg0
+ông	N-H	(NP*)))	I-Arg0
 đã	R	(VP*	B-ArgM-TMP
 làm	V-H	*	B-Rel
 toàn	L	(NP-DOB*	B-Arg1
@@ -4371,7 +4371,7 @@ nghèo	A	*))))	O
 
 17	M	(S(NP-TMP*	I-ArgM-TMP
 tuổi	Nu-H	*)	I-ArgM-TMP
-tôi	P-H	(NP-SUB*)	B-Arg0-Identified
+tôi	P-H	(NP-SUB*)	B-Arg0
 là	V-H	(VP*	B-Rel
 thư ký	N-H	(NP-DOB*	B-Arg1
 đánh máy	V	*	I-Arg1
@@ -4443,9 +4443,9 @@ gì	P-H	*	O
 tốt đẹp	A-H	(AP*	O
 nhất	A	*)))))))	O
 
-với	C	(S(S(NP-SUB(NP(Np-H*	I-Arg0-Identified
-nhân dân	N-H	(NP*	I-Arg0-Identified
-VN	Ny	*))	I-Arg0-Identified
+với	C	(S(S(NP-SUB(NP(Np-H*	I-Arg0
+nhân dân	N-H	(NP*	I-Arg0
+VN	Ny	*))	I-Arg0
 __là	V-H	(VP*	B-Rel
 một	M-H	(QP*)))	B-Arg1
 là	V-H	(S(NP-SUB(VP*	O
@@ -4488,7 +4488,7 @@ phi nghĩa	A	*	O
 mới	A-H	(AP*))))))))	O
 
 ủng hộ	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
-quyết định	N-H	(NP-DOB*	B-Arg1-Processor
+quyết định	N-H	(NP-DOB*	B-Arg1
 của	E-H	(PP*	O
 tôi	P-H	(NP*)))))))	O
 
@@ -4525,8 +4525,8 @@ khắc phục	V-H	*	B-Rel
 hậu quả	N-H	(NP-DOB*	B-Arg1
 chiến tranh	N	*)))	O
 
-Hậu quả	N-H	(S(NP-SUB*	I-Arg0-Identified
-nghiêm trọng	A	*)	I-Arg0-Identified
+Hậu quả	N-H	(S(NP-SUB*	I-Arg0
+nghiêm trọng	A	*)	I-Arg0
 là	V-H	(VP*	B-Rel
 hậu quả	N-H	(NP-DOB*	B-Arg1
 chất độc	N	*	O
@@ -4582,19 +4582,19 @@ nhà	N	*	O
 của	E-H	(PP*	O
 mình	P-H	(NP*)))))	O
 
-Tỉ lệ	N-H	(S(S(NP-SUB*	I-Arg0-Identified
-người	N-H	(SBAR(S(NP-SUB*	I-Arg0-Identified
-ủng hộ	V-H	(Np(VP*	I-Arg0-Identified
-chiến tranh	N-H	(NP-DOB*	I-Arg0-Identified
-của	E-H	(PP(PP*	I-Arg0-Identified
+Tỉ lệ	N-H	(S(S(NP-SUB*	I-Arg0
+người	N-H	(SBAR(S(NP-SUB*	I-Arg0
+ủng hộ	V-H	(Np(VP*	I-Arg0
+chiến tranh	N-H	(NP-DOB*	I-Arg0
+của	E-H	(PP(PP*	I-Arg0
 tại	E-H	(NP(Np-H(PP-LOC*	B-ArgM-LOC
 VN	Ny-H	(NP*))	I-ArgM-LOC
 vào	E-H	(PP-TMP*	B-ArgM-TMP
 năm	N-H	(NP*	I-ArgM-TMP
 1947	M	*))))))))	I-ArgM-TMP
 là	V-H	(VP*	B-Rel
-37	M	(NP-DOB*	B-Arg1-Value
-%	Ny-H	*)))	I-Arg1-Value
+37	M	(NP-DOB*	B-Arg1
+%	Ny-H	*)))	I-Arg1
 nó	P-H	(S(NP-SUB*)	O
 đã	R	(VP*	O
 lùi	V-H	*	O
@@ -4633,11 +4633,11 @@ của	E-H	(PP*	I-ArgM-ADV
 nhân dân	N-H	(NP*	I-ArgM-ADV
 lúc	N-H	(Np(NP-TMP*	I-ArgM-ADV
 đó	P	*)))	I-ArgM-ADV
-hai	M	(NP-SUB*	B-Arg0-Identified
-người	Nc-H	*	I-Arg0-Identified
-bạn	N	*	I-Arg0-Identified
-của	E-H	(PP*	I-Arg0-Identified
-chúng ta	P-H	(NP*)))	I-Arg0-Identified
+hai	M	(NP-SUB*	B-Arg0
+người	Nc-H	*	I-Arg0
+bạn	N	*	I-Arg0
+của	E-H	(PP*	I-Arg0
+chúng ta	P-H	(NP*)))	I-Arg0
 là	V-H	(VP(VP*	B-Rel
 tia	Nc-H	(NP-DOB*	B-Arg1
 lửa	N	*	I-Arg1
@@ -4695,10 +4695,10 @@ họ	P-H	(NP-SUB*)	B-Arg0
 sẽ	R	(VP*	B-ArgM-TMP
 được	V-H	*	B-Rel
 nhận	V-H	(VP*	I-Rel
-toàn bộ	L	(NP-DOB*	B-Arg1-Patient
-số	N-H	*	I-Arg1-Patient
-tiền	N	*	I-Arg1-Patient
-bảo hiểm	N-H	(NP*)	I-Arg1-Patient
+toàn bộ	L	(NP-DOB*	B-Arg1
+số	N-H	*	I-Arg1
+tiền	N	*	I-Arg1
+bảo hiểm	N-H	(NP*)	I-Arg1
 từ	E-H	(PP*	B-Arg3
 hãng	N-H	(NP*	O
 bảo hiểm	V	*))))))	O
@@ -4729,7 +4729,7 @@ hãng	N-H	(NP-SUB*	B-Arg0
 bảo hiểm	N-H	(NP*))	I-Arg0
 nhận	V-H	(VP*	B-Rel
 thấy	V	*	I-Rel
-một số	L	(NP-DOB*	B-Arg1-Patient
+một số	L	(NP-DOB*	B-Arg1
 nghi vấn	N-H	*)))	O
 
 Nơi	N-H	(S(NP-SUB*	I-Arg0
@@ -4752,7 +4752,7 @@ xa	A-H	(AP*))	I-ArgM-ADV
 đến	V-H	(VP*)))))	I-ArgM-ADV
 ghé	V-H	(NP-SUB(Np-H(VP*	B-Rel
 vào	V-H	(VP*	I-Rel
-quán	N-H	(NP-DOB*	B-Arg4-Goal
+quán	N-H	(NP-DOB*	B-Arg4
 cà phê	N	*	O
 gần	A-H	(AP-LOC*	O
 nhà	N-H	(NP*	O
@@ -4823,7 +4823,7 @@ cháu	N	*	I-Arg0
 họ	N	*)	I-Arg0
 sẽ	R	(VP*	B-ArgM-TMP
 ở	V-H	*	B-Rel
-nhà	N-H	(NP-LOC*)	B-Arg1-Location
+nhà	N-H	(NP-LOC*)	B-Arg1
 một mình	X-H	(XP-MNR*)	B-ArgM-MNR
 từ	E-H	(PP-TMP*	B-ArgM-TMP
 8	M	(NP*	O
@@ -5019,7 +5019,7 @@ thềm	N	*)))	O
 
 Cửa	N-H	(S(S(NP-SUB*)	I-Arg0
 khép	V-H	(VP*	B-Rel
-hờ	A	*))	B-Arg1-Attribute
+hờ	A	*))	B-Arg1
 vẳng	V-H	(VP(VP*	O
 tiếng	N-H	(NP-DOB*	O
 thều thào	V-H	(VP*	O
@@ -5136,7 +5136,7 @@ trạc	N-H	(NP*	O
 tuổi	N	*	O
 mình	P	*))))))))))	O
 
-Mẹ	N-H	(S(NP-SUB*	I-Arg0-Possessor
+Mẹ	N-H	(S(NP-SUB*	I-Arg0
 chấp nhận	V-H	(Np(VP*	B-Rel
 mặc cả	N-H	(NP-DOB*	B-Arg1
 của	E-H	(PP*	O
@@ -5279,7 +5279,7 @@ với	E-H	(PP*	B-ArgM-DIS
 Hai	M	(S(NP-TMP*	I-ArgM-TMP
 ngày	N-H	*	I-ArgM-TMP
 nữa	R	*)	I-ArgM-TMP
-mẹ	N-H	(NP-SUB*	B-Arg0-Possessor
+mẹ	N-H	(NP-SUB*	B-Arg0
 sẽ	R	(Np(VP*	B-ArgM-MOD
 mua	V-H	*	B-Rel
 xe	N-H	(NP-DOB*)))))	B-Arg1
@@ -5329,7 +5329,7 @@ bình thản	A-H	*	B-Rel
 như	C	*	B-Arg1
 không	R	*))))	O
 
-Mẹ	N-H	(S(NP-SUB*	I-Arg0-Possessor
+Mẹ	N-H	(S(NP-SUB*	I-Arg0
 vẫn	R	(Np(VP*	B-ArgM-TMP
 mua	V-H	*	B-Rel
 xe	N-H	(NP-DOB*)	B-Arg1
@@ -5410,10 +5410,10 @@ mắt	N-H	(NP-DOB*)	B-Arg1
 tinh anh	A-H	(AP-PRP*)	B-ArgM-PRP
 như thế nào	X	(XP-MNR*)))))))	B-ArgM-DIS
 
-Đời	N-H	(SQ(NP-SUB*	I-Arg0-Possessor
-tư	A	*	I-Arg0-Possessor
-vận động viên	N-H	(NP-DOB*	I-Arg0-Possessor
-bóng bàn	N	*	I-Arg0-Possessor
+Đời	N-H	(SQ(NP-SUB*	I-Arg0
+tư	A	*	I-Arg0
+vận động viên	N-H	(NP-DOB*	I-Arg0
+bóng bàn	N	*	I-Arg0
 giỏi	V-H	(AP-PRD*	B-Rel
 nhất	A	*	B-ArgM-EXT
 ra sao	X-H	(NP-LOC(Np-H(XP*)))))))	B-ArgM-DIS
@@ -5552,10 +5552,10 @@ người	N	*)))	O
 ra	R	*	O
 xâu xé	V-H	(VP-PRP*)))))))))))))	O
 
-Lũ	Nc-H	(S(NP-SUB*	I-Arg0-Possessor
-bạn	N	*	I-Arg0-Possessor
-hảo hán	N	*	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
+Lũ	Nc-H	(S(NP-SUB*	I-Arg0
+bạn	N	*	I-Arg0
+hảo hán	N	*	I-Arg0
+của	E-H	(PP*	I-Arg0
 bỏ	V-H	(NP(Np-H(VP*	B-Rel
 chạy	V	*)	B-Arg1
 hoặc	C	*	B-ArgM-DIS
@@ -5833,7 +5833,7 @@ mấy	L	(NP-SUB*	B-Arg0
 mẹ con	N-H	*	I-Arg0
 chị	N	*)	I-Arg0
 ở	V-H	(VP*	B-Rel
-trong	E-H	(PP-LOC*	B-Arg1-Location
+trong	E-H	(PP-LOC*	B-Arg1
 một	M	(NP*	O
 cái	Nc-H	*	O
 chái	N	*	O
@@ -5897,7 +5897,7 @@ mà	C	*)))	B-ArgM-I
 Góc	N-H	(S-TTL(NP*	I-Arg0
 tối	A	*	I-Arg0
 giữa	E-H	(PP-LOC*	B-Rel
-phố	N-H	(NP*))))	B-Arg1-Location
+phố	N-H	(NP*))))	B-Arg1
 
 Lần	N-H	(S(NP-TMP*	I-ArgM-TMP
 đầu tiên	A-H	(AP*))	I-ArgM-TMP
@@ -5914,7 +5914,7 @@ nhẹ nhàng	A-H	*)))	O
 như	C	*	O
 chị	Nc-H	(NP*	O
 
-Giọng	N-H	(S(NP-SUB*)	I-Arg1-Patient
+Giọng	N-H	(S(NP-SUB*)	I-Arg1
 khó	A-H	(AP-PRD*	B-ArgM-MNR
 đoán	V-H	(VP*	B-Rel
 nam	N-H	(NP-DOB*	B-ArgM-ADV
@@ -5947,8 +5947,8 @@ kịp	A-H	(AP*))))))	B-ArgM-MNR
 Dường như	X-H	(S(XP-MDP*)	I-ArgM-ADV
 chị	N-H	(NP-SUB*)	B-Arg0
 đến	V-H	(VP*	B-Rel
-công ty	N-H	(NP-LOC*	B-Arg4-Goal
-thám tử	N	*)	I-Arg4-Goal
+công ty	N-H	(NP-LOC*	B-Arg4
+thám tử	N	*)	I-Arg4
 là	C	*	O
 để	E-H	(PP-PRP*	I-ArgM-PRP
 tham quan	V-H	(VP*))))	O
@@ -6240,11 +6240,11 @@ cái bang	N	*)))	I-Arg0
 LBKT	LBKT	*	B-ArgM-PRD
 của	E-H	(PP*	I-ArgM-PRD
 RBKT	RBKT	(NP(Np-H*	I-ArgM-PRD
-Tường trình	V-H	(VP*	B-Arg1-Location
-từ	E-H	(PP-LOC*	I-Arg1-Location
-nghĩa trang	N-H	(NP*	I-Arg1-Location
-vòng hoa	N-H	(NP*	I-Arg1-Location
-trắng	A	*))))	I-Arg1-Location
+Tường trình	V-H	(VP*	B-Arg1
+từ	E-H	(PP-LOC*	I-Arg1
+nghĩa trang	N-H	(NP*	I-Arg1
+vòng hoa	N-H	(NP*	I-Arg1
+trắng	A	*))))	I-Arg1
 của	E-H	(PP*	B-ArgM-ADV
 
 Hai	M	(S-TTL(NP*	I-Arg0
@@ -6270,8 +6270,8 @@ nông dân	N-H	*	I-Arg0
 rón rén	R	*	B-ArgM-MNR
 bước	V-H	*	O
 lên	R	*	I-ArgM-DIR
-bục	N-H	(NP-LOC*	B-Arg1-Location
-cao	A	*)	I-Arg1-Location
+bục	N-H	(NP-LOC*	B-Arg1
+cao	A	*)	I-Arg1
 ẵm	V-H	(VP-PRP*	B-ArgM-PRP
 một	M	(NP(NP*	O
 giải	N-H	*	O
@@ -6290,8 +6290,8 @@ tỉnh	N	*)))))))))	O
 Chiếc	Nc-H	(S(NP-SUB*	I-Arg0
 kéo	N	*	I-Arg0
 dài	A-H	(AP*	B-Rel
-2	M	(NP*	B-Arg1-Value
-m	Nu-H	*)))	I-Arg1-Value
+2	M	(NP*	B-Arg1
+m	Nu-H	*)))	I-Arg1
 70 . 000	M	(NP-PRD*	O
 đồng	Nu-H	*))	O
 
@@ -6456,7 +6456,7 @@ của	E-H	(PP*	O
 17	M	(S-TTL(NP-TMP*	I-Arg0
 năm	N-H	*	I-Arg0
 trên	E-H	(PP-LOC*	B-Rel
-ốc đảo	N-H	(NP*))))	B-Arg1-Location
+ốc đảo	N-H	(NP*))))	B-Arg1
 
 Câu chuyện	N-H	(S(NP-SUB*	I-Arg0
 về	E-H	(PP*	I-Arg0
@@ -6467,7 +6467,7 @@ trong	E-H	(PP-LOC*	O
 phim	N-H	(NP*	O
 
 Từ	E-H	(S-TTL(PP-LOC*	I-Rel
-căn	Nc-H	(NP*	B-Arg1-Location
+căn	Nc-H	(NP*	B-Arg1
 chòi	N	*	O
 chơ vơ	A-H	(AP*))))	O
 
@@ -6526,7 +6526,7 @@ cứu	V-H	(VP*	B-ArgM-MNR
 kịp	A-H	(AP*))))	O
 
 Đến	V-H	(S-TTL(VP*	I-Rel
-trang trại	N-H	(NP-LOC*	B-Arg4-Goal
+trang trại	N-H	(NP-LOC*	B-Arg4
 hàng đầu	N	*	O
 của	E-H	(PP*	O
 tỉnh	N-H	(NP*)))))	O
@@ -6705,9 +6705,9 @@ rồi	C	*	O
 ra	R	*	O
 bình thường	A-H	(AP*)))))))))))	O
 
-Hắn	P-H	(S(NP-SUB*)	I-Arg0-Identified
+Hắn	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-đầu mối	N-H	(NP*	B-Arg1-Identifier
+đầu mối	N-H	(NP*	B-Arg1
 duy nhất	A-H	(AP*)	O
 chính thức	A	(VP*	O
 liên quan	V-H	*	O
@@ -6856,8 +6856,8 @@ Tiến	V-H	(S(VP*	I-ArgM-ADV
 phố	N-H	(NP*	I-ArgM-ADV
 hắn	P-H	(Np(NP-SUB*)	O
 rẽ	V-H	(VP(VP*	I-Rel
-vào	E-H	(PP-LOC*	B-Arg4-Goal
-đường	N-H	(NP*	I-Arg4-Goal
+vào	E-H	(PP-LOC*	B-Arg4
+đường	N-H	(NP*	I-Arg4
 và	C	(Np*	O
 chui	V-H	(VP*	O
 vào	E-H	(PP-LOC*	O
@@ -6871,7 +6871,7 @@ các	L	(NP-SUB*	O
 thám tử	N-H	*)	O
 vượt	V-H	(VP*	I-Rel
 lên	R	*	B-ArgM-DIR
-cầu	N-H	(NP-LOC*	B-Arg4-Goal
+cầu	N-H	(NP-LOC*	B-Arg4
 sang	V-H	(Np(VP-PRP*	B-ArgM-PRP
 
 tối	A-H	(S(SBAR-PRP(S(NP-SUB(Np-H(AP-PRD*))	B-Rel
@@ -6976,8 +6976,8 @@ tên	N-H	(NP-SUB*	O
 kẻ	V	*))	O
 phóng	V-H	(VP(VP*	I-Rel
 liều	A	*	B-ArgM-MNR
-sang	V-H	(VP-PRP*	B-Arg4-Goal
-đường	N-H	(NP-DOB*)))	I-Arg4-Goal
+sang	V-H	(VP-PRP*	B-Arg4
+đường	N-H	(NP-DOB*)))	I-Arg4
 lọt	V-H	(VP*	O
 vào	E-H	(PP-LOC*	O
 giữa	N-H	(NP*	O
@@ -7114,7 +7114,7 @@ Thông tin	N-H	(S(NP-SUB*	I-Arg0
 này	P	*)	I-Arg0
 chắc chắn	A-H	(AP-PRD*	B-ArgM-ADV
 sẽ	R	(VP*	B-ArgM-TMP
-đến	V-H	*	B-Arg4-Goal
+đến	V-H	*	B-Arg4
 tai	N-H	(NP-DOB*	O
 bà	N-H	(NP*	O
 vợ	N	*)))))	O
@@ -7131,24 +7131,24 @@ có	V-H	*	B-Rel
 thư	N-H	(NP-DOB*	B-Arg1
 khủng bố	V	*)))	O
 
-Người	N-H	(S(NP-SUB*	I-Arg0-Identified
-duy nhất	A	*	I-Arg0-Identified
-trong	E-H	(PP*	I-Arg0-Identified
-các	L	(NP*	I-Arg0-Identified
-đối tượng	N-H	*	I-Arg0-Identified
-nghi vấn	V	*))	I-Arg0-Identified
-biết	V-H	(VP*	I-Arg0-Identified
-điều	N-H	(NP-DOB*	I-Arg0-Identified
-này	P	*)))	I-Arg0-Identified
+Người	N-H	(S(NP-SUB*	I-Arg0
+duy nhất	A	*	I-Arg0
+trong	E-H	(PP*	I-Arg0
+các	L	(NP*	I-Arg0
+đối tượng	N-H	*	I-Arg0
+nghi vấn	V	*))	I-Arg0
+biết	V-H	(VP*	I-Arg0
+điều	N-H	(NP-DOB*	I-Arg0
+này	P	*)))	I-Arg0
 là	V-H	(VP*	B-Rel
-vợ	N-H	(NP*	B-Arg1-Identifier
+vợ	N-H	(NP*	B-Arg1
 ông	N	*)))	O
 
 Vậy	P-H	(S(NP-ADV*)	I-ArgM-ADV
-vợ	N-H	(NP-SUB*	B-Arg0-Identified
-ông	Nc-H	(NP*	I-Arg0-Identified
+vợ	N-H	(NP-SUB*	B-Arg0
+ông	Nc-H	(NP*	I-Arg0
 là	V-H	(Np(VP*	B-Rel
-thủ phạm	N-H	(NP*))))))	B-Arg1-Identifier
+thủ phạm	N-H	(NP*))))))	B-Arg1
 
 Việc	N-H	(S(NP-ADV*)	I-ArgM-ADV
 ông	Nc-H	(NP-SUB*	B-Arg0
@@ -7166,11 +7166,11 @@ mà	T	*	O
 thôi	T	*))))))))	O
 
 Hơn nữa	C	(S*	I-ArgM-DIS
-tác giả	N-H	(NP-SUB*	B-Arg0-Identified
-này	P	*)	I-Arg0-Identified
+tác giả	N-H	(NP-SUB*	B-Arg0
+này	P	*)	I-Arg0
 phải	V-H	(VP*	B-ArgM-MOD
 là	V-H	(VP*	B-Rel
-người	N-H	(NP*	B-Arg1-Identifier
+người	N-H	(NP*	B-Arg1
 kiên nhẫn	A-H	(AP*	O
 ôn hòa	A-H	*)))))	O
 
@@ -7195,15 +7195,15 @@ nhau	N	*))))))	O
 
 Có lẽ	R-H	(S(RP-MDP*)	I-ArgM-ADV
 là	V-H	(NP-SUB(VP*	B-Rel
-bà	N-H	(NP*	B-Arg1-Identifier
+bà	N-H	(NP*	B-Arg1
 ta	P	*))))	O
 
-Mục đích	N-H	(S(NP-SUB*	I-Arg0-Identified
-của	E-H	(PP*	I-Arg0-Identified
-hai	M	(NP*	I-Arg0-Identified
-bà	N-H	*)))	I-Arg0-Identified
+Mục đích	N-H	(S(NP-SUB*	I-Arg0
+của	E-H	(PP*	I-Arg0
+hai	M	(NP*	I-Arg0
+bà	N-H	*)))	I-Arg0
 là	V-H	(VP*	B-Rel
-ông	Nc-H	(NP*	B-Arg1-Identifier
+ông	Nc-H	(NP*	B-Arg1
 chán	V-H	(Np(VP(VP*	O
 xin	V-H	(NP-DOB(Np(VP*	O
 về	V	*)))))))))	O
@@ -7318,17 +7318,17 @@ mâm	N-H	(NP*)))	I-ArgM-ADV
 với	E-H	(PP*	B-ArgM-COM
 
 Tác chiến	V-H	(S(NP-SUB(VP*	B-Rel
-ở	E-H	(PP-LOC*	B-Arg1-Location
+ở	E-H	(PP-LOC*	B-Arg1
 xứ	N-H	(NP*	O
 người	N	*)))))	O
 
-Mọi	L	(S(NP-SUB(NP*	I-Arg0-Possessor
-hoạt động	N-H	*)	I-Arg0-Possessor
-và	C	*	I-Arg0-Possessor
-mối	N-H	(NP*	I-Arg0-Possessor
-quan hệ	N	*	I-Arg0-Possessor
-xã hội	N	*)	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
+Mọi	L	(S(NP-SUB(NP*	I-Arg0
+hoạt động	N-H	*)	I-Arg0
+và	C	*	I-Arg0
+mối	N-H	(NP*	I-Arg0
+quan hệ	N	*	I-Arg0
+xã hội	N	*)	I-Arg0
+của	E-H	(PP*	I-Arg0
 đều	R	(NP(Np-H(VP*	B-ArgM-MOD
 diễn	V-H	*	B-Rel
 ra	R	*	B-Arg1
@@ -7345,7 +7345,7 @@ song	C	(NP-DOB(Np-H*	B-ArgM-DIS
 cũng	R	(AP-PRD*	B-ArgM-TMP
 hết sức	R	*	B-ArgM-EXT
 nguy hiểm	A-H	*	B-Rel
-vì	E-H	(SBAR-PRP*	B-Arg1-Reason
+vì	E-H	(SBAR-PRP*	B-Arg1
 dễ	A	(S(NP-SUB(VP*	O
 sơ suất	V-H	*))))))))))))	O
 
@@ -7575,7 +7575,7 @@ có	V-H	(VP*	B-ArgM-MOD
 vẻ	N-H	(NP-DOB*	O
 rất	R	(VP*	I-ArgM-EXT
 hiểu	V-H	*	B-Rel
-gia đình	N-H	(NP-DOB*	B-Arg1-Processor
+gia đình	N-H	(NP-DOB*	B-Arg1
 nhưng	C	(Np*	B-ArgM-DIS
 tất cả	P	(S(NP-SUB*	B-ArgM-ADV
 những	L	*	O
@@ -7613,7 +7613,7 @@ hai	M	(NP-SUB*	B-Arg0
 người	N-H	*)	I-Arg0
 không	R	(VP*	B-ArgM-NEG
 nói chuyện	V-H	*	B-Rel
-nhiều	A	*))	B-Arg1-Attribute
+nhiều	A	*))	B-Arg1
 
 Nhà	N-H	(S(S(NP-SUB-1*	I-Arg0
 không	R	(Np(AP-PRD*	B-ArgM-NEG
@@ -7671,9 +7671,9 @@ nhằm	V-H	(VP-PRP*	B-ArgM-PRP
 mục đích	N-H	(NP-DOB*	O
 gì	P	*)))))	O
 
-Bản	Nc-H	(S(NP-SUB*	I-Arg0-Possessor
-báo cáo	N	*	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
+Bản	Nc-H	(S(NP-SUB*	I-Arg0
+báo cáo	N	*	I-Arg0
+của	E-H	(PP*	I-Arg0
 làm	V-H	(NP(Np-H(VP*	B-Rel
 sửng sốt	V-H	(VP*	B-ArgM-MNR
 ban	N-H	(NP-DOB(NP*	B-Arg1
@@ -7770,7 +7770,7 @@ bám	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
 theo	V	*))))	B-ArgM-MNR
 
 vào	V-H	(S(NP-SUB(Np-H(VP(VP*	B-Rel
-siêu thị	N-H	(NP-LOC*))	B-Arg1-Location
+siêu thị	N-H	(NP-LOC*))	B-Arg1
 ăn	V-H	(VP*	B-ArgM-PRP
 kem	N-H	(NP-DOB*))	O
 và	C	*	O
@@ -7780,7 +7780,7 @@ hai	M	(NP-DOB*	O
 
 Tối	N-H	(S(NP-TMP*)	I-ArgM-TMP
 vào	V-H	(NP-SUB(Np-H(VP(VP*	B-Rel
-thư viện	N-H	(NP-LOC*))	B-Arg1-Location
+thư viện	N-H	(NP-LOC*))	B-Arg1
 đọc	V-H	(VP*	B-ArgM-PRP
 sách	N-H	(NP-DOB*	O
 Chiến tranh	N-H	(NP*	O
@@ -7814,15 +7814,15 @@ ra	V-H	(PP-DIR*	O
 ngoài	N-H	(NP*))	O
 đọc	V-H	(VP-PRP*))))))))))))	O
 
-Đều	R	(S(NP-SUB(VP*	B-Arg0-Possessor
-là	V-H	*	I-Arg0-Possessor
-những	L	(NP-DOB*	I-Arg0-Possessor
-lá	Nc-H	*	I-Arg0-Possessor
-thư	N	*	I-Arg0-Possessor
-của	E-H	(SBAR*	I-Arg0-Possessor
-mẹ	N-H	(S(NP-SUB(NP*)	I-Arg0-Possessor
-và	C	*	I-Arg0-Possessor
-bạn	N-H	(NP*	I-Arg0-Possessor
+Đều	R	(S(NP-SUB(VP*	B-Arg0
+là	V-H	*	I-Arg0
+những	L	(NP-DOB*	I-Arg0
+lá	Nc-H	*	I-Arg0
+thư	N	*	I-Arg0
+của	E-H	(SBAR*	I-Arg0
+mẹ	N-H	(S(NP-SUB(NP*)	I-Arg0
+và	C	*	I-Arg0
+bạn	N-H	(NP*	I-Arg0
 gửi	V-H	(Np(VP*	B-Rel
 động viên	V-H	(VP-PRP*	B-Arg1
 đừng	R	(NP-IOB(Np-H(AP-DOB*	I-Arg1
@@ -7888,7 +7888,7 @@ vẫn	R	(Np(VP*	O
 đã	R	(S(NP-SUB(Np-H(VP*	B-ArgM-TMP
 từng	R	*	I-ArgM-TMP
 ở	V-H	*	B-Rel
-đó	P-H	(NP-LOC*)))))	B-Arg1-Location
+đó	P-H	(NP-LOC*)))))	B-Arg1
 
 Lá	Nc-H	(S(NP-SUB*	I-ArgM-PRD
 thư	N	*	I-ArgM-PRD
@@ -7897,7 +7897,7 @@ ba	M	*))	I-ArgM-PRD
 *E*	V-H	(VP*	B-Arg0
 đã	R	(SBAR(S(NP-SUB(VP*	B-ArgM-TMP
 gặp	V-H	*	B-Rel
-thầy giáo	N-H	(NP-DOB*	B-Arg1-Processor
+thầy giáo	N-H	(NP-DOB*	B-Arg1
 ở	E-H	(Np(PP-LOC*	B-ArgM-LOC
 trường	N-H	(NP*	O
 trung cấp	N-H	(NP*	O
@@ -7912,7 +7912,7 @@ lo	V-H	*)))))	O
 Mẹ	N-H	(S(NP-SUB*)	I-Arg0
 đã	R	(VP*	B-ArgM-TMP
 tìm hiểu	V-H	*	B-Rel
-kỹ	A-H	(AP-MNR*)))	B-Arg1-Attribute
+kỹ	A-H	(AP-MNR*)))	B-Arg1
 
 Hoàn cảnh	N-H	(S(S(NP-SUB*	I-ArgM-ADV
 tuy	C	(Np*	I-ArgM-ADV
@@ -8048,7 +8048,7 @@ tiệc	N-H	(NP*	I-ArgM-TMP
 mừng công	V	*))	I-ArgM-TMP
 thám tử	N-H	(NP-SUB*	B-Arg0
 thả sức	A	(Np(VP*	B-Rel
-hát hò	V-H	*	B-Arg1-Attribute
+hát hò	V-H	*	B-Arg1
 đùa vui	V-H	*))))	O
 
 Còn	C	(S*	I-ArgM-DIS
@@ -8179,9 +8179,9 @@ chuyên nghiệp	A	*)))))	I-ArgM-ADV
 Kh.	Ny-H	(NP-SUB*)	O
 bước	V-H	(VP(VP*	I-Rel
 vào	E-H	(PP-LOC*	B-ArgM-DIR
-cửa hàng	N-H	(NP*	B-Arg4-Goal
-trên	E-H	(Np(PP-LOC*	I-Arg4-Goal
-đường	N-H	(NP*	I-Arg4-Goal
+cửa hàng	N-H	(NP*	B-Arg4
+trên	E-H	(Np(PP-LOC*	I-Arg4
+đường	N-H	(NP*	I-Arg4
 và	C	(Np*	O
 đi	V-H	(VP*	O
 thẳng	A	*	O
@@ -8232,14 +8232,14 @@ bút bi	N-H	(NP*	O
 khá	R	(AP*	O
 to	A-H	*)))))))	O
 
-Chỉ	R	(S(VP-SUB*	I-Arg1-Identifier
-còn	V-H	*	I-Arg1-Identifier
-mỗi	M	(NP-DOB*	I-Arg1-Identifier
-da	N-H	*	I-Arg1-Identifier
-và	C	*	I-Arg1-Identifier
-mũi	N-H	*))	I-Arg1-Identifier
+Chỉ	R	(S(VP-SUB*	I-Arg1
+còn	V-H	*	I-Arg1
+mỗi	M	(NP-DOB*	I-Arg1
+da	N-H	*	I-Arg1
+và	C	*	I-Arg1
+mũi	N-H	*))	I-Arg1
 là	V-H	(VP*	B-Rel
-chính hiệu	A-H	(AP*	B-Arg0-Identified
+chính hiệu	A-H	(AP*	B-Arg0
 VN	Ny-H	(NP*))))	O
 
 Đó	P-H	(S(NP-SUB*)	I-Arg0
@@ -8311,9 +8311,9 @@ bán	V-H	(VP*	B-Rel
 hàng	N	*)))	B-Arg0
 
 Đắt	A-H	(S(S(NP-SUB(AP-PRD*	B-Rel
-gấp	V-H	(VP*	B-Arg1-Attribute
-3	M	(NP-EXT*	I-Arg1-Attribute
-4	M	*	I-Arg1-Attribute
+gấp	V-H	(VP*	B-Arg1
+3	M	(NP-EXT*	I-Arg1
+4	M	*	I-Arg1
 lần	N-H	*))))	O
 nhưng	C	*	O
 nhìn	V-H	(S(VP-SUB*	O
@@ -8421,11 +8421,11 @@ giá	N-H	(NP-SUB*)	O
 150	M	*	O
 USD	Ny-H	*))))))))	O
 
-Khách hàng	N-H	(S(NP-SUB*	I-Arg0-Identified
-thứ	N-H	(NP*	I-Arg0-Identified
-hai	M	*))	I-Arg0-Identified
+Khách hàng	N-H	(S(NP-SUB*	I-Arg0
+thứ	N-H	(NP*	I-Arg0
+hai	M	*))	I-Arg0
 là	V-H	(VP*	B-Rel
-một	M	(NP*	B-Arg1-Identifier
+một	M	(NP*	B-Arg1
 nhóm	Nc-H	*	O
 người	N	*)))	O
 
@@ -8550,12 +8550,12 @@ thong thả	A	(VP*	B-ArgM-MNR
 ngồi	V-H	*	B-Rel
 xem	V-H	(VP-PRP*	B-ArgM-PRP
 
-Ở	E-H	(S(PP-LOC-SUB*	I-Arg0-Carrier
-lối	N-H	(NP*	I-Arg0-Carrier
-ra	V-H	(VP*	I-Arg0-Carrier
-vào	V-H	*)))	I-Arg0-Carrier
+Ở	E-H	(S(PP-LOC-SUB*	I-Arg0
+lối	N-H	(NP*	I-Arg0
+ra	V-H	(VP*	I-Arg0
+vào	V-H	*)))	I-Arg0
 là	V-H	(VP*	B-Rel
-tấm	Nc-H	(NP*	B-Arg1-Attribute
+tấm	Nc-H	(NP*	B-Arg1
 hình	N	*	O
 to tướng	A-H	(AP*)	O
 của	E-H	(PP*	O
@@ -8657,10 +8657,10 @@ giá	N-H	(NP*	O
 USD	Nu-H	*	O
 cây	Nc-H	(NP*))))))))))	O
 
-Bóng đá	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+Bóng đá	N-H	(S(NP-SUB*)	I-Arg0
 lại	R	(VP*	B-ArgM-TMP
 là	V-H	*	B-Rel
-chuyện	N-H	(NP*	B-Arg1-Attribute
+chuyện	N-H	(NP*	B-Arg1
 khác	A	*	O
 môn	N-H	(SBAR(S(NP-SUB*	O
 thể thao	N	*	O
@@ -8676,28 +8676,28 @@ khoản	N	*	O
 trang phục	N-H	(NP*	O
 hàng hiệu	N	*)))))))))	O
 
-Chỉ	R	(S(VP-SUB*	I-Arg0-Carrier
-cần	V-H	*	I-Arg0-Carrier
-vài	L	(QP-DOB*	I-Arg0-Carrier
-chục	M	*	I-Arg0-Carrier
-ngàn	M-H	*)	I-Arg0-Carrier
-cho	E-H	(PP-IOB*	I-Arg0-Carrier
-đôi	Nc-H	(NP(NP*	I-Arg0-Carrier
-giày	N	*	I-Arg0-Carrier
-dỏm	A-H	(AP*)	I-Arg0-Carrier
-có	V-H	(VP*	I-Arg0-Carrier
-chữ	N-H	(NP(NP*	I-Arg0-Carrier
-hay	C	(Np*	I-Arg0-Carrier
-biểu tượng	N-H	(NP*	I-Arg0-Carrier
-một	M	(Np(NP*	I-Arg0-Carrier
-bộ	Nc-H	*	I-Arg0-Carrier
-quần đùi	N-H	(NP(NP*)	I-Arg0-Carrier
-áo	N-H	(NP*	I-Arg0-Carrier
-số	N	*)	I-Arg0-Carrier
-làng nhàng	A-H	(AP*)))	I-Arg0-Carrier
-nữa	R	*)))	I-Arg0-Carrier
+Chỉ	R	(S(VP-SUB*	I-Arg0
+cần	V-H	*	I-Arg0
+vài	L	(QP-DOB*	I-Arg0
+chục	M	*	I-Arg0
+ngàn	M-H	*)	I-Arg0
+cho	E-H	(PP-IOB*	I-Arg0
+đôi	Nc-H	(NP(NP*	I-Arg0
+giày	N	*	I-Arg0
+dỏm	A-H	(AP*)	I-Arg0
+có	V-H	(VP*	I-Arg0
+chữ	N-H	(NP(NP*	I-Arg0
+hay	C	(Np*	I-Arg0
+biểu tượng	N-H	(NP*	I-Arg0
+một	M	(Np(NP*	I-Arg0
+bộ	Nc-H	*	I-Arg0
+quần đùi	N-H	(NP(NP*)	I-Arg0
+áo	N-H	(NP*	I-Arg0
+số	N	*)	I-Arg0
+làng nhàng	A-H	(AP*)))	I-Arg0
+nữa	R	*)))	I-Arg0
 là	V-H	(VP*	B-Rel
-có thể	R	(VP*	B-Arg1-Attribute
+có thể	R	(VP*	B-Arg1
 trịnh trọng	A	*	O
 ra	V-H	*	O
 sân	N-H	(NP-DOB*)	O
@@ -8753,8 +8753,8 @@ mềm	A-H	*	O
 đồng	Nu-H	*	O
 áo	N-H	(NP*))	O
 còn	C	(SBAR(S*	O
-nguyên	R	(NP-SUB*	I-Arg0-Carrier
-bộ	N-H	*)	I-Arg0-Carrier
+nguyên	R	(NP-SUB*	I-Arg0
+bộ	N-H	*)	I-Arg0
 thì	C	*	B-ArgM-DIS
 *E*	V-H	(NP-PRD*	B-Rel
 98 . 000	M	*	O
@@ -8827,7 +8827,7 @@ rửa	V	*)))	O
 
 Mà	C	(S-SPL*	I-ArgM-DIS
 toàn	R	(NP*	B-ArgM-EXT
-loại	Nc-H	*	B-Arg0-Carrier
+loại	Nc-H	*	B-Arg0
 xịn	A-H	(AP*)))	B-Rel
 
 Không	R	(S(PP-LOC(PP*	I-ArgM-LOC
@@ -8992,12 +8992,12 @@ ghi chép	V	*	I-Arg0
 khác	A-H	(AP*))	I-Arg0
 ghi	V-H	(VP*	B-Rel
 rõ	A	*	B-ArgM-MNR
-hàng hóa	N-H	(NP-DOB*	B-Arg0-Carrier
-chở	V-H	(VP*))	I-Arg0-Carrier
-số lượng	N-H	(NP-DOB*	I-Arg0-Carrier
-chở	V	*	I-Arg0-Carrier
+hàng hóa	N-H	(NP-DOB*	B-Arg0
+chở	V-H	(VP*))	I-Arg0
+số lượng	N-H	(NP-DOB*	I-Arg0
+chở	V	*	I-Arg0
 thường	R	(PP*	B-ArgM-TMP
-từ	E-H	*	B-Arg1-Attribute
+từ	E-H	*	B-Arg1
 35	M	(NP*	O
 52	M	*	O
 tấn	Nu-H	*	O
@@ -9224,8 +9224,8 @@ Rồi	C	(S*	I-ArgM-DIS
 một	M	(NP-SUB*	B-Arg0
 tình huống	N-H	*)	I-Arg0
 khiến	V-H	(VP*	B-Rel
-tim	N-H	(NP-DOB*	B-Arg1-Processor
-anh	N	*	I-Arg1-Processor
+tim	N-H	(NP-DOB*	B-Arg1
+anh	N	*	I-Arg1
 thắt	V-H	(VP*	B-ArgM-MNR
 lại	R	*))))	O
 
@@ -9609,13 +9609,13 @@ và	C	(Np-H*	O
 
 Cuộc đời	N-H	(S-SPL-TTL(NP*	I-Arg0
 dưới	E-H	(PP*	B-Rel
-vành	N-H	(NP*	B-Arg1-Location
+vành	N-H	(NP*	B-Arg1
 mũ	N	*	O
 thám tử	N-H	(NP*)))))	O
 
 Kịch bản	N-H	(S-SPL-TTL(NP*	I-Arg0
 cho	E-H	(PP*	B-Rel
-sự	Nc-H	(NP*	B-Arg1-Value
+sự	Nc-H	(NP*	B-Arg1
 trở về	V	*))))	O
 
 Bản thân	N-H	(S(NP-SUB*	I-Arg0
@@ -9705,12 +9705,12 @@ vậy	T	*)))	O
 
 Em	N-H	(SQ(NP-SUB*)	I-Arg0
 lên	V-H	(VP*	B-Rel
-nhà	N-H	(NP-LOC*)	B-Arg4-Goal
+nhà	N-H	(NP-LOC*)	B-Arg4
 nhá	T	*))	B-ArgM-Partice
 
 Bà	Nc-H	(S(NP-SUB*	I-Arg0
 hỏi	V-H	(Np(VP*	B-Rel
-chồng	N-H	(NP-DOB*)	B-Arg1-Patient
+chồng	N-H	(NP-DOB*)	B-Arg1
 Ai	P-H	(WHNP*	B-Arg2
 đây	P-H	(NP*))))))	O
 
@@ -9723,7 +9723,7 @@ là	V-H	(VP*	B-Rel
 Chuyện	N-H	(S-SPL-TTL(NP*	I-Arg0
 tình	N	*	I-Arg0
 ở	E-H	(PP-LOC*	B-Rel
-xưởng	N-H	(NP*	B-Arg1-Location
+xưởng	N-H	(NP*	B-Arg1
 vẽ	V-H	(VP*)))))	O
 
 Tại	E-H	(S(PP-LOC*	I-ArgM-ADV
@@ -9781,7 +9781,7 @@ từ	E-H	(Np(PP-TMP*	B-ArgM-TMP
 đó	P-H	(NP*))	I-ArgM-TMP
 hay	R	(VP*	B-ArgM-TMP
 về	V-H	*	B-Rel
-VN	Ny-H	(NP-LOC*)	B-Arg4-Goal
+VN	Ny-H	(NP-LOC*)	B-Arg4
 hơn	R	*))))	O
 
 Không	R	(S(NP-SUB(VP*	B-ArgM-NEG
@@ -9861,7 +9861,7 @@ Tốt nghiệp	V-H	(S(VP-ADV*	I-ArgM-ADV
 được	V	(NP-SUB(Np-H(VP*	B-ArgM-MOD
 vào	V-H	*	B-ArgM-DIR
 làm	V-H	(VP-PRP*)	B-Rel
-ở	E-H	(PP-LOC*	B-Arg1-Location
+ở	E-H	(PP-LOC*	B-Arg1
 một	M	(NP*	O
 tổng công ty	N-H	*	O
 danh tiếng	A	*))))))	O
@@ -10081,7 +10081,7 @@ chứng nhận	N-H	(NP*)	B-Arg1
 
 Mình	P-H	(S-CND(NP-SUB*)	I-Arg0
 ra	V-H	(VP*	B-Rel
-quán	N-H	(NP-LOC*)	B-Arg1-Location
+quán	N-H	(NP-LOC*)	B-Arg1
 làm	V-H	(VP-PRP*	B-Arg1
 cốc	N-H	(NP-DOB*	I-Arg1
 bia	N	*))	I-Arg1
@@ -10151,19 +10151,19 @@ của	E-H	(PP*	I-Arg0
 ở	E-H	(NP(Np-H(PP-LOC*	I-Arg0
 tìm	V-H	(NP(Np-H(VP*	B-Rel
 đến	V-H	(VP*	B-ArgM-DIR
-khu vực	N-H	(NP-LOC*	B-Arg4-Goal
+khu vực	N-H	(NP-LOC*	B-Arg4
 xưa	N-H	(SBAR(S(NP-TMP*)	B-ArgM-TMP
 cư trú	V-H	(NP-SUB(Np-H(VP*))))))))))))))))	O
 
-Thật	T	(S(AP-SUB*	I-Arg0-Identified
-lạ	A-H	*)	I-Arg0-Identified
+Thật	T	(S(AP-SUB*	I-Arg0
+lạ	A-H	*)	I-Arg0
 là	V-H	(VP*	B-Rel
 không	R	(VP*	B-Arg1
 *E*	V-H	*	O
 ai	P-H	(NP-DOB*	O
 biết	V-H	(VP*	O
 
-Tao	P-H	(S(NP-SUB*)	I-Arg0-Identified
+Tao	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
 ở	E-H	(NP-DOB(Np-H(Np(PP-LOC*	B-ArgM-LOC
 với	E-H	(NP(Np-H(PP*	I-ArgM-LOC
@@ -10209,14 +10209,14 @@ chùng chình	V-H	(VP*	B-Arg1
 muộn	A	*))))))	O
 
 Cùng	A-H	(S(NP-SUB(AP-PRD*	B-Rel
-câu lạc bộ	N-H	(NP-DOB*	B-Arg1-Location
+câu lạc bộ	N-H	(NP-DOB*	B-Arg1
 trốn	V-H	(VP*	B-ArgM-PRD
 học	V	*))	I-ArgM-PRD
 với	E-H	(PP*	B-ArgM-ADV
 nhau	N-H	(NP*))	O
 rồi	R	*)))	O
 
-Ông	N-H	(S-SQ(NP-SUB*)	I-Arg0-Identified
+Ông	N-H	(S-SQ(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
 lớp	N-H	(NP-DOB(Np-H(NP*	B-ArgM-LOC
 tại chức	A	*	I-ArgM-LOC
@@ -10497,9 +10497,9 @@ các	L	(NP-SUB*	B-Arg0
 anh	N-H	*)	I-Arg0
 lại	R	(VP*	B-ArgM-TMP
 lao	V-H	*	B-Rel
-xuống	E-H	(PP-DIR*	B-Arg4-Goal
-dòng	N-H	(NP*	I-Arg4-Goal
-nước	N	*))	I-Arg4-Goal
+xuống	E-H	(PP-DIR*	B-Arg4
+dòng	N-H	(NP*	I-Arg4
+nước	N	*))	I-Arg4
 với	E-H	(PP*	B-ArgM-MNR
 độ	N-H	(NP*	O
 chính xác	A	*	O
@@ -10598,8 +10598,8 @@ lặn	V	*	I-Arg0
 và	C	(NP(Np-H*	I-Arg0
 lại	R	(Np-H(VP*	B-ArgM-TMP
 nhảy	V-H	*	B-Rel
-xuống	E-H	(PP-DIR*	B-Arg4-Goal
-nước	N-H	(NP*))	I-Arg4-Goal
+xuống	E-H	(PP-DIR*	B-Arg4
+nước	N-H	(NP*))	I-Arg4
 với	E-H	(PP*	B-ArgM-MNR
 một	M	(NP*	O
 túi	N-H	*	O
@@ -10711,12 +10711,12 @@ bán	V-H	(SBAR-DOB(S(NP-SUB(VP*	B-Rel
 35 . 1000	M	*	O
 đ	Nu-H	*))))))))))))))))	O
 
-Cũng	R	(S(NP-TPC*	I-Arg0-Carrier
-vẫn	R	*	I-Arg0-Carrier
-những	L	*	I-Arg0-Carrier
-chiếc	Nc-H	*	I-Arg0-Carrier
-mũ bảo hiểm	N	*	I-Arg0-Carrier
-này	P-H	(NP*))	I-Arg0-Carrier
+Cũng	R	(S(NP-TPC*	I-Arg0
+vẫn	R	*	I-Arg0
+những	L	*	I-Arg0
+chiếc	Nc-H	*	I-Arg0
+mũ bảo hiểm	N	*	I-Arg0
+này	P-H	(NP*))	I-Arg0
 tại	E-H	(PP-LOC*	B-ArgM-LOC
 sau	E-H	(NP(Np-H(PP-TMP*	B-ArgM-TMP
 một	M	(NP*	I-ArgM-TMP
@@ -10734,10 +10734,10 @@ gần	A	*	O
 100 . 000	M	*	O
 đ	Nu-H	*))))))	O
 
-Điều	N-H	(S(NP-SUB*	I-Arg0-Carrier
-đáng	R	(VP*	I-Arg0-Carrier
-nói	V-H	*	I-Arg0-Carrier
-hơn	R	*))	I-Arg0-Carrier
+Điều	N-H	(S(NP-SUB*	I-Arg0
+đáng	R	(VP*	I-Arg0
+nói	V-H	*	I-Arg0
+hơn	R	*))	I-Arg0
 tất cả	P	(S(NP-SUB*	B-Arg0
 các	L	*	I-Arg0
 loại	N-H	*	I-Arg0
@@ -11049,9 +11049,9 @@ là	V-H	*	B-Rel
 đối thủ	N-H	(NP-DOB*)))	B-Arg1
 
 làm	V-H	(S(NP-SUB(Np-H(VP(VP*	B-Rel
-ở	E-H	(PP-LOC*	B-Arg1-Location
-công ty	N-H	(NP*	I-Arg1-Location
-khác	A	*)))	I-Arg1-Location
+ở	E-H	(PP-LOC*	B-Arg1
+công ty	N-H	(NP*	I-Arg1
+khác	A	*)))	I-Arg1
 và	C	*	O
 cũng	R	(VP*	O
 không	R	*	O
@@ -11187,8 +11187,8 @@ chuyện	N-H	(S(NP-SUB*)	B-Arg0
 cũng	R	(VP*	B-ArgM-TMP
 chỉ	R	*	B-ArgM-EXT
 dừng	V-H	*	B-Rel
-ở	E-H	(PP-LOC*	B-Arg1-Location
-đó	P-H	(NP*))))	I-Arg1-Location
+ở	E-H	(PP-LOC*	B-Arg1
+đó	P-H	(NP*))))	I-Arg1
 và	C	*	O
 cũng	R	(S(NP-SUB(Np-H(VP*	I-ArgM-TMP
 không	R	*	O
@@ -11390,21 +11390,21 @@ tốt nghiệp	V-H	*	B-Rel
 Rồi	C	(S*	I-ArgM-DIS
 tự	P	(NP-SUB(VP*	B-ArgM-REC
 ra	V-H	*	B-Rel
-sân bay	N	*	B-Arg4-Goal
+sân bay	N	*	B-Arg4
 về	V-H	(VP*	B-ArgM-PRP
 nước	N-H	(NP-LOC*)))))	O
 
-Cuộc đời	N-H	(S-TTL(NP*	I-Arg0-Carrier
+Cuộc đời	N-H	(S-TTL(NP*	I-Arg0
 dưới	E-H	(PP-LOC*	B-Rel
-vành	N-H	(NP*	B-Arg1-Location
+vành	N-H	(NP*	B-Arg1
 mũ	N	*	O
 thám tử	N-H	(NP*)))))	O
 
-Những	L	(S-TTL(NP*	I-Arg0-Carrier
-thủ phạm	N-H	*	I-Arg0-Carrier
-đằng	N-H	(NP-LOC*	B-Arg1-Attribute
-sau	A	*	I-Arg1-Attribute
-thủ phạm	N-H	(NP*)))	I-Arg1-Attribute
+Những	L	(S-TTL(NP*	I-Arg0
+thủ phạm	N-H	*	I-Arg0
+đằng	N-H	(NP-LOC*	B-Arg1
+sau	A	*	I-Arg1
+thủ phạm	N-H	(NP*)))	I-Arg1
 Người	Nc-H	(S(NP-SUB*	B-Arg0
 đàn bà	N	*)	I-Arg0
 đến	V-H	(VP*	B-Rel
@@ -11441,11 +11441,11 @@ Sau	E-H	(S(PP-TMP*	I-ArgM-TMP
 đi	V-H	(Np(VP*	B-Rel
 tắm	V	*))))	O
 
-Ngay	T	(S(NP-TPC*	I-Arg0-Carrier
-bây giờ	P-H	*)	I-Arg0-Carrier
+Ngay	T	(S(NP-TPC*	I-Arg0
+bây giờ	P-H	*)	I-Arg0
 thì	C	*	B-ArgM-DIS
 không	R	(VP*	B-ArgM-NEG
-được	V-H	*	B-Arg1-Attribute
+được	V-H	*	B-Arg1
 anh	N-H	(NP-VOC*	O
 ạ	I	*)))	O
 
@@ -11511,10 +11511,10 @@ vào	E-H	(PP-LOC*	B-Arg1
 phần mềm	N-H	(NP*	O
 máy tính	N	*))))))))	O
 
-Bà	N-H	(S(NP-SUB*	I-Arg0-Identified
-này	P	*)	I-Arg0-Identified
+Bà	N-H	(S(NP-SUB*	I-Arg0
+này	P	*)	I-Arg0
 là	V-H	(VP*	B-Rel
-bạn	N-H	(NP*	B-Arg1-Identifier
+bạn	N-H	(NP*	B-Arg1
 thân	A	*	O
 của	E-H	(PP*	O
 tôi	P-H	(NP*)))))	O
@@ -11685,7 +11685,7 @@ sắp xếp	V-H	(VP*)))	O
 
 Tôi	P-H	(S(NP-SUB*)	I-Arg0
 vào	V-H	(VP*	B-Rel
-bệnh viện	N-H	(NP-LOC*)	B-Arg4-Goal
+bệnh viện	N-H	(NP-LOC*)	B-Arg4
 trong	E-H	(PP*	B-ArgM-ADV
 tâm trạng	N-H	(NP*	O
 rất	R	(VP*	O
@@ -11837,11 +11837,11 @@ vành	N-H	(NP*	B-ArgM-LOC
 mũ	N	*	O
 thám tử	N-H	(NP*)))))	O
 
-Những	L	(S(NP*	I-Arg0-Carrier
-thủ phạm	N-H	*	I-Arg0-Carrier
-đằng	N-H	(NP*	B-Arg1-Attribute
-sau	A	*	I-Arg1-Attribute
-thủ phạm	N-H	(NP*)))	I-Arg1-Attribute
+Những	L	(S(NP*	I-Arg0
+thủ phạm	N-H	*	I-Arg0
+đằng	N-H	(NP*	B-Arg1
+sau	A	*	I-Arg1
+thủ phạm	N-H	(NP*)))	I-Arg1
 Người tình	N-H	(NP*	B-Arg0
 bí ẩn	A	*))	B-Rel
 
@@ -11883,11 +11883,11 @@ một	M	(NP-DOB*	B-Arg1
 cô	Nc-H	*	O
 bồ	N	*))))	O
 
-Người	N-H	(S(NP-SUB*	I-Arg0-Carrier
-đáng	V-H	(VP*	I-Arg0-Carrier
-nói	V-H	(VP*))	I-Arg0-Carrier
-còn	V-H	(VP*	I-Arg0-Carrier
-lại	R	*))	I-Arg0-Carrier
+Người	N-H	(S(NP-SUB*	I-Arg0
+đáng	V-H	(VP*	I-Arg0
+nói	V-H	(VP*))	I-Arg0
+còn	V-H	(VP*	I-Arg0
+lại	R	*))	I-Arg0
 là	V-H	(VP*	B-Rel
 tình nhân	N-H	(NP-DOB*	B-Arg0
 của	E-H	(PP*	O
@@ -12051,7 +12051,7 @@ Quốc khánh	N-H	(NP*	O
 
 Kỳ quan	N-H	(S(NP*	I-Arg0
 giữa	E-H	(PP-LOC*	B-Rel
-lòng	N-H	(NP*	B-Arg1-Location
+lòng	N-H	(NP*	B-Arg1
 đất	N-H	(NP*	O
 thép	N	*)))))	O
 
@@ -12095,28 +12095,28 @@ kỳ quan	N-H	*	O
 như	C	*	O
 thế	P	*)))))	O
 
-những	L	(S(NP-SUB(Np-H(NP*	I-Arg0-Carrier
-năm	N-H	*	I-Arg0-Carrier
-chống	V-H	(VP*	I-Arg0-Carrier
-với	E-H	(Np(PP*	I-Arg0-Carrier
-hệ thống	N-H	(NP*	I-Arg0-Carrier
-địa đạo	N	*	I-Arg0-Carrier
-chừng	N-H	(NP*	I-Arg0-Carrier
-trên	A	(NP*	I-Arg0-Carrier
-11	M	*	I-Arg0-Carrier
-km	Nu-H	*))))	I-Arg0-Carrier
-một	M	(NP*	I-Arg0-Carrier
-bộ phận	N-H	*	I-Arg0-Carrier
-hợp thành	V-H	(VP*	I-Arg0-Carrier
-của	E-H	(PP*	I-Arg0-Carrier
-hệ thống	N-H	(NP*	I-Arg0-Carrier
-địa đạo	N-H	(NP*	I-Arg0-Carrier
-huyền thoại	A-H	(AP*)	I-Arg0-Carrier
-trên	A	(AP*	I-Arg0-Carrier
-200	M	*	I-Arg0-Carrier
-km	Nu-H	*)	I-Arg0-Carrier
+những	L	(S(NP-SUB(Np-H(NP*	I-Arg0
+năm	N-H	*	I-Arg0
+chống	V-H	(VP*	I-Arg0
+với	E-H	(Np(PP*	I-Arg0
+hệ thống	N-H	(NP*	I-Arg0
+địa đạo	N	*	I-Arg0
+chừng	N-H	(NP*	I-Arg0
+trên	A	(NP*	I-Arg0
+11	M	*	I-Arg0
+km	Nu-H	*))))	I-Arg0
+một	M	(NP*	I-Arg0
+bộ phận	N-H	*	I-Arg0
+hợp thành	V-H	(VP*	I-Arg0
+của	E-H	(PP*	I-Arg0
+hệ thống	N-H	(NP*	I-Arg0
+địa đạo	N-H	(NP*	I-Arg0
+huyền thoại	A-H	(AP*)	I-Arg0
+trên	A	(AP*	I-Arg0
+200	M	*	I-Arg0
+km	Nu-H	*)	I-Arg0
 là	V-H	(NP(Np-H(VP*	B-Rel
-tử địa	N-H	(NP-DOB*	B-Arg1-Attribute
+tử địa	N-H	(NP-DOB*	B-Arg1
 của	E-H	(PP*	O
 hàng	R	(NP*	O
 chục	M	*	O
@@ -12200,34 +12200,34 @@ tháng	N-H	*)	O
 một	M	(NP*	O
 năm	N-H	*))))	O
 
-Lứa	N-H	(S(NP-SUB*	I-Arg0-Carrier
-trai tráng	N	*	I-Arg0-Carrier
-ngày	N-H	(NP*	I-Arg0-Carrier
-đó	P	*)	I-Arg0-Carrier
-16	M	(NP*	I-Arg0-Carrier
-tuổi	Nu-H	*	I-Arg0-Carrier
-như	A-H	(AP*	I-Arg0-Carrier
-ông	Nc-H	(NP*	I-Arg0-Carrier
-17	M	(Np(NP*	I-Arg0-Carrier
-tuổi	Nu-H	*	I-Arg0-Carrier
-như	A-H	(AP*	I-Arg0-Carrier
-ông	Nc-H	(NP*	I-Arg0-Carrier
-18	M	(Np(NP*	I-Arg0-Carrier
-tuổi	Nu-H	*	I-Arg0-Carrier
-như	A-H	(AP*	I-Arg0-Carrier
-ông	Nc-H	(NP*	I-Arg0-Carrier
+Lứa	N-H	(S(NP-SUB*	I-Arg0
+trai tráng	N	*	I-Arg0
+ngày	N-H	(NP*	I-Arg0
+đó	P	*)	I-Arg0
+16	M	(NP*	I-Arg0
+tuổi	Nu-H	*	I-Arg0
+như	A-H	(AP*	I-Arg0
+ông	Nc-H	(NP*	I-Arg0
+17	M	(Np(NP*	I-Arg0
+tuổi	Nu-H	*	I-Arg0
+như	A-H	(AP*	I-Arg0
+ông	Nc-H	(NP*	I-Arg0
+18	M	(Np(NP*	I-Arg0
+tuổi	Nu-H	*	I-Arg0
+như	A-H	(AP*	I-Arg0
+ông	Nc-H	(NP*	I-Arg0
 giờ	N-H	(Np(NP-TMP*)	B-ArgM-ADV
 đã	R	(QP-PRD*	B-ArgM-TMP
 trên	A	*	B-Rel
-60	M-H	*)))))))))))))))	B-Arg1-Attribute
+60	M-H	*)))))))))))))))	B-Arg1
 
 Nhưng	C	(S*	I-ArgM-DIS
-miệng	N-H	(NP-SUB*	B-Arg0-Carrier
+miệng	N-H	(NP-SUB*	B-Arg0
 thì	N	*)	O
-rất	R	(AP-PRD*	I-Arg1-Attribute
-hẹp	A-H	*)	I-Arg1-Attribute
-đường kính	N-H	(NP*	B-Arg1-Attribute
-chừng	N-H	(NP*	B-Arg1-Attribute
+rất	R	(AP-PRD*	I-Arg1
+hẹp	A-H	*)	I-Arg1
+đường kính	N-H	(NP*	B-Arg1
+chừng	N-H	(NP*	B-Arg1
 6	M	(NP*	O
 tấc	Nu-H	*))))	O
 
@@ -12253,13 +12253,13 @@ phổ biến	V-H	(SBAR(S(NP-SUB(VP*))))	I-Arg0
 của	E-H	(PP*	I-Arg0
 địa đạo	N-H	(NP*)))	I-Arg0
 là	V-H	(VP*	B-Rel
-chiều	N-H	(SBAR-DOB(S(NP-SUB*	B-Arg0-Carrier
-rộng	A	*)	I-Arg0-Carrier
-khoảng	N-H	(NP-PRD*	B-Arg1-Attribute
-9	M	(NP*	I-Arg1-Attribute
-tấc	Nu-H	*)))	I-Arg1-Attribute
-chiều	N-H	(S(NP-SUB*	B-Arg0-Carrier
-cao	A	*)	I-Arg0-Carrier
+chiều	N-H	(SBAR-DOB(S(NP-SUB*	B-Arg0
+rộng	A	*)	I-Arg0
+khoảng	N-H	(NP-PRD*	B-Arg1
+9	M	(NP*	I-Arg1
+tấc	Nu-H	*)))	I-Arg1
+chiều	N-H	(S(NP-SUB*	B-Arg0
+cao	A	*)	I-Arg0
 khoảng	N-H	(NP-PRD*	O
 1,1	M	(NP*	O
 m	Nu-H	*)))))))	O
@@ -12418,7 +12418,7 @@ như	C	*	I-ArgM-ADV
 không	R	(NP*	I-ArgM-ADV
 bao giờ	P-H	*)))	I-ArgM-ADV
 về	V-H	(NP-SUB(Np-H(VP*	B-Rel
-nhà	N-H	(NP-LOC*)	B-Arg4-Goal
+nhà	N-H	(NP-LOC*)	B-Arg4
 sau	E-H	(PP-TMP*	B-ArgM-TMP
 18	M	(NP*	O
 g	Nu-H	*))))))	O
@@ -12612,7 +12612,7 @@ cô dâu	N-H	(NP(NP*)	O
 chú rể	N-H	(NP*))))))	O
 
 Tháo	V-H	(S(NP-SUB(VP*	B-Rel
-ngòi nổ	N-H	(NP-DOB*))))	B-Arg1-Patient
+ngòi nổ	N-H	(NP-DOB*))))	B-Arg1
 
 Còn	C	(S*	O
 vẫn	R	(NP-SUB(Np-H(VP*	B-ArgM-TMP
@@ -12704,7 +12704,7 @@ thượng thặng	A-H	(AP*))))))))))))	O
 
 Cuộc đời	N-H	(S-TTL(NP*	I-Arg0
 dưới	E-H	(PP-LOC*	B-Rel
-vành	N-H	(NP*	B-Arg1-Location
+vành	N-H	(NP*	B-Arg1
 mũ	N	*	O
 thám tử	N-H	(NP*)))))	O
 
@@ -12722,7 +12722,7 @@ Quốc khánh	N-H	(NP*	O
 Đội	N-H	(S-TTL(NP*	I-Arg0
 quân	N	*	I-Arg0
 từ	E-H	(PP-LOC*	B-Rel
-lòng	N-H	(NP*	B-Arg1-Location
+lòng	N-H	(NP*	B-Arg1
 đất	N	*))))	O
 
 Đánh	V-H	(S(VP*	I-Arg1
@@ -12867,24 +12867,24 @@ một	M	(NP-DOB*	B-Arg1
 chiến trường	N-H	*	O
 khổng lồ	A	*))))))	O
 
-Ở	E-H	(S(PP-LOC-SUB(PP*	I-Arg0-Carrier
-từng	R	(NP*	I-Arg0-Carrier
-ngóc ngách	N-H	*	I-Arg0-Carrier
-địa đạo	N	*))	I-Arg0-Carrier
-dưới	E-H	(PP*	I-Arg0-Carrier
-mỗi	L	(NP*	I-Arg0-Carrier
-gốc	N-H	*	I-Arg0-Carrier
-cây	N	*)	I-Arg0-Carrier
-ụ	Nc-H	(NP*	I-Arg0-Carrier
-đất	N	*)	I-Arg0-Carrier
-bìa	Nc-H	(NP*	I-Arg0-Carrier
-rừng	N	*)	I-Arg0-Carrier
-bất cứ	R	(NP*	I-Arg0-Carrier
-chỗ	N-H	*	I-Arg0-Carrier
-nào	P	*)))	I-Arg0-Carrier
+Ở	E-H	(S(PP-LOC-SUB(PP*	I-Arg0
+từng	R	(NP*	I-Arg0
+ngóc ngách	N-H	*	I-Arg0
+địa đạo	N	*))	I-Arg0
+dưới	E-H	(PP*	I-Arg0
+mỗi	L	(NP*	I-Arg0
+gốc	N-H	*	I-Arg0
+cây	N	*)	I-Arg0
+ụ	Nc-H	(NP*	I-Arg0
+đất	N	*)	I-Arg0
+bìa	Nc-H	(NP*	I-Arg0
+rừng	N	*)	I-Arg0
+bất cứ	R	(NP*	I-Arg0
+chỗ	N-H	*	I-Arg0
+nào	P	*)))	I-Arg0
 cũng	R	(VP*	B-ArgM-TMP
 là	V-H	*	B-Rel
-một	M	(NP*	B-Arg1-Attribute
+một	M	(NP*	B-Arg1
 ổ đề kháng	N-H	*)))	O
 
 Vậy	P	(S*	I-ArgM-DIS
@@ -12892,7 +12892,7 @@ là	C	*	I-ArgM-DIS
 nước	N-H	(NP-SUB*)	B-Arg0
 lại	R	(VP*	B-ArgM-TMP
 về	V-H	*	B-Rel
-với	E-H	(PP*	B-Arg4-Goal
+với	E-H	(PP*	B-Arg4
 sông	N-H	(NP*))))	O
 
 Tuy nhiên	C	(S*	I-ArgM-DIS
@@ -12909,7 +12909,7 @@ hết	T	*)))	O
 Những	L	(S-TTL(NP*	I-Arg0
 anh hùng	N-H	*	I-Arg0
 trên	E-H	(PP-LOC*	B-Rel
-đất	N-H	(NP*	B-Arg1-Location
+đất	N-H	(NP*	B-Arg1
 thép	N	*))))	O
 
 Đó	P-H	(S(NP-SUB*)	I-Arg0
@@ -12964,7 +12964,7 @@ làng	N-H	*	O
 quê	N	*	O
 thanh bình	A-H	(AP*)))))	O
 
-Đâu	P-H	(S(PP-SUB-LOC*)	I-Arg0-Carrier
+Đâu	P-H	(S(PP-SUB-LOC*)	I-Arg0
 cũng	R	(VP*	B-ArgM-TMP
 thấy	V-H	*	B-Rel
 màu	N-H	(NP-DOB*	B-Arg1
@@ -13258,7 +13258,7 @@ kết quả	N-H	(NP-DOB*	B-Arg1
 gì	P	*)))))	O
 
 bấm	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
-điện thoại	N-H	(NP-DOB*)	B-Arg1-Patient
+điện thoại	N-H	(NP-DOB*)	B-Arg1
 gọi	V-H	(VP*	B-ArgM-PRP
 vào	E-H	(PP-LOC*	O
 nhà	N-H	(NP*)))))))	O
@@ -13266,7 +13266,7 @@ nhà	N-H	(NP*)))))))	O
 Bà	N-H	(S(NP-SUB*	I-Arg0
 giúp việc	V-H	(VP*))	I-Arg0
 nghe	V-H	(VP*	B-Rel
-máy	N-H	(NP-DOB*)))	B-Arg1-Patient
+máy	N-H	(NP-DOB*)))	B-Arg1
 
 Tôi	P-H	(S(NP-TPC*)	I-ArgM-ADV
 đây	P-H	(NP-SUB(Np-H(NP-PRD*))))	B-Rel
@@ -13406,14 +13406,14 @@ báo	N-H	(NP*)	O
 voi	N-H	(NP*)	O
 sư tử	N-H	(NP*)))))	O
 
-Ngày	N-H	(S(NP-SUB*	I-Arg0-Identified
-đầu tiên	A	*	I-Arg0-Identified
-vào	V-H	(VP*	I-Arg0-Identified
-chuồng	N-H	(NP-LOC*	I-Arg0-Identified
-thú	N	*)))	I-Arg0-Identified
+Ngày	N-H	(S(NP-SUB*	I-Arg0
+đầu tiên	A	*	I-Arg0
+vào	V-H	(VP*	I-Arg0
+chuồng	N-H	(NP-LOC*	I-Arg0
+thú	N	*)))	I-Arg0
 cũng	R	(VP*	B-ArgM-TMP
 là	V-H	*	B-Rel
-lần	N-H	(NP-TMP*	B-Arg1-Identifier
+lần	N-H	(NP-TMP*	B-Arg1
 đầu tiên	N	*	O
 trong	E-H	(PP*	O
 đời	N-H	(NP*))	O
@@ -13524,7 +13524,7 @@ lại	R	*	O
 chịu	V-H	(VP-PRP*	O
 giao phối	V-H	(VP*)))))))	O
 
-Tất cả	P-H	(S(NP-SUB*)	I-Arg0-Carrier
+Tất cả	P-H	(S(NP-SUB*)	I-Arg0
 đều	R	(VP*	B-ArgM-TMP
 hồi hộp	V-H	*))	B-Rel
 
@@ -13560,8 +13560,8 @@ mình	P-H	(NP*))))))	O
 Vài	L	(S(NP-TMP*	I-ArgM-TMP
 năm	N-H	*	I-ArgM-TMP
 trước	A	*)	I-ArgM-TMP
-vườn	N-H	(NP-SUB*	B-Arg0-Carrier
-thú	N	*	I-Arg0-Carrier
+vườn	N-H	(NP-SUB*	B-Arg0
+thú	N	*	I-Arg0
 nổi tiếng	A-H	(Np(AP-PRD*	B-Rel
 với	E-H	(PP*	B-ArgM-ADJ
 câu chuyện	N-H	(NP*	O
@@ -13662,9 +13662,9 @@ phập	V	*	O
 xuyên	V-H	(VP-MNR*	O
 tay	N	*)))))))	O
 
-Hậu quả	N-H	(S(NP-SUB*)	I-Arg0-Identified
+Hậu quả	N-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-chú	Nc-H	(NP-DOB*	B-Arg1-Identifier
+chú	Nc-H	(NP-DOB*	B-Arg1
 phải	V-H	(Np(VP*	O
 mang	V-H	(VP*	O
 vết	Nc-H	(NP*	O
@@ -13692,7 +13692,7 @@ ngựa	N-H	(SBAR(S(NP-SUB*)	I-Arg0
 bổ	V-H	(VP*)))))))))	B-Rel
 
 Vì	E-H	(S-SPL(SBAR-PRP*	I-ArgM-DIS
-nó	P-H	(S(NP-SUB*)	B-Arg0-Carrier
+nó	P-H	(S(NP-SUB*)	B-Arg0
 rất	R	(AP-PRD*	B-ArgM-EXT
 thông minh	A-H	*))))	B-Rel
 
@@ -13784,13 +13784,13 @@ mới	R	(VP*	O
 lập	V-H	*	O
 lại	R	*))	O
 
-Chuyện	N-H	(S(S(NP-SUB*	I-Arg0-Carrier
-cho	V-H	(VP*	I-Arg0-Carrier
-hổ	N-H	(NP-DOB*)	I-Arg0-Carrier
-sinh sản	V-H	(VP-IOB*	I-Arg0-Carrier
-trong	E-H	(PP-LOC*	I-Arg0-Carrier
-vườn	N-H	(NP*	I-Arg0-Carrier
-thú	N	*)))))	I-Arg0-Carrier
+Chuyện	N-H	(S(S(NP-SUB*	I-Arg0
+cho	V-H	(VP*	I-Arg0
+hổ	N-H	(NP-DOB*)	I-Arg0
+sinh sản	V-H	(VP-IOB*	I-Arg0
+trong	E-H	(PP-LOC*	I-Arg0
+vườn	N-H	(NP*	I-Arg0
+thú	N	*)))))	I-Arg0
 không	R	(AP-PRD*	B-ArgM-NEG
 phải	A-H	*	B-ArgM-MOD
 là	C	*	O
@@ -13839,8 +13839,8 @@ bù đắp	V-H	(VP-PRP*))))))	O
 ngày	N-H	(NP*))	I-ArgM-ADV
 đủ	A-H	(AP*	I-ArgM-ADV
 tháng	N-H	(NP*)))	I-ArgM-ADV
-hổ	N-H	(NP-SUB*	B-Arg0-Carrier
-mẹ	N	*)	I-Arg0-Carrier
+hổ	N-H	(NP-SUB*	B-Arg0
+mẹ	N	*)	I-Arg0
 trở dạ	V-H	(VP*))	B-Rel
 
 Nhưng	C	(S*	I-ArgM-DIS
@@ -13959,7 +13959,7 @@ nhất	A	*)))))	B-ArgM-MNR
 Mùi	N-H	(S-TTL(NP*	I-Arg0
 hổ	N-H	(NP*)	I-Arg0
 ở	E-H	(PP-LOC*	B-Rel
-thành phố	N-H	(NP*))))	B-Arg1-Location
+thành phố	N-H	(NP*))))	B-Arg1
 
 Tàn	V-H	(S(VP-MNR*	I-ArgM-ADV
 rượu	N	*	I-ArgM-ADV
@@ -14678,7 +14678,7 @@ cuối cùng	A-H	(AP*))	I-Arg0
 cũng	R	(VP*	B-ArgM-TMP
 đã	R	*	I-ArgM-TMP
 về	V-H	*	B-Rel
-đích	N-H	(NP-DOB*)))	B-Arg4-Goal
+đích	N-H	(NP-DOB*)))	B-Arg4
 
 Với	E-H	(S(PP*	I-ArgM-COM
 phong tục	N-H	(NP*	I-ArgM-COM
@@ -14843,8 +14843,8 @@ những	L	(NP*	O
 trận	Nc-H	*	O
 pháo kích	N	*))))))))))	O
 
-Tiểu đội	N-H	(S(NP-TPC*	I-Arg0-Carrier
-tôi	P	*)	I-Arg0-Carrier
+Tiểu đội	N-H	(S(NP-TPC*	I-Arg0
+tôi	P	*)	I-Arg0
 bốn	M	(NP-SUB*	B-Arg0
 người	N-H	*)	I-Arg0
 đã	R	(VP*	B-ArgM-TMP
@@ -14895,7 +14895,7 @@ to	A-H	(AP*	I-Arg0
 có	V-H	(VP*))))	I-Arg0
 lần lượt	R	(VP*	B-ArgM-MNR
 lao	V-H	*	B-Rel
-vào	E-H	(PP-DIR*	B-Arg4-Goal
+vào	E-H	(PP-DIR*	B-Arg4
 ngọn	Nc-H	(NP*	O
 đèn	N	*	O
 đầy	A-H	(AP*	O
@@ -14969,7 +14969,7 @@ khỏi	R	*	I-ArgM-ADV
 tòa	N-H	(NP-LOC*))	I-ArgM-ADV
 ai	P-H	(NP-SUB*)	B-Arg0
 về	V-H	(VP*	B-Rel
-nhà	N-H	(NP-DOB*	B-Arg4-Goal
+nhà	N-H	(NP-DOB*	B-Arg4
 nấy	P	*)))	O
 
 Vào	E-H	(S(PP-LOC*	I-ArgM-LOC
@@ -14994,7 +14994,7 @@ Vậy	P	(SQ*	O
 bà	N-H	(NP-SUB*)	I-Arg0
 còn	R	(VP*	B-ArgM-TMP
 đến	V-H	*	B-Rel
-tòa	N-H	(NP-LOC*)	B-Arg4-Goal
+tòa	N-H	(NP-LOC*)	B-Arg4
 làm	V-H	(VP-PRP*	B-ArgM-PRP
 gì	P-H	(NP*))))	O
 
@@ -15031,7 +15031,7 @@ nhiều	A	*))	B-ArgM-MNR
 
 Cuộc đời	N-H	(S-TTL(NP*	I-Arg0
 dưới	E-H	(PP-LOC*	B-Rel
-vành	N-H	(NP*	B-Arg1-Location
+vành	N-H	(NP*	B-Arg1
 mũ	N	*	O
 thám tử	N-H	(NP*)))))	O
 
@@ -15067,7 +15067,7 @@ tìm	V-H	(VP*)))))))))))	O
 Người	N-H	(SQ(NP-SUB*)	I-Arg0
 giấu	V-H	(VP*	B-Rel
 mặt	N-H	(NP-DOB*)	O
-trong	E-H	(PP-LOC*	I-Arg1-Location
+trong	E-H	(PP-LOC*	I-Arg1
 buồng	N-H	(NP*	O
 điện thoại	N-H	(NP*	O
 công cộng	A	*)))))	O
@@ -15075,7 +15075,7 @@ công cộng	A	*)))))	O
 Số	N-H	(S(NP-SUB*	I-Arg0
 này	P	*)	I-Arg0
 là	V-H	(VP*	B-Rel
-ở	E-H	(PP-LOC*	B-Arg1-Location
+ở	E-H	(PP-LOC*	B-Arg1
 một	M	(NP*	O
 buồng	N-H	*	O
 điện thoại	N	*	O
@@ -15202,8 +15202,8 @@ với	E-H	(PP*	I-ArgM-ADV
 kế hoạch	N-H	(NP*)))	I-ArgM-ADV
 thường xuyên	R	(NP-DOB(Np-H(VP*	B-ArgM-TMP
 ngồi	V-H	*	B-Rel
-bên	N-H	(NP-LOC*	B-Arg1-Location
-điện thoại	N-H	(NP*))	I-Arg1-Location
+bên	N-H	(NP-LOC*	B-Arg1
+điện thoại	N-H	(NP*))	I-Arg1
 trong	E-H	(PP-TMP*	B-ArgM-TMP
 những	L	(NP*	O
 giờ	N-H	*	O
@@ -15738,9 +15738,9 @@ mức	N-H	*	I-Arg1
 theo	E-H	(PP-TMP*	B-ArgM-TMP
 thời gian	N-H	(NP*))))	O
 
-Họ	P-H	(S(NP-SUB*)	I-Arg0-Carrier
+Họ	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-những	L	(NP*	B-Arg1-Attribute
+những	L	(NP*	B-Arg1
 nhà báo	N-H	(NP*)	O
 nhà	N-H	(NP*	O
 nghiên cứu	V	*)	O
@@ -15811,9 +15811,9 @@ nguyên nhân	N-H	(NP-DOB*	O
 cháy	V-H	(VP*	O
 nổ	V-H	*)))))	O
 
-Tháng	N-H	(S(NP-TMP*	I-Arg0-Carrier
-5	M	*	I-Arg0-Carrier
-2004	M	*)	I-Arg0-Carrier
+Tháng	N-H	(S(NP-TMP*	I-Arg0
+5	M	*	I-Arg0
+2004	M	*)	I-Arg0
 đã	R	(VP*	B-ArgM-TMP
 xảy	V-H	*	B-Rel
 ra	R	*	B-ArgM-MNR
@@ -16004,7 +16004,7 @@ BV	Ny	*	I-Arg0
 đang	R	(VP*	B-ArgM-TMP
 miệt mài	A	*	B-ArgM-MNR
 quăng	V-H	*	B-Rel
-gàu	N-H	(NP-DOB*	B-Arg1-Patient
+gàu	N-H	(NP-DOB*	B-Arg1
 hốt	V	*	B-ArgM-PRP
 cát	N	*)	I-ArgM-PRP
 từ	E-H	(PP-DIR(PP*	B-ArgM-DIR
@@ -16439,7 +16439,7 @@ các	L	(NP*	O
 cựu binh	N-H	*))))))))))	O
 
 Nhập	V-H	(S-SPL-TTL(VP*	I-Rel
-sới	N-H	(NP*)))	B-Arg1-Location
+sới	N-H	(NP*)))	B-Arg1
 
 Thế	T	(S*	I-ArgM-ADV
 nhưng	C	*	I-ArgM-ADV
@@ -16579,7 +16579,7 @@ Hắn	P-H	(S(NP-SUB*)	I-Arg0
 thường	R	(VP*	B-ArgM-TMP
 hay	R	*	B-ArgM-EXT
 bê	V-H	*	B-Rel
-gà	N-H	(NP-DOB*	B-Arg1-Patient
+gà	N-H	(NP-DOB*	B-Arg1
 đi	V-H	(VP*	B-ArgM-LOC
 khắp	L	(NP-LOC*	I-ArgM-LOC
 các	L	*	I-ArgM-LOC
@@ -16768,11 +16768,11 @@ hai	M	(NP*	O
 năm	N-H	*	O
 qua	V	*))))	O
 
-Điểm	N-H	(S(NP-SUB*	I-Arg0-Identified
-cuối	A	*	I-Arg0-Identified
-của	E-H	(PP*	I-Arg0-Identified
-con	Nc-H	(NP*	I-Arg0-Identified
-đường	N	*)))	I-Arg0-Identified
+Điểm	N-H	(S(NP-SUB*	I-Arg0
+cuối	A	*	I-Arg0
+của	E-H	(PP*	I-Arg0
+con	Nc-H	(NP*	I-Arg0
+đường	N	*)))	I-Arg0
 là	V-H	(VP*	B-Rel
 vùng	N-H	(NP*	O
 sơn thủy	N	*	O
@@ -17332,18 +17332,18 @@ một	M	(NP-DOB*	O
 căn bệnh	N-H	*	O
 quái ác	A	*)))))	O
 
-Các	L	(S(SBAR-PRP(S(NP-SUB*	I-Arg0-Carrier
-khớp	N-H	(NP*	I-Arg0-Carrier
-tay	N	*)	I-Arg0-Carrier
-và	C	*	I-Arg0-Carrier
-khớp	N-H	(NP*	I-Arg0-Carrier
-chân	N	*)	I-Arg0-Carrier
-của	E-H	(PP*	I-Arg0-Carrier
+Các	L	(S(SBAR-PRP(S(NP-SUB*	I-Arg0
+khớp	N-H	(NP*	I-Arg0
+tay	N	*)	I-Arg0
+và	C	*	I-Arg0
+khớp	N-H	(NP*	I-Arg0
+chân	N	*)	I-Arg0
+của	E-H	(PP*	I-Arg0
 hình như	X-H	(NP(Np-H(VP(XP-MDP*)	B-ArgM-LVB
 không	R	*	B-ArgM-NEG
 __có	V-H	*	B-Rel
-sự	Nc-H	(NP-DOB*	B-Arg1-Attribute
-kết dính	V	*))))	I-Arg1-Attribute
+sự	Nc-H	(NP-DOB*	B-Arg1
+kết dính	V	*))))	I-Arg1
 nên	C	*	O
 dù	C	(S(SBAR*	O
 có	V-H	(S-CNC(NP-SUB-1(VP*	O
@@ -17441,13 +17441,13 @@ tập	V-H	(VP*	I-ArgM-TMP
 như	C	*	I-ArgM-TMP
 là	C	*	I-ArgM-TMP
 cực hình	N-H	(NP*)))	I-ArgM-TMP
-mỏi	V-H	(NP-SUB(VP*	B-Arg0-Identified
-miệng	N-H	(NP-DOB*))	I-Arg0-Identified
-bị	V-H	(VP*	I-Arg0-Identified
-kim	N-H	(NP-DOB*	I-Arg0-Identified
-đâm	V-H	(VP*))))	I-Arg0-Identified
+mỏi	V-H	(NP-SUB(VP*	B-Arg0
+miệng	N-H	(NP-DOB*))	I-Arg0
+bị	V-H	(VP*	I-Arg0
+kim	N-H	(NP-DOB*	I-Arg0
+đâm	V-H	(VP*))))	I-Arg0
 __là	V-H	(VP*	B-Rel
-chuyện	N-H	(NP*	B-Arg1-Identifier
+chuyện	N-H	(NP*	B-Arg1
 thường	A	*)))	O
 
 Được	V-H	(S(S(VP-ADV*	I-Rel
@@ -17974,7 +17974,7 @@ của	E-H	(PP*	O
 ông	N-H	(NP*)))))	O
 
 Vào	V-H	(S-TTL(VP*	I-Rel
-rốn	N-H	(NP-LOC*	B-Arg4-Goal
+rốn	N-H	(NP-LOC*	B-Arg4
 thú	N	*)))	O
 
 Chúng	P-H	(S(NP-SUB*)	I-Arg0
@@ -18031,7 +18031,7 @@ cửa khẩu	N-H	(NP-LOC*	I-Arg0
 km	Nu-H	*))))))	I-Arg0
 vừa	R	(VP*	B-ArgM-TMP
 dừng	V-H	*	B-Rel
-bánh	N-H	(NP-DOB*)))))	B-Arg1-Patient
+bánh	N-H	(NP-DOB*)))))	B-Arg1
 
 Hàng	R	(S(NP-SUB*	I-Arg0
 chục	M	*	I-Arg0
@@ -18295,14 +18295,14 @@ di động	V	*	I-Arg0
 số	N-H	(NP*	B-Rel
 0912	M	*)))	O
 
-Tổng kết	V-H	(S-TTL(VP*	I-Arg0-Carrier
+Tổng kết	V-H	(S-TTL(VP*	I-Arg0
 cuộc	Nc-H	(NP-DOB*	B-Arg1
 thi	V	*	I-Arg1
 viết	V-H	(VP*	I-Arg1
 Phóng sự	N-H	(NP-DOB*	I-Arg1
 ký sự	N-H	*	I-Arg1
 2004	M-H	(QP-TMP*)))	I-Arg1
-Đậm nét	A-H	(AP*	B-Arg1-Attribute
+Đậm nét	A-H	(AP*	B-Arg1
 cái	Nc-H	(NP-DOB*	O
 đẹp	N	*)	O
 trong	E-H	(PP*	O
@@ -18377,7 +18377,7 @@ và	C	*	I-Arg0
 ngựa	N-H	*)	I-Arg0
 ùa	V-H	(VP*	B-Rel
 ra	R	*	B-ArgM-MNR
-quốc lộ	N-H	(NP-LOC*	B-Arg4-Goal
+quốc lộ	N-H	(NP-LOC*	B-Arg4
 7	M	*)))	O
 
 Hàng	R	(S-PV(NP-SUB*	I-Arg1
@@ -18669,11 +18669,11 @@ nghe	V-H	(VP*))	I-Arg2
 về	E-H	(PP*	B-Arg1
 mình	P-H	(NP*))))	O
 
-Tuổi thơ	N-H	(S(NP-SUB*	I-Arg0-Identified
-của	E-H	(PP*	I-Arg0-Identified
-chị	N-H	(NP*)))	I-Arg0-Identified
+Tuổi thơ	N-H	(S(NP-SUB*	I-Arg0
+của	E-H	(PP*	I-Arg0
+chị	N-H	(NP*)))	I-Arg0
 là	V-H	(VP*	B-Rel
-chiến tranh	N-H	(NP(NP*)	B-Arg1-Identifier
+chiến tranh	N-H	(NP(NP*)	B-Arg1
 bom đạn	N-H	(NP*)	O
 chết chóc	N-H	(NP*)	O
 và	C	*	O
@@ -18694,7 +18694,7 @@ con	N	*	O
 ăn học	V-H	(VP*))))))))))))	O
 
 Là	V-H	(S(NP-SUB(VP*	B-Rel
-hình ảnh	N-H	(NP*	B-Arg1-Identifier
+hình ảnh	N-H	(NP*	B-Arg1
 của	E-H	(PP*	O
 những	L	(NP-TMP*	O
 ngày	N-H	*	O
@@ -18713,7 +18713,7 @@ quãng	N-H	(NP*	O
 đất đỏ	N	*	O
 mịt mù	A-H	(AP*)))))))))))))))	O
 
-Chị	N-H	(S(NP-SUB*)	I-Arg0-Identified
+Chị	N-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
 LBKT	LBKT	(NP(Np-H(NP*	O
 38	M	*	O
@@ -18953,7 +18953,7 @@ TP.HCM	Ny	*)))))))	O
 Đến	E-H	(S(PP-TMP*	I-ArgM-TMP
 năm	N-H	(NP*	I-ArgM-TMP
 1999	M	*))	I-ArgM-TMP
-chị	N-H	(NP-SUB*)	B-Arg0-Identified
+chị	N-H	(NP-SUB*)	B-Arg0
 là	V-H	(VP*	B-Rel
 một	M	(NP*	O
 trong	E	*	O
@@ -19058,10 +19058,10 @@ A	Ny	*)))	O
 
 Không những	R	(S(NP-ADV*	I-ArgM-ADV
 thế	P-H	*)	I-ArgM-ADV
-chị	N-H	(NP-SUB*)	B-Arg0-Identified
+chị	N-H	(NP-SUB*)	B-Arg0
 còn	R	(VP*	B-ArgM-TMP
 là	V-H	*	B-Rel
-người	N-H	(NP*	B-Arg1-Identifier
+người	N-H	(NP*	B-Arg1
 trợ giảng	V	*	O
 cho	E-H	(PP*	O
 một	M	(NP*	O
@@ -19181,11 +19181,11 @@ rường	V-H	(VP*	B-Rel
 hóa	V	*))))))	B-ArgM-RES
 
 Nhưng	C	(S*	I-ArgM-DIS
-đáng	V-H	(VP-SUB*	B-Arg0-Identified
-nói	V-H	(VP*	I-Arg0-Identified
-nhất	A-H	(AP*)))	I-Arg0-Identified
+đáng	V-H	(VP-SUB*	B-Arg0
+nói	V-H	(VP*	I-Arg0
+nhất	A-H	(AP*)))	I-Arg0
 là	V-H	(VP*	B-Rel
-làng	N-H	(NP*	B-Arg1-Identifier
+làng	N-H	(NP*	B-Arg1
 đã	R	(VP*	O
 hình thành	V-H	*	O
 một	M	(NP-DOB*	O
@@ -19749,13 +19749,13 @@ tuổi	N-H	*))))	O
 
 Vùng đất	N-H	(S-TTL(NP*	I-Arg0
 của	E-H	(PP*	B-Rel
-tử tội	N-H	(NP*	B-Arg1-Processor
+tử tội	N-H	(NP*	B-Arg1
 ma tuý	N	*))))	O
 
 Trên	E-H	(S(PP-LOC*	I-Rel
-bản đồ	N-H	(NP*	B-Arg1-Location
-ma túy	N-H	(NP*	I-Arg1-Location
-VN	Ny	*)))	I-Arg1-Location
+bản đồ	N-H	(NP*	B-Arg1
+ma túy	N-H	(NP*	I-Arg1
+VN	Ny	*)))	I-Arg1
 là	V-H	(NP-SUB(Np-H(VP*	O
 một	M	(NP-DOB*	O
 tọa độ	N-H	*	O
@@ -20364,16 +20364,16 @@ nhau	N	*))	O
 chạy	V-H	(VP*	O
 HHC	Ny-H	(NP*))))))))))))))))	O
 
-Trẻ	A-H	(S(AP-SUB*	I-Arg0-Identified
-nhất	A	*	I-Arg0-Identified
-trong	E-H	(PP*	I-Arg0-Identified
-số	N-H	(NP*	I-Arg0-Identified
-người	N	*	I-Arg0-Identified
-chạy	V-H	(VP*	I-Arg0-Identified
-HHC	Ny-H	(NP*	I-Arg0-Identified
-giả	A	*)))))	I-Arg0-Identified
+Trẻ	A-H	(S(AP-SUB*	I-Arg0
+nhất	A	*	I-Arg0
+trong	E-H	(PP*	I-Arg0
+số	N-H	(NP*	I-Arg0
+người	N	*	I-Arg0
+chạy	V-H	(VP*	I-Arg0
+HHC	Ny-H	(NP*	I-Arg0
+giả	A	*)))))	I-Arg0
 là	V-H	(VP*	B-Rel
-ông	Nc-H	(NP-DOB*	B-Arg1-Identifier
+ông	Nc-H	(NP-DOB*	B-Arg1
 xã	N-H	(Np(NP*	O
 đội trưởng	N	*)	O
 sinh	V-H	(VP(VP*	O
@@ -20401,7 +20401,7 @@ liệt sĩ	N	*	I-ArgM-ADV
 xã	N-H	(NP*	I-ArgM-ADV
 tôi	P-H	(Np(NP-SUB*)	B-Arg0
 về	V-H	(VP*	B-Rel
-xã	N-H	(NP-LOC*	B-Arg4-Goal
+xã	N-H	(NP-LOC*	B-Arg4
 huyện	N-H	(Np(NP*	O
 
 Huyện	N-H	(S(NP-SUB*)	I-Arg0
@@ -20535,13 +20535,13 @@ lên	R	*	O
 thấy	V-H	(VP*	O
 rõ	A-H	(AP*)))))	O
 
-Gốc	N-H	(S(NP-SUB*	I-Arg0-Identified
-của	E-H	(PP*	I-Arg0-Identified
-các	L	(NP*	I-Arg0-Identified
-cò	N-H	*)))	I-Arg0-Identified
+Gốc	N-H	(S(NP-SUB*	I-Arg0
+của	E-H	(PP*	I-Arg0
+các	L	(NP*	I-Arg0
+cò	N-H	*)))	I-Arg0
 đều	R	(VP*	B-ArgM-TMP
 là	V-H	*	B-Rel
-TB	Ny-H	(NP-DOB*	B-Arg1-Identifier
+TB	Ny-H	(NP-DOB*	B-Arg1
 thật	A	*)))	O
 
 Để	E-H	(S(PP-PRP*	I-ArgM-PRP
@@ -20604,7 +20604,7 @@ giường	N-H	(NP(NP*	I-Arg3
 nằm	V	*)	I-Arg3
 bếp	N-H	(NP*	I-Arg3
 ăn	V	*)))	I-Arg3
-đến	E-H	(PP*	B-Arg4-Goal
+đến	E-H	(PP*	B-Arg4
 trình độ	N-H	(NP*	O
 y tá	N	*)))))	O
 
@@ -20693,7 +20693,7 @@ bốn	M	(NP-SUB*	B-Arg0
 bên	N-H	*)	I-Arg0
 bạt ngàn	A-H	(AP-PRD*	I-Arg0
 là	C	*	B-ArgM-DIS
-cây	N-H	(NP-DOB(NP*)	B-Arg1-Attribute
+cây	N-H	(NP-DOB(NP*)	B-Arg1
 toàn	R	(NP*	O
 bưởi	N-H	*)	O
 nhãn	N-H	(NP*)	O
@@ -20732,11 +20732,11 @@ nền	N	*))))))	B-Arg1
 Sâu	A-H	(S(AP-MNR*	I-ArgM-DIR
 vào	E-H	(PP-LOC*	I-ArgM-DIR
 trong	N-H	(NP*)))	I-ArgM-DIR
-dãy	N-H	(NP-SUB*	B-Arg0-Identified
-bên	N-H	(NP*	I-Arg0-Identified
-trái	A	*))	I-Arg0-Identified
+dãy	N-H	(NP-SUB*	B-Arg0
+bên	N-H	(NP*	I-Arg0
+trái	A	*))	I-Arg0
 là	V-H	(VP*	B-Rel
-khu	N-H	(NP*	B-Arg1-Identifier
+khu	N-H	(NP*	B-Arg1
 chăm sóc	V-H	(VP*	O
 những	L	(NP-DOB*	O
 cụ	N-H	*	O
@@ -20887,7 +20887,7 @@ thửa	Nc-H	*	I-Arg0
 ruộng	N	*))	I-Arg0
 sẽ	R	(VP*	B-ArgM-TMP
 vào	V-H	*	B-Rel
-đến	E-H	(PP-DIR*	B-Arg4-Goal
+đến	E-H	(PP-DIR*	B-Arg4
 một	M	(NP*	O
 căn	Nc-H	*	O
 nhà	N	*	O
@@ -20954,14 +20954,14 @@ làm	V-H	(VP-PRP*	B-ArgM-PRP
 sinh viên	N-H	(NP-DOB*	O
 dự thính	V	*)))))	O
 
-Điều	N-H	(S(NP-SUB*	I-Arg0-Identified
-mà	C	(SBAR*	I-Arg0-Identified
-làm	V-H	(S(NP-SUB(Np-H(VP*	I-Arg0-Identified
-GSTS	Ny-H	(NP-DOB*	I-Arg0-Identified
-cũng	R	(Np(VP*	I-Arg0-Identified
-bất ngờ	V-H	*))))))	I-Arg0-Identified
+Điều	N-H	(S(NP-SUB*	I-Arg0
+mà	C	(SBAR*	I-Arg0
+làm	V-H	(S(NP-SUB(Np-H(VP*	I-Arg0
+GSTS	Ny-H	(NP-DOB*	I-Arg0
+cũng	R	(Np(VP*	I-Arg0
+bất ngờ	V-H	*))))))	I-Arg0
 là	V-H	(VP*	B-Rel
-anh	N-H	(NP*	B-Arg1-Identifier
+anh	N-H	(NP*	B-Arg1
 đã	R	(VP*	O
 nghĩ	V-H	*	O
 cách	N-H	(NP-DOB*	O
@@ -21150,19 +21150,19 @@ ngồi	V-H	*	O
 lướt	V-H	(VP-PRP*	O
 web	Nb-H	(NP-DOB*)))))))))))))	O
 
-Các	L	(S(NP-SUB(NP*	I-Arg1-Identifier
-website	Nb-H	*	I-Arg1-Identifier
-liên quan	V-H	(VP*	I-Arg1-Identifier
-đến	E-H	(PP*	I-Arg1-Identifier
-nông nghiệp	N-H	(NP*)	I-Arg1-Identifier
-thị trường	N-H	(NP*	I-Arg1-Identifier
-giá cả	N	*))))	I-Arg1-Identifier
-và	C	*	I-Arg1-Identifier
-trang web	N-H	(NP*	I-Arg1-Identifier
-của	E-H	(PP*	I-Arg1-Identifier
-ĐH	Ny-H	(NP*	I-Arg1-Identifier
+Các	L	(S(NP-SUB(NP*	I-Arg1
+website	Nb-H	*	I-Arg1
+liên quan	V-H	(VP*	I-Arg1
+đến	E-H	(PP*	I-Arg1
+nông nghiệp	N-H	(NP*)	I-Arg1
+thị trường	N-H	(NP*	I-Arg1
+giá cả	N	*))))	I-Arg1
+và	C	*	I-Arg1
+trang web	N-H	(NP*	I-Arg1
+của	E-H	(PP*	I-Arg1
+ĐH	Ny-H	(NP*	I-Arg1
 là	V-H	(Np(VP*	B-Rel
-những	L	(NP*	B-Arg0-Identified
+những	L	(NP*	B-Arg0
 địa chỉ	N-H	*	O
 thân thuộc	A-H	(AP*	O
 đối với	E-H	(PP*	O
@@ -21556,13 +21556,13 @@ công	Nu-H	(NP*)))))))))))))))))	O
 Diện mạo	N-H	(SQ-TTL(NP*	I-Arg0
 nào	P	*	I-Arg0
 cho	E-H	(PP*	B-Rel
-thành phố	N-H	(NP*	B-Arg1-Processor
+thành phố	N-H	(NP*	B-Arg1
 tương lai	N	*))))	O
 
 Còn	R	(S-EXC*	I-ArgM-DIS
-về	E-H	(PP-TPC*	B-Arg0-Carrier
-thiết kế	V-H	(VP*	I-Arg0-Carrier
-kiến trúc	V-H	*))	I-Arg0-Carrier
+về	E-H	(PP-TPC*	B-Arg0
+thiết kế	V-H	(VP*	I-Arg0
+kiến trúc	V-H	*))	I-Arg0
 thì	C	*	B-ArgM-DIS
 cấp	N-H	(NP-SUB*	B-Arg0
 xã	N	*)	I-Arg0
@@ -21852,23 +21852,23 @@ từ	E-H	(PP*	B-Arg3
 khó	N-H	(NP*	O
 nghèo	A	*)))))	O
 
-Chuyện	N-H	(S(NP-SUB*	I-Arg0-Carrier
-đời	N	*	I-Arg0-Carrier
-của	E-H	(PP*	I-Arg0-Carrier
-anh	Nc-H	(NP*	I-Arg0-Carrier
-LBKT	LBKT	(Np*	I-Arg0-Carrier
-50	M	(NP*	I-Arg0-Carrier
-tuổi	N-H	*)	I-Arg0-Carrier
-RBKT	RBKT	*	I-Arg0-Carrier
-ở	E-H	(PP-LOC*	I-Arg0-Carrier
-thôn	N-H	(NP*	I-Arg0-Carrier
-1	M	*	I-Arg0-Carrier
-xã	N-H	(NP*	I-Arg0-Carrier
-1	M	(Np*	I-Arg0-Carrier
+Chuyện	N-H	(S(NP-SUB*	I-Arg0
+đời	N	*	I-Arg0
+của	E-H	(PP*	I-Arg0
+anh	Nc-H	(NP*	I-Arg0
+LBKT	LBKT	(Np*	I-Arg0
+50	M	(NP*	I-Arg0
+tuổi	N-H	*)	I-Arg0
+RBKT	RBKT	*	I-Arg0
+ở	E-H	(PP-LOC*	I-Arg0
+thôn	N-H	(NP*	I-Arg0
+1	M	*	I-Arg0
+xã	N-H	(NP*	I-Arg0
+1	M	(Np*	I-Arg0
 cũng	R	(NP(Np-H(AP-PRD*	B-ArgM-TMP
 giống	A-H	*	B-Rel
 như	C	*	B-ArgM-MNR
-bao	L	(NP*	B-Arg1-Attribute
+bao	L	(NP*	B-Arg1
 phận	N-H	*	O
 đời	N	*	O
 nông dân	N	*	O
@@ -21982,14 +21982,14 @@ Anh	N-H	(S(NP-SUB*)	I-Arg0
 kết luận	V-H	(VP*	B-Rel
 thành công	N-H	(NP-DOB*)))	B-Arg1
 
-Cái	Nc-H	(S(NP-SUB*	I-Arg0-Identified
-được	V	*	I-Arg0-Identified
-của	E-H	(PP*	I-Arg0-Identified
-chiếc	Nc-H	(NP*	I-Arg0-Identified
-máy	N	*	I-Arg0-Identified
-này	P	*)))	I-Arg0-Identified
+Cái	Nc-H	(S(NP-SUB*	I-Arg0
+được	V	*	I-Arg0
+của	E-H	(PP*	I-Arg0
+chiếc	Nc-H	(NP*	I-Arg0
+máy	N	*	I-Arg0
+này	P	*)))	I-Arg0
 là	V-H	(VP*	B-Rel
-vừa	R	(VP(VP*	B-Arg1-Identifier
+vừa	R	(VP(VP*	B-Arg1
 vút	V-H	*	O
 được	V	*	O
 gạo	N-H	(NP-DOB*	O
@@ -22037,10 +22037,10 @@ máy	N-H	(NP-DOB*)))))	O
 Bắt đầu	V-H	(S(VP-ADV*	I-ArgM-ADV
 từ	E-H	(PP-TMP*	I-ArgM-ADV
 đó	P-H	(NP*)))	I-ArgM-ADV
-anh	N-H	(NP-SUB*)	B-Arg0-Carrier
+anh	N-H	(NP-SUB*)	B-Arg0
 lại	R	(AP-PRD*	B-ArgM-TMP
 tất bật	A-H	*	B-Rel
-với	E-H	(PP*	B-Arg1-Attribute
+với	E-H	(PP*	B-Arg1
 công việc	N-H	(NP*	O
 chế tạo	V-H	(VP*	O
 chiếc	Nc-H	(NP-DOB*	O
@@ -22054,7 +22054,7 @@ cho	E-H	(PP*	O
 khách hàng	N-H	(NP*)))))))	O
 
 Đam mê	V-H	(S(NP-SUB(VP*	B-Rel
-chế tạo máy	N-H	(NP-DOB*))))	B-Arg1-Attribute
+chế tạo máy	N-H	(NP-DOB*))))	B-Arg1
 
 Sau	E-H	(S(PP-TMP*	I-ArgM-TMP
 hơn	A	(NP*	I-ArgM-TMP
@@ -22083,12 +22083,12 @@ lưỡi	N-H	(NP*	O
 cưa	N	*	O
 tròn	A	*))))))))))))))	O
 
-Câu chuyện	N-H	(S(NP-SUB*	I-Arg0-Carrier
-chế tạo	V-H	(VP*	I-Arg0-Carrier
-chiếc	Nc	(NP-DOB*	I-Arg0-Carrier
-máy	N	*	I-Arg0-Carrier
-lọc	V-H	(VP*	I-Arg0-Carrier
-sạn	N-H	(NP*)))))	I-Arg0-Carrier
+Câu chuyện	N-H	(S(NP-SUB*	I-Arg0
+chế tạo	V-H	(VP*	I-Arg0
+chiếc	Nc	(NP-DOB*	I-Arg0
+máy	N	*	I-Arg0
+lọc	V-H	(VP*	I-Arg0
+sạn	N-H	(NP*)))))	I-Arg0
 cũng	R	(AP-PRD*	B-ArgM-TMP
 khá	R	*	B-ArgM-EXT
 bất ngờ	A-H	*))	B-Rel
@@ -22281,12 +22281,12 @@ tháng	N	*	O
 
 Anh	N-H	(S(S(NP-SUB*)	I-Arg0
 mời	V-H	(VP*	B-Rel
-đơn vị	N-H	(NP-DOB*	B-Arg0-Event
-ký	V	*	I-Arg0-Event
-hợp đồng	N	*	I-Arg0-Event
-vào	V-H	(VP*	I-Arg0-Event
-nghiệm thu	V-H	(VP-PRP*	I-Arg0-Event
-sản phẩm	N-H	(NP-DOB*))))))	I-Arg0-Event
+đơn vị	N-H	(NP-DOB*	B-Arg0
+ký	V	*	I-Arg0
+hợp đồng	N	*	I-Arg0
+vào	V-H	(VP*	I-Arg0
+nghiệm thu	V-H	(VP-PRP*	I-Arg0
+sản phẩm	N-H	(NP-DOB*))))))	I-Arg0
 họ	P-H	(S(NP-SUB*)	O
 gật	V-H	(VP*	O
 đầu	N-H	(NP-DOB*	O
@@ -22424,13 +22424,13 @@ trước	A-H	(AP-TMP*	B-ArgM-TMP
 đã	R	(VP*	B-ArgM-TMP
 tìm	V-H	*	B-Rel
 đến	E-H	(PP-LOC*	I-Rel
-nhà thờ	N-H	(NP*	B-Arg4-Goal
-của	E-H	(PP*	I-Arg4-Goal
-cha	N-H	(NP*	I-Arg4-Goal
-ở	E-H	(Np(PP-LOC*	I-Arg4-Goal
-huyện	N-H	(NP*	I-Arg4-Goal
-phía	N-H	(Np(NP*	I-Arg4-Goal
-bắc	N	*	I-Arg4-Goal
+nhà thờ	N-H	(NP*	B-Arg4
+của	E-H	(PP*	I-Arg4
+cha	N-H	(NP*	I-Arg4
+ở	E-H	(Np(PP-LOC*	I-Arg4
+huyện	N-H	(NP*	I-Arg4
+phía	N-H	(Np(NP*	I-Arg4
+bắc	N	*	I-Arg4
 để	E-H	(NP(Np-H(PP-PRP*	B-ArgM-PRP
 nương náu	V-H	(VP(VP*)	O
 nhờ	V-H	(VP*	O
@@ -22453,7 +22453,7 @@ ngày	N-H	(NP*	I-ArgM-TMP
 chúng tôi	P-H	(NP-SUB*)	B-Arg0
 tìm	V-H	(VP*	B-Rel
 đến	E-H	(PP-LOC*	I-Rel
-ngôi	Nc-H	(NP*	B-Arg4-Goal
+ngôi	Nc-H	(NP*	B-Arg4
 nhà thờ	N	*	O
 ấy	P	*))))	O
 
@@ -22587,7 +22587,7 @@ tối	N	*	I-ArgM-TMP
 y	P-H	(NP-SUB*)	B-Arg0
 đã	R	(VP*	B-ArgM-TMP
 hiếp	V-H	*	B-Rel
-chị	P-H	(NP-DOB*)	B-Arg1-Patient
+chị	P-H	(NP-DOB*)	B-Arg1
 hai	M	(NP-EXT*	B-ArgM-EXT
 lần	N-H	*)))	O
 
@@ -22973,8 +22973,8 @@ ngày một	X	*	I-ArgM-TMP
 thu hẹp	V-H	*)))))))))))	B-Rel
 
 Còn	C	(S-SPL*	I-ArgM-DIS
-những	L	(NP-TMP*	B-Arg0-Carrier
-năm	N-H	*	I-Arg0-Carrier
+những	L	(NP-TMP*	B-Arg0
+năm	N-H	*	I-Arg0
 trước	E-H	(PP*	B-Rel
 đó	P-H	(NP*))))	B-ArgM-TMP
 
@@ -23034,16 +23034,16 @@ bảo	V-H	(VP*	O
 vô phương	A-H	(AP*	O
 cứu chữa	V-H	(VP*))))))	O
 
-Con	N-H	(S(NP-SUB*	I-Arg0-Carrier
-chữ	N	*)	I-Arg0-Carrier
+Con	N-H	(S(NP-SUB*	I-Arg0
+chữ	N	*)	I-Arg0
 xa	A-H	(AP-PRD*	B-Rel
-tầm	N-H	(NP*	B-Arg1-Location
+tầm	N-H	(NP*	B-Arg1
 tay	N	*)))	O
 
-Các	L	(S(NP-SUB*	I-Arg0-Carrier
-gia đình	N-H	*	I-Arg0-Carrier
-đập	V-H	(VP*	I-Arg0-Carrier
-bao	N-H	(NP-DOB*)))	I-Arg0-Carrier
+Các	L	(S(NP-SUB*	I-Arg0
+gia đình	N-H	*	I-Arg0
+đập	V-H	(VP*	I-Arg0
+bao	N-H	(NP-DOB*)))	I-Arg0
 hầu hết	X	(AP-PRD*	B-ArgM-EXT
 đều	R	*	B-ArgM-TMP
 nghèo	A-H	*))	B-Rel
@@ -23463,7 +23463,7 @@ xong	R	*)	I-ArgM-ADV
 lại	R	(VP*	B-ArgM-TMP
 nhanh chóng	A	*	O
 dựng	V-H	*	I-Rel
-lưới	N-H	(NP-DOB*)	B-Arg1-Patient
+lưới	N-H	(NP-DOB*)	B-Arg1
 lên	R	*))	O
 
 Lúc	N-H	(S(NP-TMP*	I-ArgM-TMP
@@ -23506,10 +23506,10 @@ ra	R	*)))	I-ArgM-ADV
 K .	Ny-H	(NP-SUB*)	O
 sắm	V-H	(VP*	I-Rel
 hẳn	R	*	I-Rel
-ba	M	(NP-DOB*	B-Arg1-Patient
-cheo	N-H	*	I-Arg1-Patient
-lưới	N	*	I-Arg1-Patient
-nhỏ	A-H	(AP*))	I-Arg1-Patient
+ba	M	(NP-DOB*	B-Arg1
+cheo	N-H	*	I-Arg1
+lưới	N	*	I-Arg1
+nhỏ	A-H	(AP*))	I-Arg1
 chia	V-H	(VP-PRP*	B-ArgM-PRP
 cho	R	*	O
 hai	M	(NP-DOB(NP*	O
@@ -23611,11 +23611,11 @@ nắng	A-H	(AP*	I-ArgM-TMP
 ấm	A	*))))))	I-ArgM-TMP
 họ	P-H	(NP-SUB*)	B-Arg0
 di chuyển	V-H	(VP*	B-Rel
-vào	E-H	(PP-DIR*	B-Arg4-Goal
-biển	N-H	(NP(NP*	I-Arg4-Goal
-LBKT	LBKT	(Np*	I-Arg4-Goal
-RBKT	RBKT	(NP(Np-H*)	I-Arg4-Goal
-đảo	N-H	(NP(Np-H(NP(Np-H(NP*	I-Arg4-Goal
+vào	E-H	(PP-DIR*	B-Arg4
+biển	N-H	(NP(NP*	I-Arg4
+LBKT	LBKT	(Np*	I-Arg4
+RBKT	RBKT	(NP(Np-H*)	I-Arg4
+đảo	N-H	(NP(Np-H(NP(Np-H(NP*	I-Arg4
 lặn	V-H	(Np-H(VP-PRP*	O
 thuê	V	*	O
 kiếm	V-H	(VP*	O
@@ -23820,10 +23820,10 @@ những	L	(NP*	B-Arg1
 cái	Nc-H	*	O
 tang	N	*))))	O
 
-Đầu tiên	N-H	(S(NP-SUB*)	I-Arg0-Identified
+Đầu tiên	N-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-một	M	(NP-DOB(Np-H(NP*	I-Arg1-Identifier
-thợ	N-H	*	I-Arg1-Identifier
+một	M	(NP-DOB(Np-H(NP*	I-Arg1
+thợ	N-H	*	I-Arg1
 trẻ	A-H	(AP*))))))	O
 
 chết	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
@@ -24029,8 +24029,8 @@ Sự	Nc-H	(S(NP-SUB*	I-Arg0
 cô lập	V	*)	I-Arg0
 đã	R	(VP*	B-ArgM-TMP
 đẩy	V-H	*	B-Rel
-gia đình	N-H	(NP-DOB*	B-Arg1-Patient
-anh	Nc-H	(NP*	I-Arg1-Patient
+gia đình	N-H	(NP-DOB*	B-Arg1
+anh	Nc-H	(NP*	I-Arg1
 vào	E-H	(Np(PP*	B-ArgM-LOC
 tình trạng	N-H	(NP*	O
 kiệt quệ	A-H	(AP(AP*	O
@@ -24632,7 +24632,7 @@ tròn	A-H	(AP-PRD*	B-Rel
 mắt	N-H	(NP*))	B-Arg1
 ngạc nhiên	V-H	(VP*))	B-ArgM-CAU
 
-Anh	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+Anh	N-H	(S(NP-SUB*)	I-Arg0
 tên	N-H	(S-PRD(NP-SUB*)	B-Arg0
 là	V-H	(VP*	B-Rel
 
@@ -24653,8 +24653,8 @@ trên	E-H	(PP-LOC*	B-ArgM-LOC
 đất	N-H	(NP*	O
 hoang	A	*))))	O
 
-Tôi	P-H	(S(S(NP-SUB*)	I-Arg0-Carrier
-họ	N-H	(NP-PRD*	B-Arg1-Attribute
+Tôi	P-H	(S(S(NP-SUB*)	I-Arg0
+họ	N-H	(NP-PRD*	B-Arg1
 nhưng	C	(NP(Np-H*	B-ArgM-DIS
 họ	N-H	(S(NP-SUB*	B-Arg0
 để	E-H	(PP-PRP*	I-Arg0
@@ -24808,9 +24808,9 @@ cười	V-H	(Np(VP*	B-Rel
 sảng khoái	A	*))))	B-ArgM-MNR
 
 Và	C	(S*	I-ArgM-DIS
-sự	Nc-H	(NP-TPC*	B-Arg0-Carrier
-thành đạt	A	*	I-Arg0-Carrier
-ấy	P	*)	I-Arg0-Carrier
+sự	Nc-H	(NP-TPC*	B-Arg0
+thành đạt	A	*	I-Arg0
+ấy	P	*)	I-Arg0
 không	R	(NP-SUB*	B-Arg0
 chỉ	R	*	I-Arg0
 riêng	T	*	I-Arg0
@@ -24941,7 +24941,7 @@ anh	N-H	(NP*)))))))))))))))	O
 Nụ	N-H	(SQ(NP*	I-Arg0
 hôn	N	*	I-Arg0
 của	E-H	(PP*	B-Rel
-mãnh hổ	N-H	(NP*)))	B-Arg1-Processor
+mãnh hổ	N-H	(NP*)))	B-Arg1
 ư	I	*)	B-ArgM-Partice
 
 Nếu	C	(S-TTL*	I-ArgM-DIS
@@ -25127,13 +25127,13 @@ có mặt	V-H	*	B-Rel
 ở	E-H	(PP-LOC*	B-ArgM-LOC
 VN	Ny-H	(NP*))))))	O
 
-Đường	N-H	(S-TTL(NP*	I-Arg0-Carrier
-đến	V-H	(VP*	I-Arg0-Carrier
-võ đài	N-H	(NP*)))	I-Arg0-Carrier
-LBKT	LBKT	*	I-Arg0-Carrier
-kỳ	N-H	(NP*	I-Arg0-Carrier
-3	M	*)	I-Arg0-Carrier
-RBKT	RBKT	*	I-Arg0-Carrier
+Đường	N-H	(S-TTL(NP*	I-Arg0
+đến	V-H	(VP*	I-Arg0
+võ đài	N-H	(NP*)))	I-Arg0
+LBKT	LBKT	*	I-Arg0
+kỳ	N-H	(NP*	I-Arg0
+3	M	*)	I-Arg0
+RBKT	RBKT	*	I-Arg0
 Câu chuyện	N-H	(NP*	B-Arg0
 của	E-H	(PP*	B-Rel
 nhà	N-H	(NP*	B-Arg1
@@ -25141,7 +25141,7 @@ vô địch	A	*	O
 
 Nụ hôn	N-H	(S-TTL(NP*	I-Arg0
 của	E-H	(PP*	B-Rel
-mãnh hổ	N-H	(NP*))))	B-Arg1-Processor
+mãnh hổ	N-H	(NP*))))	B-Arg1
 
 anh	Nc-H	(S(NP-SUB*	I-Arg0
 giới thiệu	V-H	(Np(VP*	B-Rel
@@ -25172,7 +25172,7 @@ mìn	N-H	*)	I-Arg0
 còn	R	(AP-PRD*	B-ArgM-TMP
 lủ khủ	A-H	*))	B-Rel
 
-Đất	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+Đất	N-H	(S(NP-SUB*)	I-Arg0
 nghèo	A-H	(AP-PRD*))	B-Rel
 
 Đường đất	N-H	(S(NP-SUB*)	I-Arg0
@@ -25188,7 +25188,7 @@ nhân dân	N	*)))	O
 mỗi	M	(S(NP-SUB*	I-Arg0
 tổ	N-H	*)	I-Arg0
 phụ trách	V-H	(VP*	B-Rel
-40	M	(NP-DOB*	B-Arg1-Patient
+40	M	(NP-DOB*	B-Arg1
 gia đình	N-H	*)))	O
 
 Chủ trương	N-H	(S(NP-SUB*)	I-Arg0
@@ -25213,17 +25213,17 @@ cần cù	A-H	*))	O
 
 Ai	P-H	(S(NP-SUB*)	I-Arg0
 trồng	V-H	(VP*	B-Rel
-lúa	N-H	(NP-DOB*)))	B-Arg1-Patient
+lúa	N-H	(NP-DOB*)))	B-Arg1
 
 Ai	P-H	(S-SUB(NP-SUB*)	I-Arg0
 muốn	V-H	(VP*	B-Rel
-giữ	V-H	(VP*	B-Arg1-Patient
+giữ	V-H	(VP*	B-Arg1
 nghề	N-H	(NP-DOB*	O
 truyền thống	N	*))))	O
 
 xã	N-H	(S(NP-SUB*)	I-Arg0
 làm	V-H	(VP*	B-Rel
-cầu nối	N-H	(NP-DOB*)))	B-Arg1-Patient
+cầu nối	N-H	(NP-DOB*)))	B-Arg1
 
 con	Nc-H	(S(NP-SUB*	I-Arg0
 heo	N	*	I-Arg0
@@ -25234,7 +25234,7 @@ mượn	V	*)	I-Arg0
 giờ	N-H	(NP-TMP*)	B-ArgM-TMP
 đã	R	(VP*	B-ArgM-TMP
 thành	V-H	*	B-Rel
-mẹ	N-H	(NP-DOB*	B-Arg1-Patient
+mẹ	N-H	(NP-DOB*	B-Arg1
 của	E-H	(PP*	O
 một	M	(NP*	O
 bầy	Nc-H	*	O
@@ -25243,7 +25243,7 @@ con	N	*)))))	O
 Anh	Nc-H	(S(NP-SUB*	I-Arg0
 bị	V-H	(Np(VP*	B-ArgM-MOD
 cụt	V-H	(VP*	B-Rel
-tay	N	*	B-Arg1-Patient
+tay	N	*	B-Arg1
 trong	E-H	(PP-TMP*	B-ArgM-TMP
 đợt	N-H	(NP*	O
 tổng tấn công	V	*	O
@@ -25259,7 +25259,7 @@ còn	V-H	(VP*	B-Rel
 y nguyên	A	*))	B-ArgM-MNR
 
 Tháo gỡ	V-H	(S(NP-SUB(VP*	B-Rel
-đến	E-H	(PP*	B-Arg1-Patient
+đến	E-H	(PP*	B-Arg1
 trái	N-H	(NP*	B-Arg0
 223	M	*)))))	O
 
@@ -25269,7 +25269,7 @@ nổ	V-H	(VP*))))	B-Rel
 anh	N-H	(S(NP-SUB*)	I-Arg0
 gửi	V-H	(VP*	B-Rel
 lại	R	*	B-ArgM-TMP
-một	M	(NP-DOB*	B-Arg1-Patient
+một	M	(NP-DOB*	B-Arg1
 phần	N-H	*	O
 thân thể	N	*)))	O
 
@@ -25287,7 +25287,7 @@ thước	N-H	*	I-Arg0
 thép	N	*))	I-Arg0
 đều	R	(VP*	O
 thấm	V-H	*	I-Rel
-máu xương	N-H	(NP-DOB*	B-Arg1-Patient
+máu xương	N-H	(NP-DOB*	B-Arg1
 và	C	*	O
 mồ hôi	N-H	*)))	O
 
@@ -25326,35 +25326,35 @@ buôn lậu	V	*)))	O
 anh	N-H	(S(NP-SUB*)	I-Arg0
 tự hào	A-H	(AP-PRD*))	B-Rel
 
-chợ	N-H	(S(NP-SUB(NP*	I-ARG1
-đêm	N	*)	I-ARG1
-các	L	(NP*	I-ARG1
-quán	N-H	*	I-ARG1
-bar	Nb	*)	I-ARG1
-cà phê	N-H	(NP*)	I-ARG1
-các	L	(NP*	I-ARG1
-khu	N-H	*	I-ARG1
-vui chơi	V-H	(VP*	I-ARG1
-giải trí	V	*)))	I-ARG1
+chợ	N-H	(S(NP-SUB(NP*	I-Arg1
+đêm	N	*)	I-Arg1
+các	L	(NP*	I-Arg1
+quán	N-H	*	I-Arg1
+bar	Nb	*)	I-Arg1
+cà phê	N-H	(NP*)	I-Arg1
+các	L	(NP*	I-Arg1
+khu	N-H	*	I-Arg1
+vui chơi	V-H	(VP*	I-Arg1
+giải trí	V	*)))	I-Arg1
 mở cửa	V-H	(VP*	B-Rel
 phục vụ	V-H	(VP-PRP*	I-Rel
-theo	E-H	(PP*	B-ARGM-PRP
+theo	E-H	(PP*	B-ArgM-PRP
 yêu cầu	N-H	(NP*	O
 của	E-H	(PP*	O
 du khách	N-H	(NP*)))))))	O
 
 cát	N-H	(S(NP-SUB*)	I-Arg0
 rơi vãi	V-H	(VP*	B-Rel
-khắp	A-H	(AP-LOC*	B-Arg1-Location
+khắp	A-H	(AP-LOC*	B-Arg1
 nơi	N-H	(NP*))))	O
 
 dây	N-H	(S(NP-SUB*	I-Arg0
 điện thoại	N	*)	I-Arg0
 đứt	V-H	(VP*))	B-Rel
 
-đây	P-H	(S(NP-SUB*)	I-Arg0-Carrier
+đây	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-sự thật	N-H	(NP*)))	B-Arg1-Attribute
+sự thật	N-H	(NP*)))	B-Arg1
 
 anh	Nc-H	(S(NP-SUB*	I-Arg0
 không	R	(Np(VP*	B-ArgM-NEG
@@ -25388,13 +25388,13 @@ Trong	E-H	(S(PP-TPC*	I-ArgM-ADV
 vụ	Nc-H	(NP*	I-ArgM-ADV
 kiện	V	*	I-ArgM-ADV
 này	P	*))	I-ArgM-ADV
-tiền bạc	N-H	(NP-SUB*	B-Arg0-Carrier
+tiền bạc	N-H	(NP-SUB*	B-Arg0
 đối với	E-H	(PP*	O
 tôi	P-H	(NP*)))	O
 không	R	(AP-PRD*	I-ArgM-NEG
 phải	A-H	*	B-ArgM-MOD
 là	V-H	(VP*	B-Rel
-tất cả	P-H	(NP-DOB*))))	B-Arg1-Attribute
+tất cả	P-H	(NP-DOB*))))	B-Arg1
 
 gia đình	N-H	(S(NP-SUB*	I-Arg0
 tôi	P	*)	I-Arg0
@@ -25402,13 +25402,13 @@ tôi	P	*)	I-Arg0
 rất	R	*	B-ArgM-EXT
 túng quẫn	A-H	*))	B-Rel
 
-Đôi	M	(S(NP-SUB*	I-Arg0-Carrier
-gò má	N-H	*)	I-Arg0-Carrier
+Đôi	M	(S(NP-SUB*	I-Arg0
+gò má	N-H	*)	I-Arg0
 hóp	A-H	(AP-PRD*))	B-Rel
 
 anh	Nc-H	(S(NP-SUB*	I-Arg0
 đeo đuổi	V-H	(Np(VP*	B-Rel
-vụ	N-H	(NP-DOB*	B-Arg1-Patient
+vụ	N-H	(NP-DOB*	B-Arg1
 kiện	V	*)))))	O
 
 người	Nc-H	(S(NP-SUB*	I-Arg0
@@ -25543,7 +25543,7 @@ Tôi	P-H	(S(NP-SUB-1*)	I-Arg0
 không	R	(AP-PRD*	B-ArgM-NEG
 phải	A-H	*	B-Rel
 là	V-H	(VP*	I-Rel
-người	N-H	(NP-DOB*	B-Arg1-Attribute
+người	N-H	(NP-DOB*	B-Arg1
 trong	E-H	(PP*	O
 lĩnh vực	N-H	(NP*	O
 chuyên môn	N-H	(NP*)))))))	O
@@ -25726,7 +25726,7 @@ tiêu cực	A-H	(AP*)))))	I-Arg1
 hãy	R	(S(NP-SUB(VP*	O
 cứ	R	*	O
 tố cáo	V-H	*	I-Rel
-sẽ	R	(VP*	B-Arg1-Reason
+sẽ	R	(VP*	B-Arg1
 có	V-H	*	O
 những	L	(NP-DOB*	O
 người	N-H	*	O
@@ -25794,7 +25794,7 @@ VN	Ny-H	(S(NP-SUB-1*)	I-Arg0
 muốn	V-H	(VP*	B-ArgM-MOD
 giải quyết	V-H	(VP*	B-Rel
 được	R	*	O
-mục tiêu	N-H	(NP-DOB*	I-Arg1-Patient
+mục tiêu	N-H	(NP-DOB*	I-Arg1
 cung cấp	V-H	(VP*	O
 nước sạch	N-H	(NP-DOB*)	O
 cho	E-H	(PP(PP*	O
@@ -25831,30 +25831,30 @@ mua dâm	V	*)	I-Arg0
 vẫn	R	(VP*	B-ArgM-TMP
 tăng	V-H	*))	B-Rel
 
-nhiều	A	(S(NP-SUB*	I-Arg0-Carrier
-người	N-H	*	I-Arg0-Carrier
-mua dâm	V	*)	I-Arg0-Carrier
+nhiều	A	(S(NP-SUB*	I-Arg0
+người	N-H	*	I-Arg0
+mua dâm	V	*)	I-Arg0
 là	V-H	(VP*	B-Rel
-cán bộ	N-H	(NP*	B-Arg1-Attribute
+cán bộ	N-H	(NP*	B-Arg1
 công chức	N	*)))	O
 
 bà	Nc-H	(S(NP-SUB*	I-Arg0
 nhấn mạnh	V-H	(Np(VP*))))	B-Rel
 
-Gái	N-H	(S(NP-SUB*	I-Arg0-Carrier
-bán dâm	V	*)	I-Arg0-Carrier
+Gái	N-H	(S(NP-SUB*	I-Arg0
+bán dâm	V	*)	I-Arg0
 chủ yếu	A-H	(AP-PRD*	B-Rel
-trong	E-H	(PP*	B-Arg1-Attribute
+trong	E-H	(PP*	B-Arg1
 lứa	N-H	(NP*	O
 tuổi	N	*	O
 18	M	*	O
 30	M	*))))	O
 
-phần lớn	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+phần lớn	N-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-ít	A-H	(AP(AP*	B-Arg1-Attribute
-học	V-H	(VP*))	I-Arg1-Attribute
-nghèo khó	A-H	(AP*))))	B-Arg1-Attribute
+ít	A-H	(AP(AP*	B-Arg1
+học	V-H	(VP*))	I-Arg1
+nghèo khó	A-H	(AP*))))	B-Arg1
 
 số	N-H	(S(NP-SUB*	I-Arg0
 người	N-H	(NP*	I-Arg0
@@ -25871,12 +25871,12 @@ Công an	N	*)	I-Arg0
 cho	V-H	(NP(Np-H(VP*	B-Rel
 biết	V	*)))))	O
 
-phần lớn	N-H	(S(NP-SUB*	I-Arg0-Carrier
-trong	E	*	I-Arg0-Carrier
-số	N	*	I-Arg0-Carrier
-này	P	*)	I-Arg0-Carrier
+phần lớn	N-H	(S(NP-SUB*	I-Arg0
+trong	E	*	I-Arg0
+số	N	*	I-Arg0
+này	P	*)	I-Arg0
 là	V-H	(VP*	B-Rel
-thanh niên	N-H	(NP*	B-Arg1-Attribute
+thanh niên	N-H	(NP*	B-Arg1
 20	M	(NP*	O
 29	M	*	O
 tuổi	N-H	*))))	O
@@ -25884,16 +25884,16 @@ tuổi	N-H	*))))	O
 một	M	(S(NP-SUB*	I-Arg0
 tàu	N-H	*)	I-Arg0
 chở	V-H	(VP*	B-Rel
-hàng	N-H	(NP-DOB*	B-Arg1-Patient
+hàng	N-H	(NP-DOB*	B-Arg1
 lậu	A-H	(AP*))))	O
 
 làm	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
-thuyền trưởng	N-H	(NP-DOB*)))))	B-Arg1-Patient
+thuyền trưởng	N-H	(NP-DOB*)))))	B-Arg1
 
 tàu	N-H	(S(NP-SUB*	I-Arg0
 này	P	*)	I-Arg0
 chở	V-H	(VP*	B-Rel
-nhiều	A	(NP-DOB*	B-Arg1-Patient
+nhiều	A	(NP-DOB*	B-Arg1
 hàng	N-H	*	O
 điện máy	N	*	O
 cũ	A-H	(AP*)	O
@@ -25909,12 +25909,12 @@ và	C	*	O
 
 chưa thể	R	(S(NP-SUB(VP*	I-ArgM-MOD
 công bố	V-H	*	B-Rel
-số lượng	N-H	(NP-DOB*)	B-Arg1-Patient
+số lượng	N-H	(NP-DOB*)	B-Arg1
 chính thức	A-H	(AP*))))	B-ArgM-MNR
 
-đây	P-H	(S(NP-SUB*)	I-Arg0-Carrier
+đây	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-những	L	(NP*	B-Arg1-Attribute
+những	L	(NP*	B-Arg1
 mặt hàng	N-H	*	O
 điện tử	N	*	O
 cũ	A-H	(AP*)	O
@@ -26001,7 +26001,7 @@ người	N-H	(S(NP-SUB*	I-Arg0
 vi phạm	V	*)	I-Arg0
 sẽ	R	(VP*	B-ArgM-TMP
 đóng	V-H	*	B-Rel
-tiền	N-H	(NP-DOB*)	B-Arg1-Patient
+tiền	N-H	(NP-DOB*)	B-Arg1
 cho	E-H	(PP-IOB*	B-Arg2
 các	L	(NP*	O
 chủ	N-H	*	O
@@ -26030,7 +26030,7 @@ các	L	(NP*	I-Arg0
 khu	N-H	*	I-Arg0
 trung tâm	A	*)))))	I-Arg0
 làm	V-H	(VP*	B-Rel
-bãi	N-H	(NP-DOB*	B-Arg1-Patient
+bãi	N-H	(NP-DOB*	B-Arg1
 giữ	V	*	O
 xe	N	*)))	O
 
@@ -26039,7 +26039,7 @@ các	L	(S(NP-SUB(NP*	I-Arg0
 kinh doanh	V-H	(VP*))	I-Arg0
 công ty	N-H	(NP*))	I-Arg0
 để	V-H	(VP*	B-Rel
-xe máy	N-H	(NP-DOB*	B-Arg1-Patient
+xe máy	N-H	(NP-DOB*	B-Arg1
 lấn chiếm	V-H	(VP*	B-ArgM-PRP
 lề đường	N-H	(NP-DOB*))	O
 mất	V-H	(VP*	O
@@ -26051,7 +26051,7 @@ quí	N-H	(S(NP-TMP*	I-Arg0
 tai nạn	N-H	(NP-SUB*	I-Arg0
 giao thông	N	*)	I-Arg0
 tăng	V-H	(VP*	B-Rel
-hơn	A-H	(AP*	B-Arg1-Attribute
+hơn	A-H	(AP*	B-Arg1
 quí	N-H	(NP-TMP*	B-Arg2
 4	M	*	O
 2003	M	*))))	O
@@ -26113,7 +26113,7 @@ giành	V-H	(VP*	I-ArgM-ADV
 khách	N-H	(NP-DOB*)))))	I-ArgM-ADV
 nên	C	*	O
 chạy	V-H	(VP*	I-Rel
-ẩu	A-H	(AP*)))	B-Arg1-Attribute
+ẩu	A-H	(AP*)))	B-Arg1
 
 Đáng kể	A-H	(S(AP-SUB*)	I-Arg0
 chính	T	(VP*	B-ArgM-Partice
@@ -26210,7 +26210,7 @@ tuyên cáo	V-H	(VP*)	B-Arg1
 xong	V-H	(VP*)))	B-ArgM-MNR
 
 chuyển	V-H	(S(NP-SUB(VP*	B-Rel
-tới	E-H	(PP*	B-Arg4-Goal
+tới	E-H	(PP*	B-Arg4
 nhiều	A	(NP-DOB*	O
 người	N-H	*)))))	O
 
@@ -26228,7 +26228,7 @@ micro	Nb-H	(NP-DOB*	B-Arg1
 
 lầm lũi	A-H	(S(NP-SUB(Np-H(AP-PRD*	B-ArgM-MNR
 quay	V-H	(VP*	B-Rel
-vào	V	*	B-Arg4-Goal
+vào	V	*	B-Arg4
 dinh	N-H	(NP-LOC*))))))	O
 
 còn	R	(S(NP-SUB(Np-H(AP-PRD*	B-ArgM-DIS
@@ -26247,17 +26247,17 @@ sau	N-H	(S(NP-TMP*	I-ArgM-TMP
 đó	P	*)	I-ArgM-TMP
 đã	R	(NP-SUB(Np-H(VP*	B-ArgM-TMP
 thay đổi	V-H	*	B-Rel
-lời	N-H	(NP-DOB*	B-Arg1-Patient
+lời	N-H	(NP-DOB*	B-Arg1
 khai	V-H	(VP*))))))	O
 
 đuổi	V-H	(S-SUB(NP-SUB(Np-H(VP*	B-Rel
 bắt	V-H	(VP*	I-Rel
-lâm tặc	N-H	(NP-DOB*))))))	B-Arg1-Patient
+lâm tặc	N-H	(NP-DOB*))))))	B-Arg1
 
 Đến	V-H	(S(VP-TMP*	O
 15 - 3 - 2004	M-H	(QP*))	O
 mang	V-H	(NP-SUB(Np-H(VP*	B-Rel
-rượu	N-H	(NP-DOB*)	B-Arg1-Patient
+rượu	N-H	(NP-DOB*)	B-Arg1
 vào	V-H	(VP*	B-Arg4
 lán trại	N-H	(NP*	I-Arg4
 ở	E-H	(PP-LOC*	I-Arg4
@@ -26284,8 +26284,8 @@ cãi vã	V-H	(VP*	I-Rel
 nhau	P-H	(NP-DOB*))))	B-Arg1
 
 đưa	V-H	(S2(NP-SUB-1(Np-H(VP*	B-Rel
-tay	N-H	(NP-DOB*	B-Arg1-Patient
-trái	A-H	*	I-Arg1-Patient
+tay	N-H	(NP-DOB*	B-Arg1
+trái	A-H	*	I-Arg1
 lên	R	*	B-ArgM-PRP
 đỡ	V-H	(VP-PRP*))))))	O
 
@@ -26307,7 +26307,7 @@ làm	V-H	(VP-DOB*	O
 rõ	A-H	(AP*)))))	O
 
 qui định	V-H	(S(NP-SUB(VP*	B-Rel
-chi tiết	A-H	(AP*	B-Arg1-Attribute
+chi tiết	A-H	(AP*	B-Arg1
 rõ ràng	A-H	*))))	O
 
 chỉ	R	(S(NP-SUB(VP*	B-ArgM-EXT
@@ -26431,14 +26431,14 @@ UBND	Ny-H	(S(NP-SUB*	I-Arg0
 huyện	N-H	(NP*	I-Arg0
 cấp	V-H	(Np(VP*)))))	B-Rel
 
-dự án	N-H	(S(NP-SUB*	I-Arg1-Patient
-qui hoạch	V-H	(VP*	I-Arg1-Patient
-phát triển	V	*	I-Arg1-Patient
-khu	N-H	(NP*	I-Arg1-Patient
-dân cư	N	*	I-Arg1-Patient
-mới	A-H	(AP*)	I-Arg1-Patient
-tại	E-H	(PP-LOC*	I-Arg1-Patient
-xã	N-H	(NP*	I-Arg1-Patient
+dự án	N-H	(S(NP-SUB*	I-Arg1
+qui hoạch	V-H	(VP*	I-Arg1
+phát triển	V	*	I-Arg1
+khu	N-H	(NP*	I-Arg1
+dân cư	N	*	I-Arg1
+mới	A-H	(AP*)	I-Arg1
+tại	E-H	(PP-LOC*	I-Arg1
+xã	N-H	(NP*	I-Arg1
 được	V-H	(Np(VP*	B-ArgM-MOD
 đầu tư	V-H	(VP*	B-Rel
 theo	E-H	(PP*	B-ArgM-MNR
@@ -26465,7 +26465,7 @@ quyết liệt	A-H	(AP*)))	B-ArgM-MNR
 nhiều	L	(S-SUB(NP-SUB*	O
 công dân	N-H	*)	O
 có	V-H	(VP*	I-Rel
-đất	N-H	(NP-DOB*	B-Arg1-Patient
+đất	N-H	(NP-DOB*	B-Arg1
 tại	E-H	(PP-LOC*	B-ArgM-LOC
 khu	N-H	(NP*	O
 dân cư	N	*	O
@@ -26482,9 +26482,9 @@ chủ tịch	N-H	*	I-Arg2
 huyện	N	*)	I-Arg2
 bị	V-H	(VP*	B-ArgM-MOD
 thuyên chuyển	V-H	(VP*	B-Rel
-công tác	V	*)))	B-Arg1-Patient
+công tác	V	*)))	B-Arg1
 
-giá	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+giá	N-H	(S(NP-SUB*)	I-Arg0
 chưa	R	(VP*	B-ArgM-NEG
 duyệt	V-H	*))	B-Rel
 
@@ -26500,7 +26500,7 @@ làm	V-H	*))	B-Rel
 Người	N-H	(S(NP-SUB*	I-Arg0
 dân	N	*)	I-Arg0
 tuân thủ	V-H	(VP*	B-Rel
-đúng	A-H	(AP*	B-Arg1-Patient
+đúng	A-H	(AP*	B-Arg1
 pháp luật	N-H	(NP*))))	O
 
 chính quyền	N-H	(S(NP-SUB*)	I-Arg0
@@ -26514,21 +26514,21 @@ người	N-H	(NP-SUB*	O
 dân	N	*)	O
 phải	V-H	(VP*	I-ArgM-MOD
 gánh chịu	V-H	(VP*	B-Rel
-hậu quả	N-H	(NP-DOB*))))	B-Arg1-Patient
+hậu quả	N-H	(NP-DOB*))))	B-Arg1
 
 lúc	N-H	(S(NP-TMP*	I-ArgM-ADV
 bán	V-H	(VP*	I-ArgM-ADV
 đất	N-H	(NP*)))	I-ArgM-ADV
-giá	N-H	(NP-SUB*	B-Arg0-Carrier
-khi	N-H	(NP-TMP*	I-Arg0-Carrier
-đó	P	*))	I-Arg0-Carrier
+giá	N-H	(NP-SUB*	B-Arg0
+khi	N-H	(NP-TMP*	I-Arg0
+đó	P	*))	I-Arg0
 còn	V-H	(VP*	B-ArgM-TMP
 rẻ	A-H	(AP*)))	B-Rel
 
 bây giờ	P-H	(S(NP-TMP*)	I-ArgM-TMP
-giá	N-H	(NP-SUB*	B-Arg0-Carrier
-đất	N	*	I-Arg0-Carrier
-thị trường	N-H	(NP*))	I-Arg0-Carrier
+giá	N-H	(NP-SUB*	B-Arg0
+đất	N	*	I-Arg0
+thị trường	N-H	(NP*))	I-Arg0
 lên	V-H	(VP*	B-Rel
 cao	A-H	(AP*)))	B-ArgM-MNR
 
@@ -26536,9 +26536,9 @@ tỉnh	N-H	(S(NP-SUB*	I-Arg0
 lại	R	(Np(VP*	B-ArgM-TMP
 thu hồi	V-H	*))))	B-Rel
 
-đây	P-H	(S(NP-SUB*)	I-Arg0-Carrier
+đây	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-hợp đồng	N-H	(NP-DOB*	B-Arg1-Attribute
+hợp đồng	N-H	(NP-DOB*	B-Arg1
 vô hiệu	A-H	(AP*))))	O
 
 Muốn	V-H	(SQ(NP-SUB(VP*	O
@@ -26666,7 +26666,7 @@ giai đoạn	N-H	*))))	O
 ông	N-H	(S(NP-SUB*)	I-Arg0
 để	V-H	(VP*	B-Rel
 lại	R	*	B-ArgM-MOD
-trên	E-H	(PP-LOC*	B-Arg1-Location
+trên	E-H	(PP-LOC*	B-Arg1
 các	L	(NP*	O
 công văn	N-H	*	O
 xin	V-H	(VP-PRP*	O
@@ -26681,11 +26681,11 @@ kế toán	N	*))	I-Arg0
 đã	R	(Np(VP*	B-ArgM-TMP
 xác nhận	V-H	*))))	B-Rel
 
-việc	N-H	(SQ(NP-SUB*	I-Arg0-Identified
-xác nhận	V	*)	I-Arg0-Identified
+việc	N-H	(SQ(NP-SUB*	I-Arg0
+xác nhận	V	*)	I-Arg0
 là	V-H	(VP*	B-Rel
 có	V-H	(VP*	B-ArgM-ADV
-chủ trương	N-H	(NP-DOB*	B-Arg1-Identifier
+chủ trương	N-H	(NP-DOB*	B-Arg1
 của	E-H	(PP*	O
 bộ	N-H	(NP*))))))	O
 
@@ -26715,7 +26715,7 @@ buông lỏng	V-H	(S(NP-SUB(VP*)))	B-Rel
 nếu	C	(S*	O
 không	R	(NP-SUB(VP*	B-ArgM-NEG
 có	V-H	*	B-Rel
-công văn	N-H	(NP-DOB*	B-Arg1-Patient
+công văn	N-H	(NP-DOB*	B-Arg1
 xác nhận	V-H	*	O
 này	P	*))))	O
 
@@ -26821,8 +26821,8 @@ các	L	(S(NP-SUB*	I-Arg0
 cơ quan	N-H	*	I-Arg0
 liên quan	V-H	(VP*))	I-Arg0
 tập trung	V-H	(VP*	B-Rel
-nhiều	A	(NP-DOB*	B-Arg1-Patient
-biện pháp	N-H	*)	I-Arg1-Patient
+nhiều	A	(NP-DOB*	B-Arg1
+biện pháp	N-H	*)	I-Arg1
 để	E-H	(PP-PRP*	O
 hoàn thành	V-H	(VP*	O
 dự án	N-H	(NP-DOB*	O
@@ -26844,7 +26844,7 @@ lần	N-H	*))	I-ArgM-MNR
 hộ chiếu	N-H	(NP-SUB*)	B-Arg0
 lại	R	(VP*	O
 hết	V-H	*	I-Rel
-hạn	N-H	(NP-DOB*)))	B-Arg1-Patient
+hạn	N-H	(NP-DOB*)))	B-Arg1
 
 những	L	(S(NP-SUB*	I-Arg0
 người	N-H	*	I-Arg0
@@ -26855,7 +26855,7 @@ lại	R	(VP*	O
 phải	V-H	*	I-ArgM-MOD
 lo	V-H	(VP*	B-Rel
 làm	V-H	(VP*	I-Rel
-thủ tục	N	(NP-DOB*)	B-Arg1-Patient
+thủ tục	N	(NP-DOB*)	B-Arg1
 để	E-H	(PP-PRP*	B-ArgM-PRP
 xin	V-H	(VP*	O
 được	V-H	(VP*	O
@@ -26920,7 +26920,7 @@ mới	R	(NP-SUB-1(VP*	B-ArgM-TMP
 lại	R	*	O
 khăn gói	V-H	*	I-Rel
 đến	V-H	(VP*	I-Rel
-cửa quan	N-H	(NP-LOC*)))))	B-Arg4-Goal
+cửa quan	N-H	(NP-LOC*)))))	B-Arg4
 
 10	M	(S(NP-TMP*	I-ArgM-TMP
 giờ	Nu-H	*)	I-ArgM-TMP
@@ -27165,10 +27165,10 @@ bút	N-H	(NP-DOB*)	B-Arg1
 không	R	(AP*	B-ArgM-NEG
 vững	A-H	*))))	B-ArgM-MNR
 
-lá	Nc-H	(S(NP-SUB*	I-Arg0-Possessor
-thư	N	*	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
-mình	P-H	(NP*)))	I-Arg0-Possessor
+lá	Nc-H	(S(NP-SUB*	I-Arg0
+thư	N	*	I-Arg0
+của	E-H	(PP*	I-Arg0
+mình	P-H	(NP*)))	I-Arg0
 gửi	V-H	(VP*	B-Rel
 từ	E-H	(PP-LOC*	B-ArgM-LOC
 xã	N-H	(NP(NP*	O
@@ -27241,7 +27241,7 @@ như vậy	X	*)	I-Arg0
 
 giáo sư	N-H	(S(NP-SUB*	I-Arg0
 trở lại	V-H	(Np(VP*	B-Rel
-VN	Ny-H	(NP-LOC*)	B-Arg1-Location
+VN	Ny-H	(NP-LOC*)	B-Arg1
 vào	E-H	(PP(PP-TMP*	B-ArgM-TMP
 năm	N-H	(NP*	I-ArgM-TMP
 1999	M	*))	I-ArgM-TMP
@@ -27250,14 +27250,14 @@ triển khai	V-H	(VP*	O
 chương trình	N-H	(NP*	O
 đào tạo	V	*	O
 tại	E-H	(PP(PP-LOC*	O
-VN	Ny-H	(NP*))	I-Arg1-Location
+VN	Ny-H	(NP*))	I-Arg1
 của	E-H	(PP*	O
 
 Đã	R	(S(NP-SUB-1(VP*	I-ArgM-TMP
 từng	R	*	I-ArgM-TMP
 phục vụ	V-H	*	B-Rel
-trong	E-H	(PP-LOC*	B-Arg1-Location
-quân đội	N-H	(NP*	I-Arg1-Location
+trong	E-H	(PP-LOC*	B-Arg1
+quân đội	N-H	(NP*	I-Arg1
 tại	E-H	(Np(PP-LOC*	O
 LBKT	LBKT	(NP(Np-H*	I-ArgM-LOC
 RBKT	RBKT	(NP(Np-H*))	I-ArgM-LOC
@@ -27387,9 +27387,9 @@ những	L	(NP*	O
 món	N-H	*	O
 hàng	N	*))))))	O
 
-ai	P-H	(S(NP-SUB*)	I-Arg0-Carrier
+ai	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-ông	Nc-H	(NP*	B-Arg1-Attribute
+ông	Nc-H	(NP*	B-Arg1
 chủ	N	*)))	O
 
 tám	M	(S(NP-SUB*	I-Arg0
@@ -27420,11 +27420,11 @@ Cuộc sống	N-H	(S(NP-SUB-1*)	I-Arg0
 thật	R	(AP-PRD*	B-ArgM-Partice
 ảm đạm	A-H	*))	B-Rel
 
-không	R	(S(NP-SUB*	I-Arg0-Carrier
-một	M	*	I-Arg0-Carrier
-ai	P-H	*)	I-Arg0-Carrier
+không	R	(S(NP-SUB*	I-Arg0
+một	M	*	I-Arg0
+ai	P-H	*)	I-Arg0
 giúp đỡ	V-H	(VP*	B-Rel
-chúng tôi	P-H	(NP-DOB*)))	B-Arg1-Patient
+chúng tôi	P-H	(NP-DOB*)))	B-Arg1
 
 Cuộc sống	N-H	(S(NP-SUB-1*)	I-Arg0
 cứ	R	(VP*	B-ArgM-TMP
@@ -27439,18 +27439,18 @@ chúng tôi	P-H	(S(NP-SUB*)	I-Arg0
 phải	V-H	(VP*	B-ArgM-MOD
 tự	P	(VP*	B-ArgM-MNR
 cứu	V-H	*	B-Rel
-mình	N-H	(NP-DOB*))))	B-Arg1-Patient
+mình	N-H	(NP-DOB*))))	B-Arg1
 
 ban	N-H	(S(NP-SUB*	I-Arg0
 quản lý	V	*)	I-Arg0
 can thiệp	V-H	(VP*))	B-Rel
 
-tiền	N-H	(S(NP-SUB*	I-Arg0-Carrier
-chính thức	A	*	I-Arg0-Carrier
-cho	E-H	(PP*	I-Arg0-Carrier
-công ty	N-H	(NP-DOB*)))	I-Arg0-Carrier
+tiền	N-H	(S(NP-SUB*	I-Arg0
+chính thức	A	*	I-Arg0
+cho	E-H	(PP*	I-Arg0
+công ty	N-H	(NP-DOB*)))	I-Arg0
 là	V-H	(VP*	B-Rel
-1	M	(NP(NP*	B-Arg1-Attribute
+1	M	(NP(NP*	B-Arg1
 150	M	*	O
 USD	Nu-H	*)	O
 và	C	*	O
@@ -27461,16 +27461,16 @@ triệu	M	*	O
 công ty	N-H	(S(NP-SUB*)	I-Arg0
 phủi	V-H	(VP*	B-Rel
 bỏ	V	*	I-Rel
-mọi	L	(NP-DOB*	B-Arg1-Patient
+mọi	L	(NP-DOB*	B-Arg1
 trách nhiệm	N-H	*	O
 sau	E-H	(PP-TMP*	O
 đó	P-H	(NP*)))))	O
 
-chỉ	R	(S(VP-SUB*	I-Arg0-Carrier
-còn	V-H	*	I-Arg0-Carrier
-ít lâu	N-H	(NP-TMP*))	I-Arg0-Carrier
+chỉ	R	(S(VP-SUB*	I-Arg0
+còn	V-H	*	I-Arg0
+ít lâu	N-H	(NP-TMP*))	I-Arg0
 là	V-H	(VP*	B-Rel
-Tết Nguyên đán	N-H	(NP*)))	B-Arg1-Attribute
+Tết Nguyên đán	N-H	(NP*)))	B-Arg1
 
 12	M	(S(NP-SUB*	I-Arg0
 người	N-H	*	I-Arg0
@@ -27504,15 +27504,15 @@ công ty	N-H	(NP*))	O
 ở	E-H	(PP-LOC*	O
 TP. TH HCM	Ny-H	(NP*))))))	O
 
-Giám đốc	N-H	(S-SUB(NP-SUB*)	I-Arg0-Identified
+Giám đốc	N-H	(S-SUB(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-ông	Nc-H	(NP*	B-Arg1-Identifier
+ông	Nc-H	(NP*	B-Arg1
 
 Lỗi	N-H	(S(NP-SUB*)	I-Arg0
 không	R	(VP*	B-ArgM-NEG
 *E*	V-H	*	O
 của	E-H	(PP*	I-Rel
-riêng	A-H	(AP*	B-Arg0-Possessor
+riêng	A-H	(AP*	B-Arg0
 ai	P	*))))	O
 
 công ty	N-H	(S(NP-SUB*)	I-Arg0
@@ -27535,7 +27535,7 @@ có	V-H	*	B-Rel
 sự	Nc-H	(NP-DOB*	B-Arg1
 hợp tác	V	*	I-Arg1
 tin cậy	V	*))	I-Arg1
-mệt mỏi	A-H	(AP*	B-Arg1-Patient
+mệt mỏi	A-H	(AP*	B-Arg1
 từ	E-H	(PP*	O
 hai	M	(NP*	O
 phía	N	*))))	O
@@ -27550,13 +27550,13 @@ mình	P-H	(S(NP-SUB*)	I-Arg0
 còn	R	(VP*	B-ArgM-TMP
 sống	V-H	*))	B-Rel
 
-đây	P-H	(S(NP-SUB*)	I-Arg0-Identified
+đây	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-VN	Ny-H	(NP*)))	B-Arg1-Identifier
+VN	Ny-H	(NP*)))	B-Arg1
 
 công ty	N-H	(S(NP-SUB*)	I-Arg0
 đưa	V-H	(VP*	B-Rel
-về	R	*))	B-Arg1-Patient
+về	R	*))	B-Arg1
 
 Công an	N-H	(S(NP-SUB*	I-Arg0
 TP	Ny	*	I-Arg0
@@ -27789,8 +27789,8 @@ của	E-H	(PP*	O
 mọi	L	(NP*	O
 người	N-H	*)))))	O
 
-tại	E-H	(S(PP-LOC-SUB*	I-Arg0-Carrier
-đây	P-H	(NP*))	I-Arg0-Carrier
+tại	E-H	(S(PP-LOC-SUB*	I-Arg0
+đây	P-H	(NP*))	I-Arg0
 tập trung	V-H	(VP*	B-Rel
 gần	A	(NP-DOB*	B-Arg1
 50	M	*	O
@@ -27820,7 +27820,7 @@ RBKT	RBKT	(Np*))))))))	O
 bạn	N-H	(S(NP-SUB*)	I-Arg0
 muốn	V-H	(VP*	B-Rel
 thuê	V-H	(VP*	I-Rel
-xe	N-H	(NP-DOB*)	B-Arg1-Patient
+xe	N-H	(NP-DOB*)	B-Arg1
 dạo	V-H	(VP-PRP(VP*	B-ArgM-PRP
 TP	Ny-H	(NP-LOC*))	O
 hay	C	*	O
@@ -27886,7 +27886,7 @@ ba	M	(S(NP-SUB*	I-Arg0
 người	N-H	*)	I-Arg0
 đã	R	(VP*	B-ArgM-TMP
 vào	V-H	*	B-Rel
-đại học	N-H	(NP-DOB*)))	B-Arg4-Goal
+đại học	N-H	(NP-DOB*)))	B-Arg4
 
 Các	L	(S(NP-SUB*	I-Arg0
 gia đình	N-H	*	I-Arg0
@@ -27919,7 +27919,7 @@ xây dựng	V-H	(Np(VP*))))	B-Rel
 
 chúng tôi	P-H	(S(NP-SUB*)	I-Arg0
 đến	V-H	(VP*	B-Rel
-trường	N-H	(NP-LOC*)))	B-Arg4-Goal
+trường	N-H	(NP-LOC*)))	B-Arg4
 
 ồ	C	(S*	I-ArgM-ADV
 sao	P-H	(WHPP*)	B-ArgM-CAU
@@ -27927,7 +27927,7 @@ bé	N-H	(NP-SUB*)	B-Arg0
 không	R	(VP*	B-ArgM-NEG
 lắc	V-H	*))	B-Rel
 
-Chúng tôi	P-H	(S(NP-SUB-1*)	I-Arg0-Identified
+Chúng tôi	P-H	(S(NP-SUB-1*)	I-Arg0
 là	V-H	(VP*	B-Rel
 
 sử dụng	V-H	(S(NP-SUB-1(VP*	B-Rel
@@ -27959,10 +27959,10 @@ lại	R	(VP*	B-ArgM-TMP
 pha	V-H	*	B-Rel
 tiếng	N-H	(NP-DOB*	B-Arg1
 
-Trung tâm	N-H	(S(NP-SUB*	I-Arg0-Identified
-xóm	N	*	I-Arg0-Identified
+Trung tâm	N-H	(S(NP-SUB*	I-Arg0
+xóm	N	*	I-Arg0
 là	V-H	(Np(VP*	B-Rel
-ngôi	Nc-H	(NP-DOB*	B-Arg1-Identifier
+ngôi	Nc-H	(NP-DOB*	B-Arg1
 đền	N	*	O
 thờ	V	*	O
 
@@ -28049,7 +28049,7 @@ về	V	*)))	O
 
 đó	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-ông	Nc-H	(NP-DOB*	B-Arg1-Identifier
+ông	Nc-H	(NP-DOB*	B-Arg1
 
 Phong trào	N-H	(S(NP-SUB*)	I-Arg0
 cũng	R	(AP-PRD*	B-ArgM-TMP
@@ -28112,7 +28112,7 @@ biết	V	*))))	O
 
 Người	N-H	(S-SUB(NP-SUB*)	I-Arg0
 gửi	V-H	(VP*	B-Rel
-nó	P-H	(NP-DOB*)))	B-Arg1-Patient
+nó	P-H	(NP-DOB*)))	B-Arg1
 
 cách	V-H	(S(VP-TMP*	I-ArgM-TMP
 đây	P-H	(NP*	I-ArgM-TMP
@@ -28286,15 +28286,15 @@ kéo dài	V-H	(VP*))))	O
 đã	R	(S(NP-TMP*	I-ArgM-TMP
 10	M	*	I-ArgM-TMP
 ngày	N-H	*)	I-ArgM-TMP
-đứa	Nc-H	(NP-SUB*	B-Arg0-Possessor
-con	Nc	*	I-Arg0-Possessor
-gái	N	*	I-Arg0-Possessor
-độc nhất	A	*	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
-họ	P-H	(NP*)))	I-Arg0-Possessor
+đứa	Nc-H	(NP-SUB*	B-Arg0
+con	Nc	*	I-Arg0
+gái	N	*	I-Arg0
+độc nhất	A	*	I-Arg0
+của	E-H	(PP*	I-Arg0
+họ	P-H	(NP*)))	I-Arg0
 mất tích	V-H	(VP*	B-Rel
 không	R	(VP*	B-ArgM-NEG
-rõ	V-H	*	B-Arg1-Reason
+rõ	V-H	*	B-Arg1
 lý do	N-H	(NP-DOB*))))	O
 
 Ông bà	N-H	(S(NP-SUB*	I-Arg0
@@ -28326,8 +28326,8 @@ anh	Nc-H	(NP*	O
 ông bà	N-H	(S(NP-SUB*)	I-Arg0
 biết	V-H	(VP*))	B-Rel
 
-gia đình	N-H	(S(NP-SUB*	I-Arg0-Possessor
-bà	Nc	*	I-Arg0-Possessor
+gia đình	N-H	(S(NP-SUB*	I-Arg0
+bà	Nc	*	I-Arg0
 đăng ký	V-H	(Np(VP*	B-Rel
 dịch vụ	N-H	(NP-DOB*	B-Arg1
 hiện	V	*	O
@@ -28420,7 +28420,7 @@ khách	N-H	(NP-DOB*	B-Arg1
 
 khách	N-H	(S(NP-SUB*)	I-Arg0
 về	V-H	(VP*	B-Rel
-ngách	N-H	(NP-DOB*	B-Arg1-Location
+ngách	N-H	(NP-DOB*	B-Arg1
 115	M	*	O
 đường	N-H	(NP-LOC*	O
 
@@ -28481,12 +28481,12 @@ nhiều	A	*))))	O
 chạy	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
 vượt	V	*	B-Arg1
 lên	R	*	I-Arg1
-trước	E-H	(PP-LOC*	B-Arg1-Location
+trước	E-H	(PP-LOC*	B-Arg1
 đôi	M	(NP*	O
 trai gái	N-H	*))))))	O
 
 đi	V-H	(S(NP-SUB(Np-H(VP(VP*	B-Rel
-sát	A	*	B-Arg1-Attribute
+sát	A	*	B-Arg1
 phía	N-H	(NP-LOC*	B-ArgM-ADV
 sau	N	*	O
 đôi	M	(NP*	O
@@ -28523,7 +28523,7 @@ tính	N-H	(NP-DOB*	B-Arg1
 quan trọng	A	*	O
 nhất	A	*)))	O
 
-đó	P-H	(S(NP-SUB*)	I-Arg0-Identified
+đó	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
 sẽ	R	(VP*	B-ArgM-TMP
 đưa	V-H	*	B-Arg1
@@ -28626,12 +28626,12 @@ một	M	(NP-DOB*	B-ArgM-DIR
 đoạn	Nc-H	*	O
 phía	N-H	(NP-LOC*	O
 
-Băn khoăn	A-H	(S-EXC(AP-SUB*	I-Arg0-Carrier
-của	E-H	(PP*	I-Arg0-Carrier
-người	Nc-H	(NP*	I-Arg0-Carrier
-dân	N	*)))	I-Arg0-Carrier
+Băn khoăn	A-H	(S-EXC(AP-SUB*	I-Arg0
+của	E-H	(PP*	I-Arg0
+người	Nc-H	(NP*	I-Arg0
+dân	N	*)))	I-Arg0
 là	V-H	(VP*	B-Rel
-đúng	A-H	(AP*)))	B-Arg1-Attribute
+đúng	A-H	(AP*)))	B-Arg1
 
 làm	V-H	(S(NP-SUB(VP*	B-Rel
 cho	R	*	B-Arg1
@@ -28884,7 +28884,7 @@ gương	N-H	(NP*	I-Arg1
 dũng cảm	A	*	I-Arg1
 của	E-H	(PP*	I-Arg1
 chị	Nc-H	(NP*	I-Arg1
-ở	E-H	(Np(PP*	B-Arg1-Location
+ở	E-H	(Np(PP*	B-Arg1
 chương trình	N-H	(NP*	O
 giáo dục	N	*	O
 công dân	N	*	O
@@ -28907,7 +28907,7 @@ dậy	V	*	B-ArgM-DIR
 
 Cuộc chiến	N-H	(S(NP-SUB*)	I-Arg0
 diễn	V-H	(VP*	B-Rel
-ra	R	*	B-Arg1-Location
+ra	R	*	B-Arg1
 ở	E-H	(PP-LOC*	O
 đất nước	N-H	(NP*	O
 VN	Ny	*))))	O
@@ -28948,7 +28948,7 @@ bắt	V	*))	B-Arg1
 
 tòa án	N-H	(S(NP-SUB*)	I-Arg0
 xử	V-H	(VP*	B-Rel
-5	M	(NP-TMP*	B-Arg1-Value
+5	M	(NP-TMP*	B-Arg1
 năm	N-H	*	O
 tù đày	V	*)))	O
 
@@ -28982,7 +28982,7 @@ giam	V	*	B-Arg1
 bên	N-H	(NP-LOC*	B-ArgM-LOC
 
 đưa	V-H	(S(NP-SUB(VP*	B-Rel
-trên	E-H	(PP-LOC*	B-Arg1-Location
+trên	E-H	(PP-LOC*	B-Arg1
 Báo	N-H	(NP*	O
 
 Tôi	P-H	(S(NP-SUB*)	I-Arg0
@@ -29006,7 +29006,7 @@ tôi	P-H	(NP-SUB*)	B-Arg0
 đã	R	(VP*	B-ArgM-TMP
 nằm	V-H	*	B-Rel
 dài	A	*	B-ArgM-MNR
-ra	R	*	B-Arg1-Location
+ra	R	*	B-Arg1
 trên	E-H	(PP-LOC*	O
 đường ray	N-H	(NP*)))))))	O
 
@@ -29014,7 +29014,7 @@ trên	E-H	(PP-LOC*	O
 tàu	N	*	I-Arg0
 đó	P	*)	I-Arg0
 dừng	V-H	(VP*	B-Rel
-lại	R	*))	B-Arg1-Attribute
+lại	R	*))	B-Arg1
 
 chứ	R	(S(RP*	I-ArgM-EXT
 không	R	*)	B-ArgM-NEG
@@ -29064,19 +29064,19 @@ quân đội	N-H	(NP*	O
 quân đội	N-H	(S(NP-SUB*	I-Arg0
 rải	V-H	(Np(VP(VP*	B-Rel
 xuống	R	*	B-ArgM-DIR
-mảnh	Nc-H	(NP-LOC*	B-Arg1-Processor
-đất	N	*	I-Arg1-Processor
-của	E-H	(PP*	I-Arg1-Processor
-người	Nc-H	(NP*	I-Arg1-Processor
-VN	Ny	*))))	I-Arg1-Processor
+mảnh	Nc-H	(NP-LOC*	B-Arg1
+đất	N	*	I-Arg1
+của	E-H	(PP*	I-Arg1
+người	Nc-H	(NP*	I-Arg1
+VN	Ny	*))))	I-Arg1
 làm	V-H	(VP*	B-ArgM-PRP
 ảnh hưởng	V	*	O
 đến	E-H	(PP*	O
 bao	N-H	(NP*	O
 thế hệ	N	*)))))))	O
 
-Hai	M	(S(NP-SUB*	I-Arg0-Identified
-bạn	N-H	*)	I-Arg0-Identified
+Hai	M	(S(NP-SUB*	I-Arg0
+bạn	N-H	*)	I-Arg0
 là	V-H	(VP*	B-Rel
 người	N-H	(NP-DOB*	B-Arg1
 rất	R	(Np(NP*	B-ArgM-EXT
@@ -29093,11 +29093,11 @@ mãi	R	(RP-MNR*)	B-ArgM-TMP
 trong	E-H	(PP*	O
 cuộc đời	N-H	(NP*))))	O
 
-tấm gương	N-H	(S(NP-SUB*	I-Arg0-Identified
-của	E-H	(PP*	I-Arg0-Identified
-ông	Nc-H	(NP(NP*	I-Arg0-Identified
+tấm gương	N-H	(S(NP-SUB*	I-Arg0
+của	E-H	(PP*	I-Arg0
+ông	Nc-H	(NP(NP*	I-Arg0
 và	C	(Np*	B-ArgM-DIS
-bà	Nc-H	(NP*	B-Arg0-Identified
+bà	Nc-H	(NP*	B-Arg0
 là	V-H	(Np(VP*	B-Rel
 hai	M	(NP-DOB*	B-Arg1
 anh hùng	N-H	*	O
@@ -29123,7 +29123,7 @@ tại	E-H	(PP-LOC*	B-ArgM-LOC
 
 nhân dân	N-H	(S(NP-SUB*	O
 ủng hộ	V-H	(Np(VP(VP*	I-Rel
-VN	Ny-H	(NP-DOB*))	B-Arg1-Location
+VN	Ny-H	(NP-DOB*))	B-Arg1
 chống	V-H	(VP*	B-ArgM-ADV
 chiến tranh	N-H	(NP-DOB*	O
 xâm lược	V	*	O
@@ -29156,12 +29156,12 @@ chúng ta	P-H	(NP*))))	O
 là	C	*	O
 và	C	(NP-DOB(NP(Np-H*	O
 
-Hợp đồng	N-H	(S(NP-SUB*	I-Arg1-Patient
-bán	V-H	(VP*	I-Arg1-Patient
-bảo hiểm nhân thọ	N-H	(NP-DOB*))	I-Arg1-Patient
-có	V-H	(VP*	I-Arg1-Patient
-trị giá	V-H	(VP*	I-Arg1-Patient
-cao	A-H	(AP*))))	I-Arg1-Patient
+Hợp đồng	N-H	(S(NP-SUB*	I-Arg1
+bán	V-H	(VP*	I-Arg1
+bảo hiểm nhân thọ	N-H	(NP-DOB*))	I-Arg1
+có	V-H	(VP*	I-Arg1
+trị giá	V-H	(VP*	I-Arg1
+cao	A-H	(AP*))))	I-Arg1
 vừa	R	(VP*	B-ArgM-TMP
 ký	V-H	*	B-Rel
 được	R	*	I-Rel
@@ -29173,8 +29173,8 @@ người	N-H	(S(NP-SUB*	O
 bảo hiểm	V-H	(VP*)))	O
 qua đời	V-H	(VP*))	I-Rel
 
-Hợp đồng	N-H	(S(NP-SUB*	I-Arg1-Patient
-bảo hiểm	N	*)	I-Arg1-Patient
+Hợp đồng	N-H	(S(NP-SUB*	I-Arg1
+bảo hiểm	N	*)	I-Arg1
 ký	V-H	(VP*	B-Rel
 tháng	N-H	(NP-TMP*	O
 12 - 2003	M	*)))	O
@@ -29182,14 +29182,14 @@ tháng	N-H	(NP-TMP*	O
 khách hàng	N-H	(S(NP-SUB*)	I-Arg0
 đã	R	(VP*	B-ArgM-TMP
 đột tử	V-H	*	B-Rel
-bởi	E-H	(PP-PRP*	B-Arg1-Reason
+bởi	E-H	(PP-PRP*	B-Arg1
 bệnh	N-H	(NP*	O
 cảm	V	*))))	O
 
 UBND	Ny-H	(S(NP-SUB*	I-Arg0
 phường	N	*)	I-Arg0
 xác nhận	V-H	(VP*	B-Rel
-ở	E-H	(PP-LOC*	B-Arg1-Location
+ở	E-H	(PP-LOC*	B-Arg1
 phần	N-H	(NP*	O
 nguyên nhân	N	*	O
 chết	V-H	(VP*)))))	O
@@ -29201,7 +29201,7 @@ lên	V	*))	O
 
 đưa	V-H	(S(NP-SUB(VP*	B-Rel
 vào	R	*	I-Rel
-máy	N-H	(NP-DOB*	B-Arg4-Goal
+máy	N-H	(NP-DOB*	B-Arg4
 soi	V	*))))	O
 
 chồng	N-H	(S(NP-SUB*	I-Arg0
@@ -29264,7 +29264,7 @@ nào	P	*)))	O
 
 bà	Nc-H	(S(NP-SUB*	I-Arg0
 bán	V-H	(Np(VP*	B-Rel
-hoa quả	N-H	(NP-DOB*	B-Arg1-Patient
+hoa quả	N-H	(NP-DOB*	B-Arg1
 ở	E-H	(PP-LOC*	B-ArgM-LOC
 chợ	N-H	(NP*	O
 
@@ -29371,7 +29371,7 @@ vắng	A	*))	O
 con	Nc-H	(S(NP-SUB*	I-Arg0
 dâu	N	*)	I-Arg0
 đi	V-H	(VP*	B-Rel
-chợ	N-H	(NP-LOC*)))	B-Arg4-Goal
+chợ	N-H	(NP-LOC*)))	B-Arg4
 
 Mũi	N-H	(S(NP-SUB-1*	I-Arg0
 còn	V-H	(VP*	I-Arg0
@@ -29384,7 +29384,7 @@ sát	A	*	B-ArgM-MNR
 có thể	R	(VP*	B-ArgM-MOD
 quay	V-H	*	B-Rel
 về	R	*	I-Rel
-nhà	N-H	(NP-LOC*)))	B-Arg1-Location
+nhà	N-H	(NP-LOC*)))	B-Arg1
 
 lập tức	R	(S(NP-SUB-1(VP*	B-ArgM-MNR
 báo	V-H	*	B-Rel
@@ -29662,10 +29662,10 @@ làm	V-H	*	I-Rel
 người thân	N-H	(NP-DOB*)	O
 thất vọng	V-H	(VP-IOB*)))	O
 
-phẩm giá	N-H	(S(NP-SUB*	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
-bản thân	N-H	(NP(NP*)	I-Arg0-Possessor
-gia đình	N-H	(NP*	I-Arg0-Possessor
+phẩm giá	N-H	(S(NP-SUB*	I-Arg0
+của	E-H	(PP*	I-Arg0
+bản thân	N-H	(NP(NP*)	I-Arg0
+gia đình	N-H	(NP*	I-Arg0
 khác	A-H	(Np(AP-PRD*	B-Rel
 hẳn	R	*	B-ArgM-MNR
 với	E-H	(PP*	B-ArgM-DIS
@@ -29729,7 +29729,7 @@ gặp	V-H	*))	B-Rel
 
 chở	V-H	(S(NP-SUB(VP*	B-Rel
 về	V	*	I-Rel
-bằng	E-H	(PP-MNR*	B-Arg1-Material
+bằng	E-H	(PP-MNR*	B-Arg1
 xe	N-H	(NP*	O
 heo	N	*)))))	O
 
@@ -29759,7 +29759,7 @@ của	E-H	(PP*	O
 đơn vị	N-H	(S(NP-SUB*)	I-Arg0
 đưa	V-H	(VP*	B-Rel
 về	E-H	(PP-DIR*	I-Rel
-nhà	N-H	(NP-LOC*))))	B-Arg4-Goal
+nhà	N-H	(NP-LOC*))))	B-Arg4
 
 không	R	(S(NP-SUB(Np-H(VP*	B-ArgM-NEG
 bỏ	V-H	*	B-Rel
@@ -29785,7 +29785,7 @@ một	M	(S(NP-SUB*	I-Arg0
 dãy	Nc-H	*	I-Arg0
 trẻ con	N	*)	I-Arg0
 theo	V-H	(VP*	B-Rel
-sau	N-H	(NP-LOC*)	B-Arg1-Location
+sau	N-H	(NP-LOC*)	B-Arg1
 chọc ghẹo	V-H	(VP-PRP*)))	B-ArgM-PRP
 
 thò	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
@@ -30145,7 +30145,7 @@ chuông	N-H	(S(NP-SUB*	I-Arg0
 reo	V-H	(VP*))	B-Rel
 
 cầm	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
-máy	N-H	(NP-DOB*)))))	B-Arg1-Patient
+máy	N-H	(NP-DOB*)))))	B-Arg1
 
 ngồi	V-H	(S(NP-SUB(VP*	I-Rel
 gần	A-H	(AP*))))	B-ArgM-MNR
@@ -30159,7 +30159,7 @@ người	N-H	(S(NP-SUB*	I-Arg0
 đó	P	*)	I-Arg0
 mới	R	(VP*	B-ArgM-TMP
 dập	V-H	*	B-Rel
-máy	N-H	(NP-DOB*)))	B-Arg1-Patient
+máy	N-H	(NP-DOB*)))	B-Arg1
 
 anh	N-H	(S(NP-SUB(NP*	I-Arg0
 Nhu	N-H	*)	I-Arg0
@@ -30197,18 +30197,18 @@ nào	T	*))))))	O
 
 chị	N-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-một	M	(NP*	B-Arg1-Identifier
+một	M	(NP*	B-Arg1
 cán bộ	N-H	*	O
 nhà nước	N	*	O
 có	V-H	(VP*	O
 trình độ	N-H	(NP-DOB*)))))	O
 
 giao	V-H	(S(NP-SUB(VP*	B-Rel
-ảnh	N-H	(NP-DOB(NP*)	B-Arg1-Patient
-địa chỉ	N-H	(NP*	I-Arg1-Patient
-nhà	N-H	(NP*	I-Arg1-Patient
-cơ quan	N-H	*	I-Arg1-Patient
-anh	Nc-H	(NP*	I-Arg1-Patient
+ảnh	N-H	(NP-DOB(NP*)	B-Arg1
+địa chỉ	N-H	(NP*	I-Arg1
+nhà	N-H	(NP*	I-Arg1
+cơ quan	N-H	*	I-Arg1
+anh	Nc-H	(NP*	I-Arg1
 để	E-H	(Np(PP-PRP*	B-ArgM-PRP
 theo dõi	V-H	(VP*))))))))))	O
 
@@ -30230,7 +30230,7 @@ thì	C	*	O
 đi	V-H	(NP-SUB(VP*	B-Rel
 thẳng	A	*	B-ArgM-MNR
 một mạch	R	*	I-ArgM-MNR
-về	V-H	(VP*	B-Arg4-Goal
+về	V-H	(VP*	B-Arg4
 nhà	N-H	(NP-LOC*)))))	O
 
 hợp đồng	N-H	(S(NP-SUB*	I-Arg1
@@ -30248,13 +30248,13 @@ chiều	N	*	I-Arg0
 không	R	(S(NP-SUB(Np-H(VP*	B-ArgM-NEG
 rẽ	V-H	*	B-Rel
 về	V-H	(VP*	I-Rel
-nhà	N-H	(NP-LOC*))))))	B-Arg4-Goal
+nhà	N-H	(NP-LOC*))))))	B-Arg4
 
 dừng	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
 xe	N-H	(NP-DOB*)))))	B-Arg1
 
 phóng	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
-xe	N-H	(NP-DOB*)	B-Arg1-Patient
+xe	N-H	(NP-DOB*)	B-Arg1
 lên	R	*))))	O
 
 cả	P-H	(S(NP-SUB*	I-Arg0
@@ -30262,10 +30262,10 @@ hai	M	*)	I-Arg0
 hối hả	A	(VP*	O
 tiến	V-H	*	I-Rel
 ra	R	*	I-Rel
-ngoại ô	N-H	(NP-LOC*)))	B-Arg4-Goal
+ngoại ô	N-H	(NP-LOC*)))	B-Arg4
 
 Đánh	V-H	(S(NP-SUB(VP(VP*	I-Rel
-xe	N-H	(NP-DOB*	B-Arg1-Patient
+xe	N-H	(NP-DOB*	B-Arg1
 chạy	V-H	(VP*	B-ArgM-ADV
 thẳng	A-H	(AP*)	I-ArgM-ADV
 vào	E-H	(PP-LOC*	I-ArgM-ADV
@@ -30291,7 +30291,7 @@ cho	E-H	(PP-IOB*	B-Arg2
 chưa	R	(S(NP-SUB(Np-H(VP*	B-ArgM-NEG
 kịp	A	*	O
 quay	V-H	*	I-Rel
-xe	N-H	(NP-DOB*)	B-Arg1-Patient
+xe	N-H	(NP-DOB*)	B-Arg1
 về	V-H	(VP*)))))	B-ArgM-PRP
 
 đã	R	(S(NP-SUB(Np-H(VP*	B-ArgM-TMP
@@ -30571,7 +30571,7 @@ thứ bảy	N	*	I-ArgM-TMP
 28	M-H	(QP*	I-ArgM-TMP
 8	M	*	I-ArgM-TMP
 2004	M	*)))	I-ArgM-TMP
-tại	E-H	(PP-LOC*	B-Arg1-Location
+tại	E-H	(PP-LOC*	B-Arg1
 nhà hàng	N-H	(NP*	O
 khách sạn	N	*	O
 LBKT	LBKT	(Np*	O
@@ -30611,8 +30611,8 @@ làm	V-H	(VP*))	B-Rel
 
 mới	R	(S(NP-SUB(VP*	B-ArgM-MNR
 xài	V-H	*	B-Rel
-mấy	L	(NP-TMP*	B-Arg1-Value
-bữa	N-H	*)	I-Arg1-Value
+mấy	L	(NP-TMP*	B-Arg1
+bữa	N-H	*)	I-Arg1
 bị	V-H	(VP-MNR*	B-ArgM-MNR
 gãy	V	*))))	O
 
@@ -30621,8 +30621,8 @@ uy tín	N-H	(NP-DOB*))))	B-Arg1
 
 chú	N-H	(S(NP-SUB*)	I-Arg0
 mang	V-H	(VP*	B-Rel
-ra	R	*	B-Arg4-Goal
-vườn	N-H	(NP-LOC*)	I-Arg4-Goal
+ra	R	*	B-Arg4
+vườn	N-H	(NP-LOC*)	I-Arg4
 cắt	V-H	(VP-PRP*	B-ArgM-PRP
 thử	V-H	(VP*	O
 coi	V	*))))	O
@@ -30938,7 +30938,7 @@ lặn	V-H	(VP*))	B-Rel
 tui	P-H	(S(NP-SUB*)	I-Arg0
 mới	R	(VP*	B-ArgM-TMP
 về	V-H	*	B-Rel
-đến	E-H	(PP-LOC*	B-Arg4-Goal
+đến	E-H	(PP-LOC*	B-Arg4
 chòi	N-H	(NP*))))	O
 
 thuyền	N-H	(S(NP-SUB*	I-Arg0
@@ -30973,7 +30973,7 @@ tiền lẻ	N	*))))	O
 
 hồn	N-H	(S(NP-SUB*)	I-Arg0
 bay	V-H	(VP*	B-Rel
-lên	R	*	B-Arg4-Goal
+lên	R	*	B-Arg4
 tận	E-H	(PP-LOC*	O
 trời	N-H	(NP*))))	O
 
@@ -30999,12 +30999,12 @@ của	E-H	(PP*	I-Arg0
 vợ con	N-H	(NP*)))	I-Arg0
 cũng	R	(VP*	B-ArgM-TMP
 đến	V-H	*	B-Rel
-đỉnh điểm	N-H	(NP-DOB*)))	B-Arg4-Goal
+đỉnh điểm	N-H	(NP-DOB*)))	B-Arg4
 
 đã	R	(S(NP-SUB-1(Np-H(VP*	B-ArgM-TMP
 quay	V-H	*	B-Rel
 trở lại	V	*	B-ArgM-DIR
-cồn	N-H	(NP-LOC*	B-Arg4-Goal
+cồn	N-H	(NP-LOC*	B-Arg4
 
 theo	E-H	(S(PP-SUB*	O
 đánh giá	V-H	(VP*	O
@@ -31154,7 +31154,7 @@ không	R	(VP*	B-ArgM-NEG
 sẵn sàng	A-H	*))	B-Rel
 
 thời gian	N-H	(S(NP-SUB*	O
-thực hiện	V	*)	I-Arg0-Carrier
+thực hiện	V	*)	I-Arg0
 quá	R	(AP-PRD*	O
 lâu	A-H	*))	I-Rel
 
@@ -31251,7 +31251,7 @@ này	P	*))))))	O
 
 Ông	Nc-H	(S(NP-SUB*	I-Arg0
 ra	V-H	(Np(VP*	B-Rel
-ngoài	N-H	(NP-LOC*)))))	B-Arg1-Location
+ngoài	N-H	(NP-LOC*)))))	B-Arg1
 
 tên	N-H	(S(NP-SUB*	I-Arg0
 áo	N-H	(NP*	I-Arg0
@@ -31260,13 +31260,13 @@ bám	V-H	(VP*	B-Rel
 theo	E-H	(PP-LOC*	B-ArgM-LOC
 sau	A-H	(AP*))))	O
 
-Trời	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+Trời	N-H	(S(NP-SUB*)	I-Arg0
 tối	A-H	(AP-PRD*	B-Rel
 hẳn	R	*))	B-ArgM-MNR
 
 đối tượng	N-H	(S(NP-SUB*)	I-Arg0
 chìm	V-H	(VP*	B-Rel
-vào	E-H	(PP-LOC*	B-Arg1-Location
+vào	E-H	(PP-LOC*	B-Arg1
 biển	N-H	(NP*	O
 người	N	*	O
 hối hả	A-H	(AP*)))))	O
@@ -31291,7 +31291,7 @@ qua	E-H	(PP-MNR*	B-ArgM-MNR
 cơ quan	N	*)))))	O
 
 là	V-H	(SBAR-CND(NP-SUB-1(VP*	B-Rel
-vợ	N-H	(NP-DOB*	B-Arg1-Identifier
+vợ	N-H	(NP-DOB*	B-Arg1
 ông	N-H	(NP*	O
 ta	P	*)))))	O
 
@@ -31318,7 +31318,7 @@ bán	V-H	(VP*)))))	O
 hiện	N-H	(S(NP-TMP*)	I-ArgM-TMP
 đã	R	(NP-SUB-1(VP*	I-ArgM-TMP
 chuyển	V-H	*	B-Rel
-nhà	N-H	(NP-DOB*	B-Arg4-Goal
+nhà	N-H	(NP-DOB*	B-Arg4
 mới	A	*))))	O
 
 địa chỉ	N-H	(S(NP-SUB*)	I-Arg1
@@ -31445,7 +31445,7 @@ thở phào	V-H	(S(NP-SUB(Np-H(VP*))))	B-Rel
 
 nếu	C	(SBAR-CND*	O
 là	V-H	(NP-SUB(VP*	B-Rel
-bà	N-H	(NP*	B-Arg1-Identifier
+bà	N-H	(NP*	B-Arg1
 ta	P	*))))	O
 
 rất	R	(S(NP-SUB(VP*	B-ArgM-EXT
@@ -31478,7 +31478,7 @@ tốn kém	V	*	O
 phiền phức	A	*))))))	O
 
 là	V-H	(S(NP-SUB(VP*	B-Rel
-vợ	N-H	(NP*	B-Arg1-Identifier
+vợ	N-H	(NP*	B-Arg1
 ông	N	*))))	O
 
 phải	V-H	(S(NP-SUB(Np-H(VP*	B-ArgM-MOD
@@ -31589,8 +31589,8 @@ một	M	(NP-EXT*	O
 lần	N-H	*)))))	O
 
 cần	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
-tỉnh táo	A-H	(AP*	B-Arg1-Attribute
-khôn khéo	A-H	*	I-Arg1-Attribute
+tỉnh táo	A-H	(AP*	B-Arg1
+khôn khéo	A-H	*	I-Arg1
 với	E-H	(PP(PP*	B-ArgM-COM
 và	C	(NP(Np-H*	B-ArgM-DIS
 với	E-H	(PP*	B-ArgM-COM
@@ -31640,7 +31640,7 @@ nhau	N	*)))	B-Arg1
 thường	R	(S(NP-SUB(Np-H(VP*	B-ArgM-TMP
 ăn	V-H	*	B-Rel
 ngủ	V-H	*	B-ArgM-ADV
-ở	E-H	(PP-LOC*	B-Arg1-Location
+ở	E-H	(PP-LOC*	B-Arg1
 nhà	N-H	(NP*	O
 
 học	V-H	(S(NP-SUB-1(Np-H(VP*	B-Rel
@@ -31658,7 +31658,7 @@ tên	N-H	(NP-DOB*	O
 
 có	V-H	(S(NP-SUB-1(VP*	B-ArgM-MOD
 học	V-H	(VP*	B-Rel
-trường	N-H	(NP-DOB*	B-Arg1-Location
+trường	N-H	(NP-DOB*	B-Arg1
 trung cấp	N-H	(NP*	O
 du lịch	V	*))))))	O
 
@@ -31718,7 +31718,7 @@ là	C	*	O
 
 thám tử	N-H	(S(NP-SUB*	I-Arg0
 về	V-H	(Np(VP(VP*	B-Rel
-đến	E-H	(PP-LOC*	B-Arg1-Location
+đến	E-H	(PP-LOC*	B-Arg1
 hoàn thành	V-H	(NP(Np-H(VP*	B-ArgM-ADV
 vai	N-H	(NP-DOB*	O
 sinh viên	N-H	(NP*	O
@@ -31789,7 +31789,7 @@ chỗ	N-H	(NP-LOC*	I-ArgM-TMP
 ông	Nc-H	(NP-SUB-1*	B-Arg0
 chưa	R	(Np(VP*	B-ArgM-MOD
 vào	V-H	*	B-Rel
-phòng	N-H	(NP-DOB*)))))	B-Arg4-Goal
+phòng	N-H	(NP-DOB*)))))	B-Arg4
 
 công an	N-H	(S(NP-SUB*)	I-Arg0
 lập	V-H	(VP*	B-Rel
@@ -31958,8 +31958,8 @@ như	C	*	O
 thế	P-H	(NP*	O
 này	P	*)))	O
 
-Cầu thủ	N-H	(S(NP-SUB-1*	I-Arg0-Carrier
-này	P	*)	I-Arg0-Carrier
+Cầu thủ	N-H	(S(NP-SUB-1*	I-Arg0
+này	P	*)	I-Arg0
 đúng	A-H	(AP-PRD*	O
 là	C	*	O
 xui xẻo	A-H	(AP*)))	I-Rel
@@ -32020,7 +32020,7 @@ giá	N-H	(NP(Np-H(Np(NP*	O
 triệu	M	*	O
 đồng	Nu-H	*)))))))))))	O
 
-á quân	N-H	(S(NP-SUB*)	I-Arg0-Identified
+á quân	N-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
 cây	Nc-H	(NP*	O
 vợt	N	*	O
@@ -32101,7 +32101,7 @@ tôi	P-H	(S(NP-SUB*)	I-Arg0
 hỏi	V-H	(VP*	B-Rel
 đùa	V	*))	B-ArgM-ADV
 
-Cửa hàng	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+Cửa hàng	N-H	(S(NP-SUB*)	I-Arg0
 thoáng đãng	A-H	(AP-PRD*	B-Rel
 với	E-H	(PP*	B-ArgM-ADJ
 vô số	A	(VP*	O
@@ -32334,11 +32334,11 @@ nhé	T	*))	I-ArgM-Partice
 
 một	M-H	(S(QP-SUB*)	I-Arg0
 ngoài	E-H	(PP-LOC*	B-Rel
-xe	N-H	(NP*)))	B-Arg1-Location
+xe	N-H	(NP*)))	B-Arg1
 
 một	M-H	(S(QP-SUB*)	I-Arg0
 trong	E-H	(PP-LOC*	B-Rel
-xe	N-H	(NP*)))	B-Arg1-Location
+xe	N-H	(NP*)))	B-Arg1
 
 hàng	R	(S(NP-SUB*	I-Arg0
 chục	M	*	I-Arg0
@@ -32433,9 +32433,9 @@ lừa	V-H	(VP*)))	B-Arg1
 chúng	P-H	(S(NP-SUB*)	I-Arg0
 nói	V-H	(VP*	B-Rel
 lên	R	*	B-ArgM-DIR
-2	M	(NP-DOB*	B-Arg1-Value
-triệu	M	*	I-Arg1-Value
-đồng	Nu-H	*)	I-Arg1-Value
+2	M	(NP-DOB*	B-Arg1
+triệu	M	*	I-Arg1
+đồng	Nu-H	*)	I-Arg1
 để	E-H	(PP-PRP*	B-ArgM-PRP
 ăn	V-H	(VP*	O
 chênh lệch	A	*))))	O
@@ -32503,9 +32503,9 @@ nhiều	A	*	O
 trẻ	N-H	*	O
 đường phố	N	*))))	O
 
-ước mơ	N-H	(S(NP-SUB*	I-Arg0-Possessor
-của	E-H	(PP*	I-Arg0-Possessor
-em	N-H	(NP*)))	I-Arg0-Possessor
+ước mơ	N-H	(S(NP-SUB*	I-Arg0
+của	E-H	(PP*	I-Arg0
+em	N-H	(NP*)))	I-Arg0
 là	V-H	(VP*	B-Rel
 gì	P-H	(NP-DOB*)))	B-Arg1
 
@@ -32627,7 +32627,7 @@ không	R	(S(AP-ADV*	I-ArgM-ADV
 lần	N-H	(NP*))	I-ArgM-ADV
 tôi	P-H	(NP-SUB*)	B-Arg0
 sang	V-H	(VP(VP*	B-Rel
-VN	Ny-H	(NP-LOC*))	B-Arg1-Location
+VN	Ny-H	(NP-LOC*))	B-Arg1
 mà	C	*	B-ArgM-DIS
 chỉ	R	(VP*	B-ArgM-ADV
 có	V-H	*	O
@@ -32753,7 +32753,7 @@ anh	N-H	(S(NP-SUB*)	I-Arg0
 bà	N-H	(S(NP-SUB*)	I-Arg0
 đi	V-H	(VP*	B-Rel
 thẳng	A	*	B-ArgM-MNR
-lên	V-H	(VP*	B-Arg4-Goal
+lên	V-H	(VP*	B-Arg4
 nhà	N-H	(NP-LOC*))))	O
 
 ra	V-H	(S-EXC(NP-TPC-1(Np-H(NP-SUB-1(VP*	I-Rel
@@ -32801,7 +32801,7 @@ cơ sở	N	*))))	I-ArgM-ADV
 ông	Nc-H	(NP-SUB*	B-Arg0
 cũng	R	(Np(VP*	B-ArgM-TMP
 chia tay	V-H	*	B-Rel
-người	Nc-H	(NP-DOB*	B-Arg1-Patient
+người	Nc-H	(NP-DOB*	B-Arg1
 phụ nữ	N	*	O
 này	P	*)))))	O
 
@@ -32846,7 +32846,7 @@ thôi	T	*))	O
 
 ông	N-H	(S(NP-SUB*)	I-Arg0
 về	V-H	(VP*	B-Rel
-nước	N-H	(NP-DOB*)))	B-Arg4-Goal
+nước	N-H	(NP-DOB*)))	B-Arg4
 
 không	R	(S(VP-SUB*	I-Arg0
 ai	P-H	*)	I-Arg0
@@ -32861,7 +32861,7 @@ năm	M-H	(QP-DOB*)))	B-Arg1
 
 đó	P-H	(S(NP-SUB*)	O
 là	V-H	(VP*	I-Rel
-con gái	N-H	(NP*	B-Arg1-Attribute
+con gái	N-H	(NP*	B-Arg1
 ông	N	*)))	O
 
 Những	L	(S(NP-SUB*	I-Arg0
@@ -32924,7 +32924,7 @@ sớm	A	*))))	B-Arg1
 quan hệ	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
 với	E-H	(PP*	B-Arg1
 
-hạnh phúc	N-H	(S(NP-SUB*)	I-Arg0-Identified
+hạnh phúc	N-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
 tình yêu	N-H	(NP-DOB*)))	B-Arg1
 
@@ -32985,7 +32985,7 @@ vấn đề	N-H	*))))	O
 cháu	N-H	(S(NP-SUB*)	I-Arg1
 từng	R	(VP*	B-ArgM-TMP
 ở	V-H	*	B-Rel
-đó	P-H	(NP-LOC*)))	B-Arg1-Location
+đó	P-H	(NP-LOC*)))	B-Arg1
 
 bạn bè	N-H	(S(NP-SUB*)	I-Arg0
 cho	V-H	(VP*	B-Rel
@@ -33300,10 +33300,10 @@ quê	N-H	(NP-LOC*	I-Arg0
 RBKT	RBKT	(NP(Np-H*)	O
 chỉ huy	V-H	(VP*)))))))	I-Rel
 
-mỗi	M	(S(NP-SUB*	I-Arg0-Identified
-mảnh	N-H	*)	I-Arg0-Identified
+mỗi	M	(S(NP-SUB*	I-Arg0
+mảnh	N-H	*)	I-Arg0
 là	V-H	(VP*	B-Rel
-một	M	(NP-DOB*	B-Arg1-Identifier
+một	M	(NP-DOB*	B-Arg1
 nửa	M	*	O
 vòng tròn	N-H	*	O
 đường ống	N-H	(NP*))))	O
@@ -33471,7 +33471,7 @@ kg	Nu-H	(NP*)))))	O
 
 hàng	N-H	(S(NP-SUB*)	I-Arg0
 vượt	V-H	(VP*	B-Rel
-qua	R	*	B-Arg4-Goal
+qua	R	*	B-Arg4
 biên giới	N-H	(NP-DOB*)))	O
 
 đó	P-H	(S(NP-SUB*)	I-Arg0
@@ -33528,7 +33528,7 @@ thực phẩm	N-H	(S(NP-SUB*	I-Arg0
 nhập	V-H	(VP*	I-Arg0
 lậu	A	*))	I-Arg0
 vào	V-H	(VP*	B-Rel
-tỉnh	N-H	(NP-LOC*	B-Arg4-Goal
+tỉnh	N-H	(NP-LOC*	B-Arg4
 
 Em	N-H	(S(NP-SUB-1*)	I-Arg0
 thật	R	(AP-PRD*	B-ArgM-MNR
@@ -33812,9 +33812,9 @@ bao giờ	P-H	(NP*)))))	O
 
 đi	V-H	(S(NP-SUB(Np-H(VP*	B-ArgM-MOD
 làm	V-H	*	B-Rel
-ở	E-H	(PP-LOC*	B-Arg1-Location
-công ty	N-H	(NP*	I-Arg1-Location
-mới	A	*))	I-Arg1-Location
+ở	E-H	(PP-LOC*	B-Arg1
+công ty	N-H	(NP*	I-Arg1
+mới	A	*))	I-Arg1
 đã	R	(NP-TMP*	B-ArgM-TMP
 bốn	M	*	O
 năm	N-H	*	O
@@ -33863,8 +33863,8 @@ thế	P-H	(NP-DOB*)))))))	O
 không	R	(S(NP-SUB-1(VP*	B-ArgM-NEG
 loại trừ	V-H	*)))	B-Rel
 
-Tên	N-H	(S(NP-SUB*	I-Arg0-Identified
-cô	N	*)	I-Arg0-Identified
+Tên	N-H	(S(NP-SUB*	I-Arg0
+cô	N	*)	I-Arg0
 là	V-H	(VP*	B-Rel
 
 đôi	M	(S(NP-SUB*	I-Arg0
@@ -33921,8 +33921,8 @@ nhì	M	*	O
 thi	V-H	(VP*	O
 viết	V	*))))))	O
 
-theo	E-H	(S(PP-TPC*	I-Arg0-Carrier
-nguyên tắc	N-H	(NP*))	I-Arg0-Carrier
+theo	E-H	(S(PP-TPC*	I-Arg0
+nguyên tắc	N-H	(NP*))	I-Arg0
 chỉ	R	(NP-SUB*	B-Arg0
 những	L	*	I-Arg0
 người	N-H	*	I-Arg0
@@ -33965,9 +33965,9 @@ RBKT	RBKT	*)	I-ArgM-ADV
 tôi	P-H	(NP-SUB*)	B-Arg0
 lại	R	(VP*	B-ArgM-TMP
 bay	V-H	*	B-Rel
-sang	V-H	(VP*	B-Arg4-Goal
-bên	N-H	(NP-DIR*	I-Arg4-Goal
-đó	P	*))	I-Arg4-Goal
+sang	V-H	(VP*	B-Arg4
+bên	N-H	(NP-DIR*	I-Arg4
+đó	P	*))	I-Arg4
 tiếp tục	V-H	(VP-PRP*	B-ArgM-PRP
 kỳ	N-H	(NP-DOB*	O
 học	V	*	O
@@ -33982,9 +33982,9 @@ cũng	R	(VP*	B-ArgM-TMP
 không	R	*	B-ArgM-NEG
 có	V-H	*))	B-Rel
 
-họ	P-H	(S(NP-SUB*)	I-Arg0-Carrier
+họ	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
-nạn nhân	N-H	(NP-DOB*	B-Arg1-Attribute
+nạn nhân	N-H	(NP-DOB*	B-Arg1
 chất độc	N-H	(NP*	O
 da cam	N	*))))	O
 
@@ -34010,16 +34010,16 @@ các	L	(NP-DOB*	B-Arg1
 sinh viên	N-H	*	O
 khác	A	*))))	O
 
-Chỉ	R	(S(NP-SUB*	I-Arg0-Carrier
-duy nhất	A	*	I-Arg0-Carrier
+Chỉ	R	(S(NP-SUB*	I-Arg0
+duy nhất	A	*	I-Arg0
 là	V-H	(Np-H(VP*	B-Rel
-người	N-H	(NP-DOB*	B-Arg1-Attribute
+người	N-H	(NP-DOB*	B-Arg1
 khiếm thị	V	*)))))	O
 
-Hiếm	A-H	(S(AP-SUB*	I-Arg0-Carrier
-nhất	R	*)	I-Arg0-Carrier
+Hiếm	A-H	(S(AP-SUB*	I-Arg0
+nhất	R	*)	I-Arg0
 là	V-H	(VP*	B-Rel
-sách	N-H	(NP-DOB*	B-Arg1-Attribute
+sách	N-H	(NP-DOB*	B-Arg1
 văn học	V	*	O
 chữ nổi	N-H	(NP*))))	O
 
@@ -34114,7 +34114,7 @@ không	R	*)))))	B-ArgM-Partice
 
 anh	N-H	(S(NP-SUB*)	I-Arg0
 vào	V-H	(VP*	B-Rel
-đó	P-H	(NP-LOC*)	B-Arg4-Goal
+đó	P-H	(NP-LOC*)	B-Arg4
 trước	A-H	(AP-TMP*)	B-ArgM-TMP
 một	M	(NP*	O
 thời gian	N-H	*)))	O
@@ -34336,7 +34336,7 @@ tôi	P	*)	I-Arg1
 Đã	R	(S(NP-SUB-1(VP*	B-ArgM-TMP
 điều tra	V-H	*)))	B-Rel
 
-ai	P-H	(S(NP-TPC*)	I-Arg0-Carrier
+ai	P-H	(S(NP-TPC*)	I-Arg0
 tôi	P-H	(NP-SUB*)	B-Arg0
 cũng	R	(VP*	B-ArgM-TMP
 có	V-H	*	B-Rel
@@ -34388,9 +34388,9 @@ nhà	N-H	(NP*	O
 
 rất	R	(S(PP-MDP*	I-ArgM-EXT
 có thể	R-H	*)	B-ArgM-MOD
-đó	P-H	(NP-SUB*)	B-Arg0-Carrier
+đó	P-H	(NP-SUB*)	B-Arg0
 là	V-H	(VP*	B-Rel
-vợ	N-H	(NP*	B-Arg1-Attribute
+vợ	N-H	(NP*	B-Arg1
 ông	Nc-H	(NP*	O
 
 Tuổi trẻ	N-H	(S(NP-SUB*	O
@@ -34586,10 +34586,10 @@ lớn	A-H	(AP*))))	O
 mình	P-H	(S(NP-SUB*)	I-Arg0
 leo	V-H	(VP*	B-Rel
 lên	V	*	I-Rel
-lầu	N-H	(NP-LOC*	B-Arg1-Location
-của	E-H	(PP*	I-Arg1-Location
-khu vực	N-H	(NP*	I-Arg1-Location
-cháy	V-H	(VP*))))	I-Arg1-Location
+lầu	N-H	(NP-LOC*	B-Arg1
+của	E-H	(PP*	I-Arg1
+khu vực	N-H	(NP*	I-Arg1
+cháy	V-H	(VP*))))	I-Arg1
 để	E-H	(PP-PRP*	B-ArgM-PRP
 cứu	V-H	(VP(VP*	O
 người	N-H	(NP-DOB*))	O
@@ -34599,7 +34599,7 @@ chữa cháy	V-H	(VP*)))))	O
 tôi	P-H	(S(NP-SUB*)	I-Arg0
 vào	V-H	(VP*	B-Rel
 đến	V	*	I-Rel
-nơi	N-H	(NP-LOC*)))	B-Arg1-Location
+nơi	N-H	(NP-LOC*)))	B-Arg1
 
 cả	P	(S(NP-SUB*	I-Arg0
 hội trường	N-H	*)	I-Arg0
@@ -34626,7 +34626,7 @@ vỡ	V-H	(VP*)))))))))	O
 tôi	P-H	(S(NP-SUB-1*)	I-Arg0
 bước	V-H	(VP*	B-Rel
 ra	V	*	I-Rel
-ngoài	N-H	(NP-LOC*)))	B-Arg1-Location
+ngoài	N-H	(NP-LOC*)))	B-Arg1
 
 Tha	V-H	(S(VP-VOC*	I-ArgM-ADV
 cho	R	*	I-ArgM-ADV
@@ -34999,7 +34999,7 @@ liên hệ	V-H	(VP*	B-Rel
 lại	R	*))	O
 
 là	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
-người	N-H	(NP-DOB*	B-Arg1-Attribute
+người	N-H	(NP-DOB*	B-Arg1
 đạo diễn	V-H	(VP*	O
 chuyện	N-H	(NP-DOB*	O
 khủng bố	V	*)))))))	O
@@ -35068,7 +35068,7 @@ bốn bề	N-H	(NP*	O
 
 tụi	N-H	(S(NP-SUB*	I-Arg0
 càn	V-H	(Np(VP*	B-Rel
-vô	E-H	(PP-LOC*	B-Arg4-Goal
+vô	E-H	(PP-LOC*	B-Arg4
 
 địch	N-H	(S(NP-SUB*)	I-Arg0
 càng	R	(VP*	B-ArgM-MNR
@@ -35156,9 +35156,9 @@ lưỡi	N-H	*	O
 cuốc	N	*	O
 cùn	A-H	(AP*))))	O
 
-cán	N-H	(S(NP-SUB*	I-Arg0-Carrier
+cán	N-H	(S(NP-SUB*	I-Arg0
 ngắn	A	*)	B-Rel
-chừng	N-H	(NP-PRD*	B-Arg1-Attribute
+chừng	N-H	(NP-PRD*	B-Arg1
 3	M	(NP*	O
 4	M	*	O
 tấc	Nu-H	*)))	O
@@ -35480,7 +35480,7 @@ mọi	L	(S(NP-SUB*	I-Arg0
 người	N-H	*)	I-Arg0
 đều	R	(VP*	B-ArgM-TMP
 ở	V-H	*	B-Rel
-nhà	N-H	(NP-LOC*)))	B-Arg1-Location
+nhà	N-H	(NP-LOC*)))	B-Arg1
 
 Con	Nc-H	(S(NP-SUB*	I-Arg0
 đĩ	N	*)	I-Arg0
@@ -36037,7 +36037,7 @@ Em	N-H	(SQ(NP-SUB*)	I-Arg0
 Em	N-H	(S(NP-SUB*)	I-Arg0
 đang	R	(VP*	B-ArgM-TMP
 ở	V-H	*	B-Rel
-cửa hàng	N-H	(NP-LOC*)))	B-Arg1-Location
+cửa hàng	N-H	(NP-LOC*)))	B-Arg1
 
 Chị	N-H	(SQ(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
@@ -36118,7 +36118,7 @@ kia	P	*)	I-Arg0
 chắc	A-H	(AP-PRD*	B-ArgM-MNR
 cũng	R	*	B-ArgM-TMP
 của	E-H	(PP*	B-Rel
-L	Ny-H	(NP*))))	B-Arg1-Processor
+L	Ny-H	(NP*))))	B-Arg1
 
 hỏi	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
 xin	V-H	(VP*	I-Rel
@@ -36237,7 +36237,7 @@ cô	Nc-H	(S(NP-SUB*	I-Arg0
 gái	N	*	I-Arg0
 trẻ	A-H	(AP*))	I-Arg0
 dắt	V-H	(VP*	B-Rel
-xe	N-H	(NP-DOB*)	B-Arg1-Patient
+xe	N-H	(NP-DOB*)	B-Arg1
 đi	V-H	(VP*	B-ArgM-DIR
 ra	V	*)))	O
 
@@ -36247,7 +36247,7 @@ ra	V	*)))	O
 Không	R-H	(S(RP*)	I-ArgM-ADV
 vừa	R	(NP-SUB(Np-H(VP*	B-ArgM-TMP
 ra	V-H	*	B-Rel
-ngoài	N-H	(NP-LOC*)))))	B-Arg1-Location
+ngoài	N-H	(NP-LOC*)))))	B-Arg1
 
 bà	N-H	(S(NP-SUB*	I-Arg0
 già	A	*)	I-Arg0
@@ -36291,10 +36291,10 @@ mượt	A-H	(AP*	B-Rel
 như	C	*	B-ArgM-MNR
 nhung	N	*))	O
 
-chú	Nc-H	(S(NP-SUB*	I-Arg0-Identified
-hổ	N	*	I-Arg0-Identified
+chú	Nc-H	(S(NP-SUB*	I-Arg0
+hổ	N	*	I-Arg0
 là	V-H	(Np(VP*	B-Rel
-tài sản	N-H	(NP-DOB*	B-Arg1-Identifier
+tài sản	N-H	(NP-DOB*	B-Arg1
 của	E-H	(PP*	O
 mỗi	M	(NP*	O
 người	N-H	*)))))))	O
@@ -36304,7 +36304,7 @@ của	E-H	(PP*	O
 là	V-H	(NP(Np-H(VP*	O
 bốn	M	(NP-DOB*	O
 hổ	N-H	*	O
-con	N	*	I-Arg0-Carrier
+con	N	*	I-Arg0
 béo	A-H	(AP*	O
 tròn	A	*)	I-Rel
 béo	A-H	(AP*	O
@@ -36317,10 +36317,10 @@ thôi nôi	A-H	(AP-DOB*)	O
 vài	L	(NP-TMP*	O
 ngày	N-H	*)))))))))))	O
 
-Mẹ	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+Mẹ	N-H	(S(NP-SUB*)	I-Arg0
 tròn	A-H	(AP-PRD*))	B-Rel
 
-con	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+con	N-H	(S(NP-SUB*)	I-Arg0
 vuông	A-H	(AP-PRD*))	B-Rel
 
 Chị	N-H	(SQ(NP-SUB*)	I-Arg0
@@ -36350,7 +36350,7 @@ thời kỳ	N-H	*	O
 Hổ	N-H	(S(NP-SUB*)	I-Arg0
 đang	R	(VP*	B-ArgM-TMP
 say	V-H	*	B-Rel
-mồi	N-H	(NP-DOB*)))	B-Arg0-Event
+mồi	N-H	(NP-DOB*)))	B-Arg0
 
 bỗng	R	(S(PP-LOC*	I-ArgM-LOC
 từ	E-H	*	I-ArgM-LOC
@@ -36374,7 +36374,7 @@ phía	N-H	(NP*	O
 đàn	Nc-H	(NP*	O
 bồ câu	N	*)))))))	O
 
-chị	Nc-H	(S(NP-SUB*	I-Arg0-Carrier
+chị	Nc-H	(S(NP-SUB*	I-Arg0
 bùi ngùi	A-H	(Np(AP-PRD*))))	B-Rel
 
 mình	P-H	(S(NP-SUB*)	I-Arg0
@@ -36505,7 +36505,7 @@ này	P	*))))	O
 sợ	V-H	(VP*))))	B-Rel
 
 ra	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
-ngoài	N-H	(NP-LOC*)))))	B-Arg4-Goal
+ngoài	N-H	(NP-LOC*)))))	B-Arg4
 
 gõ cửa	V-H	(S(NP-SUB(Np-H(VP*))))	B-Rel
 
@@ -36534,7 +36534,7 @@ trưa	N-H	(S(NP-TMP*	I-ArgM-TMP
 mẹ con	N-H	(NP-SUB*	B-Arg0
 cô	N	*)	I-Arg0
 ăn	V-H	(VP*	B-Rel
-cơm	N-H	(NP-DOB*)	B-Arg1-Patient
+cơm	N-H	(NP-DOB*)	B-Arg1
 ở	E-H	(PP-LOC*	B-ArgM-LOC
 đây	P-H	(NP*))))	O
 
@@ -36546,8 +36546,8 @@ ngày	N-H	*	I-ArgM-TMP
 sau	N	*)	I-ArgM-TMP
 lại	R	(NP-SUB(Np-H(VP*	B-ArgM-TMP
 đến	V-H	*	B-Rel
-quán	N-H	(NP-LOC*	B-Arg1-Location
-hát	V	*)	I-Arg1-Location
+quán	N-H	(NP-LOC*	B-Arg1
+hát	V	*)	I-Arg1
 cùng	A-H	(AP*	B-ArgM-COM
 tốp	Nc-H	(NP*	O
 bạn	N	*	O
@@ -36571,7 +36571,7 @@ nhà hàng	N-H	(S(NP-SUB*)	I-Arg0
 
 đang	R	(S(NP-SUB(Np-H(VP*	B-ArgM-TMP
 mở	V-H	*	B-Rel
-cổng	N-H	(NP-DOB*)))))	B-Arg1-Patient
+cổng	N-H	(NP-DOB*)))))	B-Arg1
 
 mình	P-H	(S(NP-SUB*)	I-Arg0
 yêu thương	V-H	(VP*))	B-Rel
@@ -36996,7 +36996,7 @@ núi	N	*)))))))	O
 Lại	R	(S(NP-SUB(VP*	B-ArgM-TMP
 sắp sửa	R	*	I-ArgM-TMP
 đi	V-H	*	B-Rel
-nơi	N-H	(NP-LOC*	B-Arg4-Goal
+nơi	N-H	(NP-LOC*	B-Arg4
 khác	A	*))))	O
 
 vừa	R	(S(NP-SUB(VP*	B-ArgM-TMP
@@ -37166,7 +37166,7 @@ thế hệ	N-H	*	I-Arg0
 sinh viên	N	*)	I-Arg0
 đã	R	(VP*	B-ArgM-TMP
 vào	V-H	*	B-Rel
-trận	N	*	B-Arg4-Goal
+trận	N	*	B-Arg4
 như	C	*	B-ArgM-MNR
 thế	P-H	(NP-DOB*)))	O
 
@@ -37271,7 +37271,7 @@ mình	P	*)))))	O
 
 trong	E-H	(S(PP-LOC*	O
 gia đình	N-H	(NP*))	O
-anh	Nc-H	(NP-SUB*	I-Arg0-Carrier
+anh	Nc-H	(NP-SUB*	I-Arg0
 là	V-H	(Np(VP*	B-Rel
 người	N-H	(NP*	B-Arg0
 thông minh	A-H	(AP*	O
@@ -37453,10 +37453,10 @@ còng	A	*)))))	O
 
 Hai	M	(S(NP-SUB-1*	I-Arg0
 bà	N-H	*)	I-Arg0
-không	R	(NP-PRD(NP*	B-Arg1-Attribute
-chồng	N-H	*)	I-Arg1-Attribute
-không	R	(NP*	B-Arg1-Attribute
-con	N-H	*))	I-Arg1-Attribute
+không	R	(NP-PRD(NP*	B-Arg1
+chồng	N-H	*)	I-Arg1
+không	R	(NP*	B-Arg1
+con	N-H	*))	I-Arg1
 muốn	V-H	(VP*	B-ArgM-MOD
 bán	V-H	(VP*	B-Rel
 thửa	Nc-H	(NP-DOB*	B-Arg1
@@ -37743,7 +37743,7 @@ ngài	Nc-H	(NP-1*	B-Arg1
 giám đốc	N	*)))	O
 
 rơi	V-H	(S(NP-SUB(VP*	B-Rel
-vào	E-H	(PP*	B-Arg4-Goal
+vào	E-H	(PP*	B-Arg4
 hai	M	(NP*	O
 hình thức	N-H	*	O
 cuối	N	*)))))	O
@@ -37780,8 +37780,8 @@ sợ	V-H	(VP*	B-Rel
 đến	E-H	(PP*	O
 công việc	N-H	(NP*)))))	O
 
-ông	N-H	(S(NP-SUB*	I-Arg0-Identified
-ta	P	*)	I-Arg0-Identified
+ông	N-H	(S(NP-SUB*	I-Arg0
+ta	P	*)	I-Arg0
 là	V-H	(VP*	B-Rel
 thủ phạm	N-H	(NP-DOB*)))	B-Arg1
 
@@ -37811,7 +37811,7 @@ số	N-H	(S(NP-SUB*	I-Arg1
 điện thoại	N	*	I-Arg1
 lạ	A-H	(AP*))	I-Arg1
 hiện	V-H	(VP*	B-Rel
-trên	E-H	(PP-LOC*	B-Arg1-Location
+trên	E-H	(PP-LOC*	B-Arg1
 máy	N-H	(NP*	O
 cố định	N	*))))	O
 
@@ -37819,11 +37819,11 @@ cố định	N	*))))	O
 ta	P	*)	I-Arg0
 vừa	R	(VP*	B-ArgM-TMP
 ra	V-H	*	B-Rel
-ngoài	N-H	(NP-LOC*)))	B-Arg1-Location
+ngoài	N-H	(NP-LOC*)))	B-Arg1
 
 anh	N-H	(S(NP-SUB*)	I-Arg0
 có	V-H	(VP*	B-Rel
-từ	E-H	(PP-LOC*	B-Arg1-Location
+từ	E-H	(PP-LOC*	B-Arg1
 máy	N-H	(NP*	O
 của	E-H	(PP*	O
 
@@ -37894,7 +37894,7 @@ quan tâm	V-H	*))))))	O
 nhà	N	*)	B-Arg0
 đang	R	(VP*	B-ArgM-TMP
 thổn thức	V-H	*	B-Rel
-trong	E-H	(PP-LOC*	B-Arg1-Location
+trong	E-H	(PP-LOC*	B-Arg1
 hộp	N-H	(NP*	O
 điện thoại	N-H	(NP*	O
 công cộng	A	*)))))	O
@@ -38177,7 +38177,7 @@ trước	N-H	(NP*)))))	O
 
 Chúng tôi	P-H	(S(NP-SUB*)	I-Arg0
 chiếm đóng	V-H	(VP*	B-Rel
-nhà	N-H	(NP-DOB*	B-Arg1-Patient
+nhà	N-H	(NP-DOB*	B-Arg1
 làm việc	V-H	(VP*))))	O
 
 các	L	(S-SUB(NP-SUB*	I-Arg0
@@ -38583,7 +38583,7 @@ các	L	*	I-Arg0
 vụ	Nc-H	*	I-Arg0
 cháy	V	*)	I-Arg0
 do	E-H	(PP-PRD*	B-Rel
-sự cố	N-H	(NP*	B-Arg1-Reason
+sự cố	N-H	(NP*	B-Arg1
 về	E-H	(PP*	O
 điện	N-H	(NP*)))))	O
 
@@ -38691,7 +38691,7 @@ trăm	M	*	I-Arg0
 ghe	N-H	*)))	I-Arg0
 bơm	V-H	(VP*	B-Rel
 hút	V	*	I-Rel
-cát	N-H	(NP-DOB*	B-Arg1-Patient
+cát	N-H	(NP-DOB*	B-Arg1
 thoải mái	A	*	B-ArgM-MNR
 cả	P	(NP*	B-ArgM-TMP
 ngày	N-H	*	I-ArgM-TMP
@@ -38762,7 +38762,7 @@ hiện	N-H	(NP-TMP*)	B-ArgM-TMP
 đã	R	(VP*	B-ArgM-TMP
 bị	V-H	*	B-Rel
 tận thu	V	*	I-Rel
-cát	N-H	(NP-DOB*	B-Arg1-Patient
+cát	N-H	(NP-DOB*	B-Arg1
 sâu	A	(NP*	B-ArgM-EXT
 hơn	R	*	O
 20	M	*	O
@@ -38845,15 +38845,15 @@ cũng	R	(VP*	I-ArgM-TMP
 đang	R	*	I-ArgM-TMP
 miệt mài	A	*	B-ArgM-MNR
 khai thác	V-H	*	B-Rel
-cát	N-H	(NP-DOB*)))	B-Arg1-Patient
+cát	N-H	(NP-DOB*)))	B-Arg1
 
 hàng	R	(S(NP-SUB*	I-Arg0
 trăm	M	*	I-Arg0
 bãi	Nc-H	*	I-Arg0
-cát	N	*)	B-Arg1-Patient
+cát	N	*)	B-Arg1
 sẵn sàng	A	(VP*	B-ArgM-MNR
 thu gom	V-H	*	B-Rel
-cát	N-H	(NP-DOB*)	B-Arg1-Patient
+cát	N-H	(NP-DOB*)	B-Arg1
 24	M	(NP-TMP*	B-ArgM-TMP
 24	M	*	O
 giờ	Nu-H	*)))	O
@@ -38868,7 +38868,7 @@ cát	N-H	(NP-DOB*))))	I-Arg0
 neo	V-H	*	B-Rel
 chờ	V-H	(VP-PRP*	B-ArgM-PRP
 đưa	V-H	(VP*	O
-cát	N-H	(NP-DOB*)	I-Arg1-Patient
+cát	N-H	(NP-DOB*)	I-Arg1
 lên	E-H	(PP-DIR*	O
 bờ	N-H	(NP*))))))	O
 
@@ -38930,7 +38930,7 @@ Tôi	P-H	(S(NP-SUB*)	I-Arg0
 nhiều	A	*	B-ArgM-TMP
 lần	N-H	*)	I-ArgM-TMP
 tới	V-H	(VP*	B-Rel
-Bảo tàng	N-H	(NP-LOC*	B-Arg4-Goal
+Bảo tàng	N-H	(NP-LOC*	B-Arg4
 Chứng tích	N	*	O
 chiến tranh	N	*	O
 tại	E-H	(PP-LOC*	O
@@ -38961,7 +38961,7 @@ bất hạnh	A	*	I-Arg0
 đó	P	*)	I-Arg0
 ập	V-H	(VP*	B-Rel
 xuống	R	*	B-ArgM-MNR
-gia đình	N-H	(NP-LOC*	B-Arg4-Goal
+gia đình	N-H	(NP-LOC*	B-Arg4
 mình	P	*)))	O
 
 chuyển	V-H	(S(NP-SUB(VP*	B-Rel
@@ -39361,10 +39361,10 @@ kẻ	N-H	*)	I-Arg0
 bị	V-H	(VP*	B-Rel
 khuynh gia bại sản	X	*))	B-Arg1
 
-Tập đoàn	N-H	(S(NP-SUB*	I-Arg0-Carrier
+Tập đoàn	N-H	(S(NP-SUB*	I-Arg0
 và	C	(NP(NP(Np-H(NP(Np-H*	B-ArgM-DIS
-LKN	Ny-H	(NP*	B-Arg0-Carrier
-của	E-H	(Np(PP*	I-Arg0-Carrier
+LKN	Ny-H	(NP*	B-Arg0
+của	E-H	(Np(PP*	I-Arg0
 khi	N-H	(NP(Np-H(NP-TMP*	B-ArgM-TMP
 đặt chân	V-H	(VP*	I-ArgM-TMP
 đến	E-H	(PP-DIR*	I-ArgM-TMP
@@ -39426,7 +39426,7 @@ tổng cục trưởng	N-H	(S(NP-SUB*	I-Arg0
 Tổng cục	N-H	(NP*	I-Arg0
 Du lịch	N	*)	I-Arg0
 vào	V-H	(NP(Np-H(VP*	B-Rel
-đến	E-H	(PP*	B-Arg4-Goal
+đến	E-H	(PP*	B-Arg4
 tận	E-H	(PP*	O
 đây	P-H	(NP*))))))))	O
 
@@ -39635,7 +39635,7 @@ làm mướn	V	*)	I-Arg0
 cũng	R	(VP*	B-ArgM-TMP
 không	R	*	B-ArgM-NEG
 còn	V-H	*	B-Rel
-nhiều	A-H	(AP*)))	B-Arg1-Attribute
+nhiều	A-H	(AP*)))	B-Arg1
 
 Làm	V-H	(S(NP-SUB(VP*	B-Rel
 nhiều	A	*)))	B-ArgM-MNR
@@ -39734,7 +39734,7 @@ thường trực	V-H	*))	B-Rel
 nhiều	A	(NP*	I-Arg0
 nơi	N-H	*))	I-Arg0
 ăn	V-H	(VP*	B-Rel
-sắn	N	*	B-Arg1-Patient
+sắn	N	*	B-Arg1
 thay	V-H	(VP-PRP*	B-ArgM-PRP
 cơm	N-H	(NP-DOB*))))	O
 
@@ -39976,12 +39976,12 @@ gian nan	A	*))))	O
 tối	N-H	(S(NP-TMP*	I-ArgM-TMP
 nay	P	*)	I-ArgM-TMP
 xem	V-H	(VP*	B-Rel
-phim	N-H	(NP-DOB*)	B-Arg1-Patient
+phim	N-H	(NP-DOB*)	B-Arg1
 nhé	I	*))	B-ArgM-Partice
 
 chú	Nc-H	(S(NP-SUB*	I-Arg0
 về	V-H	(Np(VP*	B-Rel
-trường	N	*))))	B-Arg4-Goal
+trường	N	*))))	B-Arg4
 
 giọng	N-H	(S(NP-SUB*	I-Arg0
 chú	N	*)	I-Arg0
@@ -40696,7 +40696,7 @@ buôn lậu	V	*	I-Arg0
 biên giới	N-H	(NP*	I-Arg0
 cần	V-H	(Np(VP*	B-ArgM-MOD
 nhập	V-H	(VP*	B-Rel
-tê tê	N-H	(NP-DOB*)	B-Arg1-Patient
+tê tê	N-H	(NP-DOB*)	B-Arg1
 với	E-H	(PP*	O
 giá	N-H	(NP*	O
 450.000	M	*	O
@@ -40818,7 +40818,7 @@ từ	E-H	(PP-LOC*	B-Arg3
 bên	N-H	(NP*	I-Arg3
 theo	E-H	(Np(PP-MNR*	B-ArgM-DIR
 đường mòn	N-H	(NP*	I-ArgM-DIR
-về	V-H	(VP-PRP*	B-Arg4-Goal
+về	V-H	(VP-PRP*	B-Arg4
 
 Đó	P-H	(S(NP-SUB*)	I-Arg0
 là	V-H	(VP*	B-Rel
@@ -41025,7 +41025,7 @@ của	E-H	(PP*	I-Arg0
 chúng nó	P-H	(NP*)))	I-Arg0
 chuyển	V-H	(VP*	B-Rel
 hết	R	*	B-ArgM-MNR
-sang	R	*	B-Arg4-Goal
+sang	R	*	B-Arg4
 mình	P-H	(NP-DOB*)))	B-Arg0
 
 mình	P-H	(S(NP-SUB*)	I-Arg0
@@ -41269,7 +41269,7 @@ mình	P	*))	I-ArgM-LOC
 người ta	N-H	(NP-SUB*)	B-Arg0
 chưa	R	(VP*	B-ArgM-NEG
 dạy	V-H	*	B-Rel
-ngoại ngữ	N-H	(NP-DOB*)))	B-Arg0-Event
+ngoại ngữ	N-H	(NP-DOB*)))	B-Arg0
 
 tháng	N-H	(S(NP-TMP*	I-ArgM-TMP
 6	M	*	I-ArgM-TMP
@@ -41317,7 +41317,7 @@ chị	N-H	(S(NP-SUB*)	I-Arg2
 một mực	R	(VP*	O
 đòi	V-H	*	I-Rel
 quay	V-H	(VP*	B-ArgM-DIR
-về	R	*	B-Arg4-Goal
+về	R	*	B-Arg4
 quê hương	N-H	(NP-LOC*))))	O
 
 Được	V-H	(S(VP-ADV*	I-ArgM-ADV
@@ -41690,7 +41690,7 @@ quán	N	*	I-Arg0
 karaoke	Nb-H	(NP*))	I-Arg0
 khóa	V-H	(VP*	B-Rel
 trái	A	*	I-Rel
-cửa	N-H	(NP-DOB*)))	B-Arg1-Patient
+cửa	N-H	(NP-DOB*)))	B-Arg1
 
 Tôi	P-H	(S(NP-SUB*)	I-Arg0
 chỉ	R	(VP*	B-ArgM-EXT
@@ -42321,7 +42321,7 @@ không thể	R	(S(NP-SUB(VP*	B-ArgM-MOD
 được	R	*)))	O
 
 vào	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
-tù	N-H	(NP-DOB*)))))	B-Arg4-Goal
+tù	N-H	(NP-DOB*)))))	B-Arg4
 
 dựa	V-H	(S(NP-SUB(Np-H(VP*	B-Rel
 cột	N-H	(NP-DOB*	B-Arg1
@@ -42582,7 +42582,7 @@ cụ	N-H	(NP*)))))	I-Arg0
 
 Gửi	V-H	(S-SUB(NP-SUB(VP*	B-Rel
 cụ	N-H	(NP-DOB*)	B-Arg1
-vào	E-H	(PP-LOC*	B-Arg4-Goal
+vào	E-H	(PP-LOC*	B-Arg4
 trung tâm	N-H	(NP*	O
 nuôi dưỡng	V	*	O
 của	E-H	(PP*	O
@@ -42616,7 +42616,7 @@ ngược đãi	V-H	(S(NP-SUB-1(VP*)))	B-Rel
 ông	N-H	(S(NP-SUB*)	I-Arg0
 đưa	V-H	(VP*	B-Rel
 mẹ	N-H	(NP-DOB*)	B-Arg1
-vào	V-H	(VP-LOC*	B-Arg4-Goal
+vào	V-H	(VP-LOC*	B-Arg4
 trung tâm	N-H	(NP*))))	O
 
 chỉ	R	(S(NP-SUB(VP*	B-ArgM-ADV
@@ -42649,13 +42649,13 @@ cụ	Nc-H	(NP*	I-Arg0
 cần	V-H	*	B-Rel
 phục vụ	N-H	(NP-DOB*)))))))	B-Arg1
 
-Cả	T	(S(NP-SUB*	I-Arg0-Carrier
-khu	N-H	*	I-Arg0-Carrier
-nhà	N	*	I-Arg0-Carrier
-mới	R	(VP*	I-Arg0-Carrier
-xây	V-H	*))	I-Arg0-Carrier
+Cả	T	(S(NP-SUB*	I-Arg0
+khu	N-H	*	I-Arg0
+nhà	N	*	I-Arg0
+mới	R	(VP*	I-Arg0
+xây	V-H	*))	I-Arg0
 có	V-H	(VP*	B-Rel
-rất	R	(NP-DOB*	B-Arg1-Attribute
+rất	R	(NP-DOB*	B-Arg1
 nhiều	A	*	O
 phòng	N-H	*)))	O
 
@@ -42737,7 +42737,7 @@ các	L	(S(NP-SUB*	I-Arg0
 con	N-H	*)	I-Arg0
 đưa	V-H	(VP*	B-Rel
 cụ	N-H	(NP-DOB*)	B-Arg1
-vào	V-H	(VP-LOC*	B-Arg4-Goal
+vào	V-H	(VP-LOC*	B-Arg4
 đây	P-H	(NP*))))	O
 
 các	L	(S-PRD(NP-SUB*	I-Arg0
@@ -42826,8 +42826,8 @@ không	R	(VP*	B-ArgM-NEG
 chịu	V-H	*	B-Rel
 được	R	*))	B-ArgM-MNR
 
-thầy	N-H	(S(NP-SUB*	I-Arg0-Identified
-mình	P	*)	I-Arg0-Identified
+thầy	N-H	(S(NP-SUB*	I-Arg0
+mình	P	*)	I-Arg0
 là	V-H	(VP*	B-Rel
 GS.	Ny-H	(NP*	O
 
@@ -42883,7 +42883,7 @@ tìm	V-H	(VP*	I-ArgM-ADV
 đến	R	*	I-ArgM-ADV
 tôi	P-H	(NP-DOB*))))	I-ArgM-ADV
 nhưng	C	*	B-ArgM-DIS
-anh	Nc-H	(NP-SUB*	B-Arg0-Carrier
+anh	Nc-H	(NP-SUB*	B-Arg0
 là	V-H	(Np(VP*	B-Rel
 người	N-H	(NP*	O
 ham	V-H	(VP(VP*	O
@@ -42927,8 +42927,8 @@ tháng	N-H	*)))))	O
 anh	N-H	(S(NP-SUB*)	I-Arg0
 nói	V-H	(VP*))	B-Rel
 
-Nhà	N-H	(S(NP-SUB*	I-Arg0-Carrier
-mình	P	*)	I-Arg0-Carrier
+Nhà	N-H	(S(NP-SUB*	I-Arg0
+mình	P	*)	I-Arg0
 nghèo	A-H	(AP-PRD*))	B-Rel
 
 cây	Nc-H	(S(NP-SUB*	I-Arg0
@@ -43002,10 +43002,10 @@ sần	A	*	O
 cố định	V-H	(VP*	O
 đạm	N-H	(NP*)))))	O
 
-thân	N-H	(S(NP-SUB*	I-Arg0-Carrier
-cây	N	*)	I-Arg0-Carrier
+thân	N-H	(S(NP-SUB*	I-Arg0
+cây	N	*)	I-Arg0
 là	V-H	(VP*	B-Rel
-nguồn	N-H	(NP*	B-Arg1-Attribute
+nguồn	N-H	(NP*	B-Arg1
 phân xanh	N	*	O
 rất	R	(AP*	O
 tốt	A-H	*)	O
@@ -43037,7 +43037,7 @@ thao tác	V-H	(VP*	B-Rel
 hay	C	*	O
 sai	A-H	*)))	O
 
-anh	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+anh	N-H	(S(NP-SUB*)	I-Arg0
 không	R	(AP-PRD*	B-ArgM-NEG
 giống	A-H	*	B-Rel
 ai	P-H	(NP*	B-Arg1
@@ -43423,7 +43423,7 @@ và	C	(NP(Np-H*	O
 
 Phà	N-H	(S(NP-SUB*)	I-Arg0
 cập	V-H	(VP*	B-Rel
-bến	N-H	(NP-DOB*)))	B-Arg4-Goal
+bến	N-H	(NP-DOB*)))	B-Arg4
 
 Biết	V-H	(S(VP-MNR*	I-ArgM-ADV
 vậy	P	*)	I-ArgM-ADV
@@ -43443,7 +43443,7 @@ từ	E-H	(PP-LOC*	O
 TP. HCM	Ny-H	(NP*)))	O
 ùn ùn	A	(VP*	I-ArgM-MNR
 kéo	V-H	*	B-Rel
-qua	V-H	(PP-LOC*	B-Arg4-Goal
+qua	V-H	(PP-LOC*	B-Arg4
 mua	V-H	(NP(Np-H(VP-PRP*	B-ArgM-PRP
 đất	N-H	(NP-DOB*)))))))	O
 
@@ -43599,7 +43599,7 @@ ngày	N-H	*)	O
 ba	M	(NP*	O
 đêm	N-H	*))))	O
 
-Nhà	N-H	(S(NP-SUB*	I-Arg0-Carrier
+Nhà	N-H	(S(NP-SUB*	I-Arg0
 ở	E-H	(Np(PP-LOC*	B-Rel
 
 vợ	N-H	(S(NP-SUB*	I-Arg0
@@ -43608,8 +43608,8 @@ chết	V-H	*	B-Rel
 vì	E-H	(PP-PRP*	B-ArgM-CAU
 thổ tả	N-H	(NP*))))))	O
 
-Nhà	N-H	(S(NP-SUB*	I-Arg0-Carrier
-mình	P	*)	I-Arg0-Carrier
+Nhà	N-H	(S(NP-SUB*	I-Arg0
+mình	P	*)	I-Arg0
 nghèo	A-H	(AP-PRD*))	B-Rel
 
 Chắc	A-H	(S(AP-MDP*)	I-ArgM-DIS
@@ -43624,8 +43624,8 @@ nữa	R	*))))	O
 
 lúc	N-H	(S(NP-TMP*	I-ArgM-TMP
 đó	P	*)	I-ArgM-TMP
-lũ	Nc-H	(NP-SUB*	B-Arg0-Carrier
-nó	P	*)	I-Arg0-Carrier
+lũ	Nc-H	(NP-SUB*	B-Arg0
+nó	P	*)	I-Arg0
 lớn	A-H	(AP-PRD*))	B-Rel
 
 mình	P-H	(S-SUB(NP-SUB*)	I-Arg0
@@ -43654,7 +43654,7 @@ nó	P-H	(NP-SUB*)	B-Arg0
 sẽ	R	(VP*	B-ArgM-TMP
 tự	P	*	B-ArgM-REC
 về	V-H	*	B-Rel
-làng	N-H	(NP-LOC*)))	B-Arg4-Goal
+làng	N-H	(NP-LOC*)))	B-Arg4
 
 mình	P-H	(S(NP-SUB*)	I-Arg0
 đẻ	V-H	(VP*	B-Rel
@@ -43706,15 +43706,15 @@ nhà	N-H	(S(NP-SUB*)	I-Arg0
 túng	V-H	*	I-Rel
 tiền	N-H	(NP-DOB*)))	B-Arg1
 
-ngay	R	(S(NP-SUB*	I-Arg0-Carrier
-cả	T	*	I-Arg0-Carrier
-gạo	N-H	*	I-Arg0-Carrier
-trong	E-H	(PP-LOC*	I-Arg0-Carrier
-nhà	N-H	(NP*)))	I-Arg0-Carrier
+ngay	R	(S(NP-SUB*	I-Arg0
+cả	T	*	I-Arg0
+gạo	N-H	*	I-Arg0
+trong	E-H	(PP-LOC*	I-Arg0
+nhà	N-H	(NP*)))	I-Arg0
 cũng	R	(VP*	O
 chỉ	R	*	O
 có	V-H	*	I-Rel
-dăm bảy	L	(NP-DOB*	B-Arg1-Attribute
+dăm bảy	L	(NP-DOB*	B-Arg1
 ký	Nu-H	*)))	O
 
 nép	V-H	(S(VP-SUB*	I-Arg0
@@ -43776,9 +43776,9 @@ mồ côi	A	*))))))	O
 anh	Nc-H	(S(NP-SUB*	I-Arg0
 tâm sự	V-H	(Np(VP*))))	B-Rel
 
-cái	Nc-H	(S(NP-SUB*	I-Arg0-Carrier
-khó	A	*	I-Arg0-Carrier
-nghèo	A	*)	I-Arg0-Carrier
+cái	Nc-H	(S(NP-SUB*	I-Arg0
+khó	A	*	I-Arg0
+nghèo	A	*)	I-Arg0
 vẫn	R	(VP*	B-ArgM-TMP
 mãi	R	*	B-ArgM-TMP
 đeo bám	V-H	*	B-Rel
@@ -43819,8 +43819,8 @@ trong	E-H	(PP-TMP*	O
 một	M	(NP*	O
 ngày	N-H	*))))))))	O
 
-giá	N-H	(S(NP-SUB*	I-Arg0-Carrier
-sạn	N	*)	I-Arg0-Carrier
+giá	N-H	(S(NP-SUB*	I-Arg0
+sạn	N	*)	I-Arg0
 lại	R	(AP-PRD(AP*	B-ArgM-TMP
 thấp	A-H	*)	B-Rel
 làm sao	X	(AP*	O
@@ -43979,7 +43979,7 @@ ngay	T	(S(NP-TMP*	I-ArgM-TMP
 y	P-H	(NP-SUB*)	B-Arg0
 đã	R	(VP*	B-ArgM-TMP
 cưỡng hiếp	V-H	*	B-Rel
-chị	N-H	(NP-DOB*)))	B-Arg1-Patient
+chị	N-H	(NP-DOB*)))	B-Arg1
 
 tên	N-H	(S(NP-SUB*	I-Arg0
 cưỡng hiếp	V-H	(Np(VP(VP*)	B-Rel
@@ -44089,9 +44089,9 @@ anh	N-H	(NP-SUB*)	B-Arg0
 hai	M	(NP-DOB*	B-Arg1
 ngón	N-H	*	I-Arg1
 tay	N	*)	I-Arg1
-vào	E-H	(PP-DIR*	B-Arg4-Goal
-ổ	N-H	(NP*	I-Arg4-Goal
-điện	N	*))	I-Arg4-Goal
+vào	E-H	(PP-DIR*	B-Arg4
+ổ	N-H	(NP*	I-Arg4
+điện	N	*))	I-Arg4
 trong	E-H	(PP*	B-ArgM-ADV
 tiếng	N-H	(NP*	O
 vỗ tay	V	*	O
@@ -44127,7 +44127,7 @@ RBKT	RBKT	(Np-H*))))))))))))	O
 
 gia đình	N-H	(S(NP-TPC*	I-ArgM-LOC
 anh	N	*)	B-Arg0
-ai	P-H	(NP-SUB*)	B-Arg0-Carrier
+ai	P-H	(NP-SUB*)	B-Arg0
 cũng	R	(AP-PRD*	B-ArgM-TMP
 nhút nhát	A-H	*	B-Rel
 khi	N-H	(NP*	B-ArgM-TMP
@@ -44217,7 +44217,7 @@ liền	R	*)))	B-ArgM-TMP
 anh	N-H	(S(NP-SUB*)	I-Arg0
 nói	V-H	(VP*))	B-Rel
 
-cơ thể	N-H	(S(NP-SUB*)	I-Arg0-Carrier
+cơ thể	N-H	(S(NP-SUB*)	I-Arg0
 vẫn	R	(AP-PRD*	B-ArgM-TMP
 khỏe mạnh	A-H	*))	B-Rel
 
@@ -44263,7 +44263,7 @@ ra	R	*)))	B-ArgM-DIR
 
 sẽ	R	(S(NP-SUB-1(VP*	B-ArgM-TMP
 bỏ	V-H	*	B-Rel
-về	R	*	B-Arg4-Goal
+về	R	*	B-Arg4
 bên	N-H	(NP-LOC*	O
 nhà	N	*))))	O
 
@@ -44358,8 +44358,8 @@ mủ	N-H	(NP-DOB*))))	B-Arg1
 điện	N-H	(S(NP-SUB*)	I-Arg0
 giật	V-H	(VP*))	B-Rel
 
-Chuyện	N-H	(S(NP-SUB*	I-Arg0-Carrier
-đó	P	*)	I-Arg0-Carrier
+Chuyện	N-H	(S(NP-SUB*	I-Arg0
+đó	P	*)	I-Arg0
 dễ ợt	A-H	(AP-PRD*))	B-Rel
 
 tôi	P-H	(S(NP-SUB*)	I-Arg0
@@ -44638,11 +44638,11 @@ xóm	N-H	*)	I-Arg0
 phải	V-H	(VP*	B-ArgM-MOD
 ngồi không	V-H	(VP*)))	B-Rel
 
-thế hệ	N-H	(S(NP-SUB*	I-Arg0-Carrier
-này	P	*	I-Arg0-Carrier
-đến	E-H	(PP*	I-Arg0-Carrier
-thế hệ	N-H	(NP*	I-Arg0-Carrier
-khác	A	*)))	I-Arg0-Carrier
+thế hệ	N-H	(S(NP-SUB*	I-Arg0
+này	P	*	I-Arg0
+đến	E-H	(PP*	I-Arg0
+thế hệ	N-H	(NP*	I-Arg0
+khác	A	*)))	I-Arg0
 mù chữ	A-H	(AP-PRD*))	B-Rel
 
 cả	P	(S(NP-SUB*	I-Arg0
@@ -44969,7 +44969,7 @@ có	V-H	(VP-TMP*	B-ArgM-TMP
 ngày	N-H	(NP*))	I-ArgM-TMP
 bắt	V-H	(VP*	B-Rel
 được	R	*	I-Rel
-30	M	(NP-DOB*	B-Arg1-Patient
+30	M	(NP-DOB*	B-Arg1
 50	M	*	O
 con	N-H	*)))	O
 
@@ -45003,7 +45003,7 @@ chim	N	*	I-Arg0
 vô tội	A-H	(AP*)	I-Arg0
 nữa	R	*)	I-Arg0
 sa	V-H	(VP*	B-Rel
-lưới	N-H	(NP-DOB*)))	B-Arg4-Goal
+lưới	N-H	(NP-DOB*)))	B-Arg4
 
 hàng	R	(S(NP-SUB*	I-Arg0
 ngàn	M	*	I-Arg0
@@ -45151,9 +45151,9 @@ cửa	N	*	I-Arg0
 cạn	V-H	(Np(VP*	B-Rel
 hàng	N-H	(NP-DOB*)))))	B-Arg1
 
-mắt	N-H	(S(NP-SUB*	I-Arg0-Carrier
-của	E-H	(PP*	I-Arg0-Carrier
-họ	P-H	(NP*)))	I-Arg0-Carrier
+mắt	N-H	(S(NP-SUB*	I-Arg0
+của	E-H	(PP*	I-Arg0
+họ	P-H	(NP*)))	I-Arg0
 thì	C	*	B-ArgM-DIS
 vàng	A-H	(AP-PRD*	B-Rel
 lơ	A	*	B-ArgM-MNR
@@ -45232,11 +45232,11 @@ thở	V	*))))))))	O
 Đang	R	(S(NP-SUB(VP*	B-ArgM-TMP
 lặn	V-H	*)))	B-Rel
 
-máy	N-H	(S(NP-SUB*	I-Arg0-Carrier
-nén	V	*	I-Arg0-Carrier
-khí	N	*)	I-Arg0-Carrier
+máy	N-H	(S(NP-SUB*	I-Arg0
+nén	V	*	I-Arg0
+khí	N	*)	I-Arg0
 bị	V-H	(VP*	B-Rel
-hỏng	A-H	(AP*)))	B-Arg1-Attribute
+hỏng	A-H	(AP*)))	B-Arg1
 
 anh	Nc-H	(S(NP-SUB-1*	I-Arg0
 lặn	V-H	(Np(VP*	B-Rel
@@ -45916,8 +45916,8 @@ nhắc	V-H	*	B-Rel
 đầu	N-H	(NP*	O
 bài	N	*))))	O
 
-Có	V-H	(S(VP-SUB*	I-Arg0-Carrier
-người	N-H	(NP*))	I-Arg0-Carrier
+Có	V-H	(S(VP-SUB*	I-Arg0
+người	N-H	(NP*))	I-Arg0
 nay	N-H	(NP-TMP*)	B-ArgM-TMP
 là	V-H	(VP*	B-Rel
 điền chủ	N-H	(NP*	B-Arg1
@@ -46332,7 +46332,7 @@ dù	C	(S*	I-ArgM-DIS
 gia đình	N-H	(NP-SUB*	B-Arg0
 anh	N	*)	I-Arg0
 sang	V-H	(VP*	B-Rel
-đây	P-H	(NP-LOC*)	B-Arg4-Goal
+đây	P-H	(NP-LOC*)	B-Arg4
 từ	E-H	(PP-TMP*	B-ArgM-TMP
 những	L	(NP*	O
 năm	N-H	*	O
@@ -46354,7 +46354,7 @@ vợ	N-H	(NP-DOB*)))	B-Arg1
 
 gia đình	N-H	(S(NP-SUB*	I-Arg0
 qua	V-H	(VP*	B-Rel
-đây	P-H	(NP-LOC*)))	B-Arg4-Goal
+đây	P-H	(NP-LOC*)))	B-Arg4
 cũng	R	(AP-PRD*	B-ArgM-TMP
 đã	R	*	O
 lâu	A-H	*))	O
@@ -46644,7 +46644,7 @@ phỏng vấn	V	*))))))	O
 
 Chúng tôi	P-H	(S(NP-SUB*)	I-Arg0
 đến	V-H	(VP*	B-Rel
-nơi	N-H	(NP-DOB*	B-Arg4-Goal
+nơi	N-H	(NP-DOB*	B-Arg4
 hẹn	V	*)))	O
 
 miệng	N-H	(S(NP-SUB*)	I-Arg0
@@ -46688,8 +46688,8 @@ nghèo	A-H	*))	B-Rel
 Cậu	Nc-H	(S(NP-SUB*	I-Arg0
 bé	N	*)	I-Arg0
 lao	V-H	(VP*	B-Rel
-vào	E-H	(PP*	B-Arg4-Goal
-đối thủ	N	(NP*))	I-Arg4-Goal
+vào	E-H	(PP*	B-Arg4
+đối thủ	N	(NP*))	I-Arg4
 như	C	*	B-ArgM-MNR
 mãnh thú	N-H	(NP-DOB*)	O
 với	E-H	(PP-DOB*	O
@@ -46794,7 +46794,7 @@ lần	N-H	(NP*))	I-ArgM-TMP
 phải	V-H	(NP-SUB-1(VP*	B-ArgM-MOD
 đưa	V-H	(VP-DOB*	O
 vào	E-H	(PP-IOB*	I-Rel
-bệnh viện	N-H	(NP*))	B-Arg4-Goal
+bệnh viện	N-H	(NP*))	B-Arg4
 cấp cứu	V-H	(VP-PRP*	B-ArgM-PRP
 tính mạng	N-H	(NP-DOB*))))))	O
 

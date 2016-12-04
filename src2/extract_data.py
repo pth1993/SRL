@@ -1,6 +1,7 @@
 import lib
 from ete2 import Tree
 import codecs
+from collections import Counter
 
 
 def inTree(ptree, ss):
@@ -52,6 +53,7 @@ listIDTotal, listTreeTotal, listRelTotal, listArgTotal = \
 writable = True
 if writable:
     writer = codecs.open('conll.txt', 'w', 'utf8')
+args_collection = list()
 for tree, rel, args, _id in zip(listTreeTotal, listRelTotal, listArgTotal, listIDTotal):
     tag = ''
     BOI_tags = dict()
@@ -60,8 +62,9 @@ for tree, rel, args, _id in zip(listTreeTotal, listRelTotal, listArgTotal, listI
         BOI_tags[node] = ['Rel', 0]
     for i, arg in enumerate(args):
         arg_nodes = inTree(tree, arg[1])
+        args_collection.append(lib.reformLabel(arg[0]))
         for node in arg_nodes:
-            BOI_tags[node] = [arg[0], i+1]
+            BOI_tags[node] = [lib.reformLabel(arg[0]), i+1]
     leaves = tree.get_leaves()
     for i, leaf in enumerate(leaves):
         if BOI_tags.get(leaf) is None:
@@ -109,3 +112,6 @@ for tree, rel, args, _id in zip(listTreeTotal, listRelTotal, listArgTotal, listI
         writer.write('\n')
 if writable:
     writer.close()
+counter = Counter(args_collection)
+for arg in sorted(counter.keys()):
+    print arg, ' -> ', counter[arg]
