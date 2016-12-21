@@ -84,8 +84,7 @@ def main():
             if BOI_tags.get(leaf) is None:
                 leaf.add_features(prop='O')
             else:
-                if i > 0 and BOI_tags.get(leaves[i-1]) is not None \
-                        and BOI_tags.get(leaves[i])[1] != BOI_tags.get(leaves[i-1])[1]:
+                if i > 0 and BOI_tags.get(leaves[i-1]) is not None and BOI_tags.get(leaves[i])[0] == BOI_tags.get(leaves[i-1])[0] and BOI_tags.get(leaves[i])[1] != BOI_tags.get(leaves[i-1])[1]:
                     leaf.add_features(prop='B-' + BOI_tags[leaf][0])
                 else:
                     leaf.add_features(prop='I-' + BOI_tags[leaf][0])
