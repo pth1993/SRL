@@ -92,6 +92,7 @@ def main():
         for node in tree.traverse("preorder"):
             nodes.append(node)
         cnt = 0
+        voice = lib.getVoice(tree, rel[0])
         for i, node in enumerate(nodes):
             if lib.isPhraseType(node.name) or lib.isSType(node.name):
                 tag += '(' + node.name
@@ -115,7 +116,7 @@ def main():
                             for _ in range(cnt):
                                 tag += ')'
                             cnt = 0
-                        line = node.word + '\t' + node.name + '\t' + tag + '\t' + node.prop
+                        line = node.word + '\t' + node.name + '\t' + str(voice) + '\t' + tag + '\t' + node.prop
                         if writable:
                             writer.write(line + '\n')
                         tag = ''
