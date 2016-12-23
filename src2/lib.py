@@ -94,7 +94,7 @@ def dataToTree(listTag, listWord):
         tempString = tempString + ';'
         tempTree = Tree(tempString, format = 1)
         for leaf in tempTree:
-            leaf.add_features(word = listWord[i].pop(0))
+            leaf.add_features(word = reformWord(listWord[i].pop(0)))
         listTree.append(tempTree)
     return listTree
 
