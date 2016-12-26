@@ -48,7 +48,7 @@ def get_representative_node(nodes):
     return representative_node
 
 
-def main():
+def use_representive_node():
     listSentence, listID, listCDATA = lib.readData(dataFile)
     listTag, listWord = lib.convertData(listSentence)
     listTagClone, listWordClone = lib.convertData(listSentence)
@@ -179,6 +179,133 @@ def main():
     # counter = Counter(args_collection)
     # for arg in sorted(counter.keys()):
     #     print arg, ' -> ', counter[arg]
+
+
+def main():
+    kfold = 5
+
+    listSentence, listID, listCDATA = lib.readData(dataFile)
+    listTag, listWord = lib.convertData(listSentence)
+    listTagClone, listWordClone = lib.convertData(listSentence)
+    listTree = lib.dataToTree(listTagClone, listWordClone)
+
+    listRel, listArg = lib.readCDATA(listCDATA, listWord, listID)
+    listID1Rel, listTree1Rel, listRel1Rel, listArg1Rel = lib.collectTree1Rel(listID, listTree, listRel, listArg)
+    listIDExtractFromMutliRel, listTreeExtractFromMutliRel, listRelExtractFromMutliRel, listArgExtractFromMutliRel = \
+        lib.extractFromMultiRel(listID, listTree, listRel, listArg)
+    listIDTotal, listTreeTotal, listRelTotal, listArgTotal = \
+        lib.mergeData(listID1Rel, listTree1Rel, listRel1Rel, listArg1Rel,
+                      listIDExtractFromMutliRel, listTreeExtractFromMutliRel,
+                      listRelExtractFromMutliRel, listArgExtractFromMutliRel)
+
+    writers = list()
+    for _ in range(kfold):
+        writers.append(codecs.open('set/set_' + str(_) + '.txt', 'w', 'utf8'))
+    args_collection = list()
+    stt = 0
+    for tree, rel, args, _id in zip(listTreeTotal, listRelTotal, listArgTotal, listIDTotal):
+        tag = ''
+        BOI_tags = dict()
+        BOI_phrase_type = dict()
+        BOI_functional_tag = dict()
+        rel_nodes = inTree(tree, rel[0])
+        # print rel[0]
+        # print representative_rel_node
+        for node in rel_nodes:
+            BOI_tags[node] = ['Rel', 0]
+        for i, arg in enumerate(args):
+            if len(arg[1]) == 0:
+                continue
+            # print arg[1]
+            arg_nodes = inTree(tree, arg[1])
+            if len(arg_nodes) > 0:
+                args_collection.append(lib.reformLabel(arg[0]))
+                for node in arg_nodes:
+                    BOI_tags[node] = [lib.reformLabel(arg[0]), i + 1]
+        # for node in BOI_tags:
+        #     print node, ' -> ', BOI_tags[node]
+        leaves = tree.get_leaves()
+        phrase_nodes = list()
+        for leaf in leaves:
+            phrase_node = leaf
+            while phrase_node != tree and not lib.isPhraseType(phrase_node.name):
+                phrase_node = phrase_node.up
+            if lib.isPhraseType(phrase_node.name) and phrase_node not in phrase_nodes:
+                phrase_nodes.append(phrase_node)
+        for i, node in enumerate(phrase_nodes):
+            phrase_tag = lib.reformTag1(node.name)
+            func_tag = lib.getTagFunction(node.name)
+            for leaf in node:
+                BOI_phrase_type[leaf] = [phrase_tag, i]
+                if func_tag != 'None':
+                    BOI_functional_tag[leaf] = [func_tag, i]
+        for i, leaf in enumerate(leaves):
+            if BOI_tags.get(leaf) is None:
+                leaf.add_features(prop='O')
+            else:
+                if i > 0 and BOI_tags.get(leaves[i - 1]) is not None \
+                        and BOI_tags.get(leaves[i])[0] == BOI_tags.get(leaves[i - 1])[0] \
+                        and BOI_tags.get(leaves[i])[1] != BOI_tags.get(leaves[i - 1])[1]:
+                    leaf.add_features(prop='B-' + BOI_tags[leaf][0])
+                else:
+                    leaf.add_features(prop='I-' + BOI_tags[leaf][0])
+            if BOI_phrase_type.get(leaf) is None:
+                leaf.add_features(phrase="O")
+            else:
+                if i > 0 and BOI_phrase_type.get(leaves[i - 1]) is not None \
+                        and BOI_phrase_type.get(leaves[i])[0] == BOI_phrase_type.get(leaves[i - 1])[0] \
+                        and BOI_phrase_type.get(leaves[i])[1] != BOI_phrase_type.get(leaves[i - 1])[1]:
+                    leaf.add_features(phrase='B-' + BOI_phrase_type[leaf][0])
+                else:
+                    leaf.add_features(phrase='I-' + BOI_phrase_type[leaf][0])
+            if BOI_functional_tag.get(leaf) is None:
+                leaf.add_features(functag="O")
+            else:
+                if i > 0 and BOI_functional_tag.get(leaves[i - 1]) is not None \
+                        and BOI_functional_tag.get(leaves[i])[0] == BOI_functional_tag.get(leaves[i - 1])[0] \
+                        and BOI_functional_tag.get(leaves[i])[1] != BOI_functional_tag.get(leaves[i - 1])[1]:
+                    leaf.add_features(functag='B-' + BOI_functional_tag[leaf][0])
+                else:
+                    leaf.add_features(functag='I-' + BOI_functional_tag[leaf][0])
+        nodes = []
+        for node in tree.traverse("preorder"):
+            nodes.append(node)
+        cnt = 0
+        voice = lib.getVoice(tree, rel[0])
+        for i, node in enumerate(nodes):
+            if lib.isPhraseType(node.name) or lib.isSType(node.name):
+                tag += '(' + node.name
+                cnt += 1
+            else:
+                if not node.is_root():
+                    tag += '*'
+                    if node.is_leaf():
+                        if is_all_star(tag):
+                            tag = '*'
+                        if i < len(nodes) - 1:
+                            curNode = node
+                            sisters = nodes[i + 1].get_sisters()
+                            while True:
+                                if curNode in sisters:
+                                    break
+                                tag += ')'
+                                cnt -= 1
+                                curNode = curNode.up
+                        else:
+                            for _ in range(cnt):
+                                tag += ')'
+                            cnt = 0
+                        line = node.word + '\t' + node.name + '\t' + str(
+                            voice) + '\t' + node.phrase + '\t' + node.functag + '\t' + tag + '\t' + node.prop
+                        writers[stt%kfold].write(line + '\n')
+                        tag = ''
+                    else:
+                        print node.name
+        writers[stt%kfold].write('\n')
+        stt += 1
+    for _ in range(kfold):
+        writers[_].close()
+
 
 if __name__ == '__main__':
     main()
