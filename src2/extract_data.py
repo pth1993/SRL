@@ -2,6 +2,8 @@ import lib
 from ete2 import Tree
 import codecs
 from collections import Counter
+import os
+import re
 
 
 dataFile = 'data.xml'
@@ -295,8 +297,7 @@ def main():
                             for _ in range(cnt):
                                 tag += ')'
                             cnt = 0
-                        line = node.word + '\t' + node.name + '\t' + str(
-                            voice) + '\t' + node.phrase + '\t' + node.functag + '\t' + tag + '\t' + node.prop
+                        line = node.word + '\t' + node.name + '\t' + str(voice) + '\t' + rel[0] + '\t' + node.phrase + '\t' + node.functag + '\t' + tag + '\t' + node.prop
                         writers[stt%kfold].write(line + '\n')
                         tag = ''
                     else:
@@ -307,5 +308,32 @@ def main():
         writers[_].close()
 
 
+def make_data_folds():
+    kfold = 5
+    data_folds = [list() for _ in range(kfold)]
+    for i in range(kfold):
+        data_file = 'set/set_' + str(i) + '.txt'
+        for line in codecs.open(data_file, 'r', 'utf8'):
+            line = line.strip()
+            data_folds[i].append(line)
+    for i in range(kfold):
+        if not os.path.exists('set/' + str(i)):
+            os.mkdir('set/' + str(i))
+        train_writer = codecs.open('set/' + str(i) + '/train.txt', 'w', 'utf8')
+        test_writer = codecs.open('set/' + str(i) + '/test.txt', 'w', 'utf8')
+        for j in range(kfold):
+            if i == j:
+                for line in data_folds[j]:
+                    test_writer.write(line)
+                    test_writer.write('\n')
+            else:
+                for line in data_folds[j]:
+                    train_writer.write(line)
+                    train_writer.write('\n')
+        train_writer.close()
+        test_writer.close()
+
+
 if __name__ == '__main__':
-    main()
+    # main()
+    make_data_folds()

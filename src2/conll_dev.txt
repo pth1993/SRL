@@ -1,0 +1,7 @@
+Tất cả	P-H	1	I-P	I-H	(S-SPL(NP*	I-Arg0
+chỉ	R	1	I-R	I-None	(PP*	I-ArgM-EXT
+với	E-H	1	I-E	I-H	*	I-Rel
+hai	M	1	I-NP	I-None	(NP*	I-ArgM-MNR
+cùi tay	N-H	1	I-NP	I-None	*	I-ArgM-MNR
+cụt	A	1	I-NP	I-None	*))))	I-ArgM-MNR
+

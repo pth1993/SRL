@@ -1610,6 +1610,7 @@ def getDataInformation(listA):
 def kFold(listID, listTree, listRel, listArg, listWordName, listCluster, numberGroup, listLabelReduce):
     """return k list of sentences for k-fold cross validation
     """
+    print 'size of data: ', len(listID)
     groupListID = []
     groupListTree = []
     groupListRel = []

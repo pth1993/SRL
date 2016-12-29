@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<files>
+  <file id="1" name="109898.van.prd">
+    <sentence id="231">
+      <vtb> ( S ( T Có )  ( C như )  ( P vậy )   ( S ( NP-SUB ( N-H niềm )  ( V tin )   ( PP ( E-H vào )   ( NP ( N-H lẽ phải )  )  )  )   ( VP ( R mới )  ( V-H được )   ( VP ( V-H khôi phục )  )  )  )   ( C và )   ( S ( NP-SUB ( N-H người )  ( N dân )  )   ( VP ( R sẽ )  ( R không )  ( R còn )  ( V-H phải )   ( VP   ( V-H đặt cược )     ( PP ( E-H cho )   ( NP ( N-H niềm )  ( V tin )   ( PP ( E-H của )   ( NP ( P-H mình )  )  )  )  )  )  )  )    ) </vtb>
+      <srl>
+        <rel>
+          <pb>25439.prd 0 -1 kimngan  đặt cược1 ----- 8:2-REL 4:3-Arg0 14:0-ArgM-TMP 15:0-ArgM-NEG 16:0-ArgM-TMP 17:0-ArgM-MOD 19:0-REL 12:1-Arg0 21:4-Arg1 </pb>
+          <pb>![CDATA[Rel:  mới được khôi phục&lt;br /&gt;Arg0: niềm tin vào lẽ phải &lt;br /&gt;ArgM-TMP: sẽ &lt;br /&gt;ArgM-NEG: không &lt;br /&gt;ArgM-TMP: còn &lt;br /&gt;ArgM-MOD: phải &lt;br /&gt;Rel:  đặt cược&lt;br /&gt;Arg0: người dân &lt;br /&gt;Arg1: cho niềm tin của mình &lt;br /&gt;]</pb>
+        </rel>
+      </srl>
+    </sentence>
+  </file>
+</files>
