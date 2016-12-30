@@ -184,7 +184,7 @@ def use_representive_node():
 
 
 def main():
-    kfold = 5
+    kfold = 10
 
     listSentence, listID, listCDATA = lib.readData(dataFile)
     listTag, listWord = lib.convertData(listSentence)
@@ -309,7 +309,7 @@ def main():
 
 
 def make_data_folds():
-    kfold = 5
+    kfold = 10
     data_folds = [list() for _ in range(kfold)]
     for i in range(kfold):
         data_file = 'set/set_' + str(i) + '.txt'
@@ -335,5 +335,5 @@ def make_data_folds():
 
 
 if __name__ == '__main__':
-    # main()
+    main()
     make_data_folds()
