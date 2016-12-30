@@ -1,0 +1,4738 @@
+Kia	P-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+những	L	1	là	I-NP	O	(NP*	I-Arg1
+ngôi	Nc-H	1	là	I-NP	O	*	I-Arg1
+nhà	N	1	là	I-NP	O	*	I-Arg1
+vách	N-H	1	là	B-NP	O	(NP*	I-Arg1
+đất	N	1	là	I-NP	O	*))))	I-Arg1
+
+Mất	V-H	1	Mất	I-VP	O	(S(NP-SUB(VP*	I-Rel
+hai	M	1	Mất	I-NP	O	(NP-DOB(NP*	I-Arg1
+cánh tay	N-H	1	Mất	I-NP	O	*)	I-Arg1
+một	M	1	Mất	B-NP	O	(NP*	I-Arg1
+mắt	N-H	1	Mất	I-NP	O	*)))))	I-Arg1
+
+Cũng	R	1	lái	I-PP	I-MNR	(S(PP-MNR*	I-ArgM-MNR
+bằng	E-H	1	lái	I-PP	I-MNR	*	I-ArgM-MNR
+hai	M	1	lái	I-NP	I-MNR	(NP*	I-ArgM-MNR
+cùi tay	N-H	1	lái	I-NP	I-MNR	*	I-ArgM-MNR
+lạ đời	A-H	1	lái	I-AP	I-MNR	(AP*)))	I-ArgM-MNR
+anh	N-H	1	lái	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+lái	V-H	1	lái	I-VP	O	(VP*	I-Rel
+xe máy	N-H	1	lái	I-NP	I-DOB	(NP-DOB*	I-Arg1
+băng băng	A-H	1	lái	I-AP	I-DOB	(AP*)	I-ArgM-LOC
+trên	E-H	1	lái	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+con	Nc-H	1	lái	I-NP	I-LOC	(NP*	I-ArgM-LOC
+đường	N	1	lái	I-NP	I-LOC	*	I-ArgM-LOC
+phẳng lì	A-H	1	lái	I-AP	I-LOC	(AP*))))))	I-ArgM-LOC
+
+Và	C	0	biến	O	O	(S*	I-ArgM-DIS
+trên hết	C	0	biến	O	O	*	I-ArgM-DIS
+nghi vấn	N-H	0	biến	I-NP	I-SUB	(NP-SUB*	I-Arg0
+về	E-H	0	biến	I-PP	I-SUB	(PP*	I-Arg0
+một	M	0	biến	I-NP	I-SUB	(NP*	I-Arg0
+âm mưu	N-H	0	biến	I-NP	I-SUB	*	I-Arg0
+tống tiền	V-H	0	biến	I-VP	I-SUB	(VP*)	I-Arg0
+mà	E-H	0	biến	I-NP	I-SUB	(SBAR*	I-Arg0
+một	M	0	biến	B-NP	B-SUB	(S(NP-SUB*	I-Arg0
+bài	N-H	0	biến	I-NP	I-SUB	*	I-Arg0
+báo	N	0	biến	I-NP	I-SUB	*)	I-Arg0
+gán	V-H	0	biến	I-VP	B-SUB	(VP*	I-Arg0
+cho	E-H	0	biến	I-PP	I-SUB	(PP*	I-Arg0
+anh	N-H	0	biến	I-NP	I-DOB	(NP-DOB*))))))))	I-Arg1
+đã	R	0	biến	I-VP	O	(VP*	I-ArgM-TMP
+biến	V-H	0	biến	I-VP	O	*	I-Rel
+anh	N-H	0	biến	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+trở thành	V-H	0	biến	I-VP	O	(VP*	I-ArgM-PRP
+một	M	0	biến	I-NP	I-SUB	(SBAR(S(NP-SUB*	I-ArgM-PRP
+người	N-H	0	biến	I-NP	I-SUB	*)	I-ArgM-PRP
+bị	V-H	0	biến	I-VP	O	(VP(VP*	I-ArgM-PRP
+họ tộc	N-H	0	biến	I-NP	I-SUB	(SBAR(S(NP-SUB*	I-ArgM-PRP
+bạn bè	N-H	0	biến	I-NP	I-SUB	*	I-ArgM-PRP
+người thân	N-H	0	biến	I-NP	I-SUB	*)	I-ArgM-PRP
+ngờ vực	V-H	0	biến	I-VP	O	(VP*))))	I-ArgM-PRP
+bị	V	0	biến	B-VP	O	(VP*	I-ArgM-PRP
+mất	V-H	0	biến	I-VP	O	*	I-ArgM-PRP
+công ăn việc làm	N-H	0	biến	I-NP	I-DOB	(NP-DOB*))))))))	I-ArgM-PRP
+
+Phải	V-H	1	là	I-VP	O	(S-SPL-EXC(VP*	I-ArgM-MOD
+là	C	1	là	I-VP	O	*	I-Rel
+một	M	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+câu chuyện	N-H	1	là	I-NP	I-DOB	*	I-Arg1
+đàng hoàng	A	1	là	I-NP	I-DOB	*)))	I-Arg1
+
+Cần	V-H	1	có	I-VP	O	(S(NP-SUB(VP*	I-ArgM-MOD
+phải	V-H	1	có	B-VP	O	(VP*	I-ArgM-MOD
+có	V-H	1	có	B-VP	O	(VP*	I-Rel
+những	L	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+công nhân	N-H	1	có	I-NP	I-DOB	*	I-Arg1
+dũng cảm	A	1	có	I-NP	I-DOB	*	I-Arg1
+như	C	1	có	I-NP	I-DOB	*	I-Arg1
+nhóm	N-H	1	có	B-NP	I-DOB	(NP*	I-Arg1
+của	E-H	1	có	I-PP	I-DOB	(PP*	I-Arg1
+anh	Nc-H	1	có	I-NP	I-DOB	(NP*	I-Arg1
+
+Theo	V-H	1	là	I-VP	I-ADV	(S(VP-ADV*	I-ArgM-ADV
+ông	Nc-H	1	là	I-NP	I-ADV	(NP*	I-ArgM-ADV
+đây	P-H	1	là	I-NP	I-SUB	(Np(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+vấn đề	N-H	1	là	I-NP	O	(NP*	I-Arg1
+bức xúc	A	1	là	I-NP	O	*	I-Arg1
+của	E-H	1	là	I-PP	O	(PP*	I-Arg1
+TP	Ny-H	1	là	I-NP	O	(NP*))))))))	I-Arg1
+
+Ngày	N-H	1	ngã	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+này	P	1	ngã	I-NP	I-TMP	*)	I-ArgM-TMP
+cách	V-H	1	ngã	I-VP	B-TMP	(VP-TMP*	B-ArgM-TMP
+đó	P-H	1	ngã	I-NP	I-TMP	(NP*	I-ArgM-TMP
+đúng	A-H	1	ngã	I-AP	I-TMP	(AP*	I-ArgM-TMP
+một	M	1	ngã	I-NP	I-TMP	(NP*	I-ArgM-TMP
+năm	N-H	1	ngã	I-NP	I-TMP	*))))	I-ArgM-TMP
+nữ sinh	N-H	1	ngã	B-NP	I-SUB	(NP-SUB*	I-Arg0
+đã	R	1	ngã	I-VP	O	(Np(VP*	I-ArgM-TMP
+ngã	V-H	1	ngã	I-VP	O	*	I-Rel
+xuống	R	1	ngã	I-VP	O	*	I-ArgM-MNR
+trước	E-H	1	ngã	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+bùng binh	N-H	1	ngã	I-NP	I-LOC	(NP*	I-ArgM-LOC
+chợ	N-H	1	ngã	B-NP	I-LOC	(NP*	I-ArgM-LOC
+trong	E-H	1	ngã	I-PP	I-TMP	(Np(PP-TMP*	I-ArgM-TMP
+một	M	1	ngã	I-NP	I-TMP	(NP*	I-ArgM-TMP
+cuộc	Nc-H	1	ngã	I-NP	I-TMP	*	I-ArgM-TMP
+biểu tình	V	1	ngã	I-NP	I-TMP	*	I-ArgM-TMP
+bị	V-H	1	ngã	I-VP	I-TMP	(VP*	I-ArgM-TMP
+cảnh sát	N-H	1	ngã	I-NP	I-DOB	(NP-DOB*	I-ArgM-TMP
+đàn áp	V-H	1	ngã	I-VP	I-DOB	(Np(VP*	I-ArgM-TMP
+dã man	A	1	ngã	I-VP	I-DOB	*))))))))))))))	I-ArgM-TMP
+
+Thứ trưởng	N-H	1	cho biết	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+Bộ	N-H	1	cho biết	B-NP	I-SUB	(NP*	I-Arg0
+Tài nguyên	N	1	cho biết	I-NP	I-SUB	*	I-Arg0
+&	Ny	1	cho biết	I-NP	I-SUB	*	I-Arg0
+môi trường	N	1	cho biết	I-NP	I-SUB	*)	I-Arg0
+cho	V-H	1	cho biết	I-VP	O	(NP(Np-H(VP*	I-Rel
+biết	V	1	cho biết	I-VP	O	*	I-Rel
+dự thảo	N-H	1	cho biết	I-NP	I-SUB	(SBAR(S(NP-SUB*	O
+nghị định	N	1	cho biết	I-NP	I-SUB	*)	O
+đã	R	1	cho biết	I-VP	O	(VP*	O
+thiết kế	V-H	1	cho biết	I-VP	O	*	O
+văn phòng	N-H	1	cho biết	I-NP	I-DOB	(NP-DOB*	O
+đăng ký	V-H	1	cho biết	I-VP	I-DOB	(VP*	O
+quyền	N-H	1	cho biết	I-NP	B-DOB	(NP-DOB*	O
+sử dụng	V-H	1	cho biết	I-VP	I-DOB	(VP*	O
+đất	N-H	1	cho biết	I-NP	I-DOB	(NP*)))	O
+ở	E-H	1	cho biết	I-PP	I-LOC	(PP-LOC*	O
+hai	M	1	cho biết	I-NP	I-LOC	(NP*	O
+cấp	N-H	1	cho biết	I-NP	I-LOC	*	O
+thuộc	V-H	1	cho biết	I-VP	I-LOC	(VP(VP*	O
+sở	N-H	1	cho biết	I-VP	I-DOB	(NP-DOB*))	O
+và	C	1	cho biết	I-VP	I-LOC	*	O
+thuộc	V-H	1	cho biết	B-VP	I-LOC	(VP*	O
+phòng	N-H	1	cho biết	I-NP	I-DOB	(NP-DOB*	O
+tài nguyên	N-H	1	cho biết	B-NP	I-DOB	(NP*	O
+&	C	1	cho biết	I-NP	I-DOB	*	O
+môi trường	N-H	1	cho biết	I-NP	I-DOB	*))	O
+LBKT	LBKT	1	cho biết	I-VP	I-LOC	*	O
+cấp	N-H	1	cho biết	I-NP	I-LOC	(NP*	O
+tỉnh	N-H	1	cho biết	B-NP	I-LOC	(NP*	O
+và	C	1	cho biết	I-NP	I-LOC	*	O
+huyện	N-H	1	cho biết	I-NP	I-LOC	*))	O
+RBKT	RBKT	1	cho biết	I-VP	I-LOC	*))))))))))))))	O
+
+Giám đốc	N-H	1	cho biết	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+Sở	N-H	1	cho biết	B-NP	I-SUB	(NP*	I-Arg0
+Tài nguyên	N	1	cho biết	I-NP	I-SUB	*	I-Arg0
+&	Ny	1	cho biết	I-NP	I-SUB	*	I-Arg0
+môi trường	N	1	cho biết	I-NP	I-SUB	*	I-Arg0
+cho	V-H	1	cho biết	I-VP	O	(NP-LOC(Np-H(NP(Np-H(VP*	I-Rel
+biết	V	1	cho biết	I-VP	O	*	I-Rel
+thành phố	N-H	1	cho biết	I-NP	I-SUB	(SBAR(S(NP-SUB*	O
+cảng	N	1	cho biết	I-NP	I-SUB	*)	O
+từng	R	1	cho biết	I-VP	O	(VP(VP*	O
+áp dụng	V-H	1	cho biết	I-VP	O	*	O
+cơ chế	N-H	1	cho biết	I-VP	I-DOB	(NP-DOB*	O
+thỏa thuận	V	1	cho biết	I-VP	I-DOB	(VP*)	O
+trong	E-H	1	cho biết	I-VP	I-DOB	(PP*	O
+một số	L	1	cho biết	I-VP	I-DOB	(AP*	O
+rất	R	1	cho biết	I-VP	I-DOB	*	O
+ít	A-H	1	cho biết	I-VP	I-DOB	*	O
+trường hợp	N-H	1	cho biết	I-VP	I-DOB	(NP*)))))	O
+vậy mà	C	1	cho biết	I-VP	O	*	O
+đã	R	1	cho biết	B-VP	O	(VP*	O
+gây	V-H	1	cho biết	I-VP	O	*	O
+phản ứng	V-H	1	cho biết	B-VP	O	(VP*	O
+theo	E-H	1	cho biết	I-PP	I-MNR	(PP-MNR*	O
+kiểu	N-H	1	cho biết	I-NP	I-MNR	(NP*	O
+dây chuyền	N-H	1	cho biết	B-NP	I-MNR	(NP*)))	O
+khá	R	1	cho biết	I-AP	O	(AP*	O
+mạnh	A-H	1	cho biết	I-AP	O	*)	O
+anh	N-H	1	cho biết	I-NP	I-SUB	(SBAR(S(S(NP-SUB*	O
+này	P	1	cho biết	I-NP	I-SUB	*)	O
+nhận	V-H	1	cho biết	I-VP	O	(VP(VP*	O
+tiền	N-H	1	cho biết	I-VP	I-DOB	(NP-DOB*))	O
+rồi	C	1	cho biết	I-VP	O	*	O
+quay	V-H	1	cho biết	B-VP	O	(VP*	O
+lại	R	1	cho biết	I-VP	O	*	O
+đòi	V-H	1	cho biết	B-VP	O	(VP*	O
+nữa	R	1	cho biết	I-VP	O	*)))))	O
+anh	N-H	1	cho biết	I-NP	I-SUB	(S(NP-SUB*	O
+kia	P	1	cho biết	I-NP	I-SUB	*)	O
+thỏa thuận	V-H	1	cho biết	I-VP	O	(VP(VP*	O
+xong	R	1	cho biết	I-VP	O	*)	O
+quay	V-H	1	cho biết	B-VP	O	(VP*	O
+ra	R	1	cho biết	I-VP	O	*	O
+đòi	V-H	1	cho biết	B-VP	O	(VP*	O
+thỏa thuận	V-H	1	cho biết	B-VP	O	(VP*	O
+lại	R	1	cho biết	I-VP	O	*)))))))))))))))))))	O
+
+Ông	N-H	1	nhận thức	I-NP	I-SUB	(S(S(NP-SUB*)	I-Arg0
+nhận thức	V-H	1	nhận thức	I-VP	O	(VP*	I-Rel
+như	C	1	nhận thức	I-XP	O	(XP*	O
+thế nào	X-H	1	nhận thức	I-XP	O	*	I-ArgM-Partice
+về	E-H	1	nhận thức	I-PP	O	(PP*	I-Arg1
+công văn	N-H	1	nhận thức	I-NP	O	(NP*	I-Arg1
+327	M	1	nhận thức	I-NP	O	*	I-Arg1
+của	E-H	1	nhận thức	I-PP	O	(PP*	I-Arg1
+Chính phủ	N-H	1	nhận thức	I-NP	O	(NP*)))))))	I-Arg1
+đại diện	N-H	1	nhận thức	B-NP	I-SUB	(S(NP-SUB*	O
+đặt	V-H	1	nhận thức	I-VP	O	(Np(VP*	O
+câu hỏi	N-H	1	nhận thức	I-NP	I-DOB	(NP-DOB*)	O
+cho	E-H	1	nhận thức	I-PP	I-IOB	(PP-IOB*	O
+nhân chứng	N-H	1	nhận thức	I-NP	I-IOB	(NP*	O
+bộ trưởng	N-H	1	nhận thức	B-NP	I-IOB	(NP*	O
+
+Đến	E-H	1	khẳng định	I-PP	I-TMP	(S(PP-TMP*	I-ArgM-TMP
+đây	P-H	1	khẳng định	I-NP	I-TMP	(NP*))	I-ArgM-TMP
+HĐXX	Ny-H	1	khẳng định	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+lật	V-H	1	khẳng định	I-VP	O	(VP(VP*	O
+trở lại	V	1	khẳng định	I-VP	O	*)	O
+khẳng định	V-H	1	khẳng định	B-VP	O	(VP*	I-Rel
+rõ	A	1	khẳng định	I-VP	O	*	I-Arg1
+công văn	N-H	1	khẳng định	I-NP	I-SUB	(SBAR(S(NP-SUB*	I-Arg1
+999	M	1	khẳng định	I-NP	I-SUB	*)	I-Arg1
+mới	R	1	khẳng định	I-VP	O	(VP(VP*	I-Arg1
+chỉ	R	1	khẳng định	I-VP	O	*	I-Arg1
+là	V-H	1	khẳng định	I-VP	O	*	I-Arg1
+xin	V-H	1	khẳng định	I-VP	O	(VP*	I-Arg1
+ý kiến	N-H	1	khẳng định	I-VP	I-DOB	(NP-DOB*	I-Arg1
+Chính phủ	N	1	khẳng định	I-VP	I-DOB	*)))	I-Arg1
+còn	C	1	khẳng định	I-VP	O	*	I-Arg1
+phải	V-H	1	khẳng định	B-VP	O	(VP*	I-Arg1
+chờ	V-H	1	khẳng định	B-VP	O	(VP*	I-Arg1
+Chính phủ	N-H	1	khẳng định	I-NP	I-DOB	(NP-DOB*	I-Arg1
+cho phép	V-H	1	khẳng định	I-VP	I-DOB	(VP*)))))	I-Arg1
+không	R	1	khẳng định	B-VP	O	(VP*	I-Arg1
+phải	V-H	1	khẳng định	I-VP	O	*	I-Arg1
+sự	Nc-H	1	khẳng định	I-NP	I-DOB	(NP-DOB*	I-Arg1
+thể hiện	V	1	khẳng định	I-NP	I-DOB	*	I-Arg1
+chủ trương	N-H	1	khẳng định	B-NP	I-DOB	(NP*	I-Arg1
+của	E-H	1	khẳng định	I-PP	I-DOB	(PP*	I-Arg1
+bộ	N-H	1	khẳng định	I-NP	I-DOB	(NP*))))))))))	O
+
+TP HCM	Ny-H	1	vay	I-NP	I-SUB	(S(NP-SUB*)	I-ArgM-ADV
+vay	V-H	1	vay	I-VP	O	(VP*	I-Rel
+500 tỉ	M	1	vay	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đồng	Nu-H	1	vay	I-NP	I-DOB	*	I-Arg1
+triển khai	V-H	1	vay	I-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+gấp	A	1	vay	I-VP	I-PRP	*	I-ArgM-PRP
+các	L	1	vay	I-NP	I-DOB	(NP-DOB*	I-ArgM-PRP
+dự án	N-H	1	vay	I-NP	I-DOB	*	I-ArgM-PRP
+cấp	V-H	1	vay	I-VP	I-DOB	(VP*	I-ArgM-PRP
+nước	N-H	1	vay	I-NP	B-DOB	(NP-DOB*)))))))	I-ArgM-PRP
+
+Hai	M	1	ra	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+anh em	N-H	1	ra	I-NP	I-SUB	*	I-Arg0
+tôi	P	1	ra	I-NP	I-SUB	*)	I-Arg0
+ra	V-H	1	ra	I-VP	O	(VP*	I-Rel
+xem	V-H	1	ra	B-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+bảng	N-H	1	ra	I-NP	I-DOB	(NP-DOB*	I-ArgM-PRP
+thông báo	V	1	ra	I-NP	I-DOB	*))))	I-ArgM-PRP
+
+Có	V-H	1	Có	I-VP	O	(S(S(VP*	I-Rel
+thư	N-H	1	Có	I-NP	I-SUB	(SBAR(S(NP-SUB*)	I-Arg1
+được	V-H	1	Có	I-VP	O	(VP*	I-Arg1
+gửi	V-H	1	Có	B-VP	O	(VP*	I-Arg1
+trực tiếp	A	1	Có	I-VP	O	*	I-Arg1
+đến	E-H	1	Có	I-PP	O	(PP*	I-Arg1
+ông	N-H	1	Có	I-NP	O	(NP*))))))))	I-Arg1
+có	V-H	1	Có	I-VP	O	(S(VP*	O
+thư	N-H	1	Có	I-NP	I-SUB	(SBAR(S(NP-SUB*)	O
+được	V-H	1	Có	I-VP	O	(VP*	O
+gửi	V-H	1	Có	B-VP	O	(VP*	O
+qua	E-H	1	Có	I-PP	I-MNR	(PP-MNR*	O
+các	L	1	Có	I-NP	I-MNR	(NP*	O
+hội	N-H	1	Có	I-NP	I-MNR	*	O
+chữ thập đỏ	N	1	Có	I-NP	I-MNR	*	O
+địa phương	N	1	Có	I-NP	I-MNR	*))))))))	O
+tập hợp	V-H	1	Có	I-VP	O	(S-CND(SBAR(S(NP-SUB(VP*	O
+lại	R	1	Có	I-VP	O	*)))	O
+giờ	N-H	1	Có	I-NP	I-TMP	(S(NP-TMP*)	O
+đã	R	1	Có	I-VP	O	(NP-SUB(VP*	O
+thành	V-H	1	Có	I-VP	O	*	O
+một	M	1	Có	I-NP	I-DOB	(NP-DOB*	O
+chồng	Nc-H	1	Có	I-NP	I-DOB	*	O
+dày	A	1	Có	I-NP	I-DOB	*)))))))	O
+
+Theo	E-H	1	gánh	I-PP	I-ADV	(S(PP-ADV*	I-ArgM-ADV
+tôi	P-H	1	gánh	I-NP	I-ADV	(NP*))	I-ArgM-ADV
+những	L	1	gánh	B-NP	I-SUB	(NP-SUB*	I-Arg0
+công ty	N-H	1	gánh	I-NP	I-SUB	*	I-Arg0
+đó	P	1	gánh	I-NP	I-SUB	*)	I-Arg0
+phải	V-H	1	gánh	I-VP	O	(VP*	I-ArgM-MOD
+gánh	V	1	gánh	I-VP	O	*	I-Rel
+cả	P	1	gánh	I-NP	I-DOB	(NP-DOB*	I-Arg1
+trách nhiệm	N-H	1	gánh	I-NP	I-DOB	*	I-Arg1
+pháp lý	N-H	1	gánh	B-NP	I-DOB	(NP*	I-Arg1
+và	C	1	gánh	I-NP	I-DOB	*	I-Arg1
+lương tâm	N-H	1	gánh	I-NP	I-DOB	*	I-Arg1
+đối với	E-H	1	gánh	I-PP	I-DOB	(PP*	I-Arg1
+các	L	1	gánh	I-NP	I-DOB	(NP*	I-Arg1
+nạn nhân	N-H	1	gánh	I-NP	I-DOB	*	I-Arg1
+ở	E-H	1	gánh	I-PP	I-LOC	(PP-LOC*	I-Arg1
+VN	Ny-H	1	gánh	I-NP	I-LOC	(NP*))))))))	I-Arg1
+
+Cuộc sống	N-H	1	kéo dài	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+kéo dài	V-H	1	kéo dài	I-VP	O	(VP*	I-Rel
+như thế	X-H	1	kéo dài	I-XP	O	(XP*)))	I-ArgM-MNR
+
+Họ	P-H	1	đếm	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đếm	V-H	1	đếm	I-VP	O	(VP*	I-Rel
+từng	P	1	đếm	I-NP	I-TMP	(NP-TMP*	I-Arg1
+ngày	N-H	1	đếm	I-NP	I-TMP	*	I-Arg1
+trôi	V-H	1	đếm	I-VP	I-TMP	(VP*	I-Arg1
+đi	R	1	đếm	I-VP	I-TMP	*	I-Arg1
+trong	E-H	1	đếm	I-PP	I-ADV	(PP-ADV*	I-ArgM-MNR
+gánh	N-H	1	đếm	I-NP	I-ADV	(NP*	I-ArgM-MNR
+nặng	A	1	đếm	I-NP	I-ADV	*	I-ArgM-MNR
+tiền bạc	N-H	1	đếm	B-NP	I-ADV	(NP*)))))))	I-ArgM-MNR
+
+Đó	P-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+chuyện	N-H	1	là	I-NP	O	(NP*	I-Arg1
+buồn	A-H	1	là	I-AP	O	(AP*	I-Arg1
+nhất	R	1	là	I-AP	O	*)	I-Arg1
+trong	E-H	1	là	I-PP	I-TMP	(PP-TMP*	I-Arg1
+đêm	N-H	1	là	I-NP	I-TMP	(NP*))	I-Arg1
+ở	E-H	1	là	I-PP	I-LOC	(PP-LOC*	I-Arg1
+
+Giữ	V-H	1	Giữ	I-VP	O	(S(NP-SUB(VP*	I-Rel
+hồn	N-H	1	Giữ	I-NP	I-DOB	(NP-DOB*	I-Arg1
+
+quyết định	V-H	1	quyết định	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+tìm	V-H	1	quyết định	B-VP	O	(VP*	I-Arg1
+đến	E-H	1	quyết định	I-PP	O	(PP*	I-Arg1
+các	L	1	quyết định	I-NP	O	(NP*	I-Arg1
+thám tử	N-H	1	quyết định	I-NP	O	*)))))))	I-Arg1
+
+Sử dụng	V-H	1	nối	I-VP	I-SUB	(S(VP-SUB*	I-Arg0
+fax	Nb-H	1	nối	I-NP	I-SUB	(NP*))	I-Arg0
+nhất định	R	1	nối	I-VP	O	(VP*	O
+phải	V-H	1	nối	I-VP	O	*	I-ArgM-MOD
+nối	V-H	1	nối	B-VP	O	(VP*	I-Rel
+đường	N-H	1	nối	I-NP	I-DOB	(NP-DOB*	I-Arg1
+điện thoại	N	1	nối	I-NP	I-DOB	*))))	I-Arg1
+
+Giám đốc	N-H	1	sôi nổi	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+sôi nổi	A-H	1	sôi nổi	I-AP	I-PRD	(Np(AP-PRD*	I-Rel
+khác thường	A-H	1	sôi nổi	B-AP	I-PRD	(AP*)))))	I-ArgM-MNR
+
+Nữ sinh	N-H	1	mất tích	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+mất tích	V-H	1	mất tích	I-VP	O	(VP*))	I-Rel
+
+Tấm	Nc-H	1	cho	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+ảnh	N	1	cho	I-NP	I-SUB	*	I-Arg0
+gã	Nc-H	1	cho	B-NP	I-SUB	(NP*	I-Arg0
+trai	N	1	cho	I-NP	I-SUB	*	I-Arg0
+môi	N-H	1	cho	B-NP	I-SUB	(NP*	I-Arg0
+mỏng	A	1	cho	I-NP	I-SUB	*)	I-Arg0
+có	V-H	1	cho	I-VP	I-SUB	(VP*	I-Arg0
+ánh	Nc-H	1	cho	I-NP	I-DOB	(NP-DOB*	I-Arg0
+mắt	N	1	cho	I-NP	I-DOB	*	I-Arg0
+sắc lạnh	A	1	cho	I-NP	I-DOB	*	I-Arg0
+đầy	A	1	cho	B-NP	I-DOB	(NP*	I-Arg0
+mưu chước	N-H	1	cho	I-NP	I-DOB	*)))))	I-Arg0
+cho	V-H	1	cho	I-VP	O	(VP*	I-Rel
+các	L	1	cho	I-NP	I-DOB	(NP-DOB*	I-Arg1
+thám tử	N-H	1	cho	I-NP	I-DOB	*	I-Arg1
+hiểu	V-H	1	cho	I-VP	I-DOB	(VP*	I-Arg1
+rằng	C	1	cho	I-VP	I-DOB	(SBAR*	I-Arg1
+nếu	C	1	cho	I-VP	I-DOB	(S-CND(SBAR(S*	I-Arg1
+chậm	A-H	1	cho	I-AP	I-PRD	(NP-SUB-1(AP-PRD*	I-Arg1
+chân	N	1	cho	I-AP	I-PRD	*)))	I-Arg1
+họ	P-H	1	cho	I-NP	I-SUB	(S(NP-SUB*)	I-Arg1
+sẽ	R	1	cho	I-VP	I-DOB	(VP*	I-Arg1
+là	V-H	1	cho	I-VP	I-DOB	*	I-Arg1
+người	N-H	1	cho	I-NP	I-DOB	(NP*	I-Arg1
+tác dụng	N-H	1	cho	I-NP	I-DOB	(NP(S*))))))))))))	I-Arg1
+
+Họ	P-H	1	bước	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+bước	V-H	1	bước	I-VP	O	(VP*	I-Rel
+lên	E-H	1	bước	I-PP	I-DIR	(PP-DIR*	I-ArgM-DIR
+xe hơi	N-H	1	bước	I-NP	I-DIR	(NP*))))	I-Arg1
+
+Đứa	Nc-H	1	trở lại	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+con	N	1	trở lại	I-NP	I-SUB	*)	I-Arg0
+trở lại	V-H	1	trở lại	I-VP	O	(VP*))	I-Rel
+
+Vậy mà	C	1	giao	O	O	(S*	I-ArgM-I
+ngày mai	N-H	1	giao	I-NP	I-TMP	(NP-TMP*)	I-ArgM-TMP
+một	M	1	giao	B-NP	I-SUB	(NP-SUB*	I-Arg0
+nhiệm vụ	N-H	1	giao	I-NP	I-SUB	*	I-Arg0
+như	C	1	giao	B-NP	I-SUB	(NP*	I-Arg0
+thế	P-H	1	giao	I-NP	I-SUB	*)	I-Arg0
+và	C	1	giao	B-NP	I-SUB	*	I-Arg0
+khó nhọc	A-H	1	giao	I-AP	I-SUB	(AP*	I-Arg0
+hơn	A	1	giao	I-NP	I-SUB	(NP*	I-Arg0
+thế	P-H	1	giao	I-NP	I-SUB	*)))	I-Arg0
+lại	R	1	giao	I-VP	O	(VP*	I-ArgM-DIS
+được	V-H	1	giao	I-VP	O	*	I-ArgM-MOD
+giao	V-H	1	giao	B-VP	O	(VP*	I-Rel
+cho	R	1	giao	I-VP	O	*	I-Arg1
+một	M	1	giao	I-NP	I-DOB	(NP-DOB*	I-Arg1
+thám tử	N-H	1	giao	I-NP	I-DOB	*	I-Arg1
+vừa	R	1	giao	I-VP	I-DOB	(VP*	I-ArgM-ADV
+ra	V-H	1	giao	I-VP	I-DOB	*	I-ArgM-ADV
+trường	N-H	1	giao	I-NP	B-DOB	(NP-DOB*))	I-ArgM-ADV
+và	C	1	giao	B-NP	B-DOB	*	I-ArgM-ADV
+lần	N-H	1	giao	B-NP	I-DOB	(NP*	I-ArgM-ADV
+đầu	A	1	giao	I-NP	I-DOB	*	I-ArgM-ADV
+một mình	X	1	giao	I-VP	I-DOB	(VP*	I-ArgM-ADV
+nhận	V-H	1	giao	I-VP	I-DOB	*	I-ArgM-ADV
+việc	N-H	1	giao	I-NP	I-DOB	(NP*)))))))	I-ArgM-ADV
+
+Gặp	V-H	1	Gặp	I-VP	O	(S(NP-SUB(VP*	I-Rel
+hai	M	1	Gặp	I-NP	I-DOB	(NP-DOB*	I-Arg1
+người	Nc-H	1	Gặp	I-NP	I-DOB	*	I-Arg1
+bạn	N	1	Gặp	I-NP	I-DOB	*	I-Arg1
+quý	A-H	1	Gặp	I-AP	I-DOB	(AP*)	I-Arg1
+của	E-H	1	Gặp	I-PP	I-DOB	(PP*	I-Arg1
+VN	Ny-H	1	Gặp	I-NP	I-DOB	(NP*))))))	I-Arg1
+
+Phong trào	N-H	1	lan truyền	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+lan truyền	V-H	1	lan truyền	I-VP	O	(VP*	I-Rel
+mạnh mẽ	A-H	1	lan truyền	I-AP	I-MNR	(AP-MNR*	I-Arg1
+hơn	R	1	lan truyền	I-AP	I-MNR	*)))	I-Arg1
+
+là	V-H	1	là	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+hiện thân	N-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+tất cả	P	1	là	B-NP	I-DOB	(NP*	I-ArgM-ADV
+những	L	1	là	I-NP	I-DOB	*	I-ArgM-ADV
+gì	P-H	1	là	I-NP	I-DOB	*	I-ArgM-ADV
+tốt đẹp	A-H	1	là	I-AP	I-DOB	(AP*	I-ArgM-ADV
+nhất	A	1	là	I-AP	I-DOB	*)))))))	I-ArgM-ADV
+
+Cho	T	1	đăng ký	I-PP	I-SUB	(S-SPL(PP-TMP-SUB*	I-ArgM-TMP
+đến	E-H	1	đăng ký	I-PP	I-SUB	*	I-ArgM-TMP
+giờ	N-H	1	đăng ký	I-NP	I-SUB	(NP*))	I-ArgM-TMP
+có	V-H	1	đăng ký	I-VP	O	(VP*	I-ArgM-ADV
+nhiều	A	1	đăng ký	I-NP	I-DOB	(NP-DOB*	I-Arg0
+cá nhân	N-H	1	đăng ký	I-NP	I-DOB	*	I-Arg0
+và	C	1	đăng ký	I-NP	I-DOB	*	I-Arg0
+tổ chức	N-H	1	đăng ký	I-NP	I-DOB	*	I-Arg0
+đăng ký	V-H	1	đăng ký	I-VP	I-DOB	(VP*	I-Rel
+tham gia	V-H	1	đăng ký	I-VP	I-DOB	*	I-ArgM-ADV
+với	E-H	1	đăng ký	I-PP	I-DOB	(PP*	I-Arg1
+chúng tôi	P-H	1	đăng ký	I-NP	I-DOB	(NP*))))))	I-Arg1
+
+Các	L	1	vào cuộc	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+thám tử	N-H	1	vào cuộc	I-NP	I-SUB	*)	I-Arg0
+vào cuộc	V-H	1	vào cuộc	I-VP	O	(VP*))	I-Rel
+
+Đội	N-H	1	chia	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+thám tử	N-H	1	chia	B-NP	I-SUB	(NP*))	I-Arg0
+chia	V-H	1	chia	I-VP	O	(VP*	I-Rel
+hai	M	1	chia	I-NP	I-DOB	(NP-DOB*	I-Arg1
+mũi	N-H	1	chia	I-NP	I-DOB	*)))	I-Arg1
+
+Địa chỉ	N-H	1	*E*	I-NP	O	(S-SPL(NP*	I-Arg0
+*E*	V-H	1	*E*	I-NP	O	*	I-Rel
+số	N-H	1	*E*	B-NP	O	(NP*	I-Arg1
+5	M	1	*E*	I-NP	O	*	I-Arg1
+ngách	N-H	1	*E*	B-NP	O	(NP*	I-Arg1
+2	M	1	*E*	I-NP	O	*	I-Arg1
+ngõ	N-H	1	*E*	B-NP	O	(NP*	I-Arg1
+4D	M	1	*E*	I-NP	O	*	I-Arg1
+phố	N-H	1	*E*	B-NP	O	(NP*	I-Arg1
+Đống Đa	N-H	1	*E*	I-NP	O	(Np(NP*	I-Arg1
+Hà Nội	N-H	1	*E*	B-NP	O	(NP*)))))))))	I-Arg1
+
+Cửa	N-H	1	khép	I-NP	I-SUB	(S(S(NP-SUB*)	I-Arg0
+khép	V-H	1	khép	I-VP	O	(VP*	I-Rel
+hờ	A	1	khép	I-VP	O	*))	I-Arg1
+vẳng	V-H	1	khép	B-VP	O	(VP(VP*	O
+tiếng	N-H	1	khép	I-VP	I-DOB	(NP-DOB*	O
+thều thào	V-H	1	khép	I-VP	I-DOB	(VP*	O
+chửi	V-H	1	khép	I-VP	I-DOB	*	O
+tục	A	1	khép	I-VP	I-DOB	*)))	O
+và	C	1	khép	I-VP	O	*	O
+sặc sụa	V-H	1	khép	B-VP	O	(VP*	O
+mùi	N-H	1	khép	I-NP	I-DOB	(NP-DOB*	O
+khét	A	1	khép	I-NP	I-DOB	*))))	O
+
+Sau	E-H	1	sang tên	I-PP	I-TMP	(S(PP-TMP*	I-ArgM-TMP
+hai	M	1	sang tên	I-NP	I-TMP	(NP*	I-ArgM-TMP
+tháng	N-H	1	sang tên	I-NP	I-TMP	*	I-ArgM-TMP
+học	V-H	1	sang tên	I-VP	I-TMP	(VP*	I-ArgM-TMP
+tử tế	A	1	sang tên	I-VP	I-TMP	*)))	I-ArgM-TMP
+mẹ	N-H	1	sang tên	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+sẽ	R	1	sang tên	I-VP	O	(VP*	I-ArgM-MOD
+chính thức	A	1	sang tên	I-VP	O	*	I-ArgM-ADJ
+sang tên	V-H	1	sang tên	I-VP	O	*	I-Rel
+xe	N-H	1	sang tên	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+cho	E-H	1	sang tên	I-PP	I-IOB	(PP-IOB*	I-ArgM-ADV
+
+Tóm lại	X	1	thấy	O	O	(S*	I-ArgM-ADV
+thấy	V-H	1	thấy	I-VP	O	(NP-SUB(Np-H(VP*	I-Rel
+vô hại	A-H	1	thấy	I-AP	I-PRD	(SBAR-DOB(S(NP-SUB(Np-H(AP-PRD(AP*)	I-Arg1
+dễ	A-H	1	thấy	I-AP	I-PRD	(AP*	I-Arg1
+gần	V	1	thấy	I-AP	I-PRD	*)	I-Arg1
+và	C	1	thấy	I-AP	I-PRD	*	I-Arg1
+có ích	A-H	1	thấy	B-AP	I-PRD	(AP*	I-Arg1
+trong	E-H	1	thấy	I-PP	I-PRD	(PP*	I-Arg1
+chừng mực	N-H	1	thấy	I-NP	I-PRD	(NP*	I-Arg1
+nào	P	1	thấy	I-NP	I-PRD	*	I-Arg1
+đó	P	1	thấy	I-NP	I-PRD	*))))))))))))	I-Arg1
+
+Trong	E-H	1	học	I-PP	I-TMP	(S(PP-TMP*	I-ArgM-TMP
+thời gian	N-H	1	học	I-NP	I-TMP	(NP*	I-ArgM-TMP
+chờ	V-H	1	học	I-VP	I-TMP	(VP*	I-ArgM-TMP
+mẹ	N-H	1	học	I-NP	I-DOB	(NP-DOB*)	I-ArgM-TMP
+sang tên	V-H	1	học	I-VP	I-IOB	(VP-IOB*))))	I-ArgM-TMP
+vẫn	R	1	học	I-VP	O	(NP-SUB(Np-H(VP*	I-ArgM-TMP
+học	V-H	1	học	I-VP	O	*	I-Rel
+khá	R	1	học	I-AP	I-MNR	(AP-MNR*	I-ArgM-MNR
+tử tế	A-H	1	học	I-AP	I-MNR	*)))))	I-ArgM-MNR
+
+Nguyên nhân	N-H	1	chúc mừng	I-NP	I-SUB	(S(NP-SUB*)	I-ArgM-ADV
+chúc mừng	V-H	1	chúc mừng	I-VP	O	(VP*	I-Rel
+Tùng	N-H	1	chúc mừng	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+đạt	V-H	1	chúc mừng	I-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+điểm	N-H	1	chúc mừng	I-NP	I-DOB	(NP-DOB*	I-ArgM-PRP
+cao	A	1	chúc mừng	I-NP	I-DOB	*)	I-ArgM-PRP
+ở	E-H	1	chúc mừng	I-PP	I-PRP	(PP*	I-ArgM-PRP
+học phần	N-H	1	chúc mừng	I-NP	I-PRP	(NP*	I-ArgM-PRP
+1	M	1	chúc mừng	I-NP	I-PRP	*)))))	I-ArgM-PRP
+
+Bất ngờ	A-H	1	chắn	I-AP	I-MNR	(S-SPL(AP-MNR*)	I-ArgM-MNR
+đến	V-H	1	chắn	I-VP	O	(NP-SUB(Np-H(VP(VP*)	I-ArgM-ADV
+chắn	V-H	1	chắn	B-VP	O	(VP*	I-Rel
+ngang	N	1	chắn	I-VP	O	*	I-ArgM-DIR
+mặt	N	1	chắn	I-VP	O	*	I-Arg1
+lũ	Nc-H	1	chắn	I-NP	I-DOB	(NP-DOB*	I-Arg1
+cô hồn	N	1	chắn	I-NP	I-DOB	*))))))	I-Arg1
+
+Từ	E-H	1	có	I-PP	I-TMP	(S(PP-TMP*	I-ArgM-TMP
+đây	P-H	1	có	I-NP	I-TMP	(NP*))	I-ArgM-TMP
+mọi	L	1	có	B-NP	I-TPC	(NP-TPC*	I-ArgM-TMP
+việc làm	N-H	1	có	I-NP	I-TPC	*	I-ArgM-TMP
+suy nghĩ	N-H	1	có	I-NP	I-TPC	*	I-ArgM-TMP
+bình thường	A-H	1	có	I-AP	I-TPC	(AP*)	I-ArgM-TMP
+của	E-H	1	có	I-PP	I-TPC	(PP*	I-ArgM-TMP
+đều	R	1	có	I-VP	O	(NP(Np-H(NP-SUB(Np-H(VP*	I-ArgM-MOD
+có	V-H	1	có	I-VP	O	*	I-Rel
+thói quen	N-H	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+xem xét	V-H	1	có	I-VP	I-DOB	(VP*	I-ArgM-MNR
+lại	R	1	có	I-VP	I-DOB	*))))))))))	I-ArgM-MNR
+
+Lật	V-H	1	thấy	I-VP	I-ADV	(S(VP-ADV*	I-ArgM-ADV
+mặt	N-H	1	thấy	I-NP	I-ADV	(NP*	I-ArgM-ADV
+sau	N	1	thấy	I-NP	I-ADV	*	I-ArgM-ADV
+xem	V-H	1	thấy	I-VP	I-PRP	(VP-PRP*)))	I-ArgM-ADV
+thì	C	1	thấy	O	O	*	O
+tôi	P-H	1	thấy	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+thấy	V-H	1	thấy	I-VP	O	(VP*	I-Rel
+một	M	1	thấy	I-NP	I-DOB	(NP-DOB*	I-Arg1
+cái	Nc-H	1	thấy	I-NP	I-DOB	*	I-Arg1
+tên	N	1	thấy	I-NP	I-DOB	*	I-Arg1
+thật	T	1	thấy	I-AP	I-DOB	(AP*	I-Arg1
+quen thuộc	A-H	1	thấy	I-AP	I-DOB	*)	I-Arg1
+
+Vợ chồng	N-H	1	từng một lần mặt nặng mày nhẹ	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+chị	N	1	từng một lần mặt nặng mày nhẹ	I-NP	I-SUB	*)	I-Arg0
+cũng	R	1	từng một lần mặt nặng mày nhẹ	B-NP	I-PRD	(NP-PRD*	O
+chưa	R	1	từng một lần mặt nặng mày nhẹ	I-NP	I-PRD	*	I-ArgM-NEG
+từng	R	1	từng một lần mặt nặng mày nhẹ	I-NP	I-PRD	*	I-Rel
+một	M	1	từng một lần mặt nặng mày nhẹ	I-NP	I-PRD	*	I-Rel
+lần	N-H	1	từng một lần mặt nặng mày nhẹ	I-NP	I-PRD	*	I-Rel
+mặt nặng mày nhẹ	X-H	1	từng một lần mặt nặng mày nhẹ	I-XP	I-PRD	(XP*	I-Rel
+với	E-H	1	từng một lần mặt nặng mày nhẹ	I-PP	I-PRD	(PP*	I-ArgM-COM
+nhau	N-H	1	từng một lần mặt nặng mày nhẹ	I-NP	I-PRD	(NP*)))))	I-ArgM-COM
+
+Cả	P-H	1	cam kết chấm dứt quan hệ	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+hai	M	1	cam kết chấm dứt quan hệ	I-NP	I-SUB	*)	I-Arg0
+cam kết	V-H	1	cam kết chấm dứt quan hệ	I-VP	O	(VP*	I-Rel
+chấm dứt	V-H	1	cam kết chấm dứt quan hệ	B-VP	O	(VP*	I-Rel
+quan hệ	V-H	1	cam kết chấm dứt quan hệ	B-VP	O	(VP*	I-Rel
+vĩnh viễn	A-H	1	cam kết chấm dứt quan hệ	I-AP	O	(AP*)))))	I-ArgM-MNR
+
+Chỉ	R	1	thế	I-NP	O	(S-SPL(NP*	I-ArgM-EXT
+thế	P-H	1	thế	I-NP	O	*	I-Rel
+thôi	T	1	thế	I-NP	O	*))	I-ArgM-Partice
+
+Hai	M	1	*E*	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+giải	N-H	1	*E*	I-NP	I-SUB	*	I-Arg0
+nhì	A	1	*E*	I-NP	I-SUB	*)	I-Arg0
+*E*	V-H	1	*E*	I-VP	O	(VP*	I-Rel
+Nàng tiên	N-H	1	*E*	I-NP	O	(NP*	I-Arg0
+nhỏ	A	1	*E*	I-NP	O	*	I-Arg0
+trong	E-H	1	*E*	I-PP	I-LOC	(PP-LOC*	I-Arg0
+gia đình	N-H	1	*E*	I-NP	I-LOC	(NP*	I-Arg0
+cái bang	N	1	*E*	I-NP	I-LOC	*)))	I-Arg0
+LBKT	LBKT	1	*E*	I-VP	O	*	I-ArgM-PRD
+của	E-H	1	*E*	I-PP	O	(PP*	I-ArgM-PRD
+RBKT	RBKT	1	*E*	I-VP	O	(NP(Np-H*	I-ArgM-PRD
+Tường trình	V-H	1	*E*	B-VP	O	(VP*	I-Arg1
+từ	E-H	1	*E*	I-PP	I-LOC	(PP-LOC*	I-Arg1
+nghĩa trang	N-H	1	*E*	I-NP	I-LOC	(NP*	I-Arg1
+vòng hoa	N-H	1	*E*	B-NP	I-LOC	(NP*	I-Arg1
+trắng	A	1	*E*	I-NP	I-LOC	*))))	I-Arg1
+của	E-H	1	*E*	I-PP	O	(PP*	I-ArgM-ADV
+
+Ý tưởng	N-H	1	thành hình	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+về	E-H	1	thành hình	I-PP	I-SUB	(PP*	I-Arg0
+một	M	1	thành hình	I-NP	I-SUB	(NP*	I-Arg0
+dàn	N-H	1	thành hình	I-NP	I-SUB	*	I-Arg0
+xúc	V	1	thành hình	I-NP	I-SUB	*)))	I-Arg0
+dần	R	1	thành hình	I-VP	O	(VP*	I-ArgM-MNR
+thành hình	V-H	1	thành hình	I-VP	O	*	I-Rel
+trong	E-H	1	thành hình	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+đầu	N-H	1	thành hình	I-NP	I-LOC	(NP*	I-ArgM-LOC
+anh	Nc-H	1	thành hình	B-NP	I-LOC	(NP*	I-ArgM-LOC
+
+Mờ	A	1	hỏi	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-ADV
+sáng	N-H	1	hỏi	I-NP	I-TMP	*)	I-ArgM-ADV
+hỏi	V-H	1	hỏi	I-VP	O	(NP-SUB(VP*	I-Rel
+ý	N-H	1	hỏi	I-NP	I-DOB	(NP-DOB*	I-Arg1
+vợ	N	1	hỏi	I-NP	I-DOB	*))))	I-Arg1
+
+Trước	N-H	1	nêu	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+đó	P	1	nêu	I-NP	I-TMP	*)	I-ArgM-TMP
+Chủ tịch	N-H	1	nêu	I-NP	I-SUB	(NP-SUB(S*	I-Arg0
+nêu	V-H	1	nêu	I-VP	O	(Np(VP*	I-Rel
+mười	M	1	nêu	I-NP	I-DOB	(NP-DOB*	I-Arg1
+nguyên nhân	N-H	1	nêu	I-NP	I-DOB	*	I-Arg1
+dẫn	V-H	1	nêu	I-VP	I-DOB	(VP*	I-Arg1
+đến	E-H	1	nêu	I-PP	I-ADV	(PP-ADV*	I-Arg1
+sự	Nc-H	1	nêu	I-NP	I-ADV	(NP*	I-Arg1
+sụt giảm	V	1	nêu	I-NP	I-ADV	*	I-Arg1
+kinh tế	N-H	1	nêu	B-NP	I-ADV	(NP*)	I-Arg1
+trong	E-H	1	nêu	I-PP	I-TMP	(PP-TMP*	I-Arg1
+ba	M	1	nêu	I-NP	I-TMP	(NP*	I-Arg1
+tháng	N-H	1	nêu	I-NP	I-TMP	*	I-Arg1
+đầu	N	1	nêu	I-NP	I-TMP	*	I-Arg1
+năm	N	1	nêu	I-NP	I-TMP	*)))))))))))	I-Arg1
+
+Nhận dạng	V-H	1	Nhận dạng	I-VP	O	(S(NP-SUB(VP*	I-Rel
+nó	P-H	1	Nhận dạng	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+ra sao	X-H	1	Nhận dạng	I-WHRP	O	(WHRP*))))	I-ArgM-DIS
+
+Tuy nhiên	C	1	đạt	O	O	(S*	I-ArgM-DIS
+hắn	P-H	1	đạt	I-NP	I-SUB	(NP-SUB*	I-Arg0
+ta	P	1	đạt	I-NP	I-SUB	*)	I-Arg0
+chỉ	R	1	đạt	I-VP	O	(VP*	I-ArgM-MNR
+đạt	V-H	1	đạt	I-VP	O	*	I-Rel
+được	R	1	đạt	I-VP	O	*	I-ArgM-RES
+mục đích	N-H	1	đạt	I-NP	I-DOB	(NP-DOB*	I-Arg1
+một	M	1	đạt	I-NP	I-DOB	*)))	I-Arg1
+
+Đây	P-H	1	là	I-NP	I-SUB	(S(S(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+giờ	N-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+tan tầm	V	1	là	I-NP	I-DOB	*)))	I-Arg1
+các	L	1	là	B-NP	I-SUB	(S(NP-SUB*	O
+chủng loại	N-H	1	là	I-NP	I-SUB	*	O
+xe	N-H	1	là	B-NP	I-SUB	(NP*	O
+ngoại tỉnh	N	1	là	I-NP	I-SUB	*))	O
+cũng	R	1	là	I-VP	O	(VP*	O
+ồ ạt	A	1	là	I-VP	O	*	O
+tiến	V-H	1	là	I-VP	O	*	O
+vào	E-H	1	là	I-PP	O	(PP-DIR(PP*	O
+nội thành	N-H	1	là	I-NP	O	(NP*))	O
+qua	E-H	1	là	I-PP	O	(PP*	O
+tuyến	N-H	1	là	I-NP	O	(NP*	O
+này	P	1	là	I-NP	O	*))))))	O
+
+Thông tin	N-H	1	đến	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+này	P	1	đến	I-NP	I-SUB	*)	I-Arg0
+chắc chắn	A-H	1	đến	I-AP	I-PRD	(AP-PRD*	I-ArgM-ADV
+sẽ	R	1	đến	I-VP	I-PRD	(VP*	I-ArgM-TMP
+đến	V-H	1	đến	I-VP	I-PRD	*	I-Arg4
+tai	N-H	1	đến	I-NP	I-DOB	(NP-DOB*	I-Arg4
+bà	N-H	1	đến	B-NP	I-DOB	(NP*	I-Arg4
+vợ	N	1	đến	I-NP	I-DOB	*)))))	I-Arg4
+
+Mục đích	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+của	E-H	1	là	I-PP	I-SUB	(PP*	I-Arg0
+hai	M	1	là	I-NP	I-SUB	(NP*	I-Arg0
+bà	N-H	1	là	I-NP	I-SUB	*)))	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+ông	Nc-H	1	là	I-NP	O	(NP*	I-Arg1
+chán	V-H	1	là	I-VP	O	(Np(VP(VP*	I-Arg1
+xin	V-H	1	là	I-VP	O	(NP-DOB(Np(VP*	I-Arg1
+về	V	1	là	I-VP	O	*)))))))))	I-Arg1
+
+Tác chiến	V-H	1	Tác chiến	I-VP	O	(S(NP-SUB(VP*	I-Rel
+ở	E-H	1	Tác chiến	I-PP	I-LOC	(PP-LOC*	I-Arg1
+xứ	N-H	1	Tác chiến	I-NP	I-LOC	(NP*	I-Arg1
+người	N	1	Tác chiến	I-NP	I-LOC	*)))))	I-Arg1
+
+vui	V-H	1	ổn định	I-VP	O	(S(NP-SUB(Np-H(VP(VP*)	I-ArgM-ADV
+ổn định	V-H	1	ổn định	I-VP	O	(VP*	I-Rel
+tâm lý	N-H	1	ổn định	I-VP	I-DOB	(NP-DOB*))	I-Arg1
+bỏ	V-H	1	ổn định	I-VP	O	(VP*	I-ArgM-ADV
+thuốc lá	N-H	1	ổn định	I-VP	I-DOB	(NP-DOB*))	I-ArgM-ADV
+quên	V-H	1	ổn định	I-VP	O	(VP*	I-ArgM-ADV
+hẳn	R	1	ổn định	I-VP	O	*	I-ArgM-ADV
+ma túy	N-H	1	ổn định	I-VP	I-DOB	(NP-DOB*))	I-ArgM-ADV
+không	R	1	ổn định	I-VP	O	(VP*	I-ArgM-ADV
+ham	V-H	1	ổn định	I-VP	O	*	I-ArgM-ADV
+những	L	1	ổn định	I-VP	I-DOB	(NP-DOB*	I-ArgM-ADV
+thói	N-H	1	ổn định	I-VP	I-DOB	*	I-ArgM-ADV
+xấu	A	1	ổn định	I-VP	I-DOB	*	I-ArgM-ADV
+trước	E-H	1	ổn định	I-VP	I-TMP	(PP-TMP*	I-ArgM-ADV
+đây	P-H	1	ổn định	I-VP	I-TMP	(NP*))))	I-ArgM-ADV
+và	C	1	ổn định	I-VP	O	*	I-ArgM-ADV
+học	V-H	1	ổn định	B-VP	O	(VP*	I-ArgM-ADV
+khá	R	1	ổn định	I-NP	I-MNR	(NP-MNR*	I-ArgM-ADV
+tiến bộ	N-H	1	ổn định	I-NP	I-MNR	*))))))	I-ArgM-ADV
+
+__*E*	V-H	1	__*E*	I-VP	O	(S-SQ(NP-SUB(VP*	I-Rel
+Rằng	C	1	__*E*	I-VP	O	(SBAR*	I-ArgM-DIS
+ra	V-H	1	__*E*	B-VP	I-ADV	(S(VP-ADV*	I-Arg1
+trường	N-H	1	__*E*	I-NP	I-ADV	(NP*))	I-Arg1
+mày	P-H	1	__*E*	B-NP	I-SUB	(NP-SUB*)	I-Arg1
+làm	V-H	1	__*E*	I-VP	O	(VP*	I-Arg1
+ở	E-H	1	__*E*	I-PP	I-LOC	(PP-LOC*	I-Arg1
+đâu	P-H	1	__*E*	I-NP	I-LOC	(NP*))))))))	I-Arg1
+
+Con người	N-H	1	là	I-NP	I-SUB	(S-SQ(NP-SUB*	I-Arg0
+này	P	1	là	I-NP	I-SUB	*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+ai	P-H	1	là	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+bám	V-H	1	bám	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+theo	V	1	bám	I-VP	O	*))))	I-ArgM-MNR
+
+Lá	Nc-H	1	__biết	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+thứ	N	1	__biết	I-NP	I-SUB	*	I-Arg0
+nhất	M	1	__biết	I-NP	I-SUB	*)	I-Arg0
+cho	V-H	1	__biết	I-VP	O	(VP*	I-ArgM-MOD
+__biết	V	1	__biết	I-VP	O	*	I-Rel
+đã	R	1	__biết	I-VP	O	(SBAR-DOB(S(NP-SUB(VP(VP*	I-Arg1
+quay	V-H	1	__biết	I-VP	O	*	I-Arg1
+lại	R	1	__biết	I-VP	O	*	I-Arg1
+gặp	V-H	1	__biết	B-VP	I-PRP	(VP-PRP*	I-Arg1
+bố mẹ	N-H	1	__biết	I-NP	I-DOB	(NP-DOB*	I-Arg1
+biết	V-H	1	__biết	I-VP	O	(Np(VP*	I-Arg1
+được	R	1	__biết	I-VP	O	*	I-Arg1
+nhà	N-H	1	__biết	I-NP	I-SUB	(SBAR-DOB(S(NP-SUB*	I-Arg1
+ông bà	N-H	1	__biết	B-NP	I-SUB	(NP*	I-Arg1
+vẫn	R	1	__biết	I-VP	O	(Np(VP*	I-Arg1
+ở	V-H	1	__biết	I-VP	O	*	I-Arg1
+
+Bản	Nc-H	1	kéo dài	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+hợp đồng	N	1	kéo dài	I-NP	I-SUB	*	I-Arg0
+quản lý	V-H	1	kéo dài	I-VP	I-SUB	(VP*	I-ArgM-PRD
+giám sát	V-H	1	kéo dài	I-VP	I-SUB	*	I-ArgM-PRD
+giúp đỡ	V-H	1	kéo dài	I-VP	I-SUB	*))	I-ArgM-PRD
+kéo dài	V-H	1	kéo dài	B-VP	O	(VP*	I-Rel
+14	M	1	kéo dài	I-NP	I-TMP	(NP-TMP*	I-ArgM-TMP
+tháng	N-H	1	kéo dài	I-NP	I-TMP	*)	I-ArgM-TMP
+từ	E-H	1	kéo dài	I-PP	O	(PP-TMP(PP*	O
+khi	N-H	1	kéo dài	I-NP	O	(NP*	I-Arg1
+chuẩn bị	V-H	1	kéo dài	I-VP	O	(SBAR(S(NP-SUB(Np-H(VP*	I-Arg1
+học	V-H	1	kéo dài	B-VP	O	(VP*	I-Arg1
+tiếng	N-H	1	kéo dài	I-NP	I-DOB	(NP-DOB*	I-Arg1
+ở	E-H	1	kéo dài	I-PP	I-LOC	(Np(PP-LOC*	I-Arg1
+VN	Ny-H	1	kéo dài	I-NP	I-LOC	(NP*))))))))	I-Arg1
+đến	E-H	1	kéo dài	I-PP	O	(PP*	I-Arg1
+khi	N-H	1	kéo dài	I-NP	O	(NP*	I-Arg1
+thi	V-H	1	kéo dài	I-VP	O	(SBAR(S(NP-SUB(Np-H(VP(VP*	I-Arg1
+đỗ	V	1	kéo dài	I-VP	O	*	I-Arg1
+đại học	N-H	1	kéo dài	I-VP	I-DOB	(NP-DOB*))	I-Arg1
+và	C	1	kéo dài	I-VP	O	*	I-Arg1
+ổn định	V-H	1	kéo dài	B-VP	O	(VP*	I-Arg1
+cuộc sống	N-H	1	kéo dài	I-NP	I-DOB	(NP-DOB*	I-Arg1
+tinh thần	N-H	1	kéo dài	I-NP	I-DOB	*))))))))))))))))	I-Arg1
+
+Trước mắt	N-H	1	yêu cầu	I-NP	I-TMP	(S(NP-TMP*)	I-ArgM-ADV
+tôi	P-H	1	yêu cầu	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+sẽ	R	1	yêu cầu	I-VP	O	(VP*	I-ArgM-TMP
+yêu cầu	V-H	1	yêu cầu	I-VP	O	*	I-Rel
+ông	Nc-H	1	yêu cầu	I-NP	I-SUB	(SBAR(S(NP-SUB*	I-Arg1
+báo cáo	V-H	1	yêu cầu	I-VP	O	(Np(VP*	I-Arg2
+lại	R	1	yêu cầu	I-VP	O	*	I-Arg2
+vụ việc	N-H	1	yêu cầu	I-NP	I-DOB	(NP-DOB*))))))))	I-Arg2
+
+Em	N-H	1	thích	I-NP	I-SUB	(S(S(NP-SUB*)	I-Arg0
+thích	V-H	1	thích	I-VP	O	(VP*	I-Rel
+cầu thủ	N-H	1	thích	I-NP	I-DOB	(NP-DOB*	I-Arg1
+LBKT	LBKT	1	thích	I-NP	I-DOB	*	I-Arg1
+bóng rổ	N-H	1	thích	B-NP	I-DOB	(NP*)	I-Arg1
+RBKT	RBKT	1	thích	B-NP	I-DOB	*	I-Arg1
+này	P	1	thích	I-NP	I-DOB	(NP(Np-H*)))	I-Arg1
+anh	N-H	1	thích	B-NP	I-SUB	(S(NP-SUB*	O
+ấy	P	1	thích	I-NP	I-SUB	*)	O
+thường	R	1	thích	I-VP	O	(VP*	O
+mang	V-H	1	thích	I-VP	O	*	O
+giày	N-H	1	thích	I-NP	I-DOB	(NP-DOB*	O
+
+Một	M	1	nói	I-NP	I-TPC	(S(NP-TPC*	O
+anh	Nc-H	1	nói	I-NP	I-TPC	*	O
+anh	N-H	1	nói	I-NP	I-SUB	(Np(NP-SUB*	I-Arg0
+ấy	P	1	nói	I-NP	I-SUB	*)	I-Arg0
+nói	V-H	1	nói	I-VP	O	(VP*	I-Rel
+giá	N-H	1	nói	I-NP	I-SUB	(SBAR(S(S(NP-SUB*	I-Arg1
+ở	E-H	1	nói	I-PP	I-LOC	(PP-LOC*	I-Arg1
+đây	P-H	1	nói	I-NP	I-LOC	(NP*)))	I-Arg1
+rẻ	A-H	1	nói	I-AP	I-PRD	(AP-PRD*	I-Arg1
+hơn	A	1	nói	I-AP	I-PRD	*))	I-Arg1
+bên	N-H	1	nói	I-NP	I-LOC	(S(NP-LOC*	I-Arg1
+kia	P	1	nói	I-NP	I-LOC	*)	I-Arg1
+giá	N-H	1	nói	B-NP	I-SUB	(NP-SUB*)	I-Arg1
+đến	T	1	nói	B-NP	I-PRD	(NP-PRD*	I-Arg1
+150	M	1	nói	I-NP	I-PRD	*	I-Arg1
+USD	Ny-H	1	nói	I-NP	I-PRD	*))))))))	I-Arg1
+
+Có thể	R	1	phân	I-VP	O	(S(NP-SUB(VP*	I-ArgM-MOD
+phân	V-H	1	phân	I-VP	O	*	I-Rel
+các	L	1	phân	I-NP	I-DOB	(NP-DOB*	I-Arg1
+cửa hàng	N-H	1	phân	I-NP	I-DOB	*	I-Arg1
+bán	V-H	1	phân	I-VP	I-DOB	(VP*	I-Arg1
+trang phục	N-H	1	phân	I-NP	B-DOB	(NP-DOB*	I-Arg1
+thể thao	N	1	phân	I-NP	I-DOB	*))	I-Arg1
+ở	E-H	1	phân	I-PP	I-LOC	(PP-LOC*	I-Arg1
+TP HCM	N-H	1	phân	I-NP	I-LOC	(NP*)))	I-Arg1
+ra	R	1	phân	I-VP	O	*	I-Arg1
+các	L	1	phân	I-NP	I-DOB	(NP-DOB*	I-Arg1
+dạng	N-H	1	phân	I-NP	I-DOB	*	I-Arg1
+như	C	1	phân	I-NP	I-DOB	*	I-Arg1
+sau	N-H	1	phân	B-NP	I-DOB	(NP*	I-Arg1
+đại lý	N-H	1	phân	B-NP	I-DOB	(NP(NP*	I-Arg1
+chính thức	A	1	phân	I-NP	I-DOB	*	I-Arg1
+LBKT	LBKT	1	phân	I-NP	I-DOB	*	I-Arg1
+như	C	1	phân	I-NP	I-DOB	*	I-Arg1
+của	E-H	1	phân	I-NP	I-DOB	(PP*	I-Arg1
+trên	E-H	1	phân	I-NP	I-LOC	(NP(Np-H(Np-H(PP(PP-LOC*	I-Arg1
+đường	N-H	1	phân	I-NP	I-LOC	(NP*	I-Arg1
+trong	E-H	1	phân	I-NP	I-LOC	(NP(Np-H(Np-H(Np-H(PP-LOC*	I-Arg1
+siêu thị	N-H	1	phân	I-NP	I-LOC	(NP*	I-Arg1
+RBKT	RBKT	1	phân	I-NP	I-DOB	(Np*)	I-Arg1
+đại lý	N-H	1	phân	I-NP	I-DOB	(NP*	I-Arg1
+độc quyền	A	1	phân	I-NP	I-DOB	*	I-Arg1
+LBKT	LBKT	1	phân	I-NP	I-DOB	*	I-Arg1
+như	C	1	phân	I-NP	I-DOB	*	I-Arg1
+của	E-H	1	phân	I-NP	I-DOB	(PP(PP*	I-Arg1
+ở	E-H	1	phân	I-NP	I-LOC	(NP(Np-H(PP-LOC*	I-Arg1
+của	E-H	1	phân	I-NP	I-DOB	(NP(Np-H(PP*	I-Arg1
+ở	E-H	1	phân	I-NP	I-LOC	(NP(Np-H(PP-LOC*	I-Arg1
+đều	R	1	phân	I-NP	I-LOC	(NP(Np-H(PP-LOC*	I-Arg1
+trên	E-H	1	phân	I-NP	I-LOC	*	I-Arg1
+đường	N-H	1	phân	I-NP	I-LOC	(NP*	I-Arg1
+RBKT	RBKT	1	phân	I-NP	I-DOB	(Np*)	I-Arg1
+các	L	1	phân	I-NP	I-DOB	(NP*	I-Arg1
+nhãn hiệu	N-H	1	phân	I-NP	I-DOB	*	I-Arg1
+khác	A	1	phân	I-NP	I-DOB	*	I-Arg1
+LBKT	LBKT	1	phân	I-NP	I-DOB	*	I-Arg1
+như	C	1	phân	I-NP	I-DOB	*	I-Arg1
+ở	E-H	1	phân	I-NP	I-LOC	(NP(Np-H(PP-LOC*	I-Arg1
+đường	N-H	1	phân	I-NP	I-LOC	(NP*	I-Arg1
+RBKT	RBKT	1	phân	I-NP	I-DOB	(Np*)	I-Arg1
+và	C	1	phân	I-NP	I-DOB	*	I-Arg1
+các	L	1	phân	B-NP	I-DOB	(NP*	I-Arg1
+quầy	N-H	1	phân	I-NP	I-DOB	*	I-Arg1
+trang phục	N-H	1	phân	B-NP	I-DOB	(NP*	I-Arg1
+thể thao	N	1	phân	I-NP	I-DOB	*)	I-Arg1
+LBKT	LBKT	1	phân	B-NP	I-DOB	*	I-Arg1
+như	C	1	phân	I-NP	I-DOB	*	I-Arg1
+ở	E-H	1	phân	I-PP	I-LOC	(PP-LOC*	I-Arg1
+siêu thị	N-H	1	phân	I-NP	I-LOC	(NP*	I-Arg1
+RBKT	RBKT	1	phân	I-NP	I-DOB	(Np*)))))))))))))))))))))))))))))))))))))))))))))	I-Arg1
+
+Còn	C	1	thèm	O	O	(S-EXC*	I-ArgM-DIS
+bây giờ	P-H	1	thèm	I-NP	I-TMP	(NP-TMP*)	I-ArgM-TMP
+gần	A-H	1	thèm	I-AP	B-TMP	(AP-TMP*	B-ArgM-TMP
+một	M	1	thèm	I-NP	I-TMP	(NP*	I-ArgM-TMP
+năm	N-H	1	thèm	I-NP	I-TMP	*	I-ArgM-TMP
+rồi	T	1	thèm	I-NP	I-TMP	*))	I-ArgM-TMP
+em	N-H	1	thèm	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+chẳng	R	1	thèm	I-VP	O	(VP*	I-ArgM-NEG
+thèm	V-H	1	thèm	I-VP	O	*	I-Rel
+chùi	V-H	1	thèm	B-VP	O	(VP*	I-Arg1
+rửa	V	1	thèm	I-VP	O	*)))	I-Arg1
+
+Trước	E-H	1	gọi	I-PP	I-MNR	(S(PP-MNR*	I-ArgM-MNR
+tình thế	N-H	1	gọi	I-NP	I-MNR	(NP*	I-ArgM-MNR
+đó	P	1	gọi	I-NP	I-MNR	*))	I-ArgM-MNR
+chúng tôi	P-H	1	gọi	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+đã	R	1	gọi	I-VP	O	(VP*	I-ArgM-TMP
+gọi	V-H	1	gọi	I-VP	O	*	I-Rel
+điện thoại di động	N-H	1	gọi	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+về	E-H	1	gọi	I-PP	I-DIR	(PP-DIR*	I-Arg1
+cơ quan	N-H	1	gọi	I-NP	I-LOC	(NP-LOC*))	I-Arg1
+xin	V-H	1	gọi	I-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+ứng cứu	V	1	gọi	I-VP	I-PRP	*)))	I-ArgM-PRP
+
+Bất cứ	R	1	có	I-NP	O	(S(NP-SUB(NP*	I-Arg0
+nhà xe	N-H	1	có	I-NP	O	*	I-Arg0
+nào	P	1	có	I-NP	O	*)	I-Arg0
+doanh nghiệp	N-H	1	có	B-NP	O	(NP*	I-Arg0
+kinh doanh	V-H	1	có	I-VP	O	(VP*	I-Arg0
+vận tải	V-H	1	có	I-VP	O	*)	I-Arg0
+nào	P-H	1	có	I-NP	O	*))	I-Arg0
+cũng	R	1	có	I-VP	O	(VP*	I-ArgM-TMP
+có	V-H	1	có	I-VP	O	*	I-Rel
+trên	E-H	1	có	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+tay	N-H	1	có	I-NP	I-LOC	(NP*))	I-ArgM-LOC
+một	M	1	có	B-NP	I-DOB	(NP-DOB*	I-Arg1
+tập	Nc-H	1	có	I-NP	I-DOB	*	I-Arg1
+giấy	N	1	có	I-NP	I-DOB	*	I-Arg1
+loại	Nc-H	1	có	B-NP	I-DOB	(NP*	I-Arg1
+giấy	N	1	có	I-NP	I-DOB	*	I-Arg1
+thanh toán	V-H	1	có	I-VP	I-DOB	(VP*	I-Arg1
+chi phí	N-H	1	có	I-NP	B-DOB	(NP-DOB*)	I-Arg1
+cho	E-H	1	có	I-PP	B-DOB	(PP*	I-Arg1
+tài xế	N-H	1	có	I-NP	I-DOB	(NP*)))))))	I-Arg1
+
+Trong	E-H	1	có	I-PP	I-LOC	(S(PP-LOC*	I-ArgM-LOC
+nghề	N-H	1	có	I-NP	I-LOC	(NP*))	I-ArgM-LOC
+chúng	P-H	1	có	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+cũng	R	1	có	I-VP	O	(VP*	I-ArgM-MOD
+có	V-H	1	có	I-VP	O	*	I-Rel
+rất	R	1	có	I-NP	I-DOB	(NP-DOB*	I-ArgM-EXT
+nhiều	A	1	có	I-NP	I-DOB	*	I-Arg1
+cách	N-H	1	có	I-NP	I-DOB	*	I-Arg1
+chăn	V-H	1	có	I-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+
+Nhưng	C	1	dạy	O	O	(S*	I-ArgM-DIS
+điều	N-H	1	dạy	I-NP	I-SUB	(NP-SUB*	I-Arg0
+này	P	1	dạy	I-NP	I-SUB	*)	I-Arg0
+cũng	R	1	dạy	I-VP	O	(VP*	I-ArgM-MOD
+dạy	V-H	1	dạy	I-VP	O	*	I-Rel
+cho	E-H	1	dạy	I-VP	O	(SBAR*	I-Arg1
+biết	V-H	1	dạy	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-ADV
+muốn	V-H	1	dạy	B-VP	O	(VP*	I-ArgM-ADV
+giúp	V-H	1	dạy	B-VP	O	(VP*	I-ArgM-ADV
+trẻ	N-H	1	dạy	I-NP	O	(NP*	I-ArgM-ADV
+lang thang	V	1	dạy	I-NP	O	*	I-ArgM-ADV
+không	R	1	dạy	I-AP	O	(AP*	I-ArgM-ADV
+gì	T	1	dạy	I-AP	O	*	I-ArgM-ADV
+bằng	A-H	1	dạy	I-AP	O	*	I-ArgM-ADV
+cho	V-H	1	dạy	I-VP	O	(VP*	I-ArgM-ADV
+chúng	P-H	1	dạy	I-NP	O	(NP*	I-ArgM-ADV
+một	M	1	dạy	B-NP	O	(NP*	I-ArgM-ADV
+cái	T	1	dạy	I-NP	O	*	I-ArgM-ADV
+nghề	N-H	1	dạy	I-NP	O	*))))))))))))))	I-ArgM-ADV
+
+Kịch bản	N-H	1	cho	I-NP	O	(S-SPL-TTL(NP*	I-Arg0
+cho	E-H	1	cho	I-PP	O	(PP*	I-Rel
+sự	Nc-H	1	cho	I-NP	O	(NP*	I-Arg1
+trở về	V	1	cho	I-NP	O	*))))	I-Arg1
+
+Có	R	1	nhận ra	I-VP	O	(SQ(NP-SUB(VP*	O
+nhận	V-H	1	nhận ra	I-VP	O	*	I-Rel
+ra	R	1	nhận ra	I-VP	O	*	I-Rel
+giọng	N-H	1	nhận ra	I-NP	I-DOB	(NP-DOB*	I-Arg1
+vợ	N	1	nhận ra	I-NP	I-DOB	*)	I-Arg1
+không	R	1	nhận ra	I-VP	O	*	I-ArgM-Partice
+đấy	T	1	nhận ra	I-VP	O	*)))	I-ArgM-Partice
+
+Không	R	1	gặp	I-VP	O	(S(NP-SUB-1(VP*	I-ArgM-ADV
+ngờ	V-H	1	gặp	I-VP	O	*	I-ArgM-ADV
+ông	N-H	1	gặp	I-NP	I-SUB	(SBAR(S(NP-SUB-1*)	I-Arg0
+gặp	V-H	1	gặp	I-VP	O	(VP*	I-Rel
+lại	R	1	gặp	I-VP	O	*	I-ArgM-TMP
+cố nhân	N-H	1	gặp	I-NP	I-DOB	(NP-DOB*	I-Arg1
+ngay	T	1	gặp	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+tại	E-H	1	gặp	I-PP	I-LOC	*	I-ArgM-LOC
+xưởng	N-H	1	gặp	I-NP	I-LOC	(NP*	I-ArgM-LOC
+vẽ	N	1	gặp	I-NP	I-LOC	*	I-ArgM-LOC
+thuở	N-H	1	gặp	B-NP	I-TMP	(NP-TMP*	I-ArgM-LOC
+nào	P	1	gặp	I-NP	I-TMP	*))))))))))	I-ArgM-LOC
+
+Tay	N-H	1	đáng	I-NP	O	(S(NP*	I-Arg0
+phò mã	N	1	đáng	I-NP	O	*	I-Arg0
+đáng	V-H	1	đáng	I-VP	O	(VP*	I-Rel
+ngờ	V	1	đáng	I-VP	O	*)))	I-Arg1
+
+Nhìn	V-H	1	Nhìn	I-VP	O	(S(VP*	I-Rel
+vết	N-H	1	Nhìn	I-NP	I-DOB	(NP-DOB*	I-Arg1
+xăm	V	1	Nhìn	I-NP	I-DOB	*	I-Arg1
+hình	N-H	1	Nhìn	B-NP	I-DOB	(NP*	I-Arg1
+con bài	N	1	Nhìn	I-NP	I-DOB	*	I-Arg1
+chuồn	N	1	Nhìn	I-NP	I-DOB	*	I-Arg1
+LBKT	LBKT	1	Nhìn	I-NP	I-DOB	*	I-Arg1
+trong	E-H	1	Nhìn	I-PP	I-DOB	(PP*	I-Arg1
+bộ	Nc-H	1	Nhìn	I-NP	I-DOB	(NP*	I-Arg1
+tú lơ khơ	N	1	Nhìn	I-NP	I-DOB	*))	I-Arg1
+RBKT	RBKT	1	Nhìn	B-NP	I-DOB	*)	I-Arg1
+trên	E-H	1	Nhìn	I-PP	I-LOC	(PP-LOC*	I-Arg1
+ngón tay	N-H	1	Nhìn	I-NP	I-LOC	(NP*	I-Arg1
+bà	Nc-H	1	Nhìn	I-NP	I-SUB	(Np(NP-SUB*	I-Arg0
+thấy	V-H	1	Nhìn	I-VP	O	(Np(VP*	I-ArgM-ADV
+rờn rợn	A	1	Nhìn	I-VP	O	*)))))))))	I-ArgM-ADV
+
+Em	N-H	1	xác minh	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+về	V-H	1	xác minh	I-VP	O	(VP*	I-ArgM-MOD
+xác minh	V-H	1	xác minh	B-VP	I-PRP	(VP-PRP*	I-Rel
+lý lịch	N-H	1	xác minh	I-NP	I-DOB	(NP-DOB*	I-Arg1
+nó	P-H	1	xác minh	B-NP	I-DOB	(NP*)))))	I-Arg1
+
+Người	N-H	1	gặp	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+đầu	N-H	1	gặp	B-NP	I-SUB	(NP*	I-Arg0
+dây	N	1	gặp	I-NP	I-SUB	*	I-Arg0
+bên	N-H	1	gặp	B-NP	I-SUB	(NP*	I-Arg0
+kia	P	1	gặp	I-NP	I-SUB	*)))	I-Arg0
+xin	V-H	1	gặp	I-VP	O	(VP*	I-ArgM-MOD
+gặp	V-H	1	gặp	B-VP	I-DOB	(VP-DOB*	I-Rel
+bà	Nc-H	1	gặp	I-NP	B-DOB	(NP-DOB*	I-Arg1
+
+Cùng	A-H	1	Cùng	I-AP	I-PRD	(S(NP-SUB(AP-PRD*	I-Rel
+câu lạc bộ	N-H	1	Cùng	I-NP	I-DOB	(NP-DOB*	I-Arg1
+trốn	V-H	1	Cùng	I-VP	I-DOB	(VP*	I-ArgM-PRD
+học	V	1	Cùng	I-VP	I-DOB	*))	I-ArgM-PRD
+với	E-H	1	Cùng	I-PP	I-PRD	(PP*	I-ArgM-ADV
+nhau	N-H	1	Cùng	I-NP	I-PRD	(NP*))	I-ArgM-ADV
+rồi	R	1	Cùng	I-AP	I-PRD	*)))	I-ArgM-ADV
+
+thảm hại	A-H	1	thảm hại	I-AP	I-PRD	(S(NP-SUB(NP-H(AP-PRD*	I-Rel
+như	C	1	thảm hại	I-AP	I-PRD	*	I-ArgM-DIS
+bánh đa	N-H	1	thảm hại	I-NP	I-PRD	(NP*	I-Arg1
+gặp	V-H	1	thảm hại	I-VP	I-PRD	(VP*	I-Arg1
+nước	N-H	1	thảm hại	I-NP	I-PRD	(NP*)))))))	I-Arg1
+
+Những	L	1	cung cấp	I-NP	I-SUB	(S(NP-SUB*	I-Arg1
+thông số	N-H	1	cung cấp	I-NP	I-SUB	*	I-Arg1
+này	P	1	cung cấp	I-NP	I-SUB	*)	I-Arg1
+nhanh chóng	A	1	cung cấp	I-VP	O	(VP*	I-ArgM-MNR
+được	R	1	cung cấp	I-VP	O	*	I-ArgM-MOD
+cung cấp	V-H	1	cung cấp	I-VP	O	*	I-Rel
+cho	E-H	1	cung cấp	I-PP	O	(PP*	I-Arg2
+phòng	N-H	1	cung cấp	I-NP	O	(NP*	I-Arg2
+kỹ thuật	N	1	cung cấp	I-NP	O	*	I-Arg2
+thuộc	V-H	1	cung cấp	I-VP	O	(VP*	I-Arg2
+Cấp nước	N	1	cung cấp	I-NP	O	(NP(Np-H*	I-Arg2
+LBKT	LBKT	1	cung cấp	I-NP	O	(NP(Np-H(Np*	I-Arg2
+TĐ	Ny-H	1	cung cấp	B-NP	O	(NP*	I-Arg2
+BH	Ny-H	1	cung cấp	I-NP	O	*)	I-Arg2
+RBKT	RBKT	1	cung cấp	B-NP	O	*))))))))))	I-Arg2
+
+Mười	M	1	có mặt	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-ADV
+phút	Nu-H	1	có mặt	I-NP	I-TMP	*	I-ArgM-ADV
+sau	N	1	có mặt	I-NP	I-TMP	*)	I-ArgM-ADV
+kíp	N-H	1	có mặt	B-NP	I-SUB	(NP-SUB*	I-Arg0
+lặn	V	1	có mặt	I-NP	I-SUB	*	I-Arg0
+đầu tiên	A	1	có mặt	I-NP	I-SUB	*	I-Arg0
+trong	E-H	1	có mặt	I-PP	I-TMP	(PP-TMP*	I-Arg0
+ngày	N-H	1	có mặt	I-NP	I-TMP	(NP*)))	I-Arg0
+đã	R	1	có mặt	I-VP	O	(VP*	I-ArgM-TMP
+có mặt	V-H	1	có mặt	I-VP	O	*	I-Rel
+dưới	N-H	1	có mặt	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+lòng	N-H	1	có mặt	I-NP	I-LOC	(NP*	I-ArgM-LOC
+rạch	N	1	có mặt	I-NP	I-LOC	*))))	I-ArgM-LOC
+
+Không	R	1	vác	I-AP	I-MNR	(S(AP-MNR*	I-ArgM-MNR
+vội vã	A-H	1	vác	I-AP	I-MNR	*)	I-ArgM-MNR
+đám	N-H	1	vác	I-NP	I-SUB	(NP-SUB*	I-Arg0
+cửu vạn	N	1	vác	I-NP	I-SUB	*)	I-Arg0
+từ từ	A	1	vác	I-VP	O	(VP*	I-ArgM-MNR
+vác	V-H	1	vác	I-VP	O	*	I-Rel
+xuống	R	1	vác	I-VP	O	*))	I-ArgM-DIR
+
+Hơn nữa	X	1	tìm	O	O	(S*	I-ArgM-DIS
+với	E-H	1	tìm	I-PP	I-TPC	(PP-TPC*	I-ArgM-CAU
+lợi nhuận	N-H	1	tìm	I-NP	I-TPC	(NP*	I-ArgM-CAU
+cao	A	1	tìm	I-NP	I-TPC	*))	I-ArgM-CAU
+các	L	1	tìm	B-NP	I-SUB	(NP-SUB*	I-Arg0
+chủ	N-H	1	tìm	I-NP	I-SUB	*	I-Arg0
+hàng	N	1	tìm	I-NP	I-SUB	*)	I-Arg0
+luôn	R	1	tìm	I-VP	O	(VP*	I-ArgM-TMP
+tìm	V-H	1	tìm	I-VP	O	*	I-Rel
+mọi	L	1	tìm	I-NP	I-DOB	(NP-DOB*	I-Arg1
+cách	N-H	1	tìm	I-NP	I-DOB	*	I-Arg1
+đối phó	V	1	tìm	I-NP	I-DOB	*)	I-Arg1
+để	E-H	1	tìm	I-PP	I-PRP	(PP-PRP*	I-ArgM-PRP
+đưa	V-H	1	tìm	I-VP	I-PRP	(VP*	I-ArgM-PRP
+hàng	N-H	1	tìm	I-NP	I-DOB	(NP-DOB*)	I-ArgM-PRP
+sang	R	1	tìm	I-VP	I-PRP	*))))	I-ArgM-PRP
+
+Hai	M	1	căng thẳng	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+vợ chồng	N-H	1	căng thẳng	I-NP	I-SUB	*)	I-Arg0
+lời qua tiếng lại	X-H	1	căng thẳng	I-XP	I-PRD	(XP-PRD*	I-ArgM-ADV
+khá	R	1	căng thẳng	I-AP	I-PRD	(AP*	I-ArgM-EXT
+căng thẳng	A-H	1	căng thẳng	I-AP	I-PRD	*)))	I-Rel
+
+làm	V-H	1	làm	I-VP	O	(S(NP-SUB(Np-H(VP(VP*	I-Rel
+ở	E-H	1	làm	I-VP	I-LOC	(PP-LOC*	I-Arg1
+công ty	N-H	1	làm	I-VP	I-LOC	(NP*	I-Arg1
+khác	A	1	làm	I-VP	I-LOC	*)))	I-Arg1
+và	C	1	làm	I-VP	O	*	O
+cũng	R	1	làm	B-VP	O	(VP*	O
+không	R	1	làm	I-VP	O	*	O
+có	V-H	1	làm	I-VP	O	*	O
+đặc quyền đặc lợi	N-H	1	làm	I-NP	I-DOB	(NP-DOB*	O
+gì	P	1	làm	I-NP	I-DOB	*))	O
+nên	C	1	làm	I-VP	O	*	O
+không	R	1	làm	B-VP	O	(VP*	O
+mâu thuẫn	V-H	1	làm	I-VP	O	*	O
+với	E-H	1	làm	I-PP	O	(PP*	O
+ai	N-H	1	làm	I-NP	O	(NP*)))))))	O
+
+Nhưng	C	1	dừng	O	O	(S*	I-ArgM-DIS
+chuyện	N-H	1	dừng	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+cũng	R	1	dừng	I-VP	O	(VP*	I-ArgM-TMP
+chỉ	R	1	dừng	I-VP	O	*	I-ArgM-EXT
+dừng	V-H	1	dừng	I-VP	O	*	I-Rel
+ở	E-H	1	dừng	I-PP	I-LOC	(PP-LOC*	I-Arg1
+đó	P-H	1	dừng	I-NP	I-LOC	(NP*))))	I-Arg1
+và	C	1	dừng	O	O	*	O
+cũng	R	1	dừng	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-TMP
+không	R	1	dừng	I-VP	O	*	O
+nghi ngờ	V-H	1	dừng	I-VP	O	*	O
+thêm	R	1	dừng	I-VP	O	*	O
+đối tượng	N-H	1	dừng	I-NP	I-DOB	(NP-DOB*	O
+nào	R	1	dừng	I-NP	I-DOB	*	O
+nữa	R	1	dừng	I-NP	I-DOB	*))))))	O
+
+Hai	M	1	là	I-NP	I-SUB	(S(S(NP-SUB*	I-Arg0
+đồng minh	N-H	1	là	I-NP	I-SUB	*)	I-Arg0
+đồng thời	R	1	là	I-AP	O	(AP*	I-ArgM-TMP
+đều	R	1	là	I-AP	O	*	I-ArgM-TMP
+có thể	R	1	là	I-AP	O	*	I-ArgM-MOD
+là	V-H	1	là	I-AP	O	*	I-Rel
+đối thủ	N-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+của	E-H	1	là	I-PP	I-DOB	(PP*	I-Arg1
+thám tử	N-H	1	là	I-NP	I-DOB	(NP*)))))	I-Arg1
+nên	C	1	là	O	O	*	O
+đã	R	1	là	I-AP	I-PRD	(S(NP-SUB(Np-H(AP-PRD*	O
+cùng	A-H	1	là	I-AP	I-PRD	*	O
+mỗi	L	1	là	I-NP	I-DOB	(NP-DOB*	O
+người	N-H	1	là	I-NP	I-DOB	*)	O
+buông	V-H	1	là	I-VP	I-PRD	(VP*	O
+một	M	1	là	I-NP	I-DOB	(NP-DOB*	O
+mồi	N-H	1	là	I-NP	I-DOB	*	O
+câu	V	1	là	I-NP	I-DOB	*	O
+giăng	V-H	1	là	I-VP	I-PRP	(VP-PRP*	O
+bắt	V-H	1	là	I-VP	I-PRP	*	O
+thủ phạm	N-H	1	là	I-NP	I-DOB	(NP-DOB*))))))	O
+và	C	1	là	O	O	*	O
+chính	T	1	là	I-NP	I-SUB	(S(NP-SUB*	O
+những	L	1	là	I-NP	I-SUB	*	O
+mồi	N-H	1	là	I-NP	I-SUB	*	O
+câu	V	1	là	I-NP	I-SUB	*	O
+này	P	1	là	I-NP	I-SUB	*	O
+của	E-H	1	là	I-PP	I-SUB	(PP*	O
+cũng	R	1	là	I-VP	O	(NP(Np-H(VP*	O
+có	V-H	1	là	I-VP	O	*	O
+khả năng	N-H	1	là	I-NP	I-DOB	(NP-DOB*	O
+làm	V-H	1	là	I-VP	I-DOB	(VP*	O
+lộ	V-H	1	là	B-VP	I-DOB	(VP*	O
+diện	N	1	là	I-VP	I-DOB	*	O
+ngay	T	1	là	I-VP	I-DOB	*	O
+cả	T	1	là	I-VP	I-DOB	*	O
+người	N-H	1	là	I-NP	B-DOB	(NP-DOB*	O
+đang	R	1	là	I-VP	I-DOB	(VP*	O
+hợp tác	V-H	1	là	I-VP	I-DOB	*	O
+với	E-H	1	là	I-PP	I-DOB	(PP*	O
+mình	P-H	1	là	I-NP	I-DOB	(NP*))))))))))))))))	O
+
+Cân	V-H	1	Cân	I-VP	O	(S-SPL(VP*	I-Rel
+người tình	N-H	1	Cân	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+Theo	E-H	0	nhập	I-PP	I-TPC	(S(PP-TPC*	I-ArgM-ADV
+quy trình	N-H	0	nhập	I-NP	I-TPC	(NP*	I-ArgM-ADV
+làm việc	V	0	nhập	I-NP	I-TPC	*	I-ArgM-ADV
+ở	E-H	0	nhập	I-PP	I-LOC	(PP-LOC*	I-ArgM-ADV
+công ty	N-H	0	nhập	I-NP	I-LOC	(NP*	I-ArgM-ADV
+thám tử	N	0	nhập	I-NP	I-LOC	*))))	I-ArgM-ADV
+tất cả	P	0	nhập	B-NP	I-SUB	(NP-SUB*	I-Arg1
+dữ liệu	N-H	0	nhập	I-NP	I-SUB	*	I-Arg1
+LBKT	LBKT	0	nhập	I-NP	I-SUB	*	I-Arg1
+ảnh	N-H	0	nhập	B-NP	I-SUB	(NP*)	I-Arg1
+tên tuổi	N-H	0	nhập	B-NP	I-SUB	(NP*)	I-Arg1
+địa chỉ	N-H	0	nhập	B-NP	I-SUB	(NP*	I-Arg1
+nhà	N	0	nhập	I-NP	I-SUB	*)	I-Arg1
+nơi	N-H	0	nhập	B-NP	I-LOC	(NP-LOC*	I-Arg1
+làm việc	V	0	nhập	I-NP	I-LOC	*	I-Arg1
+của	E-H	0	nhập	I-PP	I-LOC	(PP*	I-Arg1
+đối tượng	N-H	0	nhập	I-NP	I-LOC	(NP*	I-Arg1
+và	C	0	nhập	I-NP	I-LOC	*	I-Arg1
+thân chủ	N-H	0	nhập	I-NP	I-LOC	*)))	I-Arg1
+RBKT	RBKT	0	nhập	B-NP	I-SUB	*)	I-Arg1
+đều	R	0	nhập	I-VP	O	(VP*	I-ArgM-TMP
+được	V-H	0	nhập	I-VP	O	*	I-ArgM-MOD
+nhập	V-H	0	nhập	I-VP	O	(SBAR(S(NP-SUB(VP*	I-Rel
+vào	E-H	0	nhập	I-PP	I-LOC	(PP-LOC*	I-Arg1
+phần mềm	N-H	0	nhập	I-NP	I-LOC	(NP*	I-Arg1
+máy tính	N	0	nhập	I-NP	I-LOC	*))))))))	I-Arg1
+
+Sắp	Nc-H	1	liên hệ	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+nhỏ	N	1	liên hệ	I-NP	I-SUB	*)	I-Arg0
+vẫn	R	1	liên hệ	I-VP	O	(VP*	I-ArgM-TMP
+thường xuyên	A	1	liên hệ	I-VP	O	*	I-ArgM-TMP
+liên hệ	V-H	1	liên hệ	I-VP	O	*))	I-Rel
+
+Đêm	N-H	1	được sắp xếp	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+ấy	P	1	được sắp xếp	I-NP	I-TMP	*)	I-ArgM-TMP
+mọi	L	1	được sắp xếp	B-NP	I-SUB	(NP-SUB*	I-Arg0
+việc	N-H	1	được sắp xếp	I-NP	I-SUB	*)	I-Arg0
+đã	R	1	được sắp xếp	I-VP	O	(VP*	I-ArgM-TMP
+được	V-H	1	được sắp xếp	I-VP	O	*	I-Rel
+sắp xếp	V-H	1	được sắp xếp	B-VP	O	(VP*)))	I-Rel
+
+Kỷ niệm	V-H	1	Kỷ niệm	I-VP	O	(S-TTL(VP*	I-Rel
+59	M	1	Kỷ niệm	I-NP	I-DOB	(NP-DOB*	I-Arg1
+năm	N-H	1	Kỷ niệm	I-NP	I-DOB	*	I-Arg1
+ngày	N-H	1	Kỷ niệm	B-NP	I-DOB	(NP*	I-Arg1
+thành lập	V-H	1	Kỷ niệm	I-VP	I-DOB	(VP*	I-Arg1
+Công an	N-H	1	Kỷ niệm	I-NP	B-DOB	(NP-DOB*	I-Arg1
+nhân dân	N	1	Kỷ niệm	I-NP	I-DOB	*))))))	I-Arg1
+
+Có lẽ	R	1	là	I-RP	I-MDP	(S(RP-MDP*)	I-ArgM-DIS
+đó	P-H	1	là	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+thứ	N-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+tài sản	N	1	là	I-NP	I-DOB	*	I-Arg1
+lớn	A-H	1	là	I-AP	I-DOB	(AP*	I-Arg1
+nhất	R	1	là	I-AP	I-DOB	*)	I-Arg1
+của	E-H	1	là	I-PP	I-DOB	(PP*	I-Arg1
+cô	N-H	1	là	I-NP	I-DOB	(NP*))	I-Arg1
+lúc	N-H	1	là	B-NP	I-DOB	(NP*	I-Arg1
+đó	P	1	là	I-NP	I-DOB	*))))	I-Arg1
+
+Có	V-H	1	Có	I-VP	O	(SQ(VP*	I-Rel
+chuyện	N-H	1	Có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+gì	P	1	Có	I-NP	I-DOB	*)	I-Arg1
+vậy	P-H	1	Có	B-NP	O	(NP*)	I-ArgM-Partice
+anh	N-H	1	Có	B-NP	I-VOC	(NP-VOC*)))	I-Arg0
+
+Và	C	1	đổ	O	O	(S*	I-ArgM-DIS
+trên	A	1	đổ	I-QP	I-SUB	(QP-SUB*	I-Arg0
+10000	M-H	1	đổ	I-QP	I-SUB	*	I-Arg0
+chàng	Nc-H	1	đổ	I-NP	I-SUB	(NP*	I-Arg0
+trai	N	1	đổ	I-NP	I-SUB	*)	I-Arg0
+cô	Nc-H	1	đổ	B-NP	I-SUB	(NP*	I-Arg0
+gái	N	1	đổ	I-NP	I-SUB	*)	I-Arg0
+đã	R	1	đổ	I-VP	O	(NP(Np-H(VP*	I-ArgM-TMP
+đổ	V-H	1	đổ	I-VP	O	*	I-Rel
+máu xương	N	1	đổ	I-VP	O	*	I-Arg1
+để	E-H	1	đổ	I-PP	I-PRP	(PP-PRP*	I-ArgM-PRP
+thành	V-H	1	đổ	I-VP	I-PRP	(VP(VP*	I-ArgM-PRP
+hào	N	1	đổ	I-VP	I-PRP	*)	I-ArgM-PRP
+thành	V-H	1	đổ	B-VP	I-PRP	(VP*	I-ArgM-PRP
+lũy	N	1	đổ	I-VP	I-PRP	*))))))))	I-ArgM-PRP
+
+Công việc	N-H	1	diễn	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+anh hùng	A-H	1	diễn	I-AP	I-SUB	(AP*)	I-Arg0
+đó	P	1	diễn	I-NP	I-SUB	*)	I-Arg0
+không	R	1	diễn	I-VP	O	(VP*	I-ArgM-NEG
+chỉ	R	1	diễn	I-VP	O	*	I-ArgM-EXT
+diễn	V-H	1	diễn	I-VP	O	*	I-Rel
+ra	R	1	diễn	I-VP	O	*	O
+một	M	1	diễn	I-NP	O	(NP-TMP(NP*	I-ArgM-TMP
+tháng	N-H	1	diễn	I-NP	O	*)	I-ArgM-TMP
+một	M	1	diễn	B-NP	O	(NP*	I-ArgM-TMP
+năm	N-H	1	diễn	I-NP	O	*))))	I-ArgM-TMP
+
+Chính	T	1	co	I-VP	I-PRP	(S(VP-PRP*	I-ArgM-CAU
+nhờ	V-H	1	co	I-VP	I-PRP	*	I-ArgM-CAU
+thế	P	1	co	I-VP	I-PRP	*)	I-ArgM-CAU
+nên	C	1	co	O	O	*	I-ArgM-DIS
+khi	N-H	1	co	I-NP	I-TMP	(NP-TMP*	I-ArgM-TMP
+bị	V-H	1	co	I-VP	I-TMP	(VP(VP*	I-ArgM-TMP
+lộ	V-H	1	co	I-VP	I-TMP	(VP*))	I-ArgM-TMP
+hoặc	C	1	co	I-VP	I-TMP	*	I-ArgM-TMP
+bị	V-H	1	co	B-VP	I-TMP	(VP*	I-ArgM-TMP
+tấn công	V-H	1	co	B-VP	I-TMP	(VP*))))	I-ArgM-TMP
+du kích	N-H	1	co	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+chỉ	R	1	co	I-VP	O	(VP*	I-ArgM-EXT
+cần	V-H	1	co	I-VP	O	*	I-ArgM-MOD
+co	V-H	1	co	B-VP	O	(VP*	I-Rel
+chân	N	1	co	I-VP	O	*	I-Arg1
+đạp	V-H	1	co	B-VP	O	(VP*	I-ArgM-PRP
+vách	N	1	co	I-VP	O	*	I-ArgM-PRP
+để	E-H	1	co	I-PP	I-PRP	(PP-PRP*	B-ArgM-PRP
+lần	V-H	1	co	I-VP	I-PRP	(VP*	I-ArgM-PRP
+sang	E-H	1	co	I-PP	I-LOC	(PP-LOC*	I-ArgM-PRP
+đường	N-H	1	co	I-NP	I-LOC	(NP*	I-ArgM-PRP
+khác	A	1	co	I-NP	I-LOC	*))))))))	I-ArgM-PRP
+
+Cả	P	1	quá	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-ADV
+tháng	N-H	1	quá	I-NP	I-TMP	*	I-ArgM-ADV
+trời	T	1	quá	I-NP	I-TMP	*)	I-ArgM-ADV
+chi phí	N-H	1	quá	I-NP	I-SUB	(NP-SUB(S*	I-Arg0
+cho	E-H	1	quá	I-PP	I-SUB	(PP*	I-Arg0
+từ	E-H	1	quá	I-PP	I-SUB	(NP(Np-H(PP(PP*	I-Arg0
+ăn	V-H	1	quá	I-VP	I-SUB	(VP(VP*)	I-Arg0
+mặc	V-H	1	quá	B-VP	I-SUB	(VP*)	I-Arg0
+tiếp	V-H	1	quá	B-VP	I-SUB	(VP*	I-Arg0
+khách	N-H	1	quá	I-NP	I-DOB	(NP-DOB*))	I-Arg0
+giải trí	V-H	1	quá	I-VP	I-SUB	(VP*)))	I-Arg0
+đến	E-H	1	quá	I-PP	I-SUB	(PP*	I-Arg0
+điện	N-H	1	quá	I-NP	I-SUB	(NP(NP*	I-Arg0
+nước	N-H	1	quá	I-NP	I-SUB	*)	I-Arg0
+xà phòng	N-H	1	quá	B-NP	I-SUB	(NP*)	I-Arg0
+xăng	N-H	1	quá	B-NP	I-SUB	(NP*	I-Arg0
+xe	N	1	quá	I-NP	I-SUB	*)))))	I-Arg0
+không	R	1	quá	I-VP	O	(VP*	I-ArgM-NEG
+quá	V-H	1	quá	I-VP	O	*	I-Rel
+600 000	M	1	quá	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đồng	Nu-H	1	quá	I-NP	I-DOB	*)))))))	I-Arg1
+
+Chồng chưa cưới	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+một	M	1	là	I-NP	O	(NP*	I-Arg1
+công chức	N-H	1	là	I-NP	O	*	I-Arg1
+trẻ	A-H	1	là	I-AP	O	(AP*)	I-Arg1
+xứng đôi vừa lứa	X	1	là	I-NP	O	*)))	I-Arg1
+
+Mọi	L	1	ý nghĩa	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+lời lẽ	N-H	1	ý nghĩa	I-NP	I-SUB	*	I-Arg0
+của	E-H	1	ý nghĩa	I-PP	I-SUB	(PP*	I-Arg0
+dường như	X	1	ý nghĩa	I-NP	I-PRD	(NP(Np-H(NP-PRD*	I-ArgM-MNR
+không	R	1	ý nghĩa	I-NP	I-PRD	*	I-ArgM-NEG
+ý nghĩa	N-H	1	ý nghĩa	I-NP	I-PRD	*))))))	I-Rel
+
+Đánh	V-H	1	nhớ	I-VP	O	(S(VP*	I-Arg1
+bao nhiêu	P	1	nhớ	I-WHNP	O	(WHNP*	I-Arg1
+trận	N-H	1	nhớ	I-WHNP	O	*))	I-Arg1
+những	L	1	nhớ	I-NP	I-SUB	(NP-SUB*	I-Arg0
+người	N-H	1	nhớ	I-NP	I-SUB	*	I-Arg0
+du kích	N	1	nhớ	I-NP	I-SUB	*	I-Arg0
+năm	N-H	1	nhớ	B-NP	I-TMP	(NP-TMP*	I-Arg0
+xưa	A	1	nhớ	I-NP	I-TMP	*))	I-Arg0
+giờ	N-H	1	nhớ	B-NP	B-TMP	(NP-TMP*	I-ArgM-TMP
+này	P	1	nhớ	I-NP	I-TMP	*)	I-ArgM-TMP
+không	R	1	nhớ	I-VP	O	(VP*	I-ArgM-NEG
+nhớ	V-H	1	nhớ	I-VP	O	*	I-Rel
+hết	V	1	nhớ	I-VP	O	*))	I-ArgM-EXT
+
+Toàn bộ	L	1	ở	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+lực lượng	N-H	1	ở	I-NP	I-SUB	*	I-Arg0
+du kích	N-H	1	ở	B-NP	I-SUB	(NP*	I-Arg0
+những	L	1	ở	I-NP	I-TMP	(Np(NP-TMP*	I-ArgM-TMP
+năm	N-H	1	ở	I-NP	I-TMP	*	I-ArgM-TMP
+1966	M	1	ở	I-NP	I-TMP	*	I-ArgM-TMP
+1969	M	1	ở	I-NP	I-TMP	*)	I-ArgM-TMP
+gần như	R	1	ở	I-VP	O	(VP*	I-ArgM-MNR
+phải	V-H	1	ở	I-VP	O	*	I-ArgM-MOD
+ở	V-H	1	ở	B-VP	O	(VP*	I-Rel
+dưới	E-H	1	ở	I-PP	I-LOC	(PP-LOC*	I-Arg1
+địa đạo	N-H	1	ở	I-NP	I-LOC	(NP*	I-Arg1
+nhiều	A-H	1	ở	I-AP	I-LOC	(AP*	I-ArgM-MNR
+hơn	R	1	ở	I-AP	I-LOC	*	I-ArgM-MNR
+trên	E-H	1	ở	I-PP	B-LOC	(PP-LOC*	I-ArgM-MNR
+mặt đất	N-H	1	ở	I-NP	I-LOC	(NP*)))))))))))	I-ArgM-MNR
+
+Máu	N-H	1	nhuộm	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+nhuộm	V-H	1	nhuộm	I-VP	O	(VP*	I-Rel
+từng	R	1	nhuộm	I-NP	O	(NP-DOB(NP*	I-Arg1
+đoạn	Nc-H	1	nhuộm	I-NP	O	*	I-Arg1
+hào	N	1	nhuộm	I-NP	O	*)	I-Arg1
+từng	R	1	nhuộm	B-NP	O	(NP*	I-Arg1
+khúc	Nc-H	1	nhuộm	I-NP	O	*	I-Arg1
+địa đạo	N	1	nhuộm	I-NP	O	*))))	I-Arg1
+
+Và	C	1	thừa	O	O	(S*	O
+nó	P-H	1	thừa	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+quả	T	1	thừa	I-AP	I-PRD	(AP-PRD*	I-ArgM-I
+không	R	1	thừa	I-AP	I-PRD	*	I-ArgM-NEG
+thừa	A-H	1	thừa	I-AP	I-PRD	*))	I-Rel
+
+đi	V-H	1	đi	I-VP	O	(S-EXC(NP-SUB(Np-H(VP*	I-Rel
+ra	V-H	1	đi	B-VP	I-DIR	(VP-DIR*	I-ArgM-DIR
+ngoài	N-H	1	đi	I-NP	I-LOC	(NP-LOC*	I-ArgM-DIR
+chị	N-H	1	đi	B-NP	I-VOC	(NP-VOC*	I-ArgM-I
+ạ	T	1	đi	I-NP	I-VOC	*)))))))	I-ArgM-I
+
+Biết	V-H	1	còn	I-VP	I-SUB	(S(VP-SUB*	I-Arg0
+được	R	1	còn	I-VP	I-SUB	*	I-Arg0
+điều	N-H	1	còn	I-NP	I-SUB	(NP*	I-Arg0
+này	P	1	còn	I-NP	I-SUB	*))	I-Arg0
+ngoài	E-H	1	còn	I-PP	I-ADV	(PP-ADV*	I-ArgM-ADV
+hai	M	1	còn	I-NP	I-ADV	(NP*	I-ArgM-ADV
+người	N-H	1	còn	I-NP	I-ADV	*	I-ArgM-ADV
+trong	E-H	1	còn	I-PP	I-ADV	(PP*	I-ArgM-ADV
+cuộc	N-H	1	còn	I-NP	I-ADV	(NP*))))	I-ArgM-ADV
+thì	C	1	còn	O	O	*	O
+chỉ	R	1	còn	I-VP	O	(VP*	I-ArgM-EXT
+còn	V-H	1	còn	I-VP	O	*	I-Rel
+bưu điện	N-H	1	còn	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+bấm	V-H	1	bấm	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+điện thoại	N-H	1	bấm	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+gọi	V-H	1	bấm	I-VP	O	(VP*	I-ArgM-PRP
+vào	E-H	1	bấm	I-PP	I-LOC	(PP-LOC*	I-ArgM-PRP
+nhà	N-H	1	bấm	I-NP	I-LOC	(NP*)))))))	I-ArgM-PRP
+
+Khi	N-H	1	làm	I-NP	I-TMP	(S-TTL(NP-TMP*	I-ArgM-ADV
+phu nhân	N-H	1	làm	B-NP	I-SUB	(SBAR(S(NP-SUB*)	I-Arg0
+làm	V-H	1	làm	I-VP	I-TMP	(VP*	I-ArgM-ADV
+thám tử	N-H	1	làm	I-NP	I-DOB	(NP-DOB*))))))	I-Arg1
+
+Bàn tay	N-H	1	xoa xoa	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+chị	N	1	xoa xoa	I-NP	I-SUB	*)	I-Arg0
+xoa xoa	V-H	1	xoa xoa	I-VP	O	(VP*	I-Rel
+trên	E-H	1	xoa xoa	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+đầu	N-H	1	xoa xoa	I-NP	I-LOC	(NP*	I-ArgM-LOC
+con	Nc	1	xoa xoa	I-NP	I-LOC	*	I-ArgM-LOC
+mãnh thú	N	1	xoa xoa	I-NP	I-LOC	*	I-ArgM-LOC
+to	A-H	1	xoa xoa	I-AP	I-LOC	(AP*	I-ArgM-LOC
+như	C	1	xoa xoa	I-AP	I-LOC	*	I-ArgM-LOC
+bò	N-H	1	xoa xoa	I-NP	I-LOC	(NP*	I-ArgM-LOC
+mộng	A	1	xoa xoa	I-NP	I-LOC	*))))))	I-ArgM-LOC
+
+Cả	P	1	buồn	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+vườn	N-H	1	buồn	I-NP	I-SUB	*	I-Arg0
+thú	N	1	buồn	I-NP	I-SUB	*)	I-Arg0
+buồn	V-H	1	buồn	I-VP	O	(VP*	I-Rel
+thương	V	1	buồn	I-VP	O	*))	I-ArgM-ADV
+
+Vì	E-H	1	thông minh	O	O	(S-SPL(SBAR-PRP*	I-ArgM-DIS
+nó	P-H	1	thông minh	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+rất	R	1	thông minh	I-AP	I-PRD	(AP-PRD*	I-ArgM-EXT
+thông minh	A-H	1	thông minh	I-AP	I-PRD	*))))	I-Rel
+
+Nhưng	C	1	có	O	O	(S*	I-ArgM-DIS
+hổ	N-H	1	có	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+mẹ	N	1	có	I-NP	I-SUB	*)	I-Arg0
+không	R	1	có	I-VP	O	(VP*	I-ArgM-NEG
+có	V-H	1	có	I-VP	O	*	I-Rel
+nhiều	A	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+sữa	N-H	1	có	I-NP	I-DOB	*)))	I-Arg1
+ngày	N-H	1	có	O	O	(S(S-TPC*	O
+các	L	1	có	I-NP	O	(SBAR(S(NP-SUB(NP*	O
+chị	N-H	1	có	I-NP	O	*)	O
+các	L	1	có	B-NP	O	(NP*	O
+anh	N-H	1	có	I-NP	O	*))	O
+đưa	V-H	1	có	I-VP	O	(VP*	O
+nó	P-H	1	có	I-NP	I-DOB	(NP-DOB*)	O
+ra	R	1	có	I-VP	O	*	O
+nuôi	V-H	1	có	B-VP	I-PRP	(VP-PRP*	O
+bộ	N	1	có	I-VP	I-PRP	*)))))	O
+thì	C	1	có	O	O	*	O
+đã	R	1	có	I-VP	O	(VP*	O
+quá	V-H	1	có	I-VP	O	*	O
+muộn	A	1	có	I-VP	O	*))	O
+nó	P-H	1	có	I-NP	I-SUB	(S(NP-SUB*)	O
+còi	A-H	1	có	I-UCP	I-PRD	(UCP(AP-PRD*	O
+dần	R	1	có	I-UCP	I-PRD	*)	O
+rồi	C	1	có	I-UCP	O	*	O
+chết	V-H	1	có	I-VP	O	(VP*))))	O
+
+Vợ	N-H	1	quyết toán	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+bác sĩ	N-H	1	quyết toán	B-NP	I-SUB	(NP*	I-Arg0
+quyết toán	V-H	1	quyết toán	I-VP	O	(Np(VP*	I-Rel
+xương	N-H	1	quyết toán	I-NP	I-SUB	(SBAR(S(S(NP-SUB*	I-Arg0
+hổ	N	1	quyết toán	I-NP	I-SUB	*	I-Arg0
+125	M	1	quyết toán	B-NP	I-SUB	(NP*	I-Arg0
+kg	Nu-H	1	quyết toán	I-NP	I-SUB	*))	I-Arg0
+125triệu	M	1	quyết toán	B-NP	I-PRD	(NP-PRD*	I-Arg1
+đồng	Nu-H	1	quyết toán	I-NP	I-PRD	*))	I-Arg1
+xương	N-H	1	quyết toán	B-NP	I-SUB	(S(NP-SUB*	I-Arg0
+gấu	N	1	quyết toán	I-NP	I-SUB	*	I-Arg0
+8	M	1	quyết toán	B-NP	I-SUB	(NP*	I-Arg0
+kg	Nu-H	1	quyết toán	I-NP	I-SUB	*))	I-Arg0
+4triệu	M-H	1	quyết toán	I-QP	I-PRD	(QP-PRD*))	I-Arg1
+xương	N-H	1	quyết toán	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+sơn dương	N	1	quyết toán	I-NP	I-SUB	*	I-Arg0
+5	M	1	quyết toán	B-NP	I-SUB	(NP*	I-Arg0
+kg	Nu-H	1	quyết toán	I-NP	I-SUB	*))	I-Arg0
+500000	M	1	quyết toán	B-NP	I-PRD	(NP-PRD*	I-Arg1
+đồng	Nu-H	1	quyết toán	I-NP	I-PRD	*)))))))))	I-Arg1
+
+Nghề nghiệp	N-H	1	tự do	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+tự do	A-H	1	tự do	I-AP	I-PRD	(AP-PRD*))	I-Rel
+
+bắt đầu	V-H	1	bắt đầu	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+cảm động	V-H	1	bắt đầu	B-VP	O	(VP*	I-Arg1
+trước	E-H	1	bắt đầu	I-PP	O	(PP*	I-Arg1
+người	Nc-H	1	bắt đầu	I-NP	O	(NP*	I-Arg1
+đàn ông	N	1	bắt đầu	I-NP	O	*	I-Arg1
+bản lĩnh	A-H	1	bắt đầu	I-AP	O	(AP(AP*)	I-Arg1
+phóng khoáng	A-H	1	bắt đầu	I-AP	O	(AP*)	I-Arg1
+và	C	1	bắt đầu	I-AP	O	*	I-Arg1
+nhân hậu	A-H	1	bắt đầu	B-AP	O	(AP*)	I-Arg1
+này	P	1	bắt đầu	B-AP	O	*))))))))	I-Arg1
+
+Và	C	1	ở vậy	O	O	(S*	O
+không thể	R	1	ở vậy	I-VP	O	(NP-SUB(Np-H(VP*	I-ArgM-MOD
+ở vậy	V-H	1	ở vậy	I-VP	O	*	I-Rel
+đến	E-H	1	ở vậy	I-PP	I-TMP	(PP-TMP*	I-ArgM-TMP
+cuối	N-H	1	ở vậy	I-NP	I-TMP	(NP*	I-ArgM-TMP
+đời	N	1	ở vậy	I-NP	I-TMP	*))	I-ArgM-TMP
+mà	C	1	ở vậy	I-VP	O	*	I-Arg1
+dựa	V-H	1	ở vậy	B-VP	O	(VP*	I-Arg1
+vào	E-H	1	ở vậy	I-PP	O	(PP*	I-Arg1
+mối	N-H	1	ở vậy	I-NP	O	(NP*	I-Arg1
+tình	N	1	ở vậy	I-NP	O	*	I-Arg1
+chui lủi	V-H	1	ở vậy	I-VP	O	(VP*)	I-Arg1
+được chăng hay chớ	X-H	1	ở vậy	I-XP	O	(XP*)	I-Arg1
+đó	P	1	ở vậy	I-NP	O	*)))))))	I-Arg1
+
+không	R	1	ngăn cản	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-NEG
+ngăn cản	V-H	1	ngăn cản	I-VP	O	*))))	I-Rel
+
+Cuộc đời	N-H	1	dưới	I-NP	O	(S-TTL(NP*	I-Arg0
+dưới	E-H	1	dưới	I-PP	I-LOC	(PP-LOC*	I-Rel
+vành	N-H	1	dưới	I-NP	I-LOC	(NP*	I-Arg1
+mũ	N	1	dưới	I-NP	I-LOC	*	I-Arg1
+thám tử	N-H	1	dưới	B-NP	I-LOC	(NP*)))))	I-Arg1
+
+Trước đây	N-H	1	đạt	I-NP	I-TMP	(S(NP-TMP*)	I-ArgM-ADV
+bằng	E-H	1	đạt	I-PP	I-MNR	(PP-MNR*	I-ArgM-MNR
+công nghệ	N-H	1	đạt	I-NP	I-MNR	(NP*	I-ArgM-MNR
+khoan	V-H	1	đạt	I-VP	I-MNR	(VP*	I-ArgM-MNR
+đào	V-H	1	đạt	I-VP	I-MNR	*	I-ArgM-MNR
+hầm	N-H	1	đạt	I-NP	I-MNR	(NP*))	I-ArgM-MNR
+của	E-H	1	đạt	I-PP	I-MNR	(PP*	I-ArgM-MNR
+LBKT	LBKT	1	đạt	I-NP	I-MNR	(NP(Np-H*	I-ArgM-MNR
+cũ	A-H	1	đạt	I-AP	I-MNR	(AP*)	I-ArgM-MNR
+RBKT	RBKT	1	đạt	I-NP	I-MNR	*))))	I-ArgM-MNR
+những	L	1	đạt	B-NP	I-SUB	(NP-SUB*	I-Arg0
+người	Nc-H	1	đạt	I-NP	I-SUB	*	I-Arg0
+thợ	N	1	đạt	I-NP	I-SUB	*	I-Arg0
+khoan	V-H	1	đạt	I-VP	I-SUB	(VP*	I-Arg0
+hầm	N-H	1	đạt	I-NP	I-SUB	(NP*))	I-Arg0
+ở	E-H	1	đạt	I-PP	I-LOC	(PP-LOC*	I-Arg0
+thủy điện	N-H	1	đạt	I-NP	I-LOC	(NP*	I-Arg0
+đã	R	1	đạt	I-VP	O	(Np(VP*	I-ArgM-TMP
+đạt	V-H	1	đạt	I-VP	O	*	I-Rel
+kỷ lục	N-H	1	đạt	I-NP	I-DOB	(NP-DOB*	I-Arg1
+khoan	V-H	1	đạt	I-VP	I-DOB	(VP*	I-Arg1
+đào	V-H	1	đạt	I-VP	I-DOB	*	I-Arg1
+hầm	N-H	1	đạt	I-NP	I-DOB	(NP*))	I-Arg1
+1	M	1	đạt	B-NP	I-DOB	(NP*	I-Arg1
+m	Nu-H	1	đạt	I-NP	I-DOB	*	I-Arg1
+ngày	N-H	1	đạt	B-NP	I-DOB	(NP*))))))))))	I-Arg1
+
+Tự thân	N-H	1	nói	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đã	R	1	nói	I-VP	O	(VP*	I-ArgM-TMP
+nói	V-H	1	nói	I-VP	O	*	I-Rel
+lên	R	1	nói	I-VP	O	*	O
+nhiều	A	1	nói	I-NP	I-DOB	(NP-DOB*	I-Arg1
+điều	N-H	1	nói	I-NP	I-DOB	*)))	I-Arg1
+
+Và	C	1	bắt đầu	O	O	(S*	I-ArgM-DIS
+việc	N-H	1	bắt đầu	I-NP	I-SUB	(NP-SUB*	I-Arg0
+của	E-H	1	bắt đầu	I-PP	I-SUB	(PP*	I-Arg0
+tôi	P-H	1	bắt đầu	I-NP	I-SUB	(NP*)))	I-Arg0
+lại	R	1	bắt đầu	I-VP	O	(VP*	I-ArgM-TMP
+bắt đầu	V-H	1	bắt đầu	I-VP	O	*))	I-Rel
+
+Vậy	P	1	đến	O	O	(SQ*	O
+bà	N-H	1	đến	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+còn	R	1	đến	I-VP	O	(VP*	I-ArgM-TMP
+đến	V-H	1	đến	I-VP	O	*	I-Rel
+tòa	N-H	1	đến	I-NP	I-LOC	(NP-LOC*)	I-Arg4
+làm	V-H	1	đến	I-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+gì	P-H	1	đến	I-NP	I-PRP	(NP*))))	I-ArgM-PRP
+
+Tối	N-H	1	kiểm tra	I-NP	I-TMP	(S(S(NP-TMP*	I-ArgM-TMP
+hôm	N-H	1	kiểm tra	B-NP	I-TMP	(NP*	I-ArgM-TMP
+đó	P	1	kiểm tra	I-NP	I-TMP	*))	I-ArgM-TMP
+kiểm tra	V-H	1	kiểm tra	I-VP	O	(NP-SUB(Np-H(VP*	I-Rel
+lại	R	1	kiểm tra	I-VP	O	*))	I-ArgM-TMP
+thì	C	1	kiểm tra	O	O	*	I-ArgM-DIS
+cũng	R	1	kiểm tra	I-VP	O	(S(NP-SUB(VP*	I-ArgM-ADV
+chính	T	1	kiểm tra	I-VP	O	*	I-ArgM-ADV
+là	V-H	1	kiểm tra	I-VP	O	*	I-ArgM-ADV
+số	N-H	1	kiểm tra	I-NP	O	(NP*	I-ArgM-ADV
+ở	E-H	1	kiểm tra	I-PP	I-LOC	(PP-LOC*	I-ArgM-ADV
+buồng	N-H	1	kiểm tra	I-NP	I-LOC	(NP*	I-ArgM-ADV
+điện thoại	N	1	kiểm tra	I-NP	I-LOC	*	I-ArgM-ADV
+trên	E-H	1	kiểm tra	I-PP	B-LOC	(PP-LOC*	I-ArgM-ADV
+đường	N-H	1	kiểm tra	I-NP	I-LOC	(NP*	I-ArgM-ADV
+
+Mặt	N-H	1	biến sắc	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+bà	Nc-H	1	biến sắc	B-NP	I-SUB	(NP*	I-Arg0
+vợ	N	1	biến sắc	I-NP	I-SUB	*	I-Arg0
+giám đốc	N	1	biến sắc	I-NP	I-SUB	*))	I-Arg0
+biến sắc	V-H	1	biến sắc	I-VP	O	(VP*	I-Rel
+theo	E-H	1	biến sắc	I-PP	O	(PP*	I-Arg1
+từng	R	1	biến sắc	I-NP	O	(NP*	I-Arg1
+tình tiết	N-H	1	biến sắc	I-NP	O	*	I-Arg1
+câu chuyện	N	1	biến sắc	I-NP	O	*))))	I-Arg1
+
+Câu chuyện	N-H	1	cuốn theo	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+về	E-H	1	cuốn theo	I-PP	I-SUB	(PP*	I-Arg0
+những	L	1	cuốn theo	I-NP	I-TMP	(NP-TMP*	I-Arg0
+ngày	N-H	1	cuốn theo	I-NP	I-TMP	*	I-Arg0
+tổng khởi nghĩa	V-H	1	cuốn theo	I-VP	I-TMP	(VP*))))	I-Arg0
+cứ thế	R	1	cuốn theo	B-VP	O	(VP*	I-ArgM-MNR
+cuốn	V-H	1	cuốn theo	I-VP	O	*	I-Rel
+theo	R	1	cuốn theo	I-VP	O	*	I-Rel
+cái	Nc-H	1	cuốn theo	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đà	N-H	1	cuốn theo	I-NP	I-DOB	*	I-Arg1
+rủ	V-H	1	cuốn theo	I-VP	I-DOB	(VP*	I-Arg1
+nhau	N	1	cuốn theo	I-VP	I-DOB	*)	I-Arg1
+ấy	P	1	cuốn theo	I-NP	I-DOB	*)))	I-Arg1
+
+Sự	Nc-H	1	đạt	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+đoàn kết	V	1	đạt	I-NP	I-SUB	*	I-Arg0
+thương yêu	V	1	đạt	I-NP	I-SUB	*	I-Arg0
+lẫn	R	1	đạt	I-NP	I-SUB	*	I-Arg0
+nhau	N	1	đạt	I-NP	I-SUB	*	I-Arg0
+trong	E-H	1	đạt	I-PP	I-TMP	(PP-TMP*	I-Arg0
+những	L	1	đạt	I-NP	I-TMP	(NP*	I-Arg0
+ngày	N-H	1	đạt	I-NP	I-TMP	*	I-Arg0
+ấy	P	1	đạt	I-NP	I-TMP	*)))	I-Arg0
+đạt	V-H	1	đạt	I-VP	O	(VP*	I-Rel
+đến	E-H	1	đạt	I-PP	O	(PP*	I-Arg1
+mức	N-H	1	đạt	I-NP	O	(NP*	I-Arg1
+gần	A-H	1	đạt	I-AP	O	(AP*	I-Arg1
+như	C	1	đạt	I-AP	O	*	I-Arg1
+tuyệt đối	A-H	1	đạt	B-AP	O	(AP*))))))	I-Arg1
+
+Gặp	V-H	1	là	I-VP	I-SUB	(S(VP-SUB*	I-Arg0
+100	M	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg0
+người	N-H	1	là	I-NP	I-DOB	*))	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+100	M	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+mẩu	Nc-H	1	là	I-NP	I-DOB	*	I-Arg1
+chuyện	N	1	là	I-NP	I-DOB	*	I-Arg1
+bi thảm	A	1	là	I-NP	I-DOB	*	I-Arg1
+khác	A-H	1	là	I-AP	I-DOB	(AP*	I-Arg1
+nhau	N	1	là	I-AP	I-DOB	*))))	I-Arg1
+
+Vâng	I	1	góp	O	O	(S*	O
+mỗi	M	1	góp	I-NP	I-SUB	(NP-SUB*	I-Arg0
+một	M	1	góp	I-NP	I-SUB	*	I-Arg0
+người	N-H	1	góp	I-NP	I-SUB	*)	I-Arg0
+hãy	R	1	góp	I-VP	O	(VP*	I-ArgM-Partice
+góp	V-H	1	góp	I-VP	O	*	I-Rel
+gió	N-H	1	góp	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+đi	R	1	góp	I-VP	O	*))	I-ArgM-Partice
+
+Và	C	1	báo cáo	O	O	(S*	I-ArgM-DIS
+do vậy	C	1	báo cáo	O	O	*	I-ArgM-DIS
+Công an	N-H	1	báo cáo	I-NP	I-SUB	(NP-SUB*	I-Arg0
+đã	R	1	báo cáo	I-VP	O	(Np(Np(VP*	I-ArgM-TMP
+báo cáo	V-H	1	báo cáo	I-VP	O	*	I-Rel
+nguyên nhân	N-H	1	báo cáo	I-NP	I-DOB	(NP-DOB*	I-Arg1
+lửng lơ	A-H	1	báo cáo	I-AP	I-DOB	(AP*)	I-Arg1
+50	M-H	1	báo cáo	I-QP	I-DOB	(QP*	I-Arg1
+50	M-H	1	báo cáo	I-QP	I-DOB	*)	I-Arg1
+cho	E-H	1	báo cáo	I-PP	I-DOB	(PP*	I-Arg1
+hai	M	1	báo cáo	I-NP	I-DOB	(NP*	I-Arg1
+khả năng	N-H	1	báo cáo	I-NP	I-DOB	*))))))))	I-Arg1
+
+Chiếc	Nc-H	1	cạp	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+cần cẩu	N	1	cạp	I-NP	I-SUB	*	I-Arg0
+trên	E-H	1	cạp	I-PP	I-LOC	(PP-LOC*	I-Arg0
+sà lan	N-H	1	cạp	I-NP	I-LOC	(NP*)))	I-Arg0
+mỗi	M	1	cạp	I-VP	O	(VP*	I-ArgM-EXT
+lần	N	1	cạp	I-VP	O	*	I-ArgM-EXT
+cạp	V-H	1	cạp	I-VP	O	*	I-Rel
+1	M	1	cạp	I-NP	I-DOB	(NP-DOB*	I-Arg1
+m3	Nu-H	1	cạp	I-NP	I-DOB	*	I-Arg1
+cát	N	1	cạp	I-NP	I-DOB	*)))	I-Arg1
+
+Từ	E-H	1	bị sạt lở	I-PP	O	(S(PP-SUB(PP*	I-Arg0
+bến	N-H	1	bị sạt lở	I-NP	O	(NP*	I-Arg0
+đò	N	1	bị sạt lở	I-NP	O	*	I-Arg0
+kéo	V-H	1	bị sạt lở	I-VP	O	(Np(VP*	I-Arg0
+dài	A	1	bị sạt lở	I-VP	O	*)	I-Arg0
+đến	E-H	1	bị sạt lở	I-PP	O	(PP*	I-Arg0
+cầu	N-H	1	bị sạt lở	I-NP	O	(NP*	I-Arg0
+đều	R	1	bị sạt lở	I-VP	O	(Np(VP*	I-ArgM-TMP
+bị	V-H	1	bị sạt lở	I-VP	O	*	I-Rel
+sạt lở	V-H	1	bị sạt lở	B-VP	O	(VP*))))))))))	I-Rel
+
+Và	C	1	là	O	O	(S*	I-ArgM-DIS
+hai	M-H	1	là	I-QP	I-SUB	(QP-SUB*	I-Arg0
+trong	E-H	1	là	I-PP	I-SUB	(PP*	I-Arg0
+nhiều	A	1	là	I-NP	I-SUB	(NP*	I-Arg0
+ý kiến	N-H	1	là	I-NP	I-SUB	*	I-Arg0
+vừa	R	1	là	I-VP	I-SUB	(VP*	I-Arg0
+gửi	V-H	1	là	I-VP	I-SUB	*	I-Arg0
+tới	E-H	1	là	I-PP	I-SUB	(PP*	I-Arg0
+cũng	R	1	là	I-VP	O	(NP(Np-H(VP*	I-ArgM-TMP
+là	V-H	1	là	I-VP	O	*	I-Rel
+một	M	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+khẳng định	N-H	1	là	I-NP	I-DOB	*	I-Arg1
+cho	E-H	1	là	I-PP	I-DOB	(PP*	I-Arg1
+sự	N-H	1	là	I-NP	I-DOB	(NP*	I-Arg1
+tất thắng	V	1	là	I-NP	I-DOB	*	I-Arg1
+của	E-H	1	là	I-PP	I-DOB	(PP*	I-Arg1
+lẽ phải	N-H	1	là	I-NP	I-DOB	(NP*	I-Arg1
+một	M	1	là	B-NP	I-DOB	(NP*	I-Arg1
+lẽ phải	N-H	1	là	I-NP	I-DOB	*	I-Arg1
+mạnh mẽ	A-H	1	là	I-AP	I-DOB	(AP*	I-Arg1
+ngay	T	1	là	I-PP	I-LOC	(PP-LOC*	I-Arg1
+trong	E-H	1	là	I-PP	I-LOC	*	I-Arg1
+chính	T	1	là	I-NP	I-LOC	(NP*	I-Arg1
+quá trình	N-H	1	là	I-NP	I-LOC	*	I-Arg1
+đi	V-H	1	là	I-VP	I-LOC	(VP*	I-Arg1
+đến	R	1	là	I-VP	I-LOC	*	I-Arg1
+thắng lợi	V-H	1	là	B-VP	I-LOC	(VP*))))))))))))))))))))	I-Arg1
+
+Thế	T	1	tìm được	O	O	(S*	I-ArgM-ADV
+nhưng	C	1	tìm được	O	O	*	I-ArgM-ADV
+không	R	1	tìm được	I-VP	I-ADV	(VP-ADV*	I-ArgM-ADV
+có	V-H	1	tìm được	I-VP	I-ADV	*	I-ArgM-ADV
+sự	Nc-H	1	tìm được	I-NP	I-DOB	(NP-DOB*	I-ArgM-ADV
+dẫn	V	1	tìm được	I-NP	I-DOB	*	I-ArgM-ADV
+đường	N	1	tìm được	I-NP	I-DOB	*	I-ArgM-ADV
+của	E-H	1	tìm được	I-PP	I-DOB	(PP*	I-ArgM-ADV
+cụt	A	1	tìm được	I-NP	I-DOB	(NP(Np-H*)	I-ArgM-ADV
+một	M	1	tìm được	B-NP	I-DOB	(NP*	I-ArgM-ADV
+tay	N-H	1	tìm được	I-NP	I-DOB	*	I-ArgM-ADV
+bạc	N-H	1	tìm được	B-NP	I-DOB	(NP*	I-ArgM-ADV
+gà	N	1	tìm được	I-NP	I-DOB	*)	I-ArgM-ADV
+lão luyện	A-H	1	tìm được	I-AP	I-DOB	(AP*	I-ArgM-ADV
+đất	N-H	1	tìm được	I-NP	I-LOC	(NP-LOC*	I-ArgM-ADV
+tôi	P-H	1	tìm được	I-NP	I-SUB	(Np(NP-SUB*)	I-Arg0
+khó	A-H	1	tìm được	I-AP	I-PRD	(AP-PRD*	I-ArgM-MNR
+có thể	R	1	tìm được	I-AP	I-PRD	*	I-ArgM-MOD
+tìm	V-H	1	tìm được	I-VP	I-PRD	(VP*	I-Rel
+được	R	1	tìm được	I-VP	I-PRD	*	I-Rel
+đường	N-H	1	tìm được	I-NP	I-DOB	(NP-DOB*	I-Arg1
+vào	V	1	tìm được	I-NP	I-DOB	*))))))))))))	I-Arg1
+
+Nói	N-H	1	quên	I-VP	I-MNR	(S(VP-MNR*	I-ArgM-ADV
+đến	E-H	1	quên	I-PP	I-MNR	(PP*	I-ArgM-ADV
+chân dung	N-H	1	quên	I-NP	I-MNR	(NP*	I-ArgM-ADV
+những	L	1	quên	B-NP	I-MNR	(NP*	I-ArgM-ADV
+kẻ	N-H	1	quên	I-NP	I-MNR	*	I-ArgM-ADV
+bạc	N	1	quên	I-NP	I-MNR	*	I-ArgM-ADV
+gà	N	1	quên	I-NP	I-MNR	*))))	I-ArgM-ADV
+không thể	R	1	quên	I-VP	O	(NP-SUB(VP*	I-ArgM-NEG
+quên	V-H	1	quên	I-VP	O	*	I-Rel
+những	L	1	quên	I-NP	I-DOB	(NP-DOB*	I-Arg1
+tay	N-H	1	quên	I-NP	I-DOB	*	I-Arg1
+chủ	N	1	quên	I-NP	I-DOB	*	I-Arg1
+sới	N	1	quên	I-NP	I-DOB	*))))	I-Arg1
+
+Chân dung	N-H	1	những kẻ bạc gà	I-NP	O	(S-SPL-TTL(NP*	I-Arg0
+những	L	1	những kẻ bạc gà	B-NP	O	(NP*	I-Rel
+kẻ	N-H	1	những kẻ bạc gà	I-NP	O	*	I-Rel
+bạc	N-H	1	những kẻ bạc gà	B-NP	O	(NP*	I-Rel
+gà	N	1	những kẻ bạc gà	I-NP	O	*))))	I-Rel
+
+Cây	N-H	1	thách đố	I-NP	O	(S(NP-SUB(NP*	I-Arg0
+cà phê	N	1	thách đố	I-NP	O	*)	I-Arg0
+cây	N-H	1	thách đố	B-NP	O	(NP*	I-Arg0
+hồng	N	1	thách đố	I-NP	O	*))	I-Arg0
+đang	R	1	thách đố	I-VP	O	(VP*	I-ArgM-TMP
+thách đố	V-H	1	thách đố	I-VP	O	*	I-Rel
+cây	N-H	1	thách đố	I-NP	I-DOB	(NP-DOB*	I-Arg1
+thông	N	1	thách đố	I-NP	I-DOB	*)))	I-Arg1
+
+vẫn	R	1	lặng lẽ	I-AP	I-PRD	(S-TTL(NP-SUB(Np-H(AP-PRD*	I-ArgM-TMP
+lặng lẽ	A-H	1	lặng lẽ	I-AP	I-PRD	*	I-Rel
+nhỡ nhàng	A-H	1	lặng lẽ	I-AP	I-PRD	*))))	I-ArgM-ADJ
+
+Các	L	1	__có	I-NP	I-SUB	(S(SBAR-PRP(S(NP-SUB*	I-Arg0
+khớp	N-H	1	__có	B-NP	I-SUB	(NP*	I-Arg0
+tay	N	1	__có	I-NP	I-SUB	*)	I-Arg0
+và	C	1	__có	B-NP	I-SUB	*	I-Arg0
+khớp	N-H	1	__có	B-NP	I-SUB	(NP*	I-Arg0
+chân	N	1	__có	I-NP	I-SUB	*)	I-Arg0
+của	E-H	1	__có	I-PP	I-SUB	(PP*	I-Arg0
+hình như	X-H	1	__có	I-VP	I-MDP	(NP(Np-H(VP(XP-MDP*)	I-ArgM-LVB
+không	R	1	__có	I-VP	O	*	I-ArgM-NEG
+__có	V-H	1	__có	I-VP	O	*	I-Rel
+sự	Nc-H	1	__có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+kết dính	V	1	__có	I-NP	I-DOB	*))))	I-Arg1
+nên	C	1	__có	O	O	*	O
+dù	C	1	__có	O	O	(S(SBAR*	O
+có	V-H	1	__có	I-VP	O	(S-CNC(NP-SUB-1(VP*	O
+cảm giác	N-H	1	__có	I-NP	I-DOB	(NP-DOB*))))	O
+nhưng	C	1	__có	O	O	*	O
+không thể	R	1	__có	I-VP	O	(S(NP-SUB-1(Np-H(VP*	O
+bước	V-H	1	__có	B-VP	O	(VP*	O
+đi	V	1	__có	I-VP	O	*)	O
+hay	C	1	__có	B-VP	O	*	O
+cầm	V-H	1	__có	B-VP	O	(VP*	O
+được	R	1	__có	I-VP	O	*	O
+một	M	1	__có	I-NP	I-DOB	(NP-DOB*	O
+cái	Nc-H	1	__có	I-NP	I-DOB	*	O
+gì	P	1	__có	I-NP	I-DOB	*	O
+dù	C	1	__có	I-NP	I-DOB	(SBAR*	O
+là	V-H	1	__có	I-VP	I-DOB	(S(NP-SUB(VP*	O
+một	M	1	__có	I-NP	I-DOB	(NP*	O
+tờ	Nc-H	1	__có	I-NP	I-DOB	*	O
+giấy	N	1	__có	I-NP	I-DOB	*))))))))))))))))))	O
+
+Những	L	1	được dành	I-NP	O	(S(NP-SUB(NP*	I-Arg0
+ngôi	Nc-H	1	được dành	I-NP	O	*	I-Arg0
+trường	N	1	được dành	I-NP	O	*	I-Arg0
+khang trang	V-H	1	được dành	I-VP	O	(VP*	I-Arg0
+nhất	R	1	được dành	I-VP	O	*))	I-Arg0
+những	L	1	được dành	I-NP	O	(NP*	I-Arg0
+thầy cô giáo	N-H	1	được dành	I-NP	O	*	I-Arg0
+trẻ	A-H	1	được dành	I-AP	O	(AP(AP*)	I-Arg0
+khỏe	A-H	1	được dành	I-AP	O	(AP*)	I-Arg0
+yêu	A-H	1	được dành	I-AP	O	(AP*	I-Arg0
+nghề	N	1	được dành	I-AP	O	*)	I-Arg0
+yêu	A-H	1	được dành	I-AP	O	(AP*	I-Arg0
+trẻ	N	1	được dành	I-AP	O	*)	I-Arg0
+nhất	R	1	được dành	I-AP	O	*)))	I-Arg0
+đã	R	1	được dành	I-VP	O	(VP*	I-ArgM-TMP
+được	V	1	được dành	I-VP	O	*	I-Rel
+dành	V-H	1	được dành	I-VP	O	*	I-Rel
+cho	E-H	1	được dành	I-PP	O	(PP*	I-Arg2
+các	L	1	được dành	I-NP	O	(NP*	I-Arg2
+trường	N-H	1	được dành	I-NP	O	*	I-Arg2
+miền	N-H	1	được dành	B-NP	O	(NP*	I-Arg2
+
+Thế	T	1	gia tăng	O	O	(S*	I-ArgM-DIS
+nhưng	C	1	gia tăng	O	O	*	I-ArgM-DIS
+sự	Nc-H	1	gia tăng	I-NP	I-SUB	(NP-SUB*	I-Arg0
+khủng bố	V	1	gia tăng	I-NP	I-SUB	*	I-Arg0
+đe dọa	V	1	gia tăng	I-NP	I-SUB	*)	I-Arg0
+ngày một	R	1	gia tăng	I-VP	O	(VP*	I-ArgM-MNR
+gia tăng	V-H	1	gia tăng	I-VP	O	*	I-Rel
+cả	P	1	gia tăng	I-PP	O	(PP*	I-ArgM-MNR
+về	E-H	1	gia tăng	I-PP	O	*	I-ArgM-MNR
+tần số	N-H	1	gia tăng	I-NP	O	(NP(NP*)	I-ArgM-MNR
+lẫn	C	1	gia tăng	I-NP	O	*	I-ArgM-MNR
+mức độ	N-H	1	gia tăng	B-NP	O	(NP*	I-ArgM-MNR
+gay gắt	V	1	gia tăng	I-NP	O	*)))))	I-ArgM-MNR
+
+Dân	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+trong	E-H	1	là	I-PP	I-LOC	(PP-LOC*	I-Arg0
+ngõ	N-H	1	là	I-NP	I-LOC	(NP*	I-Arg0
+này	P	1	là	I-NP	I-LOC	*)))	I-Arg0
+hầu hết	L	1	là	I-VP	O	(VP*	I-Arg0
+là	V-H	1	là	I-VP	O	*	I-Rel
+giới	Nc-H	1	là	I-NP	O	(NP*	I-Arg1
+lao động	N	1	là	I-NP	O	*	I-Arg1
+và	C	1	là	I-NP	O	*	I-Arg1
+tiểu thương	N	1	là	I-NP	O	*)))	I-Arg1
+
+Tóm lại	C	1	có	O	O	(S*	I-ArgM-DIS
+ông	N-H	1	có	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+không	R	1	có	I-VP	O	(VP*	I-ArgM-NEG
+có	V-H	1	có	I-VP	O	*	I-Rel
+mâu thuẫn	N-H	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+với	E-H	1	có	I-PP	I-DOB	(PP*	I-Arg1
+họ	P-H	1	có	I-NP	I-DOB	(NP*)))))	I-Arg1
+
+12	M	1	nằm	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+lính	N-H	1	nằm	I-NP	I-SUB	*	I-Arg0
+đặc nhiệm	A	1	nằm	I-NP	I-SUB	*	I-Arg0
+trẻ	A-H	1	nằm	I-AP	I-SUB	(AP*)	I-Arg0
+khác	A-H	1	nằm	B-AP	I-SUB	(AP*))	I-Arg0
+cũng	R	1	nằm	I-VP	O	(VP*	I-ArgM-TMP
+nằm	V-H	1	nằm	I-VP	O	*	I-Rel
+rải rác	A-H	1	nằm	I-AP	O	(AP*)	I-ArgM-MNR
+sau	E-H	1	nằm	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+từng	R	1	nằm	I-NP	I-LOC	(NP(NP*	I-ArgM-LOC
+ụ	N-H	1	nằm	I-NP	I-LOC	*	I-ArgM-LOC
+đá	N	1	nằm	I-NP	I-LOC	*)	I-ArgM-LOC
+gốc	N-H	1	nằm	B-NP	I-LOC	(NP*	I-ArgM-LOC
+cây	N	1	nằm	I-NP	I-LOC	*)))	I-ArgM-LOC
+phục	V-H	1	nằm	I-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+hướng	N-H	1	nằm	I-NP	I-DOB	(NP-DOB*	I-ArgM-PRP
+đoàn	N	1	nằm	I-NP	I-DOB	*	I-ArgM-PRP
+cửu vạn	N	1	nằm	I-NP	I-DOB	*	I-ArgM-PRP
+đi	V-H	1	nằm	I-VP	I-DOB	(VP*	I-ArgM-PRP
+tới	R	1	nằm	I-VP	I-DOB	*)))))	I-ArgM-PRP
+
+Sau	E-H	1	còn lại	I-PP	I-TMP	(S(PP-TMP*	I-ArgM-TMP
+gần	A	1	còn lại	I-NP	I-TMP	(NP*	I-ArgM-TMP
+chục	M	1	còn lại	I-NP	I-TMP	*	I-ArgM-TMP
+năm	N-H	1	còn lại	I-NP	I-TMP	*))	I-ArgM-TMP
+hơn	A	1	còn lại	B-NP	I-SUB	(NP-SUB*	I-Arg0
+30	M	1	còn lại	I-NP	I-SUB	*	I-Arg0
+tay	N-H	1	còn lại	I-NP	I-SUB	*	I-Arg0
+buôn	V	1	còn lại	I-NP	I-SUB	*	I-Arg0
+ở	E-H	1	còn lại	I-PP	I-LOC	(PP-LOC*	I-Arg0
+cái	Nc-H	1	còn lại	I-NP	I-LOC	(NP*	I-Arg0
+rốn	N-H	1	còn lại	I-NP	I-LOC	*	I-Arg0
+thú	N	1	còn lại	I-NP	I-LOC	*	I-Arg0
+này	P	1	còn lại	I-NP	I-LOC	*)))	I-Arg0
+giờ	N-H	1	còn lại	B-NP	I-TMP	(NP-TMP*)	I-ArgM-TMP
+chỉ	R	1	còn lại	I-VP	O	(VP*	I-ArgM-EXT
+còn	V-H	1	còn lại	I-VP	O	*	I-Rel
+lại	R	1	còn lại	I-VP	O	*	I-Rel
+năm	M	1	còn lại	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đại gia	N-H	1	còn lại	I-NP	I-DOB	*	I-Arg1
+như	C	1	còn lại	I-NP	I-DOB	*	I-Arg1
+rắn	N	1	còn lại	I-NP	I-DOB	(NP(NP(Np-H*)	I-Arg1
+beo	N	1	còn lại	I-NP	I-DOB	(NP(Np-H*)	I-Arg1
+tê tê	N	1	còn lại	I-NP	I-DOB	(NP(Np-H*))))))))	I-Arg1
+
+Một	M	1	trong rừng đêm	I-NP	O	(S-SPL(NP*	I-Arg0
+khoảng	N-H	1	trong rừng đêm	I-NP	O	*	I-Arg0
+lặng phắc	A	1	trong rừng đêm	I-NP	O	*	I-Arg0
+trong	E-H	1	trong rừng đêm	I-PP	I-LOC	(PP-LOC*	I-Rel
+rừng	N-H	1	trong rừng đêm	I-NP	I-LOC	(NP*	I-Rel
+đêm	N	1	trong rừng đêm	I-NP	I-LOC	*))))	I-Rel
+
+Hàng	R	0	dựng	I-NP	I-SUB	(S-PV(NP-SUB*	I-Arg1
+trăm	M	0	dựng	I-NP	I-SUB	*	I-Arg1
+mái	N-H	0	dựng	I-NP	I-SUB	*	I-Arg1
+lều	N	0	dựng	I-NP	I-SUB	*	I-Arg1
+như vậy	X	0	dựng	I-NP	I-SUB	*)	I-Arg1
+đã	R	0	dựng	I-VP	O	(VP*	I-ArgM-TMP
+được	V-H	0	dựng	I-VP	O	*	I-ArgM-MOD
+dựng	V-H	0	dựng	I-VP	O	(SBAR(S(NP-SUB(VP*	I-Rel
+lên	R	0	dựng	I-VP	O	*	I-ArgM-MNR
+giữa	N-H	0	dựng	I-NP	O	(NP-LOC(NP*	I-ArgM-LOC
+núi rừng	N	0	dựng	I-NP	O	*)	I-ArgM-LOC
+quanh	N-H	0	dựng	B-NP	O	(NP*	I-ArgM-LOC
+ngôi	Nc-H	0	dựng	B-NP	O	(NP*	I-ArgM-LOC
+trường	N	0	dựng	I-NP	O	*	I-ArgM-LOC
+nơi	N-H	0	dựng	B-NP	O	(NP*	I-ArgM-LOC
+vùng	N-H	0	dựng	B-NP	O	(NP*	I-ArgM-LOC
+biên giới	N	0	dựng	I-NP	O	*))	I-ArgM-LOC
+ở	E-H	0	dựng	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+
+Hơn	A	1	đưa	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+một	M	1	đưa	I-NP	I-TMP	*	I-ArgM-TMP
+năm	N-H	1	đưa	I-NP	I-TMP	*	I-ArgM-TMP
+sau	A	1	đưa	I-NP	I-TMP	*)	I-ArgM-TMP
+mình	P-H	1	đưa	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+lại	R	1	đưa	I-VP	O	(VP*	I-ArgM-TMP
+đưa	V-H	1	đưa	I-VP	O	*	I-Rel
+vợ	N-H	1	đưa	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đi	V-H	1	đưa	I-VP	I-DOB	(VP*	I-Arg2
+đẻ	V	1	đưa	I-VP	I-DOB	*))))	I-Arg2
+
+Và	C	1	kể	O	O	(S*	I-ArgM-DIS
+chị	N-H	1	kể	I-NP	I-SUB	(NP-SUB*)	I-ArgM-DIS
+đã	R	1	kể	I-VP	O	(VP*	I-ArgM-TMP
+kể	V-H	1	kể	I-VP	O	*	I-Rel
+tôi	P-H	1	kể	I-NP	I-DOB	(NP-DOB*	I-Arg2
+nghe	V-H	1	kể	I-VP	I-DOB	(VP*))	I-Arg2
+về	E-H	1	kể	I-PP	O	(PP*	I-Arg1
+mình	P-H	1	kể	I-NP	O	(NP*))))	I-Arg1
+
+Vậy	C	1	làm quen	O	O	(S*	I-ArgM-CAU
+là	C	1	làm quen	O	O	*	I-ArgM-CAU
+năm	N-H	1	làm quen	I-NP	I-TMP	(NP-TMP*	I-ArgM-TMP
+1993	M	1	làm quen	I-NP	I-TMP	*)	I-ArgM-TMP
+lần	N-H	1	làm quen	B-NP	I-MNR	(NP-MNR*	B-ArgM-TMP
+đầu tiên	N	1	làm quen	I-NP	I-MNR	*)	I-ArgM-TMP
+chị	N-H	1	làm quen	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+làm quen	V-H	1	làm quen	I-VP	O	(VP*	I-Rel
+với	E-H	1	làm quen	I-PP	O	(PP*	I-Arg1
+tiếng	N-H	1	làm quen	I-NP	O	(NP*	I-Arg1
+
+Tháng	N-H	0	Giúp	I-NP	I-TMP	(S-PV(NP-TMP*	O
+6	M	0	Giúp	I-NP	I-TMP	*	O
+2004	M	0	Giúp	I-NP	I-TMP	*	O
+vừa qua	X-H	0	Giúp	I-XP	I-TMP	(XP*))	O
+đề tài	N-H	0	Giúp	I-NP	I-SUB	(NP-SUB*	O
+nghiên cứu	V	0	Giúp	I-NP	I-SUB	*	O
+Giúp	V-H	0	Giúp	I-VP	I-SUB	(VP*	I-Rel
+phát triển	V-H	0	Giúp	B-VP	I-SUB	(VP*	I-ArgM-PRP
+kỹ năng	N-H	0	Giúp	I-NP	I-DOB	(NP-DOB*	I-Arg1
+cho	E-H	0	Giúp	I-PP	I-DOB	(PP*	I-Arg2
+NKT	Ny-H	0	Giúp	I-NP	I-DOB	(NP*)))))	I-Arg2
+của	E-H	0	Giúp	I-PP	I-SUB	(PP*	O
+chị	N-H	0	Giúp	I-NP	I-SUB	(NP*)))	O
+được	V-H	0	Giúp	I-VP	O	(VP*	O
+hội đồng	N-H	0	Giúp	I-NP	I-SUB	(SBAR(S(NP-SUB*	O
+khoa học	N	0	Giúp	I-NP	I-SUB	*	O
+tại	E-H	0	Giúp	I-PP	I-LOC	(PP-LOC*	O
+ĐH	Ny-H	0	Giúp	I-NP	I-LOC	(NP*	O
+đánh giá	V-H	0	Giúp	I-VP	O	(Np(VP*	O
+cao	A-H	0	Giúp	I-AP	O	(AP*))))))))))	O
+
+Ai	P-H	1	ngại	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+cũng	R	1	ngại	I-VP	O	(VP*	I-ArgM-TMP
+ngại	V-H	1	ngại	I-VP	O	*	I-Rel
+khó	A-H	1	ngại	I-AP	O	(AP*	I-Arg1
+mà	C	1	ngại	I-AP	O	*	I-Arg1
+học	V-H	1	ngại	I-VP	O	(VP*	I-Arg1
+được	R	1	ngại	I-VP	O	*))	I-Arg1
+vì	E-H	1	ngại	B-VP	O	(SBAR-PRP*	I-ArgM-PRP
+trước nay	N-H	1	ngại	I-NP	I-TMP	(S(NP-TMP*)	I-ArgM-PRP
+mình	P-H	1	ngại	B-NP	I-SUB	(NP-SUB*)	I-ArgM-PRP
+chỉ	R	1	ngại	I-AP	I-PRD	(AP-PRD*	I-ArgM-PRP
+quen	A-H	1	ngại	I-AP	I-PRD	*	I-ArgM-PRP
+cầm	V-H	1	ngại	I-VP	I-PRD	(VP*	I-ArgM-PRP
+cái	Nc-H	1	ngại	I-NP	I-PRD	(NP-DOB(NP*	I-ArgM-PRP
+rựa	N	1	ngại	I-NP	I-PRD	*)	I-ArgM-PRP
+cái	Nc-H	1	ngại	B-NP	I-PRD	(NP*	I-ArgM-PRP
+rìu	N	1	ngại	I-NP	I-PRD	*))	I-ArgM-PRP
+thôi	T	1	ngại	I-VP	I-PRD	*))))))	I-ArgM-PRP
+
+Nụ	Nc-H	1	khác	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+cười	V	1	khác	I-NP	I-SUB	*)	I-Arg0
+thật	R	1	khác	I-AP	I-PRD	(AP-PRD*	O
+khác	A-H	1	khác	I-AP	I-PRD	*	I-Rel
+với	E-H	1	khác	I-PP	I-PRD	(PP*	I-Arg1
+câu chuyện	N-H	1	khác	I-NP	I-PRD	(NP*	I-Arg1
+buồn	A	1	khác	I-NP	I-PRD	*	I-Arg1
+của	E-H	1	khác	I-PP	I-PRD	(PP*	I-Arg1
+cuộc đời	N-H	1	khác	I-NP	I-PRD	(NP*	I-Arg1
+cô	N-H	1	khác	B-NP	I-PRD	(NP*	I-Arg1
+gái	N	1	khác	I-NP	I-PRD	*	I-Arg1
+23	M	1	khác	B-NP	I-PRD	(NP*	I-Arg1
+tuổi	N-H	1	khác	I-NP	I-PRD	*)	I-Arg1
+này	P	1	khác	B-NP	I-PRD	*)))))))	I-Arg1
+
+Người	Nc-H	1	đưa	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+đàn ông	N	1	đưa	I-NP	I-SUB	*)	I-Arg0
+đưa	V-H	1	đưa	I-VP	O	(VP*	I-Rel
+sang	V-H	1	đưa	I-VP	I-DIR	(NP-DOB(Np-H(VP-DIR*	I-ArgM-DIR
+bằng	E-H	1	đưa	I-PP	I-MNR	(NP-LOC(Np-H(PP-MNR*	I-ArgM-MNR
+xe đò	N-H	1	đưa	I-NP	I-MNR	(NP*)))))))))	I-ArgM-MNR
+
+Trung tâm	N-H	1	tìm	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+đang	R	1	tìm	I-VP	O	(Np(VP*	I-ArgM-TMP
+tìm	V-H	1	tìm	I-VP	O	*	I-Rel
+địa chỉ	N-H	1	tìm	I-NP	I-LOC	(NP-LOC*	I-Arg1
+mới	A-H	1	tìm	I-AP	I-LOC	(AP*)	I-Arg1
+của	E-H	1	tìm	I-PP	I-LOC	(PP*	I-Arg1
+gia đình	N-H	1	tìm	I-NP	I-LOC	(NP*	I-Arg1
+tôi	P	1	tìm	I-NP	I-LOC	*)))	I-Arg1
+nhưng	C	1	tìm	I-VP	O	*	I-ArgM-ADV
+chưa	R	1	tìm	B-VP	O	(VP*	I-ArgM-ADV
+ra	V-H	1	tìm	I-VP	O	*)))))	I-ArgM-ADV
+
+Những	L	1	im ỉm	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+ngôi	Nc-H	1	im ỉm	I-NP	I-SUB	*	I-Arg0
+nhà	N	1	im ỉm	I-NP	I-SUB	*	I-Arg0
+của	E-H	1	im ỉm	I-PP	I-SUB	(PP*	I-Arg0
+các	L	1	im ỉm	I-NP	I-SUB	(NP*	I-Arg0
+tử tội	N-H	1	im ỉm	I-NP	I-SUB	*	I-Arg0
+ma túy	N	1	im ỉm	I-NP	I-SUB	*)))	I-Arg0
+im ỉm	A-H	1	im ỉm	I-AP	I-PRD	(AP-PRD*	I-Rel
+cửa	N-H	1	im ỉm	I-NP	I-PRD	(NP(NP*	I-Arg1
+đóng	V	1	im ỉm	I-NP	I-PRD	*)	I-Arg1
+then	N-H	1	im ỉm	B-NP	I-PRD	(NP*	I-Arg1
+cài	V	1	im ỉm	I-NP	I-PRD	*))))	I-Arg1
+
+Chúng	P-H	1	tổ chức	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+tổ chức	V-H	1	tổ chức	I-VP	O	(VP*	I-Rel
+những	L	1	tổ chức	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đường dây	N-H	1	tổ chức	I-NP	I-DOB	*	I-Arg1
+buôn	V-H	1	tổ chức	I-VP	I-DOB	(VP*	I-Arg1
+heroin	N-H	1	tổ chức	I-NP	B-DOB	(NP-DOB*))	I-Arg1
+qui mô	A-H	1	tổ chức	I-AP	B-DOB	(AP*	I-Arg1
+hơn	R	1	tổ chức	I-AP	I-DOB	*))))	I-Arg1
+
+Ông	Nc-H	1	chịu	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+80	M	1	chịu	I-NP	I-SUB	(Np(NP*	I-Arg0
+tuổi	Nu-H	1	chịu	I-NP	I-SUB	*)	I-Arg0
+thương binh	N-H	1	chịu	B-NP	I-SUB	(NP*	I-Arg0
+LBKT	LBKT	1	chịu	I-NP	I-SUB	*	I-Arg0
+TB	Ny	1	chịu	B-NP	I-SUB	(NP*)	I-Arg0
+RBKT	RBKT	1	chịu	B-NP	I-SUB	*	I-Arg0
+chống	V-H	1	chịu	I-VP	I-SUB	(VP*	I-Arg0
+cán bộ	N-H	1	chịu	I-NP	I-SUB	(NP(Np-H(NP*	I-Arg0
+lão thành	A	1	chịu	I-NP	I-SUB	*	I-Arg0
+cách mạng	N	1	chịu	I-NP	I-SUB	*	I-Arg0
+ở	E-H	1	chịu	I-PP	I-LOC	(PP-LOC*	I-Arg0
+xã	N-H	1	chịu	I-NP	I-LOC	(NP*	I-Arg0
+huyện	N-H	1	chịu	I-NP	I-LOC	(Np(NP*	I-Arg0
+LBKT	LBKT	1	chịu	I-NP	I-LOC	(Np*	I-Arg0
+RBKT	RBKT	1	chịu	I-NP	I-LOC	(NP(Np-H*)))))	I-Arg0
+đã	R	1	chịu	I-VP	O	(VP(VP*	I-ArgM-TMP
+không	R	1	chịu	I-VP	O	*	I-ArgM-NEG
+chịu	V-H	1	chịu	I-VP	O	*	I-Rel
+nổi	R	1	chịu	I-VP	O	*	I-ArgM-MNR
+cảnh	N-H	1	chịu	I-NP	I-DOB	(NP-DOB*	I-Arg1
+ngồi	V-H	1	chịu	I-VP	I-DOB	(VP*	I-Arg1
+họp	V	1	chịu	I-VP	I-DOB	*	I-Arg1
+chung	A-H	1	chịu	I-AP	I-DOB	(AP*)	I-Arg1
+với	E-H	1	chịu	I-PP	I-DOB	(PP*	I-Arg1
+những	L	1	chịu	I-NP	I-DOB	(NP*	I-Arg1
+TB	Ny-H	1	chịu	I-NP	I-DOB	*	I-Arg1
+giả	A	1	chịu	I-NP	I-DOB	*)))	I-Arg1
+nhất là	X	1	chịu	B-NP	I-TMP	(NP-TMP*	I-Arg1
+khi	N-H	1	chịu	I-NP	I-TMP	*	I-Arg1
+phải	V-H	1	chịu	I-VP	I-TMP	(VP*	I-Arg1
+nghe	V-H	1	chịu	B-VP	I-TMP	(VP*	I-Arg1
+những	L	1	chịu	I-NP	I-SUB	(SBAR(S(NP-SUB*	I-Arg1
+cha	N-H	1	chịu	I-NP	I-SUB	*	I-Arg1
+ấy	P	1	chịu	I-NP	I-SUB	*)	I-Arg1
+lên	V-H	1	chịu	I-VP	I-TMP	(VP*	I-Arg1
+bục	N-H	1	chịu	I-NP	I-LOC	(NP-LOC*)	I-Arg1
+phát biểu	V-H	1	chịu	I-VP	I-PRP	(VP-PRP*)))))))))	I-Arg1
+nói	V-H	1	chịu	B-VP	O	(VP*	O
+Từ	E-H	1	chịu	I-PP	I-TMP	(SBAR-DOB(S(PP-TMP*	O
+năm	N-H	1	chịu	I-NP	I-TMP	(NP*	O
+1985	M	1	chịu	I-NP	I-TMP	*	O
+trở về	V-H	1	chịu	I-VP	I-TMP	(VP*	O
+trước	A-H	1	chịu	I-AP	I-TMP	(AP*))))	O
+xã	N-H	1	chịu	I-NP	I-SUB	(NP-SUB-1*	O
+chỉ	R	1	chịu	I-VP	O	(Np-H(VP*	O
+có	V-H	1	chịu	I-VP	O	*	O
+sáu	M	1	chịu	I-NP	I-DOB	(NP-DOB*	O
+TB	Ny-H	1	chịu	I-NP	I-DOB	*)))	O
+thế mà	C	1	chịu	I-VP	O	*	O
+đến	E-H	1	chịu	I-PP	I-TMP	(S(PP-TMP*	O
+nay	N-H	1	chịu	I-NP	I-TMP	(NP*))	O
+bỗng dưng	R	1	chịu	I-VP	O	(NP-SUB-1(VP*	O
+xuất hiện	V-H	1	chịu	I-VP	O	*	O
+tới	T	1	chịu	I-NP	O	(NP*	O
+70	M	1	chịu	I-NP	O	*	O
+TB	Ny-H	1	chịu	I-NP	O	*)))))))))))))))))))	O
+
+Ông	Nc-H	1	khai man	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+phải	V-H	1	khai man	I-VP	O	(Np(VP*	I-ArgM-MOD
+khai man	V-H	1	khai man	B-VP	O	(VP*	I-Rel
+tuổi	N-H	1	khai man	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+để	E-H	1	khai man	I-PP	I-PRP	(PP-PRP*	I-ArgM-PRP
+đủ	A-H	1	khai man	I-AP	I-PRP	(AP*	I-ArgM-PRP
+năm	N	1	khai man	I-AP	I-PRP	*	I-ArgM-PRP
+làm	V-H	1	khai man	I-VP	I-PRP	(VP*	I-ArgM-PRP
+Huy chương	N-H	1	khai man	I-NP	I-DOB	(NP-DOB*	I-ArgM-PRP
+Kháng chiến	V-H	1	khai man	I-VP	I-DOB	(VP*	I-ArgM-PRP
+chống	V	1	khai man	I-VP	I-DOB	*	I-ArgM-PRP
+cứu	V-H	1	khai man	I-VP	I-PRP	(NP(Np-H(VP-PRP*	I-ArgM-PRP
+nước	N-H	1	khai man	I-NP	I-PRP	(NP*)))	I-ArgM-PRP
+hạng	N-H	1	khai man	B-NP	I-DOB	(NP*	I-ArgM-PRP
+ba	M	1	khai man	I-NP	I-DOB	*))))))))))))	I-ArgM-PRP
+
+Bỗng	R	1	nói	O	O	(S*	I-ArgM-DIS
+K	Ny-H	1	nói	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+nói	V-H	1	nói	I-VP	O	(VP*	I-Rel
+Đây	P-H	1	nói	I-NP	I-ADV	(SBAR-DOB(S(NP-ADV*	I-Arg1
+rồi	R	1	nói	I-NP	I-ADV	*)	I-Arg1
+chỉ	R	1	nói	I-VP	I-SUB	(VP-SUB*	I-Arg1
+cần	V-H	1	nói	I-VP	I-SUB	*	I-Arg1
+một	M	1	nói	I-NP	I-SUB	(NP*	I-Arg1
+vết	Nc-H	1	nói	I-NP	I-SUB	*	I-Arg1
+sẹo	N	1	nói	I-NP	I-SUB	*	I-Arg1
+này	P	1	nói	I-NP	I-SUB	*))	I-Arg1
+là	C	1	nói	I-VP	O	*	I-Arg1
+làm	V-H	1	nói	B-VP	O	(VP*	I-Arg1
+được	R	1	nói	I-VP	O	*	I-Arg1
+TB	Ny-H	1	nói	I-NP	I-DOB	(NP-DOB*))))))	I-Arg1
+
+Hôm	N-H	0	chở	I-NP	I-TMP	(S-PV(NP-TMP*	I-ArgM-TMP
+sau	A	0	chở	I-NP	I-TMP	*)	I-ArgM-TMP
+một	M	0	chở	B-NP	I-SUB	(NP-SUB*	I-Arg1
+cụ	N-H	0	chở	I-NP	I-SUB	*	I-Arg1
+bà	N	0	chở	I-NP	I-SUB	*	I-Arg1
+tóc	N-H	0	chở	B-NP	I-SUB	(NP(NP*	I-Arg1
+bạc	A-H	0	chở	I-AP	I-SUB	(AP*	I-Arg1
+trắng	A	0	chở	I-AP	I-SUB	*))	I-Arg1
+da mồi	N-H	0	chở	I-NP	I-SUB	(NP*)))	I-Arg1
+được	V-H	0	chở	I-VP	O	(VP*	I-ArgM-MOD
+chở	V-H	0	chở	I-VP	O	(SBAR(S(NP-SUB(VP*	I-Rel
+đến	V	0	chở	I-VP	O	*))))))	I-ArgM-DIR
+
+Đấy	P-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+phòng	N-H	1	là	I-NP	O	(NP*	I-Arg1
+giá	N-H	1	là	B-NP	O	(NP*	I-Arg1
+cao	A-H	1	là	I-AP	O	(AP*	I-Arg1
+nhất	R	1	là	I-AP	O	*)	I-Arg1
+3 5	M-H	1	là	I-QP	O	(QP*	I-Arg1
+triệu	M	1	là	I-QP	O	*	I-Arg1
+tháng	N-H	1	là	I-NP	O	(NP*))))))	I-Arg1
+
+Riêng	T	0	phóng	I-NP	I-SUB	(S-PV(NP-SUB*	I-Arg1
+con	Nc-H	0	phóng	I-NP	I-SUB	*	I-Arg1
+bọ hà	N	0	phóng	I-NP	I-SUB	*)	I-Arg1
+được	V-H	0	phóng	I-VP	O	(VP*	I-ArgM-MOD
+anh	N-H	0	phóng	I-NP	I-SUB	(SBAR(S(NP-SUB*)	I-Arg0
+phóng	V-H	0	phóng	I-VP	O	(VP(VP*	I-Rel
+to đùng	A-H	0	phóng	I-AP	I-MNR	(AP-MNR*))	I-ArgM-MNR
+phía	N-H	0	phóng	I-NP	I-LOC	(VP(NP-LOC*	O
+dưới	N	0	phóng	I-NP	I-LOC	*)	O
+ghi	V-H	0	phóng	I-VP	O	(VP*	O
+những	L	0	phóng	I-NP	I-DOB	(NP-DOB*	O
+biện pháp	N-H	0	phóng	I-NP	I-DOB	*	O
+phòng chống	V-H	0	phóng	I-VP	I-DOB	(VP*	O
+loài	Nc-H	0	phóng	I-NP	B-DOB	(NP-DOB*	O
+hảo	V	0	phóng	I-NP	I-DOB	*	O
+khoai	N	0	phóng	I-NP	I-DOB	*	O
+này	P	0	phóng	I-NP	I-DOB	*))))))))))	O
+
+Các	L	1	là	I-NP	I-SUB	(S(NP-SUB(NP*	I-Arg1
+website	Nb-H	1	là	I-NP	I-SUB	*	I-Arg1
+liên quan	V-H	1	là	I-NP	I-SUB	(VP*	I-Arg1
+đến	E-H	1	là	I-NP	I-SUB	(PP*	I-Arg1
+nông nghiệp	N-H	1	là	I-NP	I-SUB	(NP*)	I-Arg1
+thị trường	N-H	1	là	I-NP	I-SUB	(NP*	I-Arg1
+giá cả	N	1	là	I-NP	I-SUB	*))))	I-Arg1
+và	C	1	là	I-NP	I-SUB	*	I-Arg1
+trang web	N-H	1	là	B-NP	I-SUB	(NP*	I-Arg1
+của	E-H	1	là	I-PP	I-SUB	(PP*	I-Arg1
+ĐH	Ny-H	1	là	I-NP	I-SUB	(NP*	I-Arg1
+là	V-H	1	là	I-VP	O	(Np(VP*	I-Rel
+những	L	1	là	I-NP	O	(NP*	I-Arg0
+địa chỉ	N-H	1	là	I-NP	O	*	I-Arg0
+thân thuộc	A-H	1	là	I-AP	O	(AP*	I-Arg0
+đối với	E-H	1	là	I-PP	O	(PP*	I-Arg0
+anh	N-H	1	là	I-NP	O	(NP*)))))))))))	I-Arg0
+
+hết	R	1	làm	I-VP	O	(S(NP-SUB(Np-H(VP*	O
+làm	V-H	1	làm	I-VP	O	*	I-Rel
+chuyện	N-H	1	làm	I-NP	I-DOB	(NP-DOB*	I-Arg1
+lạ	A	1	làm	I-NP	I-DOB	*	I-Arg1
+này	P	1	làm	I-NP	I-DOB	*	I-Arg1
+lại	R	1	làm	I-PP	I-DOB	(PP*	I-Arg1
+đến	E-H	1	làm	I-PP	I-DOB	*	I-Arg1
+chuyện	N-H	1	làm	I-NP	I-DOB	(NP*	I-Arg1
+lạ	A	1	làm	I-NP	I-DOB	*	I-Arg1
+khác	A	1	làm	I-NP	I-DOB	*)))))))	I-Arg1
+
+Ngoài	E-H	1	cố gắng	I-PP	I-MNR	(S(PP-MNR*	I-ArgM-ADV
+phong trào	N-H	1	cố gắng	I-NP	I-MNR	(NP*	I-ArgM-ADV
+bám	V-H	1	cố gắng	I-VP	I-MNR	(VP*	I-ArgM-ADV
+lấy	R	1	cố gắng	I-VP	I-MNR	*	I-ArgM-ADV
+mặt	N-H	1	cố gắng	I-NP	I-DOB	(NP-DOB*	I-ArgM-ADV
+đường	N	1	cố gắng	I-NP	I-DOB	*))))	I-ArgM-ADV
+theo	E-H	1	cố gắng	I-PP	I-ADV	(PP-ADV*	B-ArgM-ADV
+chúng tôi	P-H	1	cố gắng	I-NP	I-ADV	(NP*))	I-ArgM-ADV
+nhiều	A	1	cố gắng	B-NP	I-SUB	(NP-SUB*	I-Arg0
+người	N-H	1	cố gắng	I-NP	I-SUB	*	I-Arg0
+dân	N	1	cố gắng	I-NP	I-SUB	*)	I-Arg0
+cũng	R	1	cố gắng	I-VP	O	(VP*	I-ArgM-TMP
+đang	R	1	cố gắng	I-VP	O	*	I-ArgM-TMP
+cố gắng	V-H	1	cố gắng	I-VP	O	*	I-Rel
+tìm	V-H	1	cố gắng	B-VP	I-PRP	(VP-PRP*	I-Arg1
+cách	N-H	1	cố gắng	I-NP	I-DOB	(NP-DOB*	I-Arg1
+săn	V-H	1	cố gắng	I-VP	I-DOB	(VP*	I-Arg1
+đất	N-H	1	cố gắng	I-NP	B-DOB	(NP-DOB*	I-Arg1
+gần	A-H	1	cố gắng	I-AP	I-LOC	(AP-LOC*	I-Arg1
+các	L	1	cố gắng	I-NP	I-LOC	(NP*	I-Arg1
+khu	Nc-H	1	cố gắng	I-NP	I-LOC	*	I-Arg1
+dự án	N	1	cố gắng	I-NP	I-LOC	*))))))	I-Arg1
+với	E-H	1	cố gắng	I-PP	O	(PP*	I-ArgM-CAU
+hi vọng	V-H	1	cố gắng	I-VP	O	(VP(VP*	I-ArgM-CAU
+một	M	1	cố gắng	I-VP	I-DOB	(NP-DOB*	I-ArgM-CAU
+khoản	N-H	1	cố gắng	I-VP	I-DOB	*	I-ArgM-CAU
+lời	N	1	cố gắng	I-VP	I-DOB	*	I-ArgM-CAU
+đất	N-H	1	cố gắng	I-VP	I-DOB	(NP*	I-ArgM-CAU
+mặt tiền	N	1	cố gắng	I-VP	I-DOB	*)	I-ArgM-CAU
+trong	E-H	1	cố gắng	I-VP	I-TMP	(PP-TMP*	I-ArgM-CAU
+tương lai	N-H	1	cố gắng	I-VP	I-TMP	(NP*))))	I-ArgM-CAU
+hoặc	C	1	cố gắng	I-VP	O	*	I-ArgM-CAU
+hi vọng	V-H	1	cố gắng	B-VP	O	(VP*	I-ArgM-CAU
+vào	E-H	1	cố gắng	I-PP	O	(PP*	I-ArgM-CAU
+một	M	1	cố gắng	I-NP	O	(NP*	I-ArgM-CAU
+khoản	N-H	1	cố gắng	I-NP	O	*	I-ArgM-CAU
+đền bù	V-H	1	cố gắng	I-VP	O	(VP*	I-ArgM-CAU
+giải tỏa	V	1	cố gắng	I-VP	O	*)	I-ArgM-CAU
+béo bở	A-H	1	cố gắng	I-AP	O	(AP*)))))))	I-ArgM-CAU
+LBKT	LBKT	1	cố gắng	O	O	*	I-ArgM-CAU
+RBKT	RBKT	1	cố gắng	O	O	*)	I-ArgM-CAU
+
+Mấy	L	1	bảo	I-NP	I-SUB	(S(S(NP-SUB*	I-Arg0
+người	N-H	1	bảo	I-NP	I-SUB	*	I-Arg0
+trong	E-H	1	bảo	I-PP	I-LOC	(PP-LOC*	I-Arg0
+xóm	N-H	1	bảo	I-NP	I-LOC	(NP*)))	I-Arg0
+bảo	V-H	1	bảo	I-VP	O	(VP*	I-Rel
+thôi thì	X-H	1	bảo	I-XP	I-MDP	(SBAR(S(XP-MDP*)	I-Arg1
+lâu nay	N-H	1	bảo	I-NP	I-TMP	(NP-TMP*)	I-Arg1
+nuôi	V-H	1	bảo	I-VP	O	(NP-SUB(VP*	I-Arg1
+nhiều	A	1	bảo	I-VP	O	*	I-Arg1
+rồi	T	1	bảo	I-VP	O	*)	I-Arg1
+giờ	N-H	1	bảo	I-NP	I-TMP	(NP-TMP*)	I-Arg1
+già yếu	A-H	1	bảo	I-AP	O	(AP*	I-Arg1
+để	E-H	1	bảo	I-AP	O	(SBAR-PRP*	I-Arg1
+người	N-H	1	bảo	I-NP	I-SUB	(S(NP-SUB*	I-Arg1
+khác	A	1	bảo	I-NP	I-SUB	*)	I-Arg1
+nuôi	V-H	1	bảo	I-VP	O	(VP*))))))))	I-Arg1
+nhưng	C	1	bảo	O	O	*	O
+khổ	A-H	1	bảo	I-AP	I-MDP	(S(AP-MDP*	O
+quá	R	1	bảo	I-AP	I-MDP	*)	O
+nó	P-H	1	bảo	I-NP	I-SUB	(S(S(NP-SUB*)	O
+còn	R	1	bảo	I-AP	I-PRD	(AP-PRD*	O
+đỏ hỏn	A-H	1	bảo	I-AP	I-PRD	*))	O
+ai	P-H	1	bảo	I-NP	I-SUB	(S(NP-SUB*)	O
+chịu	V-H	1	bảo	I-VP	O	(VP*	O
+nhận	V	1	bảo	I-VP	O	*)))	O
+mình	P-H	1	bảo	I-NP	I-SUB	(S(NP-SUB*)	O
+nghĩ	V-H	1	bảo	I-VP	O	(VP*	O
+thôi thì	X-H	1	bảo	I-XP	I-MDP	(XP-MDP*)	O
+thương	V-H	1	bảo	I-VP	O	(VP(VP*	O
+người	N	1	bảo	I-VP	O	*)	O
+như thể	C	1	bảo	I-VP	O	*	O
+thương	V-H	1	bảo	B-VP	O	(VP*	O
+thân	N	1	bảo	I-VP	O	*)))))))	O
+
+Cái	Nc-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+được	V	1	là	I-NP	I-SUB	*	I-Arg0
+của	E-H	1	là	I-PP	I-SUB	(PP*	I-Arg0
+chiếc	Nc-H	1	là	I-NP	I-SUB	(NP*	I-Arg0
+máy	N	1	là	I-NP	I-SUB	*	I-Arg0
+này	P	1	là	I-NP	I-SUB	*)))	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+vừa	R	1	là	B-VP	O	(VP(VP*	I-Arg1
+vút	V-H	1	là	I-VP	O	*	I-Arg1
+được	V	1	là	I-VP	O	*	I-Arg1
+gạo	N-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+sạch	A-H	1	là	I-AP	I-DOB	(AP*)))	I-Arg1
+vừa	R	1	là	I-VP	O	(VP*	I-Arg1
+đãi	V-H	1	là	I-VP	O	*	I-Arg1
+được	V	1	là	I-VP	O	*	I-Arg1
+sạn	N-H	1	là	I-NP	I-DOB	(NP-DOB*)))))	I-Arg1
+
+Ký	V-H	1	về	I-VP	I-ADV	(S(VP-ADV*	I-ArgM-ADV
+hợp đồng	N-H	1	về	I-NP	I-DOB	(NP-DOB*)	I-ArgM-ADV
+xong	R	1	về	I-VP	I-ADV	*)	I-ArgM-ADV
+tui	P-H	1	về	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+về	V-H	1	về	I-VP	O	(VP(VP*	I-Rel
+ngồi	V-H	1	về	B-VP	O	(VP*	I-ArgM-ADV
+nghĩ lại	V	1	về	I-VP	O	*	I-ArgM-ADV
+thấy	V-H	1	về	B-VP	O	(VP*	I-ArgM-ADV
+toát	V-H	1	về	B-VP	O	(VP*	I-ArgM-ADV
+mồ hôi	N-H	1	về	I-NP	I-DOB	(NP-DOB*)))))	I-ArgM-ADV
+làm	V-H	1	về	I-VP	O	(VP*	O
+thế nào	X-H	1	về	I-WHNP	O	(WHNP*)	O
+để	E-H	1	về	I-PP	I-PRP	(PP-PRP*	O
+cung cấp	V-H	1	về	I-VP	I-PRP	(VP*	O
+đủ	A-H	1	về	I-AP	I-PRP	(AP*	O
+lượng	N-H	1	về	I-NP	I-DOB	(NP-DOB*	O
+sạn	N	1	về	I-NP	I-DOB	*)	O
+như	C	1	về	I-AP	I-PRP	*	O
+hợp đồng	N-H	1	về	I-NP	I-PRP	(NP*))	O
+lại	R	1	về	I-VP	I-PRP	(VP*	O
+theo	V-H	1	về	I-VP	I-PRP	*	O
+qui chuẩn	N-H	1	về	I-NP	I-DOB	(NP-DOB*	O
+ngặt nghèo	A	1	về	I-NP	I-DOB	*))))))	O
+anh	Nc-H	1	về	B-NP	I-SUB	(SBAR(S(NP-SUB*	O
+tâm sự	V-H	1	về	I-VP	O	(Np(VP*))))))	O
+
+Con số	N-H	1	dừng lại	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+nạn nhân	N	1	dừng lại	I-NP	I-SUB	*)	I-Arg0
+không	R	1	dừng lại	I-VP	O	(VP*	I-ArgM-NEG
+dừng	V-H	1	dừng lại	I-VP	O	*	I-Rel
+lại	R	1	dừng lại	I-VP	O	*))	I-Rel
+
+Rồi	C	1	cưỡng hiếp	O	O	(S*	O
+ngày	N-H	1	cưỡng hiếp	I-NP	I-TMP	(NP-TMP*	I-ArgM-TMP
+hôm	N-H	1	cưỡng hiếp	B-NP	I-TMP	(NP*	I-ArgM-TMP
+sau	A	1	cưỡng hiếp	I-NP	I-TMP	*))	I-ArgM-TMP
+y	P-H	1	cưỡng hiếp	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+lại	R	1	cưỡng hiếp	I-VP	O	(VP*	I-ArgM-TMP
+cưỡng hiếp	V-H	1	cưỡng hiếp	I-VP	O	*	I-Rel
+tiếp	V	1	cưỡng hiếp	I-VP	O	*))	I-ArgM-MNR
+
+Người	N-H	1	sợ	I-NP	I-SUB	(S-TTL(NP-SUB*)	I-Arg0
+không	R	1	sợ	I-VP	O	(VP*	I-ArgM-NEG
+sợ	V-H	1	sợ	I-VP	O	*	I-Rel
+điện	N-H	1	sợ	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+Rừng	N-H	1	khép	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+xưa	A	1	khép	I-NP	I-SUB	*)	I-Arg0
+đã	R	1	khép	I-VP	O	(VP*	I-ArgM-TMP
+khép	V-H	1	khép	I-VP	O	*))	I-Rel
+
+Mẹ	N-H	1	kể	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+em	N	1	kể	I-NP	I-SUB	*)	I-Arg0
+kể	V-H	1	kể	I-VP	O	(VP*	I-Rel
+Lúc	N-H	1	kể	I-NP	I-TMP	(SBAR(S(NP-TMP*	I-Arg1
+mới	R	1	kể	I-VP	I-TMP	(VP*	I-Arg1
+sinh	V-H	1	kể	I-VP	I-TMP	*	I-Arg1
+ra	R	1	kể	I-VP	I-TMP	*))	I-Arg1
+mắt	N-H	1	kể	I-NP	I-SUB	(NP-SUB*	I-Arg1
+con	N-H	1	kể	B-NP	I-SUB	(NP*	I-Arg1
+tôi	P	1	kể	I-NP	I-SUB	*))	I-Arg1
+bị	V-H	1	kể	I-VP	O	(VP*	I-Arg1
+đổ	V-H	1	kể	B-VP	O	(VP*	I-Arg1
+ghèn	N-H	1	kể	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+suốt	A-H	1	kể	I-AP	O	(AP*)))))))	I-Arg1
+
+Không	R	1	mang	I-VP	I-ADV	(S(VP-ADV*	I-ArgM-ADV
+làm ruộng	V-H	1	mang	I-VP	I-ADV	*	I-ArgM-ADV
+được	R	1	mang	I-VP	I-ADV	*)	I-ArgM-ADV
+ông	N-H	1	mang	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+mang	V-H	1	mang	I-VP	O	(VP*	I-Rel
+vợ con	N-H	1	mang	I-NP	I-DOB	(NP-DOB*	I-Arg1
+lên	V-H	1	mang	I-VP	I-DOB	(VP*	I-Arg1
+thành phố	N-H	1	mang	I-NP	B-DOB	(NP-DOB*)	I-Arg1
+sống	V-H	1	mang	I-VP	B-DOB	(VP*	I-Arg1
+bằng	E-H	1	mang	I-PP	I-MNR	(PP-MNR*	I-Arg1
+nghề	N-H	1	mang	I-NP	I-MNR	(NP*	I-Arg1
+thợ hồ	N	1	mang	I-NP	I-MNR	*)))))))	I-Arg1
+
+Trong	E-H	1	bụi	I-PP	I-SUB	(S(PP-LOC-SUB*	I-Arg0
+khoảnh	Nc-H	1	bụi	I-NP	I-SUB	(NP*	I-Arg0
+đất	N	1	bụi	I-NP	I-SUB	*	I-Arg0
+khoảng	A	1	bụi	B-NP	I-SUB	(NP*	I-Arg0
+100	M	1	bụi	I-NP	I-SUB	*	I-Arg0
+m2	Nu-H	1	bụi	I-NP	I-SUB	*)	I-Arg0
+che	V-H	1	bụi	I-VP	I-SUB	(VP*	I-Arg0
+mưa	N	1	bụi	I-VP	I-SUB	*	I-Arg0
+che	V-H	1	bụi	I-VP	I-SUB	*	I-Arg0
+nắng	N	1	bụi	I-VP	I-SUB	*	I-Arg0
+bằng	E-H	1	bụi	I-PP	I-MNR	(PP-MNR*	I-Arg0
+nhiều	A	1	bụi	I-NP	I-MNR	(NP*	I-Arg0
+tấm	Nc-H	1	bụi	I-NP	I-MNR	*	I-Arg0
+bạt	N	1	bụi	I-NP	I-MNR	*	I-Arg0
+chắp vá	V-H	1	bụi	I-VP	I-MNR	(VP*))))	I-Arg0
+ấy	P	1	bụi	I-NP	I-SUB	*))	I-Arg0
+bụi	N-H	1	bụi	B-NP	I-PRD	(NP-PRD*	I-Rel
+mù mịt	A	1	bụi	I-NP	I-PRD	*))	I-ArgM-MNR
+
+Men	V-H	1	đến	I-VP	I-ADV	(S(VP-ADV*	I-ArgM-ADV
+theo	R	1	đến	I-VP	I-ADV	*	I-ArgM-ADV
+con	Nc-H	1	đến	I-NP	I-ADV	(NP*	I-ArgM-ADV
+đường mòn	N	1	đến	I-NP	I-ADV	*))	I-ArgM-ADV
+chúng tôi	P-H	1	đến	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+đến	V-H	1	đến	I-VP	O	(VP*	I-Rel
+một	M	1	đến	I-NP	I-DOB	(NP-DOB*	I-Arg1
+khu	N-H	1	đến	I-NP	I-DOB	*	I-Arg1
+đất	N	1	đến	I-NP	I-DOB	*	I-Arg1
+rống	A-H	1	đến	I-AP	I-DOB	(AP*)	I-Arg1
+trước	E-H	1	đến	I-PP	I-LOC	(PP-LOC*	I-Arg1
+dãy	N-H	1	đến	I-NP	I-LOC	(NP*	I-Arg1
+núi	N	1	đến	I-NP	I-LOC	*	I-Arg1
+
+Cũng	R	1	thu giữ	I-PP	I-PRP	(S(PP-PRP*	I-ArgM-CAU
+chính	T	1	thu giữ	I-PP	I-PRP	*	I-ArgM-CAU
+vì	E-H	1	thu giữ	I-PP	I-PRP	*	I-ArgM-CAU
+quân số	N-H	1	thu giữ	I-NP	I-PRP	(NP*	I-ArgM-CAU
+ít	A-H	1	thu giữ	I-AP	I-PRP	(AP*)))	I-ArgM-CAU
+mà	C	1	thu giữ	O	O	*	O
+suốt	A	1	thu giữ	I-PP	I-TMP	(PP-TMP*	I-ArgM-TMP
+từ	E-H	1	thu giữ	I-PP	I-TMP	*	I-ArgM-TMP
+đầu	N-H	1	thu giữ	I-NP	I-TMP	(NP*	I-ArgM-TMP
+vụ	N	1	thu giữ	I-NP	I-TMP	*))	I-ArgM-TMP
+hạt	N-H	1	thu giữ	B-NP	I-SUB	(NP-SUB*	I-Arg0
+kiểm lâm	N	1	thu giữ	I-NP	I-SUB	*)	I-Arg0
+mới	R	1	thu giữ	I-VP	O	(VP*	I-ArgM-TMP
+chỉ	R	1	thu giữ	I-VP	O	*	I-ArgM-EXT
+thu giữ	V-H	1	thu giữ	I-VP	O	*	I-Rel
+được	R	1	thu giữ	I-VP	O	*	O
+khoảng	A	1	thu giữ	I-NP	I-DOB	(NP-DOB*	I-Arg1
+800	M	1	thu giữ	I-NP	I-DOB	*	I-Arg1
+con	N-H	1	thu giữ	I-NP	I-DOB	*)))	I-Arg1
+
+Kể	V-H	1	Kể	I-VP	I-ADV	(S(VP-ADV*	I-Rel
+chuyện	N-H	1	Kể	I-NP	I-ADV	(NP*	I-Arg1
+lặn	V-H	1	Kể	I-VP	I-ADV	(VP*	I-Arg1
+máy	N	1	Kể	I-VP	I-ADV	*)))	I-Arg1
+hội	N-H	1	Kể	I-NP	I-SUB	(NP-SUB*	O
+thợ	N	1	Kể	I-NP	I-SUB	*	O
+lặn	V	1	Kể	I-NP	I-SUB	*	O
+gồm	V-H	1	Kể	I-VP	I-SUB	(VP*	O
+những	L	1	Kể	I-NP	I-DOB	(NP-DOB*	O
+con	Nc-H	1	Kể	I-NP	I-DOB	*	O
+rái cá	N	1	Kể	I-NP	I-DOB	*	O
+nổi tiếng	A-H	1	Kể	I-AP	I-DOB	(AP*)	O
+như	C	1	Kể	I-NP	I-DOB	*	O
+đều	R	1	Kể	I-VP	O	(NP(NP(Np-H(NP(Np-H(NP(Np-H(NP(Np-H(NP(Np-H(NP(Np-H(VP*	O
+nhắc	V-H	1	Kể	I-VP	O	*	O
+đến	R	1	Kể	I-VP	O	*	O
+ông	N-H	1	Kể	I-NP	I-DOB	(NP-DOB*	O
+thầy	N	1	Kể	I-NP	I-DOB	*	O
+từ	E-H	1	Kể	I-PP	I-LOC	(Np(PP-LOC*	O
+ra	V-H	1	Kể	I-VP	I-DOB	(NP(Np-H(VP*	O
+bày	V-H	1	Kể	B-VP	I-DOB	(VP*	O
+nghề	N-H	1	Kể	I-NP	B-DOB	(NP-DOB*))))))))))))))))))))))))))	O
+
+Anh em	N-H	1	lặn	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+lại	R	1	lặn	I-VP	O	(VP*	I-ArgM-TMP
+lặn	V-H	1	lặn	I-VP	O	*	I-Rel
+xuống	R	1	lặn	I-VP	O	*	I-ArgM-MNR
+tìm	V-H	1	lặn	B-VP	I-PRP	(VP-PRP*))	I-ArgM-PRP
+nhưng	C	1	lặn	O	O	*)	I-ArgM-DIS
+
+Nhà	N-H	1	ở	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+anh	Nc-H	1	ở	B-NP	I-SUB	(NP*	I-Arg0
+cũng	R	1	ở	I-VP	O	(Np(VP*	I-ArgM-TMP
+ở	V-H	1	ở	I-VP	O	*	I-Rel
+trên	E-H	1	ở	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+một	M	1	ở	I-NP	I-LOC	(NP*	I-ArgM-LOC
+con	Nc-H	1	ở	I-NP	I-LOC	*	I-ArgM-LOC
+đường	N	1	ở	I-NP	I-LOC	*	I-ArgM-LOC
+đẹp	A-H	1	ở	I-AP	I-LOC	(AP*))))))))	I-ArgM-LOC
+
+Một	M	1	bình thường	I-NP	I-SUB	(S-TTL(NP-SUB*	I-Arg0
+ca	Nc-H	1	bình thường	I-NP	I-SUB	*	I-Arg0
+sinh	V	1	bình thường	I-NP	I-SUB	*)	I-Arg0
+bình thường	A-H	1	bình thường	I-AP	I-PRD	(AP-PRD*))	I-Rel
+
+Chúng tôi	P-H	1	gặp	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đã	R	1	gặp	I-VP	O	(VP*	I-ArgM-TMP
+gặp	V-H	1	gặp	I-VP	O	*	I-Rel
+một	M	1	gặp	I-NP	I-DOB	(NP-DOB*	I-Arg1
+người	N-H	1	gặp	I-NP	I-DOB	*	I-Arg1
+như thế	X-H	1	gặp	I-XP	I-DOB	(XP*))))	I-Arg1
+
+Không	R	1	__là	I-VP	I-ADV	(S(VP-ADV*	O
+chỉ	R	1	__là	I-VP	I-ADV	*	O
+là	V-H	1	__là	I-VP	I-ADV	*	O
+nơi	N-H	1	__là	I-NP	I-DOB	(NP-DOB*	O
+trồng trọt	V	1	__là	I-NP	I-DOB	*))	O
+mà	C	1	__là	O	O	*	O
+đây	P-H	1	__là	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+còn	R	1	__là	I-VP	O	(VP*	I-ArgM-TMP
+__là	V-H	1	__là	I-VP	O	*	I-Rel
+nơi	N-H	1	__là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+nghiên cứu	V-H	1	__là	I-VP	I-DOB	(VP*	I-Arg1
+thực tập	V-H	1	__là	I-VP	I-DOB	*	I-Arg1
+cho	E-H	1	__là	I-PP	I-IOB	(PP-IOB*	I-Arg1
+các	L	1	__là	I-NP	I-IOB	(NP*	I-Arg1
+nhà nông	N-H	1	__là	I-NP	I-IOB	*)	I-Arg1
+và	C	1	__là	I-PP	I-IOB	*	I-Arg1
+không	R	1	__là	I-NP	I-IOB	(NP*	I-Arg1
+ít	A	1	__là	I-NP	I-IOB	*	I-Arg1
+người	N-H	1	__là	I-NP	I-IOB	*	I-Arg1
+là	V-H	1	__là	I-VP	I-IOB	(VP*	I-Arg1
+kỹ sư	N-H	1	__là	I-NP	I-IOB	(NP*	I-Arg1
+nông nghiệp	N	1	__là	I-NP	I-IOB	*))))))))	I-Arg1
+
+Tại	E-H	1	cho biết	I-PP	I-LOC	(S(PP-LOC*	I-ArgM-LOC
+buổi	N-H	1	cho biết	I-NP	I-LOC	(NP*	I-ArgM-LOC
+lễ	N	1	cho biết	I-NP	I-LOC	*	I-ArgM-LOC
+này	P-H	1	cho biết	B-NP	I-LOC	(NP*)))	I-ArgM-LOC
+đại diện	N-H	1	cho biết	B-NP	I-SUB	(NP-SUB*	I-Arg0
+chính quyền	N	1	cho biết	I-NP	I-SUB	*)	I-Arg0
+cũng	R	1	cho biết	I-VP	O	(VP*	I-ArgM-TMP
+cho	V-H	1	cho biết	I-VP	O	*	I-Rel
+biết	V	1	cho biết	I-VP	O	*	I-Rel
+sẽ	R	1	cho biết	B-VP	O	(VP*	I-Arg1
+có	V-H	1	cho biết	I-VP	O	*	I-Arg1
+những	L	1	cho biết	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đợt	N-H	1	cho biết	I-NP	I-DOB	*	I-Arg1
+trao	V-H	1	cho biết	I-VP	I-DOB	(VP*	I-Arg1
+quốc tịch	N-H	1	cho biết	I-NP	B-DOB	(NP-DOB*)	I-Arg1
+tiếp	V-H	1	cho biết	I-VP	B-DOB	(VP*)	I-Arg1
+để	E-H	1	cho biết	I-PP	I-PRP	(PP-PRP*	I-Arg1
+giải quyết	V-H	1	cho biết	I-VP	I-PRP	(VP*	I-Arg1
+dứt điểm	V-H	1	cho biết	B-VP	I-PRP	(VP*	I-Arg1
+hàng	R	1	cho biết	I-NP	I-DOB	(NP-DOB*	I-Arg1
+ngàn	M	1	cho biết	I-NP	I-DOB	*	I-Arg1
+hồ sơ	N-H	1	cho biết	I-NP	I-DOB	*	I-Arg1
+xin	V-H	1	cho biết	I-VP	I-DOB	(VP*	I-Arg1
+cấp	V-H	1	cho biết	B-VP	B-DOB	(VP-DOB*	I-Arg1
+quốc tịch	N-H	1	cho biết	I-NP	B-DOB	(NP-DOB*	I-Arg1
+của	E-H	1	cho biết	I-PP	B-DOB	(Np(PP*	I-Arg1
+người	Nc-H	1	cho biết	I-NP	I-DOB	(NP*	I-Arg1
+đã	R	1	cho biết	I-VP	I-DOB	(Np(VP*	I-Arg1
+nộp	V-H	1	cho biết	I-VP	I-DOB	*	I-Arg1
+cơ quan chức năng	N-H	1	cho biết	I-NP	B-DOB	(NP-DOB*))))))))))))))))))	I-Arg1
+
+Chẳng hạn	X	1	giúp đỡ	O	O	(S*	I-ArgM-DIS
+như	C	1	giúp đỡ	O	O	*	I-ArgM-DIS
+công nghệ	N-H	1	giúp đỡ	I-NP	I-SUB	(NP-SUB*	I-Arg1
+nuôi	V-H	1	giúp đỡ	I-VP	I-SUB	(VP*	I-Arg1
+heo	N-H	1	giúp đỡ	I-NP	I-DOB	(NP-DOB*))	I-Arg1
+của	E-H	1	giúp đỡ	I-PP	I-SUB	(PP*	I-Arg1
+công ty	N-H	1	giúp đỡ	I-NP	I-SUB	(NP*)))	I-Arg1
+được	V-H	1	giúp đỡ	I-VP	O	(VP*	I-ArgM-MOD
+sự	Nc-H	1	giúp đỡ	I-NP	I-DOB	(NP-DOB*	O
+giúp đỡ	V	1	giúp đỡ	I-NP	I-DOB	*	I-Rel
+rất	R	1	giúp đỡ	I-AP	I-DOB	(AP*	I-ArgM-MNR
+nhiều	A-H	1	giúp đỡ	I-AP	I-DOB	*)	I-ArgM-MNR
+từ	E-H	1	giúp đỡ	I-PP	I-DOB	(PP*	O
+phía	N-H	1	giúp đỡ	I-NP	I-DOB	(NP*	I-Arg0
+nhà nước	N	1	giúp đỡ	I-NP	I-DOB	*))	I-Arg0
+nên	C	1	giúp đỡ	B-NP	I-DOB	*	O
+giá	N-H	1	giúp đỡ	B-NP	I-DOB	(NP*	O
+rất	R	1	giúp đỡ	I-AP	I-DOB	(AP*	O
+rẻ	A-H	1	giúp đỡ	I-AP	I-DOB	*)))))	O
+
+Họ	N-H	1	nhận	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đã	R	1	nhận	I-VP	O	(VP*	I-ArgM-TMP
+nhận	V-H	1	nhận	I-VP	O	*	I-Rel
+ra	R	1	nhận	I-VP	O	*	I-ArgM-MNR
+sự	N-H	1	nhận	I-NP	I-DOB	(NP-DOB*	I-Arg1
+lạnh lùng	A	1	nhận	I-NP	I-DOB	*	I-Arg1
+đến	T	1	nhận	I-AP	I-DOB	(AP*	I-Arg1
+khủng khiếp	A-H	1	nhận	I-AP	I-DOB	*)	I-Arg1
+khó	A-H	1	nhận	B-AP	I-DOB	(AP*	I-Arg1
+có	V-H	1	nhận	I-VP	I-DOB	(VP*	I-Arg1
+đối thủ	N-H	1	nhận	I-NP	B-DOB	(NP-DOB*	I-Arg1
+nào	P	1	nhận	I-NP	I-DOB	*	I-Arg1
+trụ	V-H	1	nhận	I-VP	I-DOB	(VP*	I-Arg1
+nổi	R	1	nhận	I-VP	I-DOB	*	I-Arg1
+trước	E-H	1	nhận	I-PP	I-DOB	(PP*	I-Arg1
+cậu	N-H	1	nhận	I-NP	I-DOB	(NP*	I-Arg1
+bé	N	1	nhận	I-NP	I-DOB	*)))))))))	I-Arg1
+
+Không thể	R	1	gào thét	I-VP	O	(S(VP*	I-Arg1
+được	V	1	gào thét	I-VP	O	*)	I-Arg1
+những	L	1	gào thét	I-NP	I-SUB	(NP-SUB*	I-Arg0
+người	N-H	1	gào thét	I-NP	I-SUB	*	I-Arg0
+đam mê	V-H	1	gào thét	I-VP	I-SUB	(VP*	I-Arg0
+môn	N-H	1	gào thét	I-NP	I-SUB	(NP*	I-Arg0
+gào thét	V-H	1	gào thét	I-VP	O	(Np(VP*))))))	I-Rel
+
+anh	Nc-H	1	giới thiệu	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+giới thiệu	V-H	1	giới thiệu	I-VP	O	(Np(VP*	I-Rel
+với	E-H	1	giới thiệu	I-PP	O	(PP(PP*	I-ArgM-COM
+khách	N-H	1	giới thiệu	I-NP	O	(NP*))	I-ArgM-COM
+bằng	E-H	1	giới thiệu	I-PP	I-MNR	(PP-MNR*	I-ArgM-MNR
+hai	M	1	giới thiệu	I-NP	I-MNR	(NP*	I-ArgM-MNR
+cùi tay	N-H	1	giới thiệu	I-NP	I-MNR	*	I-ArgM-MNR
+cụt lủn	A	1	giới thiệu	I-NP	I-MNR	*)))))))	I-ArgM-MNR
+
+dân	N-H	1	hiểu	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+hiểu	V-H	1	hiểu	I-VP	O	(VP*))	I-Rel
+
+anh	N-H	1	gửi	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+gửi	V-H	1	gửi	I-VP	O	(VP*	I-Rel
+lại	R	1	gửi	I-VP	O	*	I-ArgM-TMP
+một	M	1	gửi	I-NP	I-DOB	(NP-DOB*	I-Arg1
+phần	N-H	1	gửi	I-NP	I-DOB	*	I-Arg1
+thân thể	N	1	gửi	I-NP	I-DOB	*)))	I-Arg1
+
+dây	N-H	1	đứt	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+điện thoại	N	1	đứt	I-NP	I-SUB	*)	I-Arg0
+đứt	V-H	1	đứt	I-VP	O	(VP*))	I-Rel
+
+thương	V-H	1	là	I-VP	I-SUB	(S(VP-SUB*	I-Arg0
+nhất	A-H	1	là	I-AP	I-SUB	(AP*))	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+hai	M	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đứa	Nc-H	1	là	I-NP	I-DOB	*	I-Arg1
+con	N	1	là	I-NP	I-DOB	*)))	I-Arg1
+
+anh	Nc-H	1	thắng kiện	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+đã	R	1	thắng kiện	I-VP	O	(Np(VP*	I-ArgM-TMP
+thắng	V-H	1	thắng kiện	I-VP	O	*	I-Rel
+kiện	V-H	1	thắng kiện	B-VP	O	(VP*)))))	I-Rel
+
+hầu như	R	1	lang bạt hết	O	O	(S*	O
+nay	P-H	1	lang bạt hết	I-NP	I-TMP	(NP-TMP*)	I-ArgM-TMP
+đã	R	1	lang bạt hết	I-VP	O	(NP-SUB-1(VP*	I-ArgM-TMP
+lang bạt	V-H	1	lang bạt hết	I-VP	O	*	I-Rel
+hết	T	1	lang bạt hết	I-VP	O	*)))	I-Rel
+
+pháp luật	N-H	1	bảo vệ	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+bảo vệ	V-H	1	bảo vệ	I-VP	O	(VP*))	I-Rel
+
+VN	Ny-H	1	giải quyết	I-NP	I-SUB	(S(NP-SUB-1*)	I-Arg0
+muốn	V-H	1	giải quyết	I-VP	O	(VP*	I-ArgM-MOD
+giải quyết	V-H	1	giải quyết	B-VP	O	(VP*	I-Rel
+được	R	1	giải quyết	I-VP	O	*	O
+mục tiêu	N-H	1	giải quyết	I-NP	I-DOB	(NP-DOB*	I-Arg1
+cung cấp	V-H	1	giải quyết	I-VP	I-DOB	(VP*	I-Arg1
+nước sạch	N-H	1	giải quyết	I-NP	B-DOB	(NP-DOB*)	I-Arg1
+cho	E-H	1	giải quyết	I-PP	B-DOB	(PP(PP*	I-Arg1
+85%	M	1	giải quyết	I-NP	I-DOB	(NP*	I-Arg1
+dân số	N-H	1	giải quyết	I-NP	I-DOB	*))	I-Arg1
+vào	E-H	1	giải quyết	I-PP	I-TMP	(PP-TMP*	I-Arg1
+năm	N-H	1	giải quyết	I-NP	I-TMP	(NP*	I-Arg1
+2010	M	1	giải quyết	I-NP	I-TMP	*)))	I-Arg1
+và	C	1	giải quyết	I-VP	I-DOB	*	I-Arg1
+cho	E-H	1	giải quyết	I-PP	I-DOB	(PP(PP*	I-Arg1
+100%	M	1	giải quyết	I-NP	I-DOB	(NP*	I-Arg1
+dân số	N-H	1	giải quyết	I-NP	I-DOB	*))	I-Arg1
+vào	E-H	1	giải quyết	I-PP	I-TMP	(PP-TMP*	I-Arg1
+năm	N-H	1	giải quyết	I-NP	I-TMP	(NP*	I-Arg1
+2020	M	1	giải quyết	I-NP	I-TMP	*))))))))	I-Arg1
+
+phần lớn	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+trong	E	1	là	I-NP	I-SUB	*	I-Arg0
+số	N	1	là	I-NP	I-SUB	*	I-Arg0
+này	P	1	là	I-NP	I-SUB	*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+thanh niên	N-H	1	là	I-NP	O	(NP*	I-Arg1
+20	M	1	là	B-NP	O	(NP*	I-Arg1
+29	M	1	là	I-NP	O	*	I-Arg1
+tuổi	N-H	1	là	I-NP	O	*))))	I-Arg1
+
+người	N-H	1	đóng	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+vi phạm	V	1	đóng	I-NP	I-SUB	*)	I-Arg0
+sẽ	R	1	đóng	I-VP	O	(VP*	I-ArgM-TMP
+đóng	V-H	1	đóng	I-VP	O	*	I-Rel
+tiền	N-H	1	đóng	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+cho	E-H	1	đóng	I-PP	I-IOB	(PP-IOB*	I-Arg2
+các	L	1	đóng	I-NP	I-IOB	(NP*	I-Arg2
+chủ	N-H	1	đóng	I-NP	I-IOB	*	I-Arg2
+bãi	N-H	1	đóng	B-NP	I-IOB	(NP*	I-Arg2
+xe	N	1	đóng	I-NP	I-IOB	*	I-Arg2
+này	P	1	đóng	I-NP	I-IOB	*)))))	I-Arg2
+
+địa điểm	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+đậu	V-H	1	là	I-VP	I-SUB	(VP*	I-Arg0
+xe	N-H	1	là	I-NP	I-DOB	(NP-DOB*)))	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+một	M	1	là	I-NP	O	(NP*	I-Arg1
+trong	E	1	là	I-NP	O	*	I-Arg1
+những	L	1	là	I-NP	O	*	I-Arg1
+điều kiện	N-H	1	là	I-NP	O	*	I-Arg1
+bắt buộc	V-H	1	là	I-VP	O	(VP*))))	I-Arg1
+
+phải	V-H	1	trả lời	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-MOD
+trả lời	V	1	trả lời	I-VP	O	*	I-Rel
+tức khắc	R-H	1	trả lời	I-RP	O	(RP*)	I-ArgM-MNR
+đối với	E-H	1	trả lời	I-PP	O	(PP*	I-Arg1
+những	L	1	trả lời	I-NP	O	(NP*	I-Arg1
+điều	N-H	1	trả lời	I-NP	O	*	I-Arg1
+đã	R	1	trả lời	I-VP	O	(VP*	I-Arg1
+nêu	V-H	1	trả lời	I-VP	O	*	I-Arg1
+ra	R	1	trả lời	I-VP	O	*	I-Arg1
+trong	E-H	1	trả lời	I-PP	I-LOC	(PP-LOC*	I-Arg1
+kiến nghị	N-H	1	trả lời	I-NP	I-LOC	(NP*))	I-Arg1
+ngày	N-H	1	trả lời	B-NP	I-TMP	(NP-TMP*	I-Arg1
+21	M	1	trả lời	I-NP	I-TMP	*	I-Arg1
+8	M	1	trả lời	I-NP	I-TMP	*))))))))	I-Arg1
+
+sau	N-H	1	thay đổi	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+đó	P	1	thay đổi	I-NP	I-TMP	*)	I-ArgM-TMP
+đã	R	1	thay đổi	I-VP	O	(NP-SUB(Np-H(VP*	I-ArgM-TMP
+thay đổi	V-H	1	thay đổi	I-VP	O	*	I-Rel
+lời	N-H	1	thay đổi	I-NP	I-DOB	(NP-DOB*	I-Arg1
+khai	V-H	1	thay đổi	I-VP	I-DOB	(VP*))))))	I-Arg1
+
+qui định	V-H	1	qui định	I-VP	O	(S(NP-SUB(VP*	I-Rel
+chi tiết	A-H	1	qui định	I-AP	O	(AP*	I-Arg1
+rõ ràng	A-H	1	qui định	I-AP	O	*))))	I-Arg1
+
+cứ	R	1	dùng	I-VP	O	(S(NP-SUB(VP*	I-ArgM-TMP
+dùng	V-H	1	dùng	I-VP	O	*	I-Rel
+quyền lực	N-H	1	dùng	I-NP	I-DOB	(NP-DOB*	I-Arg1
+hành chính	N-H	1	dùng	B-NP	I-DOB	(NP*	I-Arg1
+nhà nước	N	1	dùng	I-NP	I-DOB	*))	I-Arg1
+với	E-H	1	dùng	I-PP	I-MNR	(PP-MNR*	I-ArgM-MNR
+mô hình	N-H	1	dùng	I-NP	I-MNR	(NP*	I-ArgM-MNR
+khuôn	N-H	1	dùng	B-NP	I-MNR	(NP*	I-ArgM-MNR
+cứng	A-H	1	dùng	I-AP	I-MNR	(AP*)))))))	I-ArgM-MNR
+
+nhiều	L	1	có	I-NP	I-SUB	(S-SUB(NP-SUB*	O
+công dân	N-H	1	có	I-NP	I-SUB	*)	O
+có	V-H	1	có	I-VP	O	(VP*	I-Rel
+đất	N-H	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+tại	E-H	1	có	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+khu	N-H	1	có	I-NP	I-LOC	(NP*	I-ArgM-LOC
+dân cư	N	1	có	I-NP	I-LOC	*	I-ArgM-LOC
+mới	A-H	1	có	I-AP	I-LOC	(AP*)	I-ArgM-LOC
+
+bây giờ	P-H	1	lên	I-NP	I-TMP	(S(NP-TMP*)	I-ArgM-TMP
+giá	N-H	1	lên	B-NP	I-SUB	(NP-SUB*	I-Arg0
+đất	N	1	lên	I-NP	I-SUB	*	I-Arg0
+thị trường	N-H	1	lên	B-NP	I-SUB	(NP*))	I-Arg0
+lên	V-H	1	lên	I-VP	O	(VP*	I-Rel
+cao	A-H	1	lên	I-AP	O	(AP*)))	I-ArgM-MNR
+
+bộ trưởng	N-H	1	khẳng định	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+Bộ	N-H	1	khẳng định	B-NP	I-SUB	(NP*	I-Arg0
+NN	Ny	1	khẳng định	I-NP	I-SUB	*	I-Arg0
+&	Ny	1	khẳng định	I-NP	I-SUB	*	I-Arg0
+PTNT	Ny	1	khẳng định	I-NP	I-SUB	*))	I-Arg0
+khẳng định	V-H	1	khẳng định	I-VP	O	(VP*))	I-Rel
+
+việc	N-H	1	là	I-NP	I-SUB	(SQ(NP-SUB*	I-Arg0
+xác nhận	V	1	là	I-NP	I-SUB	*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+có	V-H	1	là	B-VP	O	(VP*	I-ArgM-ADV
+chủ trương	N-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+của	E-H	1	là	I-PP	I-DOB	(PP*	I-Arg1
+bộ	N-H	1	là	I-NP	I-DOB	(NP*))))))	I-Arg1
+
+lặp đi lặp lại	V-H	1	lặp đi lặp lại	I-VP	O	(S(NP-SUB(Np-H(VP*))))	I-Rel
+
+năm	M	1	hết	I-NP	I-TPC	(S(NP-TPC*	I-ArgM-MNR
+năm	N-H	1	hết	I-NP	I-TPC	*	I-ArgM-MNR
+một	M	1	hết	B-NP	I-TPC	(NP*	I-ArgM-MNR
+lần	N-H	1	hết	I-NP	I-TPC	*))	I-ArgM-MNR
+hộ chiếu	N-H	1	hết	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+lại	R	1	hết	I-VP	O	(VP*	O
+hết	V-H	1	hết	I-VP	O	*	I-Rel
+hạn	N-H	1	hết	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+Giờ	N-H	1	tiếp	I-NP	I-TMP	(S(NP-TMP*	O
+này	P	1	tiếp	I-NP	I-TMP	*)	O
+chưa	R	1	tiếp	B-NP	I-SUB	(NP-SUB*	I-Arg0
+ai	P-H	1	tiếp	I-NP	I-SUB	*)	I-Arg0
+tiếp	V-H	1	tiếp	I-VP	O	(VP*	I-Rel
+đâu	T	1	tiếp	I-VP	O	*))	I-ArgM-LOC
+
+đưa	V-H	1	đưa	I-VP	O	(S(NP-SUB(VP*	I-Rel
+đây	P-H	1	đưa	I-NP	O	(NP*))))	I-Arg1
+
+chúng tôi	P-H	1	đổi	I-NP	I-SUB	(S-SUB(NP-SUB-1*)	I-Arg0
+đổi	V-H	1	đổi	I-VP	O	(VP*	I-Rel
+hộ chiếu	N-H	1	đổi	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+trong	E-H	1	đổi	I-PP	I-TMP	(PP-TMP*	I-ArgM-TMP
+vòng	N	1	đổi	I-PP	I-TMP	*	I-ArgM-TMP
+24	M	1	đổi	I-NP	I-TMP	(NP*	I-ArgM-TMP
+tiếng	Nu-H	1	đổi	I-NP	I-TMP	*))))	I-ArgM-TMP
+
+tí	N-H	1	xong	I-NP	I-TMP	(S(NP-TMP*)	I-ArgM-TMP
+là	C	1	xong	O	O	*	O
+xong	V-H	1	xong	I-VP	O	(NP-SUB(VP*	I-Rel
+thôi	T	1	xong	I-VP	O	*)))	I-ArgM-Partice
+
+chất	N-H	1	buông tha	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+khai quang	V	1	buông tha	I-NP	I-SUB	*)	I-Arg0
+không	R	1	buông tha	I-VP	O	(VP*	I-ArgM-NEG
+buông tha	V-H	1	buông tha	I-VP	O	*	I-Rel
+họ	P-H	1	buông tha	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+Khi	N-H	1	nhìn	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+nhìn	V-H	1	nhìn	I-VP	I-TMP	(VP*	I-Rel
+những	L	1	nhìn	I-NP	I-TMP	(NP*	I-Arg1
+cảnh	N-H	1	nhìn	I-NP	I-TMP	*	I-Arg1
+nghèo khó	A-H	1	nhìn	I-AP	I-TMP	(AP*	I-Arg1
+và	C	1	nhìn	I-AP	I-TMP	*	I-Arg1
+đớn đau	A-H	1	nhìn	I-AP	I-TMP	*	I-Arg1
+do	E-H	1	nhìn	I-PP	I-PRP	(PP-PRP*	I-ArgM-CAU
+chiến tranh	N-H	1	nhìn	I-NP	I-PRP	(NP*	I-ArgM-CAU
+để	V-H	1	nhìn	I-VP	I-PRP	(VP*	I-ArgM-CAU
+lại	R	1	nhìn	I-VP	I-PRP	*)))))))	I-ArgM-CAU
+tôi	P-H	1	nhìn	I-NP	I-SUB	(NP-SUB*)	O
+không thể	R	1	nhìn	I-VP	O	(VP*	O
+không	R	1	nhìn	I-VP	O	*	O
+lên tiếng	V-H	1	nhìn	I-VP	O	*))	O
+
+ai	P-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+ông	Nc-H	1	là	I-NP	O	(NP*	I-Arg1
+chủ	N	1	là	I-NP	O	*)))	I-Arg1
+
+ban	N-H	1	can thiệp	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+quản lý	V	1	can thiệp	I-NP	I-SUB	*)	I-Arg0
+can thiệp	V-H	1	can thiệp	I-VP	O	(VP*))	I-Rel
+
+Sự việc	N-H	1	xảy	I-NP	I-SUB	(S-SUB(NP-SUB*)	I-Arg0
+liên tục	A	1	xảy	I-VP	O	(VP*	I-ArgM-MNR
+xảy	V-H	1	xảy	I-VP	O	*	I-Rel
+ra	R	1	xảy	I-VP	O	*))	O
+
+vụ án	N-H	1	trong	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+vẫn	R	1	trong	I-VP	O	(VP*	O
+đang	R	1	trong	I-VP	O	*	I-ArgM-TMP
+trong	E-H	1	trong	I-PP	I-TMP	(PP-TMP*	I-Rel
+giai đoạn	N-H	1	trong	I-NP	I-TMP	(NP*))	I-Arg1
+điều tra	V-H	1	trong	I-VP	O	(VP*)))	I-Arg1
+
+Đồng hương	N-H	1	Đồng hương	I-NP	I-VOC	(S(NP-VOC*	I-Rel
+ơi	I	1	Đồng hương	I-NP	I-VOC	(Np*)	I-ArgM-I
+đây	P-H	1	Đồng hương	I-NP	I-PRD	(NP-SUB(Np-H(Np-H(NP-PRD*	O
+nè	I	1	Đồng hương	I-NP	I-PRD	*))))))	O
+
+Đứa	Nc-H	1	có	I-NP	I-SUB	(S-SUB(NP-SUB*	I-Arg0
+nào	P	1	có	I-NP	I-SUB	*)	I-Arg0
+có	V-H	1	có	I-VP	O	(VP*	I-Rel
+bạn	N-H	1	có	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+khá	R	1	sống thành	I-NP	I-SUB	(S(NP-SUB*	O
+nhiều	A	1	sống thành	I-NP	I-SUB	*	I-Arg0
+sống	V-H	1	sống thành	I-VP	O	(Np-H(VP*	I-Rel
+thành	V-H	1	sống thành	B-VP	O	(VP*	I-Rel
+từng	P	1	sống thành	I-NP	I-DOB	(NP-DOB*	I-Arg1
+khu	N-H	1	sống thành	I-NP	I-DOB	*	I-Arg1
+xóm	N	1	sống thành	I-NP	I-DOB	*))))))	I-Arg1
+
+Nhà nước	N-H	1	chọn đi du học	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+chọn	V-H	1	chọn đi du học	I-VP	O	(Np(VP*	I-Rel
+đi	V	1	chọn đi du học	I-VP	O	*	I-Rel
+du học	V	1	chọn đi du học	I-VP	O	*	I-Rel
+để	E-H	1	chọn đi du học	I-PP	I-PRP	(PP-PRP*	I-ArgM-PRP
+phục vụ	V-H	1	chọn đi du học	I-VP	I-PRP	(VP*	I-ArgM-PRP
+đất nước	N	1	chọn đi du học	I-VP	I-PRP	*))	I-ArgM-PRP
+nữa	R	1	chọn đi du học	B-VP	O	*	I-ArgM-Partice
+đấy	T	1	chọn đi du học	I-VP	O	*))))	I-ArgM-Partice
+
+bà con	N-H	1	nhớ	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+trong	N-H	1	nhớ	B-NP	I-SUB	(NP*	I-Arg0
+xóm	N	1	nhớ	I-NP	I-SUB	*))	I-Arg0
+không	R	1	nhớ	I-VP	O	(VP*	I-Arg0
+ai	P	1	nhớ	I-VP	O	*	I-Arg0
+còn	R	1	nhớ	I-VP	O	*	I-ArgM-TMP
+nhớ	V-H	1	nhớ	I-VP	O	*))	I-Rel
+
+Phong trào	N-H	1	sôi nổi	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+cũng	R	1	sôi nổi	I-AP	I-PRD	(AP-PRD*	I-ArgM-TMP
+khá	R	1	sôi nổi	I-AP	I-PRD	*	O
+sôi nổi	A-H	1	sôi nổi	I-AP	I-PRD	*))	I-Rel
+
+cho	V-H	1	cho biết	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+biết	V	1	cho biết	I-VP	O	*))))	I-Rel
+
+công ty	N-H	1	dùng	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+chỉ	R	1	dùng	I-VP	O	(VP*	O
+dùng	V-H	1	dùng	I-VP	O	*	I-Rel
+một	M	1	dùng	I-NP	I-DOB	(NP-DOB*	I-Arg1
+máy	N-H	1	dùng	I-NP	I-DOB	*	I-Arg1
+fax	Nb	1	dùng	I-NP	I-DOB	*	I-Arg1
+duy nhất	A-H	1	dùng	I-AP	I-DOB	(AP*)	I-Arg1
+ở	E-H	1	dùng	I-PP	I-LOC	(PP-LOC*	I-Arg1
+đường dây	N-H	1	dùng	I-NP	I-LOC	(NP*	I-Arg1
+khác	A-H	1	dùng	I-AP	I-LOC	(AP*))))))	I-Arg1
+
+công ty	N-H	1	tổ chức	I-NP	I-SUB	(S-SUB(NP-SUB*)	I-Arg0
+tổ chức	V-H	1	tổ chức	I-VP	O	(VP*	I-Rel
+tiệc	N-H	1	tổ chức	I-NP	I-DOB	(NP-DOB*	I-Arg1
+sinh nhật	V	1	tổ chức	I-NP	I-DOB	*	I-Arg1
+say sưa	V-H	1	tổ chức	I-VP	I-DOB	(VP*)	I-ArgM-MNR
+và	C	1	tổ chức	I-NP	I-DOB	*	I-ArgM-MNR
+kéo dài	V-H	1	tổ chức	I-VP	I-DOB	(VP*))))	I-ArgM-MNR
+
+bọn	Nc-H	1	mừng quýnh	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+họ	P	1	mừng quýnh	I-NP	I-SUB	*)	I-Arg0
+mừng quýnh	V-H	1	mừng quýnh	I-VP	O	(VP*))	I-Rel
+
+khách	N-H	1	về	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+về	V-H	1	về	I-VP	O	(VP*	I-Rel
+ngách	N-H	1	về	I-NP	I-DOB	(NP-DOB*	I-Arg1
+115	M	1	về	I-NP	I-DOB	*	I-Arg1
+đường	N-H	1	về	B-NP	I-LOC	(NP-LOC*	I-Arg1
+
+Phần	N-H	1	có	I-NP	I-SUB	(S(NP-SUB*	I-ArgM-ADV
+việc	N	1	có	I-NP	I-SUB	*	I-ArgM-ADV
+còn	V-H	1	có	I-VP	I-SUB	(VP*	I-ArgM-ADV
+lại	R	1	có	I-VP	I-SUB	*))	I-ArgM-MOD
+tuy	C	1	có	O	O	*	I-ArgM-DIS
+đơn giản	A-H	1	có	I-AP	I-PRD	(AP-PRD*)	I-ArgM-ADJ
+song	C	1	có	O	O	*	I-ArgM-DIS
+lại	R	1	có	I-VP	O	(VP*	I-ArgM-MOD
+có	V-H	1	có	I-VP	O	*	I-Rel
+tính	N-H	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+quan trọng	A	1	có	I-NP	I-DOB	*	I-Arg1
+nhất	A	1	có	I-NP	I-DOB	*)))	I-Arg1
+
+những	L	1	nghiện	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+người	N-H	1	nghiện	I-NP	I-SUB	*)	I-Arg0
+nghiện	V-H	1	nghiện	I-VP	O	(VP*	I-Rel
+ma túy	N-H	1	nghiện	I-NP	I-DOB	(NP-DOB*	I-Arg1
+vật vờ	A-H	1	nghiện	I-AP	I-DOB	(AP*	I-ArgM-MNR
+như	C	1	nghiện	I-AP	I-DOB	*	I-ArgM-DIS
+hồn ma	N-H	1	nghiện	I-NP	I-DOB	(NP*	I-ArgM-ADV
+ghê rợn	A	1	nghiện	I-NP	I-DOB	*)))))	I-ArgM-ADV
+
+đây	P-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+giao lộ	N-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+với	E-H	1	là	I-PP	I-DOB	(PP*	I-Arg1
+đường	N-H	1	là	I-NP	I-DOB	(NP*	I-Arg1
+xe lửa	N	1	là	I-NP	I-DOB	*)))))	I-Arg1
+
+trung tâm	N-H	1	cách	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+trạm	N-H	1	cách	B-NP	I-SUB	(NP*	I-Arg0
+thu	V	1	cách	I-NP	I-SUB	*	I-Arg0
+phí	N	1	cách	I-NP	I-SUB	*))	I-Arg0
+cách	V-H	1	cách	I-VP	O	(VP*	I-Rel
+đầu	N-H	1	cách	I-NP	I-DOB	(NP-DOB*	I-ArgM-LOC
+cầu	N	1	cách	I-NP	I-DOB	*	I-ArgM-LOC
+mới	A	1	cách	I-NP	I-DOB	(NP(Np-H*))	I-ArgM-LOC
+là	C	1	cách	I-VP	O	*	O
+71 85	M	1	cách	I-NP	I-EXT	(NP-EXT*	I-ArgM-MNR
+m	Nu-H	1	cách	I-NP	I-EXT	*))))	I-ArgM-MNR
+
+khúc	N-H	1	gắt	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+cua	N	1	gắt	I-NP	I-SUB	*)	I-Arg0
+khá	R	1	gắt	I-AP	I-PRD	(AP-PRD*	I-ArgM-EXT
+gắt	A-H	1	gắt	I-AP	I-PRD	*))	I-Rel
+
+nhiều	A	1	rơi	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+người	N-H	1	rơi	I-NP	I-SUB	*)	I-Arg0
+cũng	R	1	rơi	I-VP	O	(VP*	I-ArgM-MOD
+sẽ	R	1	rơi	I-VP	O	*	I-ArgM-MOD
+rơi	V-H	1	rơi	I-VP	O	*	I-Rel
+vào	R	1	rơi	I-VP	O	*	O
+hoàn cảnh	N-H	1	rơi	I-NP	I-DOB	(NP-DOB*	I-Arg1
+như	C	1	rơi	I-NP	I-DOB	*	I-Arg1
+tôi	P	1	rơi	I-NP	I-DOB	*)))	I-Arg1
+
+Đoàn	Nc-H	1	dừng	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+tàu	N	1	dừng	I-NP	I-SUB	*	I-Arg0
+đó	P	1	dừng	I-NP	I-SUB	*)	I-Arg0
+dừng	V-H	1	dừng	I-VP	O	(VP*	I-Rel
+lại	R	1	dừng	I-VP	O	*))	I-Arg1
+
+Giờ	N-H	1	được	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+đây	P	1	được	I-NP	I-TMP	*)	I-ArgM-TMP
+tôi	P-H	1	được	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+được	V-H	1	được	I-VP	O	(VP*	I-Rel
+gặp	V	1	được	I-VP	O	*	O
+hai	M	1	được	I-NP	I-DOB	(NP-DOB*	I-Arg1
+người	N-H	1	được	I-NP	I-DOB	*	I-Arg1
+bằng	E-H	1	được	I-PP	I-DOB	(PP(PP*	I-Arg1
+xương	N-H	1	được	I-NP	I-DOB	(NP*))	I-Arg1
+bằng	E-H	1	được	I-PP	I-DOB	(PP*	I-Arg1
+thịt	N-H	1	được	I-NP	I-DOB	(NP*))))	I-Arg1
+tại	E-H	1	được	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+đây	P-H	1	được	I-NP	I-LOC	(NP*))))	O
+
+đưa	V-H	1	đưa vào	I-VP	O	(S(NP-SUB(VP*	I-Rel
+vào	R	1	đưa vào	I-VP	O	*	I-Rel
+máy	N-H	1	đưa vào	I-NP	I-DOB	(NP-DOB*	I-Arg4
+soi	V	1	đưa vào	I-NP	I-DOB	*))))	I-Arg4
+
+mất	V-H	1	mất	I-VP	O	(S(NP-SUB-1(VP*)))	I-Rel
+
+bà	Nc-H	1	bị	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+bị	V-H	1	bị	I-VP	O	(Np(VP*	I-Rel
+ung thư	N-H	1	bị	I-NP	I-DOB	(NP-DOB*)))))	I-Arg1
+
+anh	N-H	1	muốn nhờ	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+muốn	V-H	1	muốn nhờ	I-VP	O	(VP*	I-Rel
+nhờ	V-H	1	muốn nhờ	B-VP	O	(VP*	I-Rel
+bác sĩ	N-H	1	muốn nhờ	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đó	P	1	muốn nhờ	I-NP	I-DOB	*))))	I-Arg1
+
+hôm nay	N-H	1	về	I-NP	I-TMP	(S(NP-TMP*)	I-ArgM-TMP
+người	N-H	1	về	B-NP	I-SUB	(NP-SUB*	I-Arg0
+giúp việc	V	1	về	I-NP	I-SUB	*)	I-Arg0
+về	V-H	1	về	I-VP	O	(VP*	I-Rel
+quê	N-H	1	về	I-NP	I-LOC	(NP-LOC*)))	I-Arg1
+
+Chịu	V-H	1	quá sức	I-VP	I-MNR	(S(VP-MNR*	I-ArgM-MNR
+được	R	1	quá sức	I-VP	I-MNR	*	I-ArgM-MNR
+bốn	M	1	quá sức	I-NP	I-TMP	(NP-TMP*	I-ArgM-MNR
+ngày	N-H	1	quá sức	I-NP	I-TMP	*))	I-ArgM-MNR
+thì	C	1	quá sức	O	O	*	I-ArgM-DIS
+quá sức	V-H	1	quá sức	I-VP	O	(NP-SUB(Np-H(VP(VP*)	I-Rel
+định	V-H	1	quá sức	B-VP	O	(VP*	I-Arg1
+phá	V-H	1	quá sức	B-VP	O	(VP*	I-Arg1
+hợp đồng	N-H	1	quá sức	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+với	E-H	1	quá sức	I-PP	I-IOB	(PP-IOB*	I-ArgM-COM
+mẹ	N-H	1	quá sức	I-NP	I-IOB	(NP*))))))))	I-ArgM-COM
+
+cũng	R	1	là	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-TMP
+là	V-H	1	là	I-VP	O	*	I-Rel
+một	M	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+thanh niên	N-H	1	là	I-NP	I-DOB	*	I-Arg1
+bản lĩnh	A-H	1	là	I-AP	I-DOB	(AP*	I-Arg1
+và	C	1	là	I-AP	I-DOB	*	I-Arg1
+tử tế	A-H	1	là	I-AP	I-DOB	*))))))	I-Arg1
+
+ai	P-H	1	cho ăn	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+cho	V-H	1	cho ăn	I-VP	O	(VP*	I-Rel
+ăn	V-H	1	cho ăn	B-VP	O	(VP*)))	I-Rel
+
+mấy	L	1	ngồi	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+người thân	N-H	1	ngồi	I-NP	I-SUB	*)	I-Arg0
+ngồi	V-H	1	ngồi	I-VP	O	(VP*	I-Rel
+bên	N-H	1	ngồi	I-NP	I-LOC	(NP-LOC*	I-ArgM-LOC
+cạnh	N	1	ngồi	I-NP	I-LOC	*)	I-ArgM-LOC
+im lặng	A-H	1	ngồi	I-AP	I-MNR	(AP-MNR*)))	I-ArgM-MNR
+
+sau này	N-H	1	sống	I-NP	I-TMP	(S(NP-TMP*)	I-ArgM-TMP
+chúng	P-H	1	sống	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+sẽ	R	1	sống	I-VP	O	(VP*	I-ArgM-TMP
+sống	V-H	1	sống	I-VP	O	*	I-Rel
+ra sao	X-H	1	sống	I-WHRP	O	(WHRP*)))	I-ArgM-MNR
+
+chị	N-H	1	nắn nót viết	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đang	R	1	nắn nót viết	I-VP	O	(VP*	I-ArgM-TMP
+nắn nót	V-H	1	nắn nót viết	I-VP	O	*	I-Rel
+viết	V-H	1	nắn nót viết	B-VP	I-PRP	(VP-PRP*)))	I-Rel
+
+chẳng	R	1	dám	I-VP	O	(S(NP-SUB-1(VP*	I-ArgM-NEG
+dám	V-H	1	dám	I-VP	O	*	I-Rel
+đùm túm	V-H	1	dám	B-VP	O	(VP*	I-Arg1
+chúng	P-H	1	dám	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+trong	E-H	1	dám	I-PP	I-LOC	(PP-LOC*	I-Arg1
+góc	N-H	1	dám	I-NP	I-LOC	(NP*	I-Arg1
+nhà	N	1	dám	I-NP	I-LOC	*))	I-Arg1
+như	C	1	dám	I-VP	O	*	I-Arg1
+khi	N-H	1	dám	I-NP	I-TMP	(NP-TMP*	I-Arg1
+còn	V-H	1	dám	I-VP	I-TMP	(VP*	I-Arg1
+nhỏ	A-H	1	dám	I-AP	I-TMP	(AP*)))))))	I-Arg1
+
+Chúng tôi	P-H	1	suy nghĩ	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đang	R	1	suy nghĩ	I-VP	O	(VP*	I-ArgM-TMP
+suy nghĩ	V-H	1	suy nghĩ	I-VP	O	*))	I-Rel
+
+chị	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+một	M	1	là	I-NP	O	(NP*	I-Arg1
+cán bộ	N-H	1	là	I-NP	O	*	I-Arg1
+nhà nước	N	1	là	I-NP	O	*	I-Arg1
+có	V-H	1	là	I-VP	O	(VP*	I-Arg1
+trình độ	N-H	1	là	I-NP	I-DOB	(NP-DOB*)))))	I-Arg1
+
+Đánh	V-H	1	Đánh	I-VP	O	(S(NP-SUB(VP(VP*	I-Rel
+xe	N-H	1	Đánh	I-NP	I-DOB	(NP-DOB*	I-Arg1
+chạy	V-H	1	Đánh	I-VP	I-DOB	(VP*	I-ArgM-ADV
+thẳng	A-H	1	Đánh	I-AP	I-DOB	(AP*)	I-ArgM-ADV
+vào	E-H	1	Đánh	I-PP	I-LOC	(PP-LOC*	I-ArgM-ADV
+nhà nghỉ	N-H	1	Đánh	I-NP	I-LOC	(NP*)))	I-ArgM-ADV
+một cách	N-H	1	Đánh	B-NP	I-DOB	(NP*	I-ArgM-MNR
+thành thạo	A-H	1	Đánh	I-AP	I-DOB	(AP*)))))))	I-ArgM-MNR
+
+chụp	V-H	1	chụp	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+ảnh	N-H	1	chụp	I-NP	I-DOB	(NP-DOB*)))))	I-Arg1
+
+đang	R	1	ở	I-VP	O	(S(NP-SUB(Np-H(Np-H(VP*	I-ArgM-TMP
+ở	V-H	1	ở	I-VP	O	*)))))	I-Rel
+
+cải tiến	V-H	1	cải tiến	I-VP	O	(S(NP-SUB(VP*	I-Rel
+toàn diện	A-H	1	cải tiến	I-AP	O	(AP*)	I-ArgM-MNR
+nhằm	E-H	1	cải tiến	I-PP	I-PRP	(PP-PRP*	I-ArgM-PRP
+cập nhật	V-H	1	cải tiến	I-VP	I-PRP	(VP*	I-ArgM-PRP
+liên tục	A	1	cải tiến	I-VP	I-PRP	*	I-ArgM-PRP
+các	L	1	cải tiến	I-NP	I-DOB	(NP-DOB*	I-ArgM-PRP
+thông tin	N-H	1	cải tiến	I-NP	I-DOB	*)	I-ArgM-PRP
+phục vụ	V-H	1	cải tiến	I-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+bà con	N-H	1	cải tiến	I-NP	I-DOB	(NP-DOB*)))))))	I-ArgM-PRP
+
+bà con	N-H	1	quan tâm	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+quan tâm	V-H	1	quan tâm	I-VP	O	(Np(VP*	I-Rel
+trong	E-H	1	quan tâm	I-PP	O	(PP*	I-ArgM-ADV
+đó	P-H	1	quan tâm	I-NP	O	(NP*	I-ArgM-ADV
+có	V-H	1	quan tâm	I-VP	O	(VP*	I-ArgM-ADV
+Tuổi Trẻ	N-H	1	quan tâm	I-NP	I-DOB	(NP-DOB*	I-ArgM-ADV
+
+cầm	V-H	1	mất	I-VP	O	(S(VP*	I-Arg0
+kéo	N-H	1	mất	I-NP	I-DOB	(NP-DOB*	I-Arg0
+ngắn	A	1	mất	I-NP	I-DOB	*	I-Arg0
+hái	V-H	1	mất	I-VP	I-PRP	(VP-PRP*	I-Arg0
+từng	P	1	mất	I-NP	I-PRP	(NP*	I-Arg0
+trái	N-H	1	mất	I-NP	I-PRP	*))))	I-Arg0
+mất	V-H	1	mất	I-VP	O	(VP*	I-Rel
+biết bao nhiêu	R	1	mất	I-NP	I-DOB	(NP-DOB*	I-Arg1
+thời gian	N-H	1	mất	I-NP	I-DOB	*	I-Arg1
+công sức	N-H	1	mất	I-NP	I-DOB	*)))	I-Arg1
+
+Với	E-H	1	gom	I-PP	I-MNR	(S(PP-MNR*	I-ArgM-ADV
+hai	M	1	gom	I-NP	I-MNR	(NP*	I-ArgM-ADV
+nhân công	N-H	1	gom	I-NP	I-MNR	*	I-Arg1
+vận hành	V	1	gom	I-NP	I-MNR	*))	I-ArgM-ADV
+chiếc	Nc-H	1	gom	B-NP	I-SUB	(NP-SUB*	I-Arg0
+máy	N	1	gom	I-NP	I-SUB	*	I-Arg0
+này	P	1	gom	I-NP	I-SUB	*)	I-Arg0
+gom	V-H	1	gom	I-VP	O	(VP*	I-Rel
+được	R	1	gom	I-VP	O	*	I-ArgM-MOD
+2 5	M	1	gom	I-NP	O	(NP-DOB(NP*	I-Arg1
+ha	Nu-H	1	gom	I-NP	O	*)	I-Arg1
+ngày	N-H	1	gom	B-NP	O	(NP*)	I-Arg1
+với	E-H	1	gom	I-PP	O	(PP*	I-Arg1
+tiền	N-H	1	gom	I-NP	O	(NP*	I-Arg1
+công	N	1	gom	I-NP	O	*	I-Arg1
+200 000	M	1	gom	I-QP	O	(QP*	I-Arg1
+đồng	Nu-H	1	gom	I-QP	O	*	I-Arg1
+ha	Nu-H	1	gom	I-NP	O	(NP*)))))))	I-Arg1
+
+ngoài	E-H	1	phiêu	I-PP	I-SUB	(S(PP-SUB*	I-Arg0
+đó	P-H	1	phiêu	I-NP	I-SUB	(NP*))	I-Arg0
+phiêu	A-H	1	phiêu	I-AP	I-PRD	(AP-PRD*	I-Rel
+lắm	T	1	phiêu	I-AP	I-PRD	*))	I-ArgM-EXT
+
+Muốn	V-H	1	sống	I-VP	O	(S(NP-SUB(VP*	I-ArgM-MOD
+sống	V-H	1	sống	B-VP	O	(VP*	I-Rel
+được	R	1	sống	I-VP	O	*	I-ArgM-MOD
+với	E-H	1	sống	I-PP	O	(PP*	I-ArgM-COM
+cái	Nc-H	1	sống	I-NP	O	(NP*	I-ArgM-COM
+đầm	N	1	sống	I-NP	O	*	I-ArgM-COM
+này	P	1	sống	I-NP	O	(Np*)))))))	I-ArgM-COM
+
+tui	P-H	1	về	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+mới	R	1	về	I-VP	O	(VP*	I-ArgM-TMP
+về	V-H	1	về	I-VP	O	*	I-Rel
+đến	E-H	1	về	I-PP	I-LOC	(PP-LOC*	I-Arg4
+chòi	N-H	1	về	I-NP	I-LOC	(NP*))))	I-Arg4
+
+tiếng ra tiếng vào	X-H	1	bao vây	I-XP	I-SUB	(S(XP-SUB*)	I-Arg0
+bao vây	V-H	1	bao vây	I-VP	O	(VP*	I-Rel
+bốn	M	1	bao vây	I-NP	I-DOB	(NP-DOB*	I-ArgM-LOC
+phía	N-H	1	bao vây	I-NP	I-DOB	*)))	I-ArgM-LOC
+
+ngôi	Nc-H	1	có	I-NP	I-SUB	(SQ(NP-SUB*	I-Arg0
+nhà	N	1	có	I-NP	I-SUB	*	I-Arg0
+to	A-H	1	có	I-AP	I-SUB	(AP*))	I-Arg0
+có	V-H	1	có	I-VP	O	(VP*	I-Rel
+sinh lợi	V-H	1	có	B-VP	O	(VP*	I-Arg1
+được	R	1	có	I-VP	O	*)	I-ArgM-MOD
+không	R	1	có	B-VP	O	*))	I-ArgM-Partice
+
+TP	Ny-H	1	có	I-NP	I-SUB	(S(NP-SUB*)	I-Arg1
+sẽ	R	1	có	I-VP	O	(VP*	I-ArgM-TMP
+có	V-H	1	có	I-VP	O	*	I-Rel
+thêm	V	1	có	I-VP	O	*	I-ArgM-MNR
+300 000	M	1	có	I-NP	I-EXT	(NP-EXT*	I-Arg1
+m3	Nu-H	1	có	I-NP	I-EXT	*	I-Arg1
+nữa	R	1	có	I-NP	I-EXT	*)	O
+trong	E-H	1	có	I-PP	I-TMP	(PP-TMP*	I-ArgM-TMP
+thời gian	N-H	1	có	I-NP	I-TMP	(NP*	I-ArgM-TMP
+tới	V	1	có	I-NP	I-TMP	*))))	I-ArgM-TMP
+
+Đụng	V-H	1	Đụng	I-VP	O	(S-SUB(NP-SUB(VP*	I-Rel
+vô	R	1	Đụng	I-VP	O	*)))	O
+
+kẻ	N-H	1	khủng bố	I-NP	I-SUB	(S-SUB(NP-SUB*)	I-Arg0
+khủng bố	V-H	1	khủng bố	I-VP	O	(VP*	I-Rel
+tấn công	V-H	1	khủng bố	I-VP	O	*	I-ArgM-PRD
+ông	Nc-H	1	khủng bố	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đều	R	1	khủng bố	I-PP	I-MNR	(Np(PP-MNR*	I-ArgM-MNR
+qua	E-H	1	khủng bố	I-PP	I-MNR	*	I-ArgM-MNR
+địa chỉ	N-H	1	khủng bố	I-NP	I-MNR	(NP*	I-ArgM-MNR
+nhà riêng	N	1	khủng bố	I-NP	I-MNR	*))))))	I-ArgM-MNR
+
+bà	Nc-H	1	lép vế	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+vợ	N	1	lép vế	I-NP	I-SUB	*)	I-Arg0
+lép vế	A-H	1	lép vế	I-AP	I-PRD	(AP-PRD*))	I-Rel
+
+ông	N-H	1	giấu	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+càng	R	1	giấu	I-VP	O	(VP*	I-ArgM-EXT
+giấu	V-H	1	giấu	I-VP	O	*	I-Rel
+
+là	V-H	1	là	I-VP	O	(S(NP-SUB(VP*	I-Rel
+vợ	N-H	1	là	I-NP	O	(NP*	I-Arg1
+ông	N	1	là	I-NP	O	*))))	I-Arg1
+
+không thể	R	1	dùng	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-NEG
+dùng	V-H	1	dùng	I-VP	O	*	I-Rel
+máy tính	N-H	1	dùng	I-NP	I-DOB	(NP-DOB(NP*	I-Arg1
+trong	E-H	1	dùng	I-NP	I-DOB	(PP-LOC*	I-ArgM-LOC
+phòng	N-H	1	dùng	I-NP	I-DOB	(NP*)))	I-ArgM-LOC
+hay	C	1	dùng	I-NP	I-DOB	*	I-ArgM-ADV
+máy xách tay	N-H	1	dùng	B-NP	I-DOB	(NP*	I-ArgM-ADV
+của	E-H	1	dùng	I-PP	I-DOB	(PP*	I-ArgM-ADV
+
+là	V-H	1	là	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+con người	N-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+chứa	V-H	1	là	I-VP	I-DOB	(VP(VP*	I-ArgM-ADV
+đầy	A	1	là	I-NP	B-DOB	(NP-DOB*	I-ArgM-ADV
+bí ẩn	N-H	1	là	I-NP	I-DOB	*))	I-ArgM-ADV
+có	V-H	1	là	I-VP	B-DOB	(VP*	I-ArgM-ADV
+nhiều	A	1	là	I-NP	B-DOB	(NP-DOB*	I-ArgM-ADV
+chuyện	N-H	1	là	I-NP	I-DOB	*	I-ArgM-ADV
+thiếu	A-H	1	là	I-AP	I-DOB	(AP*	I-ArgM-ADV
+logic	N-H	1	là	I-NP	I-DOB	(NP*)))))	I-ArgM-ADV
+không	R	1	là	I-AP	I-PRD	(AP-PRD*	I-ArgM-PRD
+rõ ràng	A-H	1	là	I-AP	I-PRD	*))))))	I-ArgM-PRD
+
+Em	N-H	1	chơi	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đi	V-H	1	chơi	I-VP	O	(VP*	I-ArgM-MOD
+chơi	V-H	1	chơi	B-VP	O	(VP*)	I-Rel
+cùng	A-H	1	chơi	I-AP	O	(AP*	I-Arg1
+cô	Nc-H	1	chơi	I-NP	I-DOB	(NP-DOB*	I-Arg1
+bạn	N	1	chơi	I-NP	I-DOB	*	I-Arg1
+người	Nc-H	1	chơi	B-NP	I-DOB	(NP*	I-Arg1
+tối	N-H	1	chơi	I-NP	I-TMP	(Np(NP-TMP*	I-ArgM-TMP
+muộn	A	1	chơi	I-NP	I-TMP	*)	I-ArgM-TMP
+mới	R	1	chơi	I-VP	O	(VP*	I-ArgM-ADV
+về	V-H	1	chơi	I-VP	O	*)))))))	I-ArgM-ADV
+
+cơ quan	N-H	1	kết luận	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+điều tra	V	1	kết luận	I-NP	I-SUB	*)	I-Arg0
+đã	R	1	kết luận	I-VP	O	(VP*	I-ArgM-TMP
+kết luận	V-H	1	kết luận	I-VP	O	*))	I-Rel
+
+ông	Nc-H	1	trả lời	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+trả lời	V-H	1	trả lời	I-VP	O	(Np(VP*))))	I-Rel
+
+vi phạm	V-H	1	vi phạm	I-VP	B-SUB	(S(NP-SUB(VP-SUB*)))	I-Rel
+
+với	C	1	biết	I-NP	I-TPC	(S(NP-TPC(Np-H*	I-ArgM-ADV
+thì	C	1	biết	O	O	(Np-H*	I-ArgM-DIS
+anh	N-H	1	biết	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+biết	V-H	1	biết	I-VP	O	(VP*	I-Rel
+rồi	R	1	biết	I-VP	O	*	I-ArgM-TMP
+đấy	T	1	biết	I-VP	O	*)))))	I-ArgM-Partice
+
+vợ chồng	N-H	1	đánh	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đánh	V-H	1	đánh	I-VP	O	(VP*	I-Rel
+cho	E-H	1	đánh	I-PP	O	(PP*	I-ArgM-PRP
+êm	A-H	1	đánh	I-AP	O	(AP*	I-ArgM-PRP
+tay	N	1	đánh	I-AP	O	*))))	I-ArgM-PRP
+
+ở	E-H	1	bán	I-PP	I-SUB	(S(PP-LOC-SUB*	I-ArgM-LOC
+đó	P-H	1	bán	I-NP	I-SUB	(NP*))	I-ArgM-LOC
+chỉ	R	1	bán	I-VP	O	(VP*	I-ArgM-EXT
+đã	R	1	bán	I-VP	O	*	I-ArgM-TMP
+từng	R	1	bán	I-VP	O	*	I-ArgM-TMP
+có	T	1	bán	I-VP	O	*	O
+bán	V-H	1	bán	I-VP	O	*	I-Rel
+các	L	1	bán	I-NP	I-DOB	(NP-DOB*	I-Arg1
+trang phục	N-H	1	bán	I-NP	I-DOB	*	I-Arg1
+chính hiệu	A-H	1	bán	I-AP	I-DOB	(AP*)	I-Arg1
+của	E-H	1	bán	I-PP	I-DOB	(PP*	I-Arg1
+M U	Ny-H	1	bán	I-NP	I-DOB	(NP*)))))	I-Arg1
+
+hai	M	1	tới	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+phút	N-H	1	tới	I-NP	I-TMP	*	I-ArgM-TMP
+sau	A	1	tới	I-NP	I-TMP	*)	I-ArgM-TMP
+xe	N-H	1	tới	B-NP	I-SUB	(NP-SUB*	I-Arg0
+khác	A	1	tới	I-NP	I-SUB	*)	I-Arg0
+lại	R	1	tới	I-VP	O	(VP*	I-ArgM-TMP
+tới	V-H	1	tới	I-VP	O	*))	I-Rel
+
+tại sao	X-H	1	chịu	I-WHRP	O	(SQ(WHRP*)	I-ArgM-CAU
+H	Ny-H	1	chịu	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+không	R	1	chịu	I-VP	O	(VP*	I-ArgM-NEG
+chịu	V-H	1	chịu	I-VP	O	*	I-Rel
+gặp	V-H	1	chịu	B-VP	O	(VP*)))	I-Arg1
+
+chưa	R	1	giỏi	I-AP	I-PRD	(S(NP-SUB-1(Np-H(AP-PRD*	I-ArgM-TMP
+giỏi	A-H	1	giỏi	I-AP	I-PRD	*	I-Rel
+tiêu	V-H	1	giỏi	I-VP	I-PRD	(VP*	I-Arg1
+tiền	N-H	1	giỏi	I-NP	I-PRD	(NP*	I-Arg1
+
+chúng	P-H	1	lấy	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+cũng	R	1	lấy	I-AP	O	(VP(AP*	I-ArgM-MOD
+kiên quyết	A-H	1	lấy	I-AP	O	*)	I-ArgM-MNR
+không	R	1	lấy	I-VP	O	(VP*	I-ArgM-NEG
+lấy	V-H	1	lấy	I-VP	O	*)))	I-Rel
+
+bà	N-H	1	bị	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+bị	V-H	1	bị	I-VP	O	(VP*	I-Rel
+liệt	A-H	1	bị	I-AP	O	(AP*)))	I-Arg1
+
+anh	N-H	1	làm	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đã	R	1	làm	I-VP	O	(VP*	I-ArgM-TMP
+làm	V-H	1	làm	I-VP	O	*	I-Rel
+được	V	1	làm	I-VP	O	*	I-ArgM-TMP
+nhiều	A	1	làm	I-NP	I-DOB	(NP-DOB*	I-Arg1
+việc	N-H	1	làm	I-NP	I-DOB	*	I-Arg1
+quá	R	1	làm	I-AP	I-DOB	(AP*	I-ArgM-EXT
+lớn lao	A-H	1	làm	I-AP	I-DOB	*))))	I-ArgM-EXT
+
+không	R	1	được	I-VP	O	(S(NP-SUB(VP*	I-ArgM-NEG
+được	V-H	1	được	I-VP	O	*)))	I-Rel
+
+ra	V-H	1	ra	I-VP	O	(S-EXC(NP-TPC-1(Np-H(NP-SUB-1(VP*	I-Rel
+chào	V-H	1	ra	B-VP	O	(VP*	I-ArgM-PRP
+dì	N-H	1	ra	I-NP	I-DOB	(NP-DOB*)	I-ArgM-PRP
+đi	T	1	ra	I-VP	O	*)	I-ArgM-Partice
+con	N-H	1	ra	I-NP	O	(NP*))))))	I-Arg0
+
+quan san	N-H	1	cách trở	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+cách trở	V-H	1	cách trở	I-VP	O	(VP*))	I-Rel
+
+ông	P-H	1	theo	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+luôn	R	1	theo	I-VP	O	(VP*	I-ArgM-TMP
+theo	V-H	1	theo	I-VP	O	*	I-Rel
+sát	A	1	theo	I-VP	O	*	I-ArgM-MNR
+từng	R	1	theo	I-NP	I-DOB	(NP-DOB*	I-Arg1
+bước đi	N-H	1	theo	I-NP	I-DOB	*	I-Arg1
+của	E-H	1	theo	I-PP	I-DOB	(PP*	I-Arg1
+con gái	N-H	1	theo	I-NP	I-DOB	(NP*	I-Arg1
+mình	P	1	theo	I-NP	I-DOB	*)))))	I-Arg1
+
+Công ty	N-H	1	làm ăn	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+làm ăn	V-H	1	làm ăn	I-VP	O	(Np(VP(VP*	I-Rel
+đàng hoàng	A	1	làm ăn	I-VP	O	*)	I-Arg1
+phát triển	V-H	1	làm ăn	B-VP	O	(VP*	I-ArgM-ADV
+mạnh	A	1	làm ăn	I-VP	O	*)))))	I-ArgM-ADV
+
+Thế	P	1	biết	I-WHRP	O	(S-SQ(WHRP*	I-ArgM-DIS
+sao	P-H	1	biết	I-WHRP	O	*)	I-ArgM-DIS
+mày	P-H	1	biết	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+biết	V-H	1	biết	I-VP	O	(VP*	I-Rel
+tên	N-H	1	biết	I-NP	I-DOB	(NP-DOB*	I-Arg1
+thật	A	1	biết	I-NP	I-DOB	*	I-Arg1
+của	E-H	1	biết	I-PP	I-DOB	(PP*	I-Arg1
+tao	P-H	1	biết	I-NP	I-DOB	(NP*)))))	I-Arg1
+
+sao	P-H	1	biết	I-WHRP	O	(S(WHRP*)	I-ArgM-DIS
+ông	N-H	1	biết	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+biết	V-H	1	biết	I-VP	O	(VP*	I-Rel
+được	R	1	biết	I-VP	O	*	I-ArgM-MOD
+tôi	P-H	1	biết	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+Đường ống	N-H	1	vỡ	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+dẫn	V	1	vỡ	I-NP	I-SUB	*	I-Arg0
+nước	N	1	vỡ	I-NP	I-SUB	*	B-Arg0
+phi	Nu-H	1	vỡ	B-NP	I-SUB	(NP*	B-Arg0
+800	M	1	vỡ	I-NP	I-SUB	*)	I-Arg0
+dưới	E-H	1	vỡ	I-PP	I-LOC	(PP-LOC*	I-Arg0
+lòng	N-H	1	vỡ	I-NP	I-LOC	(NP*	I-Arg0
+rạch	N	1	vỡ	I-NP	I-LOC	*	I-Arg0
+thuộc	V-H	1	vỡ	I-VP	I-SUB	(Np(VP*	I-Arg0
+phường	N-H	1	vỡ	I-NP	I-LOC	(NP-LOC*	I-Arg0
+Q	Ny-H	1	vỡ	I-NP	I-LOC	(Np(NP*	I-Arg0
+2	M	1	vỡ	I-NP	I-LOC	*	I-Arg0
+TPHCM	Ny-H	1	vỡ	B-NP	I-LOC	(NP*)))))	I-Arg0
+bị	V-H	1	vỡ	I-VP	O	(VP*	I-ArgM-MOD
+vỡ	V-H	1	vỡ	B-VP	O	(VP*	I-Rel
+lúc	N-H	1	vỡ	I-NP	I-TMP	(NP-TMP*	I-ArgM-TMP
+6	M	1	vỡ	B-NP	I-TMP	(NP*	I-ArgM-TMP
+giờ	Nu-H	1	vỡ	I-NP	I-TMP	*	I-ArgM-TMP
+ngày	N-H	1	vỡ	B-NP	I-TMP	(NP*	I-ArgM-TMP
+8	M	1	vỡ	I-NP	I-TMP	*	I-ArgM-TMP
+8	M	1	vỡ	I-NP	I-TMP	*))))))))))	I-ArgM-TMP
+
+đường ống	N-H	1	chôn vùi	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+bị	V-H	1	chôn vùi	I-VP	O	(VP*	I-ArgM-MOD
+chôn vùi	V-H	1	chôn vùi	B-VP	O	(VP*	I-Rel
+dưới	E-H	1	chôn vùi	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+lớp	N-H	1	chôn vùi	I-NP	I-LOC	(NP*	I-ArgM-LOC
+đất	N	1	chôn vùi	I-NP	I-LOC	*	I-ArgM-LOC
+bùn	N	1	chôn vùi	I-NP	I-LOC	*)))))	I-Arg1
+
+anh	Nc-H	1	nói	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+cán bộ	N-H	1	nói	I-NP	I-SUB	(Np(NP*	I-Arg0
+phòng	N-H	1	nói	B-NP	I-LOC	(NP-LOC*	I-Arg0
+kỹ thuật	N	1	nói	I-NP	I-LOC	*	I-Arg0
+Cấp nước	N	1	nói	I-NP	I-LOC	(NP(Np-H*	I-Arg0
+TĐ	Ny-H	1	nói	B-NP	I-LOC	(NP*	I-Arg0
+BH	Ny-H	1	nói	I-NP	I-LOC	*)))))	I-Arg0
+nói	V-H	1	nói	I-VP	O	(VP*))))	I-Rel
+
+Đoạn	N-H	1	có	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+nào	P	1	có	I-NP	I-SUB	*)	I-Arg0
+có	V-H	1	có	I-VP	O	(VP*	I-Rel
+sẵn	A	1	có	I-VP	O	*	I-ArgM-MNR
+kho	N-H	1	có	I-NP	O	(NP*)))	I-ArgM-LOC
+
+bán	V-H	1	bán	I-VP	O	(S(NP-SUB(VP*	I-Rel
+10000	M	1	bán	I-NP	I-MNR	(NP-MNR*	I-Arg1
+đ	Nu-H	1	bán	I-NP	I-MNR	*	I-Arg1
+kg	Nu-H	1	bán	B-NP	I-MNR	(NP*)))))	I-Arg1
+
+đó	P-H	1	phải	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+không	R	1	phải	I-AP	I-PRD	(AP-PRD*	I-ArgM-NEG
+phải	A-H	1	phải	I-AP	I-PRD	*	I-Rel
+hàng	N-H	1	phải	I-NP	I-DOB	(NP-DOB*	I-Arg1
+nội địa	N	1	phải	I-NP	I-DOB	*)))	I-Arg1
+
+Em	N-H	1	biết	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+cũng	R	1	biết	I-VP	O	(VP*	I-ArgM-TMP
+không	R	1	biết	I-VP	O	*	I-ArgM-NEG
+biết	V-H	1	biết	I-VP	O	*	I-Rel
+số	N-H	1	biết	I-NP	I-DOB	(NP-DOB*	I-Arg1
+này	P	1	biết	I-NP	I-DOB	*	I-Arg1
+của	E-H	1	biết	I-PP	I-DOB	(PP*	I-Arg1
+ai	P-H	1	biết	I-NP	I-DOB	(NP*)))))	I-Arg1
+
+một	M	1	hốt hoảng	I-NP	I-ADV	(S(NP-SUB(Np-H(NP-ADV*	I-ArgM-ADV
+lần	N-H	1	hốt hoảng	I-NP	I-ADV	*	I-ArgM-ADV
+nữa	R	1	hốt hoảng	I-NP	I-ADV	*)	I-ArgM-ADV
+hốt hoảng	A-H	1	hốt hoảng	I-AP	O	(AP-PRD(AP*)	I-Rel
+bối rối	A-H	1	hốt hoảng	B-AP	O	(AP*)))))	O
+
+có	V-H	1	nghi	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-MOD
+nghi	V-H	1	nghi	B-VP	O	(VP*	I-Rel
+ai	P-H	1	nghi	I-NP	I-DOB	(NP-DOB*))))))	I-Arg1
+
+chưa	R	1	có	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-TMP
+có	V-H	1	có	I-VP	O	*	I-Rel
+hiện tượng	N-H	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+trăng gió	N	1	có	I-NP	I-DOB	*)	I-Arg1
+bao giờ	P-H	1	có	B-NP	O	(NP*)))))	I-Arg1
+
+được	V-H	1	tắt thở	I-VP	I-TMP	(S(VP-TMP*	I-ArgM-ADV
+vài	L	1	tắt thở	I-NP	I-DOB	(NP-DOB*	I-ArgM-ADV
+tháng	N-H	1	tắt thở	I-NP	I-DOB	*))	I-ArgM-ADV
+người	Nc-H	1	tắt thở	B-NP	I-SUB	(NP-SUB*	I-Arg0
+chị	N	1	tắt thở	I-NP	I-SUB	*)	I-Arg0
+tắt thở	V-H	1	tắt thở	I-VP	O	(VP*))	I-Rel
+
+Thứ sáu	N-H	1	bay	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-ADV
+tuần	N-H	1	bay	B-NP	I-TMP	(NP*	I-ArgM-ADV
+này	P	1	bay	I-NP	I-TMP	*)	I-ArgM-ADV
+LBKT	LBKT	1	bay	B-NP	I-TMP	*	I-ArgM-ADV
+3	M-H	1	bay	I-NP	I-TMP	*	I-ArgM-ADV
+8	M-H	1	bay	I-NP	I-TMP	*	I-ArgM-ADV
+RBKT	RBKT	1	bay	I-NP	I-TMP	*)	I-ArgM-ADV
+tôi	P-H	1	bay	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+lại	R	1	bay	I-VP	O	(VP*	I-ArgM-TMP
+bay	V-H	1	bay	I-VP	O	*	I-Rel
+sang	V-H	1	bay	B-VP	O	(VP*	I-Arg4
+bên	N-H	1	bay	I-NP	I-DIR	(NP-DIR*	I-Arg4
+đó	P	1	bay	I-NP	I-DIR	*))	I-Arg4
+tiếp tục	V-H	1	bay	I-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+kỳ	N-H	1	bay	I-NP	I-DOB	(NP-DOB*	I-ArgM-PRP
+học	V	1	bay	I-NP	I-DOB	*	I-ArgM-PRP
+mới	A-H	1	bay	I-AP	I-DOB	(AP*)))))	I-ArgM-PRP
+
+không	R	1	biết	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+giáo viên	N-H	1	biết	I-NP	I-SUB	*	I-Arg0
+nào	P	1	biết	I-NP	I-SUB	*)	I-Arg0
+biết	V-H	1	biết	I-VP	O	(VP*	I-Rel
+chữ nổi	N-H	1	biết	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+phải	V-H	1	hỏi	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-MOD
+hỏi	V-H	1	hỏi	B-VP	O	(VP*	I-Rel
+vì sao	X-H	1	hỏi	I-WHRP	O	(WHRP*))))))	I-ArgM-CAU
+
+Điều	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+không	R	1	là	I-AP	I-PRD	(AP-PRD*	I-Arg0
+trung thực	A-H	1	là	I-AP	I-PRD	*)	I-Arg0
+đó	P-H	1	là	I-NP	I-SUB	(NP*))	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+gì	P-H	1	là	I-NP	O	(NP*)))	I-Arg1
+
+bà	N-H	1	nói	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+ta	P	1	nói	I-NP	I-SUB	*)	I-Arg0
+đang	R	1	nói	I-VP	O	(VP*	I-ArgM-TMP
+nói	V-H	1	nói	I-VP	O	*	I-Rel
+đến	E-H	1	nói	I-PP	O	(PP*	I-Arg1
+ông	Nc-H	1	nói	I-NP	O	(NP*	I-Arg1
+
+Thì	C	1	khai	O	O	(S*	O
+tôi	P-H	1	khai	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+đã	R	1	khai	I-VP	O	(VP*	I-ArgM-TMP
+khai	V-H	1	khai	I-VP	O	*	I-Rel
+từ	E-H	1	khai	I-PP	O	(PP*	I-ArgM-TMP
+đầu	N-H	1	khai	I-NP	O	(NP*))	I-ArgM-TMP
+rồi	R	1	khai	I-VP	O	*	B-ArgM-TMP
+còn	R	1	khai	I-RP	I-MDP	(RP-MDP*	O
+gì	R	1	khai	I-RP	I-MDP	*)))	O
+
+đã	R	1	chia tay	I-VP	O	(S(NP-SUB(VP*	I-ArgM-TMP
+chia tay	V-H	1	chia tay	I-VP	O	*)))	I-Rel
+
+chứng cứ	N-H	1	mỏng	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+thu thập	V-H	1	mỏng	I-VP	I-SUB	(VP*	I-Arg0
+được	R	1	mỏng	I-VP	I-SUB	*))	I-Arg0
+vẫn	R	1	mỏng	I-AP	I-PRD	(AP-PRD*	I-ArgM-TMP
+còn	R	1	mỏng	I-AP	I-PRD	*	O
+mỏng	A-H	1	mỏng	I-AP	I-PRD	*))	I-Rel
+
+Công việc	N-H	1	đối diện	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+chỉ	R	1	đối diện	I-VP	O	(VP*	O
+luôn	R	1	đối diện	I-VP	O	*	I-ArgM-TMP
+đối diện	V-H	1	đối diện	I-VP	O	*	I-Rel
+với	E-H	1	đối diện	I-PP	O	(PP*	I-ArgM-COM
+hồ sơ	N-H	1	đối diện	I-NP	O	(NP(NP*)	I-ArgM-COM
+giấy tờ	N-H	1	đối diện	I-NP	O	(NP*)	I-ArgM-COM
+và	C	1	đối diện	I-NP	O	*	I-ArgM-COM
+tội phạm	N-H	1	đối diện	B-NP	O	(NP*)))))	I-ArgM-COM
+
+Linh tính	N-H	1	mách bảo	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+nghề nghiệp	N	1	mách bảo	I-NP	I-SUB	*)	I-Arg0
+mách bảo	V-H	1	mách bảo	I-VP	O	(VP*	I-Rel
+tôi	P-H	1	mách bảo	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+chắc	A	1	mách bảo	I-VP	O	(VP*	I-ArgM-ADV
+cháy	V-H	1	mách bảo	I-VP	O	*	I-ArgM-ADV
+lớn	A-H	1	mách bảo	I-AP	O	(AP*))))	I-ArgM-ADV
+
+sao	P-H	1	nhận	I-WHNP	O	(SQ(WHNP*)	I-ArgM-CAU
+không	R	1	nhận	I-VP	O	(NP-SUB(VP*	I-ArgM-NEG
+nhận	V-H	1	nhận	I-VP	O	*)))	I-Rel
+
+vì sao	X-H	1	tự nguyện tham gia	I-WHRP	O	(S(WHRP*)	I-ArgM-CAU
+anh	N-H	1	tự nguyện tham gia	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+tự nguyện	V-H	1	tự nguyện tham gia	I-VP	O	(VP*	I-Rel
+tham gia	V	1	tự nguyện tham gia	I-VP	O	*	I-Rel
+công việc	N-H	1	tự nguyện tham gia	I-NP	I-DOB	(NP-DOB*	I-Arg1
+này	P	1	tự nguyện tham gia	I-NP	I-DOB	*)))	I-Arg1
+
+xe	N-H	1	xô	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+xô	V-H	1	xô	I-VP	O	(VP*	I-Rel
+ngã	V-H	1	xô	B-VP	O	(VP*	I-Arg1
+bất tỉnh	A	1	xô	I-VP	O	*)))	I-Arg1
+
+bố	N-H	1	mất	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+mất	V-H	1	mất	I-VP	O	(VP*))	I-Rel
+
+dùng	V-H	1	dùng	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+thuốc thử	N-H	1	dùng	I-NP	I-DOB	(NP-DOB*	I-Arg1
+với	E-H	1	dùng	I-PP	I-DOB	(PP*	I-ArgM-COM
+nhà	N-H	1	dùng	I-NP	I-DOB	(NP*	I-ArgM-COM
+hàng xóm	N	1	dùng	I-NP	I-DOB	*)))))))	I-ArgM-COM
+
+ông	Nc-H	1	tiết lộ	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+không	R	1	tiết lộ	I-VP	O	(Np(VP*	I-ArgM-NEG
+tiết lộ	V-H	1	tiết lộ	I-VP	O	*))))	I-Rel
+
+người ta	N-H	1	nhầm	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+nhầm	V-H	1	nhầm	I-VP	O	(VP*))	I-Rel
+
+Trai tráng	N-H	1	thay	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+từng	R	1	thay	B-NP	I-SUB	(NP*	I-Arg0
+tổ	N-H	1	thay	I-NP	I-SUB	*	I-Arg0
+3	M	1	thay	B-NP	I-SUB	(NP*	I-Arg0
+4	M	1	thay	I-NP	I-SUB	*	I-Arg0
+người	N-H	1	thay	I-NP	I-SUB	*	I-Arg0
+làm	V-H	1	thay	I-VP	I-SUB	(VP*	I-Arg0
+một	M	1	thay	I-VP	I-SUB	*))))	I-Arg0
+thay	V-H	1	thay	B-VP	O	(VP*	I-Rel
+phiên	N-H	1	thay	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+nhau	N	1	thay	I-VP	O	*))	B-Arg1
+
+cờ	N-H	1	tung bay	I-NP	O	(S(NP-SUB(NP*	I-Arg0
+đỏ	A	1	tung bay	I-NP	O	*)	I-Arg0
+sao	N-H	1	tung bay	B-NP	O	(NP*	I-Arg0
+vàng	A	1	tung bay	I-NP	O	*))	I-Arg0
+tung	V-H	1	tung bay	I-VP	O	(VP*	I-Rel
+bay	V	1	tung bay	I-VP	O	*	I-Rel
+trên	E-H	1	tung bay	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+nóc	N-H	1	tung bay	I-NP	I-LOC	(NP*	I-ArgM-LOC
+dinh	N-H	1	tung bay	B-NP	I-LOC	(NP*	I-ArgM-LOC
+
+đường	N-H	1	cách	I-NP	I-SUB	(S(NP-SUB*	I-Arg1
+địa đạo	N	1	cách	I-NP	I-SUB	*)	I-Arg1
+luôn	R	1	cách	I-VP	O	(VP*	O
+cách	V-H	1	cách	I-VP	O	*	I-Rel
+mặt	N-H	1	cách	I-NP	I-DOB	(NP-DOB*	I-Arg3
+nước ngầm	N	1	cách	I-NP	I-DOB	*)	I-Arg3
+khoảng	N-H	1	cách	B-NP	I-IOB	(NP-IOB*	I-ArgM-MNR
+18	M	1	cách	B-NP	I-IOB	(NP*	I-ArgM-MNR
+2	M	1	cách	I-NP	I-IOB	*	I-ArgM-MNR
+m	Nu-H	1	cách	I-NP	I-IOB	*))))	I-ArgM-MNR
+
+khả năng	N-H	1	làm	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+kỳ diệu	A	1	làm	I-NP	I-SUB	*	I-Arg0
+của	E-H	1	làm	I-PP	I-SUB	(PP*	I-Arg0
+những	L	1	làm	I-NP	I-SUB	(NP*	I-Arg0
+người	Nc-H	1	làm	I-NP	I-SUB	*	I-Arg0
+du kích	N	1	làm	I-NP	I-SUB	*	I-Arg0
+bấy giờ	P-H	1	làm	I-NP	I-SUB	(NP(Np-H(NP*))))	I-Arg0
+đã	R	1	làm	I-VP	O	(VP*	I-ArgM-TMP
+làm	V-H	1	làm	I-VP	O	*	I-Rel
+được	R	1	làm	I-VP	O	*	I-ArgM-MOD
+điều	N-H	1	làm	I-NP	I-DOB	(NP-DOB*	I-Arg1
+ấy	P	1	làm	I-NP	I-DOB	*)))))	I-Arg1
+
+dung nhan	N-H	1	thảm hại	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+của	E-H	1	thảm hại	I-PP	I-SUB	(PP*	I-Arg0
+thảm hại	A-H	1	thảm hại	I-AP	I-PRD	(NP(Np-H(AP-PRD*	I-Rel
+đến	T	1	thảm hại	I-VP	I-PRD	(VP*	I-ArgM-MNR
+không	R	1	thảm hại	I-VP	I-PRD	*	I-ArgM-MNR
+ngờ	V-H	1	thảm hại	I-VP	I-PRD	*)))))))	I-ArgM-MNR
+
+vào	V-H	1	vào	I-VP	O	(S(NP-SUB(Np-H(VP*))))	I-Rel
+
+mọi	L	1	ở	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+người	N-H	1	ở	I-NP	I-SUB	*)	I-Arg0
+đều	R	1	ở	I-VP	O	(VP*	I-ArgM-TMP
+ở	V-H	1	ở	I-VP	O	*	I-Rel
+nhà	N-H	1	ở	I-NP	I-LOC	(NP-LOC*)))	I-Arg1
+
+khi	N-H	1	khuyên ngăn	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-ADV
+gặp	V-H	1	khuyên ngăn	I-VP	I-TMP	(VP*))	I-ArgM-ADV
+anh	N-H	1	khuyên ngăn	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+khuyên	V-H	1	khuyên ngăn	I-VP	O	(VP*	I-Rel
+ngăn	V	1	khuyên ngăn	I-VP	O	*	I-Rel
+
+có thể	R	1	sụp đổ	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-MOD
+sụp đổ	V-H	1	sụp đổ	I-VP	O	*	I-Rel
+đến	E-H	1	sụp đổ	I-PP	O	(PP*	I-Arg1
+mức	N-H	1	sụp đổ	I-NP	O	(NP*	I-Arg1
+tự vẫn	V-H	1	sụp đổ	I-VP	O	(VP(VP*)	I-Arg1
+hay	C	1	sụp đổ	I-VP	O	*	I-Arg1
+bỏ	V-H	1	sụp đổ	B-VP	O	(VP(VP*	I-Arg1
+nhà	N-H	1	sụp đổ	I-NP	I-DOB	(NP-DOB*))	I-Arg1
+bỏ	V-H	1	sụp đổ	I-VP	O	(VP*	I-Arg1
+việc	N-H	1	sụp đổ	I-NP	I-DOB	(NP-DOB*))))))))))	I-Arg1
+
+súng	N-H	1	hiếm	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+hồi	N-H	1	hiếm	B-NP	I-TMP	(NP-TMP*	I-ArgM-ADV
+đó	P	1	hiếm	I-NP	I-TMP	*)	I-ArgM-ADV
+rất	R	1	hiếm	I-AP	I-PRD	(AP-PRD*	I-ArgM-EXT
+hiếm	A-H	1	hiếm	I-AP	I-PRD	*))	I-Rel
+
+lắm	A	1	chen	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+khi	N-H	1	chen	I-NP	I-TMP	*)	I-ArgM-TMP
+rắn rết	N-H	1	chen	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+cũng	R	1	chen	I-VP	O	(VP*	I-ArgM-TMP
+chen	V-H	1	chen	I-VP	O	*	I-Rel
+ở	V-H	1	chen	B-VP	O	(VP*	I-Arg1
+với	E-H	1	chen	I-PP	O	(PP*	I-Arg1
+người	N-H	1	chen	I-NP	O	(NP*)))))	I-Arg1
+
+anh hùng	N-H	1	chế tạo	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+chế tạo	V-H	1	chế tạo	I-VP	O	(Np(VP*))))	I-Rel
+
+lần	V-H	1	lỗ chỗ	I-VP	I-SUB	(S(VP-SUB*	I-Arg0
+đâu	P-H	1	lỗ chỗ	I-NP	I-LOC	(NP-LOC*	I-Arg0
+trên	E-H	1	lỗ chỗ	I-PP	I-LOC	(PP*	I-Arg0
+người	N-H	1	lỗ chỗ	I-NP	I-LOC	(NP*))))	I-Arg0
+cũng	R	1	lỗ chỗ	B-NP	I-PRD	(NP-PRD*	I-ArgM-TMP
+lỗ chỗ	A	1	lỗ chỗ	I-NP	I-PRD	*	I-Rel
+vết thương	N-H	1	lỗ chỗ	I-NP	I-PRD	*))	I-Arg1
+
+nghe	V-H	1	nghe	I-VP	O	(S(NP-SUB(Np-H(VP*))))	I-Rel
+
+phải	V-H	1	lấy được	I-VP	O	(S(NP-SUB(VP*	I-ArgM-MOD
+lấy	V-H	1	lấy được	B-VP	O	(VP*	I-Rel
+được	R	1	lấy được	I-VP	O	*	I-Rel
+số	N-H	1	lấy được	I-NP	I-DOB	(NP-DOB*	I-Arg1
+điện thoại	N	1	lấy được	I-NP	I-DOB	*	I-Arg1
+của	E-H	1	lấy được	I-PP	I-DOB	(PP*	I-Arg1
+L	Ny-H	1	lấy được	I-NP	I-DOB	(NP*)))))))	I-Arg1
+
+Kết quả	N-H	1	dừng	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+của	E-H	1	dừng	I-PP	I-SUB	(PP*	I-Arg0
+hai	M	1	dừng	I-NP	I-SUB	(NP*	I-Arg0
+nữ	N-H	1	dừng	I-NP	I-SUB	*	I-Arg0
+thám tử	N	1	dừng	I-NP	I-SUB	*	I-Arg0
+nghiệp dư	A	1	dừng	I-NP	I-SUB	*)))	I-Arg0
+chỉ	R	1	dừng	I-VP	O	(VP*	O
+dừng	V-H	1	dừng	I-VP	O	*	I-Rel
+ở	E-H	1	dừng	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+đó	P-H	1	dừng	I-NP	I-LOC	(NP*))))	I-ArgM-LOC
+
+bộ phận	N-H	1	phát hiện	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+thanh toán	V-H	1	phát hiện	I-VP	I-SUB	(VP*	I-Arg0
+cước	N-H	1	phát hiện	I-NP	I-SUB	(NP*	I-Arg0
+của	E-H	1	phát hiện	I-PP	I-SUB	(PP*	I-Arg0
+bưu điện	N-H	1	phát hiện	I-NP	I-SUB	(NP*)))))	I-Arg0
+phát hiện	V-H	1	phát hiện	I-VP	O	(VP*	I-Rel
+có	V-H	1	phát hiện	B-VP	O	(VP*	I-Arg1
+trục trặc	N-H	1	phát hiện	I-NP	I-DOB	(NP-DOB*	I-Arg1
+trong	E-H	1	phát hiện	I-PP	I-DOB	(PP*	I-Arg1
+việc	N-H	1	phát hiện	I-NP	I-DOB	(NP*	I-Arg1
+hiện	V-H	1	phát hiện	I-VP	I-DOB	(VP*	I-Arg1
+cước	N-H	1	phát hiện	I-NP	I-DOB	(NP*))))))))	I-Arg1
+
+mỗi	L	1	cách	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+lần	N-H	1	cách	I-NP	I-SUB	*)	I-Arg0
+cách	V-H	1	cách	I-VP	O	(VP*	I-Rel
+nhau	N-H	1	cách	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+một	M	1	cách	B-NP	I-EXT	(NP-EXT*	I-ArgM-EXT
+tiếng	N-H	1	cách	I-NP	I-EXT	*)))	I-ArgM-EXT
+
+chú	Nc-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+hổ	N	1	là	I-NP	I-SUB	*	I-Arg0
+là	V-H	1	là	I-VP	O	(Np(VP*	I-Rel
+tài sản	N-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+của	E-H	1	là	I-PP	I-DOB	(PP*	I-Arg1
+mỗi	M	1	là	I-NP	I-DOB	(NP*	I-Arg1
+người	N-H	1	là	I-NP	I-DOB	*)))))))	I-Arg1
+
+chị	Nc-H	1	bùi ngùi	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+bùi ngùi	A-H	1	bùi ngùi	I-AP	I-PRD	(Np(AP-PRD*))))	I-Rel
+
+hắn	P-H	1	còn	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+chỉ	R	1	còn	I-VP	O	(VP*	I-ArgM-TMP
+còn	V-H	1	còn	I-VP	O	*	I-Rel
+ba	M	1	còn	I-NP	I-DOB	(NP-DOB*	I-Arg1
+bộ	N-H	1	còn	I-NP	I-DOB	*	I-Arg1
+5	M	1	còn	B-NP	I-DOB	(NP*	I-Arg1
+7	M	1	còn	I-NP	I-DOB	*	I-Arg1
+và	C	1	còn	I-NP	I-DOB	*	I-Arg1
+8	M	1	còn	I-NP	I-DOB	*	I-Arg1
+kg	Nu-H	1	còn	I-NP	I-DOB	*))))	I-Arg1
+
+bà già	N-H	1	ra đón	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+giúp việc	V-H	1	ra đón	I-VP	I-SUB	(VP*))	I-Arg0
+ra	V-H	1	ra đón	B-VP	O	(VP*	I-Rel
+đón	V-H	1	ra đón	B-VP	O	(VP*)))	I-Rel
+
+mình	P-H	1	yêu thương	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+yêu thương	V-H	1	yêu thương	I-VP	O	(VP*))	I-Rel
+
+chắc chắn	A-H	1	ly dị	I-AP	I-ADV	(S(AP-ADV*)	I-ArgM-MNR
+cô	N-H	1	ly dị	I-NP	I-SUB	(NP-SUB*	I-Arg0
+ta	P	1	ly dị	I-NP	I-SUB	*)	I-Arg0
+sẽ	R	1	ly dị	I-VP	O	(VP*	I-ArgM-TMP
+ly dị	V-H	1	ly dị	I-VP	O	*))	I-Rel
+
+tình cảm	N-H	1	êm đẹp	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+hai	M	1	êm đẹp	B-NP	I-SUB	(NP*	I-Arg0
+người	N-H	1	êm đẹp	I-NP	I-SUB	*))	I-Arg0
+đang	R	1	êm đẹp	I-AP	I-PRD	(AP-PRD*	I-ArgM-TMP
+êm đẹp	A-H	1	êm đẹp	I-AP	I-PRD	*))	I-Rel
+
+quyết định	V-H	1	quyết định	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+từ bỏ	V-H	1	quyết định	B-VP	O	(VP*	I-Arg1
+
+cho	V-H	1	cho	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+
+một	M	1	ăn nằm	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+nhóm	N-H	1	ăn nằm	I-NP	I-SUB	*	I-Arg0
+trắc địa	N	1	ăn nằm	I-NP	I-SUB	*	I-Arg0
+dân	N-H	1	ăn nằm	B-NP	I-SUB	(NP*	I-Arg0
+chính	A-H	1	ăn nằm	I-AP	I-SUB	(Np(AP*	I-Arg0
+gốc	N	1	ăn nằm	I-AP	I-SUB	*)))	I-Arg0
+đã	R	1	ăn nằm	I-VP	O	(VP*	I-ArgM-TMP
+ăn nằm	V-H	1	ăn nằm	I-VP	O	*	I-Rel
+hơn	A	1	ăn nằm	I-NP	I-TMP	(NP-TMP*	I-ArgM-TMP
+hai	M	1	ăn nằm	I-NP	I-TMP	*	I-ArgM-TMP
+năm	N-H	1	ăn nằm	I-NP	I-TMP	*)	I-ArgM-TMP
+nơi	N-H	1	ăn nằm	B-NP	I-LOC	(NP-LOC*	I-ArgM-LOC
+đây	P	1	ăn nằm	I-NP	I-LOC	*))))	I-ArgM-LOC
+
+kim	N-H	1	chỉ	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đã	R	1	chỉ	I-VP	O	(VP*	I-ArgM-TMP
+chỉ	V-H	1	chỉ	I-VP	O	*	I-Rel
+14	M	1	chỉ	I-NP	I-TMP	(NP-TMP*	I-Arg1
+giờ	Nu-H	1	chỉ	I-NP	I-TMP	*)))	I-Arg1
+
+mùa	N-H	1	đói	I-NP	I-TPC	(S-TC(NP-TPC*	I-Arg0
+đông	N	1	đói	I-NP	I-TPC	*)	I-Arg0
+thì	C	1	đói	O	O	*	I-ArgM-DIS
+đói	V-H	1	đói	I-VP	I-TH	(VP-TH*	I-Rel
+lắm	T	1	đói	I-VP	I-TH	*))	I-ArgM-EXT
+
+những	L	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+dòng	N-H	1	là	I-NP	I-SUB	*	I-Arg0
+nhật ký	N	1	là	I-NP	I-SUB	*	I-Arg0
+của	E-H	1	là	I-PP	I-SUB	(PP*	I-Arg0
+anh	N-H	1	là	I-NP	I-SUB	(NP*)))	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+câu chuyện	N-H	1	là	I-NP	O	(NP*	I-Arg1
+chân thực	A-H	1	là	I-AP	O	(AP(AP*)	I-Arg1
+và	C	1	là	I-AP	O	*	I-Arg1
+đầy	A-H	1	là	B-AP	O	(AP*	I-Arg1
+thuyết phục	A	1	là	I-AP	O	*))	I-Arg1
+về	E-H	1	là	I-PP	O	(PP*	I-Arg1
+một	M	1	là	I-NP	O	(NP*	I-Arg1
+thế hệ	N-H	1	là	I-NP	O	*)))))	I-Arg1
+
+tôi	P-H	1	ngã	I-NP	I-SUB	(S(NP-SUB-1*)	I-Arg0
+ngã	V-H	1	ngã	I-VP	O	(VP*	I-Rel
+xuống	R	1	ngã	I-VP	O	*))	I-ArgM-MNR
+
+cũng	R	1	hòa tan	I-RP	I-ADV	(S(RP-ADV*	I-ArgM-MOD
+có thể	R-H	1	hòa tan	I-RP	I-ADV	*)	I-ArgM-MOD
+tất cả	P-H	1	hòa tan	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+đã	R	1	hòa tan	I-VP	O	(VP*	I-ArgM-TMP
+hòa tan	V-H	1	hòa tan	I-VP	O	*	I-Rel
+vào	E-H	1	hòa tan	I-PP	O	(PP*	I-ArgM-LOC
+núi non	N-H	1	hòa tan	I-NP	O	(NP*	I-ArgM-LOC
+sông nước	N	1	hòa tan	I-NP	O	*	I-ArgM-LOC
+của	E-H	1	hòa tan	I-PP	O	(PP*	I-ArgM-LOC
+mảnh	Nc-H	1	hòa tan	I-NP	O	(NP*	I-ArgM-LOC
+đất	N	1	hòa tan	I-NP	O	*	I-ArgM-LOC
+này	P	1	hòa tan	I-NP	O	*))))))	I-ArgM-LOC
+
+Dáng	N-H	1	ngồi	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+bà	N	1	ngồi	I-NP	I-SUB	*)	I-Arg0
+ngồi	V-H	1	ngồi	I-VP	O	(VP*	I-Rel
+còm cõi	A-H	1	ngồi	I-AP	O	(AP*	I-Arg1
+đơn lẻ	A-H	1	ngồi	I-AP	O	*)))	I-Arg1
+
+Hai	M	1	bán	I-NP	I-SUB	(S(NP-SUB-1*	I-Arg0
+bà	N-H	1	bán	I-NP	I-SUB	*)	I-Arg0
+không	R	1	bán	B-NP	O	(NP-PRD(NP*	I-Arg1
+chồng	N-H	1	bán	I-NP	O	*)	I-Arg1
+không	R	1	bán	B-NP	O	(NP*	B-Arg1
+con	N-H	1	bán	I-NP	O	*))	I-Arg1
+muốn	V-H	1	bán	I-VP	O	(VP*	I-ArgM-MOD
+bán	V-H	1	bán	B-VP	O	(VP*	I-Rel
+thửa	Nc-H	1	bán	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đất	N	1	bán	I-NP	I-DOB	*	I-Arg1
+được	V-H	1	bán	I-VP	I-DOB	(VP*	I-Arg1
+thừa kế	V-H	1	bán	B-VP	I-DOB	(VP*)))	I-Arg1
+để	E-H	1	bán	I-PP	I-PRP	(PP-PRP*	I-ArgM-PRP
+lo	V-H	1	bán	I-VP	I-PRP	(VP*	I-ArgM-PRP
+cho	R	1	bán	I-VP	I-PRP	*	I-ArgM-PRP
+tuổi	N-H	1	bán	I-NP	I-DOB	(NP-DOB*	I-ArgM-PRP
+già	A	1	bán	I-NP	I-DOB	*))))))	I-ArgM-PRP
+
+yêu cầu	V-H	1	yêu cầu	I-VP	O	(S(NP-SUB(VP*	I-Rel
+bảo vệ	V-H	1	yêu cầu	B-VP	O	(VP*	I-Arg2
+quyền lợi	N-H	1	yêu cầu	I-NP	I-DOB	(NP-DOB*)))))	I-Arg2
+
+bên	N-H	1	thi hành	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+nào	P	1	thi hành	I-NP	I-SUB	*)	I-Arg0
+phải	V-H	1	thi hành	I-VP	O	(VP*	I-ArgM-MOD
+thi hành	V-H	1	thi hành	B-VP	O	(VP*	I-Rel
+án	N-H	1	thi hành	I-NP	I-DOB	(NP-DOB*))))	I-Arg1
+
+ba	M	1	gọi	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+số	N-H	1	gọi	I-NP	I-SUB	*	I-Arg0
+máy	N	1	gọi	I-NP	I-SUB	*	I-Arg0
+từ	E-H	1	gọi	I-PP	I-LOC	(PP-LOC*	I-Arg0
+các	L	1	gọi	I-NP	I-LOC	(NP*	I-Arg0
+buồng	N-H	1	gọi	I-NP	I-LOC	*	I-Arg0
+điện thoại	N	1	gọi	I-NP	I-LOC	*	I-Arg0
+sát	A-H	1	gọi	I-AP	I-LOC	(AP*	I-Arg0
+nhau	N	1	gọi	I-AP	I-LOC	*)	I-Arg0
+trên	E-H	1	gọi	I-PP	B-LOC	(PP-LOC*	I-Arg0
+đường	N-H	1	gọi	I-NP	I-LOC	(NP*	I-Arg0
+gọi	V-H	1	gọi	I-VP	O	(Np(VP*	I-Rel
+đến	E-H	1	gọi	I-PP	I-DIR	(PP-DIR*	I-ArgM-GOL
+nhà	N-H	1	gọi	I-NP	I-DIR	(NP*))))))))))	I-ArgM-GOL
+
+mục tiêu	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+khủng bố	V-H	1	là	I-VP	I-SUB	(VP*	I-Arg0
+để	E-H	1	là	I-PP	I-SUB	(PP*	I-Arg0
+lôi kéo	V-H	1	là	I-VP	I-SUB	(VP*	I-Arg0
+và	C	1	là	I-VP	I-SUB	*	I-Arg0
+trả thù	V-H	1	là	I-VP	I-SUB	*))))	I-Arg0
+là	V-H	1	là	B-VP	O	(VP*	I-Rel
+chính	A-H	1	là	I-AP	O	(AP*)))	I-Arg1
+
+số	N-H	1	hiện	I-NP	I-SUB	(S(NP-SUB*	I-Arg1
+điện thoại	N	1	hiện	I-NP	I-SUB	*	I-Arg1
+lạ	A-H	1	hiện	I-AP	I-SUB	(AP*))	I-Arg1
+hiện	V-H	1	hiện	I-VP	O	(VP*	I-Rel
+trên	E-H	1	hiện	I-PP	I-LOC	(PP-LOC*	I-Arg1
+máy	N-H	1	hiện	I-NP	I-LOC	(NP*	I-Arg1
+cố định	N	1	hiện	I-NP	I-LOC	*))))	I-Arg1
+
+ông	Nc-H	1	chột dạ	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+giám đốc	V	1	chột dạ	I-NP	I-SUB	*)	I-Arg0
+cũng	R	1	chột dạ	I-VP	O	(VP*	I-ArgM-TMP
+chột dạ	V-H	1	chột dạ	I-VP	O	*))	I-Rel
+
+Nhà	N-H	1	cất giấu	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+nào	P	1	cất giấu	I-NP	I-SUB	*)	I-Arg0
+cũng	R	1	cất giấu	I-VP	O	(VP*	I-ArgM-TMP
+cất giấu	V-H	1	cất giấu	I-VP	O	*	I-Rel
+cờ đỏ sao vàng	N-H	1	cất giấu	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+Riêng	T	1	xin	I-NP	I-ADV	(S(NP-ADV*	I-ArgM-ADV
+phần	N-H	1	xin	I-NP	I-ADV	*	I-ArgM-ADV
+tôi	P	1	xin	I-NP	I-ADV	*)	I-ArgM-ADV
+xin	V-H	1	xin	I-VP	O	(NP-SUB(VP*	I-Rel
+đem	V-H	1	xin	B-VP	O	(VP*	I-Arg1
+hết	R	1	xin	I-NP	I-DOB	(NP-DOB*	I-Arg1
+tâm lực	N-H	1	xin	I-NP	I-DOB	*)	I-Arg1
+đi	V-H	1	xin	I-VP	O	(VP*	I-Arg1
+cùng	E-H	1	xin	I-PP	O	(PP*	I-Arg1
+các	L	1	xin	I-NP	O	(NP*	I-Arg1
+bạn	N-H	1	xin	I-NP	O	*)))))))	I-Arg1
+
+Quân đội	N-H	1	nắm	I-NP	I-TPC	(S(NP-TPC*)	I-ArgM-ADV
+họ	P-H	1	nắm	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+nắm	V-H	1	nắm	I-VP	O	(VP*))	I-Rel
+
+công cuộc	N-H	1	đạt được	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+tập hợp	V-H	1	đạt được	I-VP	I-SUB	(VP*	I-Arg0
+nhân dân	N-H	1	đạt được	I-NP	I-DOB	(NP-DOB*	I-Arg0
+cướp	V-H	1	đạt được	I-VP	I-DOB	(VP*	I-Arg0
+chính quyền	N-H	1	đạt được	I-NP	B-DOB	(NP-DOB*)))))	I-Arg0
+đã	R	1	đạt được	I-VP	O	(VP*	I-ArgM-TMP
+đạt	V-H	1	đạt được	I-VP	O	*	I-Rel
+được	R	1	đạt được	I-VP	O	*))	I-Rel
+
+Sáng	N-H	1	tổ chức	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+2	M	1	tổ chức	I-NP	I-TMP	*	I-ArgM-TMP
+9	M	1	tổ chức	I-NP	I-TMP	*)	I-ArgM-TMP
+chúng tôi	P-H	1	tổ chức	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+cũng	R	1	tổ chức	I-VP	O	(VP*	I-ArgM-TMP
+tổ chức	V-H	1	tổ chức	I-VP	O	*	I-Rel
+lễ	N-H	1	tổ chức	I-NP	I-DOB	(NP-DOB*	I-Arg1
+độc lập	A-H	1	tổ chức	I-AP	I-DOB	(AP*))))	I-Arg1
+
+đã	R	1	đầu hàng	I-VP	O	(S(NP-SUB(Np-H(VP*	I-ArgM-TMP
+đầu hàng	V-H	1	đầu hàng	I-VP	O	*	I-Rel
+sớm	A-H	1	đầu hàng	I-AP	I-TMP	(AP-TMP*)))))	I-ArgM-TMP
+
+Chất	N-H	1	mất	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+hóa học	N	1	mất	I-NP	I-SUB	*)	I-Arg0
+dần dần	R	1	mất	I-VP	O	(VP*	I-ArgM-MNR
+mất	V-H	1	mất	I-VP	O	*	I-Rel
+đi	R	1	mất	I-VP	O	*))	I-ArgM-MNR
+
+cháy	V-H	1	cháy	I-VP	I-SUB	(S(VP-SUB*)	I-Rel
+là	V-H	1	cháy	B-VP	O	(VP*	O
+hết	V-H	1	cháy	B-VP	O	(VP*)))	O
+
+ông	Nc-H	1	về	I-NP	I-SUB	(S(NP-SUB(NP*	I-Arg0
+và	C	1	về	I-NP	I-SUB	(Np*	I-Arg0
+vài	L	1	về	B-NP	I-SUB	(NP*	I-Arg0
+đồng nghiệp	N-H	1	về	I-NP	I-SUB	*	I-Arg0
+của	E-H	1	về	I-PP	I-SUB	(PP*	I-Arg0
+ông	N-H	1	về	I-NP	I-SUB	(NP*))	I-Arg0
+ở	E-H	1	về	I-PP	I-LOC	(PP-LOC*	I-Arg0
+về	V-H	1	về	I-VP	O	(NP(Np-H(VP*	I-Rel
+hưu	V	1	về	I-VP	O	*)))))))))	I-Arg1
+
+hai	M	1	bị sạt lở	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+bên	N-H	1	bị sạt lở	I-NP	I-SUB	*	I-Arg0
+bờ	N	1	bị sạt lở	I-NP	I-SUB	*)	I-Arg0
+bị	V-H	1	bị sạt lở	I-VP	O	(VP*	I-Rel
+sạt lở	V	1	bị sạt lở	I-VP	O	*	I-Rel
+rộng	A	1	bị sạt lở	I-VP	O	*	I-Arg1
+thêm	V	1	bị sạt lở	I-VP	O	*	I-Arg1
+khoảng	A	1	bị sạt lở	I-NP	I-DOB	(NP-DOB*	I-Arg1
+40	M	1	bị sạt lở	I-NP	I-DOB	*	I-Arg1
+m	Nu-H	1	bị sạt lở	I-NP	I-DOB	*)))	I-Arg1
+
+trong	E-H	1	bị cuốn trôi sạt lở	I-PP	I-TMP	(S(PP-TMP*	I-ArgM-TMP
+khoảng	A	1	bị cuốn trôi sạt lở	I-NP	I-TMP	(NP*	I-ArgM-TMP
+ba	M	1	bị cuốn trôi sạt lở	I-NP	I-TMP	*	I-ArgM-TMP
+năm	N-H	1	bị cuốn trôi sạt lở	I-NP	I-TMP	*	I-ArgM-TMP
+nay	P	1	bị cuốn trôi sạt lở	I-NP	I-TMP	*))	I-ArgM-TMP
+hàng	R	1	bị cuốn trôi sạt lở	B-NP	I-SUB	(NP-SUB*	I-Arg0
+trăm	M	1	bị cuốn trôi sạt lở	I-NP	I-SUB	*	I-Arg0
+ngàn	M	1	bị cuốn trôi sạt lở	I-NP	I-SUB	*	I-Arg0
+mét vuông	Nu-H	1	bị cuốn trôi sạt lở	I-NP	I-SUB	*	I-Arg0
+đất	N-H	1	bị cuốn trôi sạt lở	B-NP	I-SUB	(NP*	I-Arg0
+cù lao	N	1	bị cuốn trôi sạt lở	I-NP	I-SUB	*))	I-Arg0
+đã	R	1	bị cuốn trôi sạt lở	I-VP	O	(VP*	I-ArgM-TMP
+bị	V-H	1	bị cuốn trôi sạt lở	I-VP	O	*	I-Rel
+cuốn trôi	V-H	1	bị cuốn trôi sạt lở	B-VP	O	(VP*	I-Rel
+sạt lở	V-H	1	bị cuốn trôi sạt lở	I-VP	O	*)))	I-Rel
+
+các	L	1	ký tên	I-NP	I-SUB	(S(NP-SUB*	O
+bạn	N-H	1	ký tên	I-NP	I-SUB	*)	I-Arg0
+cũng	R	1	ký tên	I-VP	O	(VP*	O
+đang	R	1	ký tên	I-VP	O	*	O
+có	V-H	1	ký tên	I-VP	O	*	O
+cuộc	Nc-H	1	ký tên	I-NP	I-DOB	(NP-DOB*	O
+vận động	V	1	ký tên	I-NP	I-DOB	*	O
+ký tên	V-H	1	ký tên	I-VP	I-DOB	(VP*	I-Rel
+vì	E-H	1	ký tên	I-PP	I-PRP	(PP-PRP*	O
+công lý	N-H	1	ký tên	I-NP	I-PRP	(NP*))))))	O
+
+dàn xếp	V-H	1	dàn xếp	I-VP	O	(S(NP-SUB(VP*)))	I-Rel
+
+Phần đông	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+dân	N-H	1	là	I-NP	O	(NP*	I-Arg1
+cá độ	V-H	1	là	I-VP	O	(VP*	I-Arg1
+chuyên nghiệp	A	1	là	I-VP	O	*))))	I-Arg1
+
+Hắn	P-H	1	lập gia đình	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đã	R	1	lập gia đình	I-VP	O	(VP*	I-ArgM-TMP
+lập	V-H	1	lập gia đình	I-VP	O	*	I-Rel
+gia đình	N-H	1	lập gia đình	I-NP	I-DOB	(NP-DOB*)))	I-Rel
+
+thần khí	N-H	1	linh hoạt	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+nó	P	1	linh hoạt	I-NP	I-SUB	*)	I-Arg0
+phải	R	1	linh hoạt	I-AP	I-PRD	(AP-PRD*	I-ArgM-MOD
+linh hoạt	A-H	1	linh hoạt	I-AP	I-PRD	*))	I-Rel
+
+rất	R	1	đổ xô	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+nhiều	A	1	đổ xô	I-NP	I-SUB	*	I-Arg0
+người	N-H	1	đổ xô	I-NP	I-SUB	*)	I-Arg0
+đổ xô	V-H	1	đổ xô	I-VP	O	(VP*	I-Rel
+vào	R	1	đổ xô	I-VP	O	*	I-ArgM-DIR
+mua	V-H	1	đổ xô	B-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+đất	N-H	1	đổ xô	I-NP	I-PRP	(NP*	I-ArgM-PRP
+ở	E-H	1	đổ xô	I-PP	I-LOC	(PP-LOC*	I-ArgM-PRP
+gần	A-H	1	đổ xô	I-AP	I-LOC	(AP*	I-ArgM-PRP
+đấy	P	1	đổ xô	I-AP	I-LOC	*))))))	I-ArgM-PRP
+
+chết đứng	V-H	1	chết đứng	I-VP	O	(S(NP-SUB(Np-H(VP*))))	I-Rel
+
+theo	E-H	1	xếp	I-PP	I-ADV	(S(PP-ADV*	O
+anh	N-H	1	xếp	I-NP	I-ADV	(NP*))	O
+là	C	1	xếp	O	O	*	O
+được	V-H	1	xếp	I-VP	O	(NP-SUB(VP*	I-ArgM-MOD
+xếp	V	1	xếp	I-VP	O	*	I-Rel
+từ	E-H	1	xếp	I-PP	I-MNR	(PP-MNR*	I-Arg2
+miệng	N-H	1	xếp	I-NP	I-MNR	(NP*	I-Arg2
+của	E-H	1	xếp	I-PP	I-MNR	(PP*	I-Arg2
+
+Làm	V-H	1	Làm	I-VP	O	(S(NP-SUB(VP*	I-Rel
+nhiều	A	1	Làm	I-VP	O	*)))	I-ArgM-MNR
+
+đón	V-H	1	đón	I-VP	O	(S(NP-SUB(VP*	I-Rel
+các	L	1	đón	I-NP	I-DOB	(NP-DOB*	I-Arg1
+cháu	N-H	1	đón	I-NP	I-DOB	*)	I-Arg1
+về	V-H	1	đón	I-VP	I-PRP	(VP-PRP*	I-ArgM-PRP
+nuôi	V-H	1	đón	B-VP	B-PRP	(VP-PRP*	I-ArgM-PRP
+dạy	V	1	đón	I-VP	I-PRP	*)))))	I-ArgM-PRP
+
+hàng	R	1	được học	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+chục	M	1	được học	I-NP	I-SUB	*	I-Arg0
+ngàn	M	1	được học	I-NP	I-SUB	*	I-Arg0
+người	N-H	1	được học	I-NP	I-SUB	*)	I-Arg0
+được	V-H	1	được học	I-VP	O	(VP*	I-Rel
+học	V-H	1	được học	B-VP	O	(VP*	I-Rel
+ĐH	Ny-H	1	được học	I-NP	I-DOB	(NP-DOB*	I-Arg1
+CĐ	Ny-H	1	được học	I-NP	I-DOB	*	I-Arg1
+và	C	1	được học	I-NP	I-DOB	*	I-Arg1
+THCN	Ny-H	1	được học	I-NP	I-DOB	*))))	I-Arg1
+
+Bây giờ	N-H	1	thành	I-NP	I-TMP	(S(NP-TMP*)	O
+chúng tôi	P-H	1	thành	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+đã	R	1	thành	I-VP	O	(VP*	I-ArgM-TMP
+thành	V-H	1	thành	I-VP	O	*	I-Rel
+người	N	1	thành	I-VP	O	*))	I-Arg1
+
+con	Nc-H	1	nhập viện	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+trai	N	1	nhập viện	I-NP	I-SUB	*	I-Arg0
+thầy	N-H	1	nhập viện	B-NP	I-SUB	(NP*))	I-Arg0
+phải	V-H	1	nhập viện	I-VP	O	(VP*	I-ArgM-MOD
+nhập viện	V	1	nhập viện	I-VP	O	*))	I-Rel
+
+chú	N-H	1	còn	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+còn	V-H	1	còn	I-VP	O	(VP*	I-Rel
+giữa	N-H	1	còn	I-NP	I-DOB	(NP-DOB*	I-ArgM-LOC
+màn	N-H	1	còn	B-NP	I-DOB	(NP*	I-ArgM-LOC
+đêm	N	1	còn	I-NP	I-DOB	*))))	I-ArgM-LOC
+
+giao	V-H	1	giao	I-VP	O	(S(NP-SUB(VP*	I-Rel
+nhiệm vụ	N-H	1	giao	I-NP	I-DOB	(NP-DOB*	I-Arg1
+giúp	V-H	1	giao	I-VP	I-PRP	(VP-PRP*	I-ArgM-PRD
+ông	Nc-H	1	giao	I-NP	I-DOB	(NP-DOB*	I-ArgM-PRD
+
+không	R	1	đuổi	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+ai	P-H	1	đuổi	I-NP	I-SUB	*)	I-Arg0
+lại	R	1	đuổi	I-VP	O	(VP*	I-ArgM-TMP
+đuổi	V-H	1	đuổi	I-VP	O	*	I-Rel
+con nợ	N-H	1	đuổi	I-NP	I-DOB	(NP-DOB*	I-Arg1
+của	E-H	1	đuổi	I-PP	I-DOB	(PP*	I-Arg1
+mình	P-H	1	đuổi	I-NP	I-DOB	(NP*)))	I-Arg1
+đi	R	1	đuổi	I-VP	O	*	I-Arg1
+cả	T	1	đuổi	I-VP	O	*))	I-ArgM-Partice
+
+Ông	N-H	1	về	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+rất	R	1	về	I-VP	O	(VP*	I-ArgM-EXT
+muốn	V-H	1	về	I-VP	O	*	I-ArgM-MOD
+về	V-H	1	về	B-VP	O	(VP*)))	I-Rel
+
+mày	P-H	1	mất	I-NP	I-SUB	(S(NP-SUB-1*)	I-Arg0
+sẽ	R	1	mất	I-VP	O	(VP*	I-ArgM-TMP
+mất	V-H	1	mất	I-VP	O	*	I-Rel
+tất cả	P-H	1	mất	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+bán	V-H	1	bán	I-VP	O	(S-CND(NP-SUB-1(VP*	I-Rel
+nhà	N-H	1	bán	I-NP	I-DOB	(NP-DOB*))))	I-Arg1
+
+ta	P-H	1	chém	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+chém	V-H	1	chém	I-VP	O	(VP*	I-Rel
+đứt	V-H	1	chém	B-VP	O	(VP*	I-ArgM-MNR
+từng	R	1	chém	I-NP	I-DOB	(NP-DOB*	I-ArgM-MNR
+phát	N-H	1	chém	I-NP	I-DOB	*))))	I-ArgM-MNR
+
+bỏ	V-H	1	bỏ	I-VP	O	(S(NP-SUB(VP*	I-Rel
+khỉ	N-H	1	bỏ	I-NP	I-DOB	(NP-DOB*	I-Arg1
+sống	V	1	bỏ	I-NP	I-DOB	*)	I-Arg1
+lên	E-H	1	bỏ	I-PP	I-DIR	(PP-DIR*	I-ArgM-LOC
+xe khách	N-H	1	bỏ	I-NP	I-DIR	(NP*)))))	I-ArgM-LOC
+
+người	N-H	1	buôn	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+buôn	V-H	1	buôn	I-VP	O	(VP*))	I-Rel
+
+Ai	P-H	1	giới thiệu	I-WHNP	I-SUB	(SQ(WHNP-SUB*)	I-Arg0
+giới thiệu	V-H	1	giới thiệu	I-VP	O	(VP*))	I-Rel
+
+để	V-H	1	bị lộ	I-VP	O	(S(VP-SUB(VP*	I-Arg0
+nguyên	A-H	1	bị lộ	I-AP	O	(AP*	I-Arg0
+cả	P	1	bị lộ	I-NP	O	(NP*	I-Arg0
+con	N-H	1	bị lộ	I-NP	O	*)))	I-Arg0
+vận chuyển	V-H	1	bị lộ	I-VP	O	(VP*))	I-Arg0
+dễ	A-H	1	bị lộ	I-AP	I-PRD	(AP-PRD*	I-ArgM-MNR
+bị	V-H	1	bị lộ	I-VP	I-PRD	(VP*	I-Rel
+lộ	V-H	1	bị lộ	B-VP	I-PRD	(VP*))))	I-Rel
+
+làm luật	V-H	1	làm luật	I-VP	O	(S(NP-SUB(VP*)))	I-Rel
+
+ba	M	1	đi	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+mẹ	N-H	1	đi	I-NP	I-SUB	*	I-Arg0
+con	N-H	1	đi	I-NP	I-SUB	*)	I-Arg0
+đi	V-H	1	đi	I-VP	O	(VP*	I-Rel
+ăn xin	V	1	đi	I-VP	O	*))	I-Arg1
+
+các	L	1	nối tiếp	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+cháu	N-H	1	nối tiếp	I-NP	I-SUB	*	I-Arg0
+tôi	P	1	nối tiếp	I-NP	I-SUB	*)	I-Arg0
+cũng	R	1	nối tiếp	I-VP	O	(VP*	I-ArgM-TMP
+đang	R	1	nối tiếp	I-VP	O	*	I-ArgM-TMP
+nối tiếp	V-H	1	nối tiếp	I-VP	O	*))	I-Rel
+
+chúng	P-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+cũng	R	1	là	I-VP	O	(VP*	I-ArgM-TMP
+là	V-H	1	là	I-VP	O	*	I-Rel
+con người	N-H	1	là	I-NP	O	(NP*)))	I-Arg1
+
+ảnh hưởng	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+chất độc	N-H	1	là	B-NP	I-SUB	(NP*	I-Arg0
+da cam	N	1	là	I-NP	I-SUB	*))	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+gì	P-H	1	là	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+nỗi	N-H	1	sờ sờ	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+đau	V	1	sờ sờ	I-NP	I-SUB	*	I-Arg0
+của	E-H	1	sờ sờ	I-PP	I-SUB	(PP(PP*	I-Arg0
+con	N-H	1	sờ sờ	I-NP	I-SUB	(NP*	I-Arg0
+mình	P	1	sờ sờ	I-NP	I-SUB	*))	I-Arg0
+của	E-H	1	sờ sờ	I-PP	I-SUB	(PP*	I-Arg0
+bao nhiêu	P	1	sờ sờ	I-NP	I-SUB	(NP*	I-Arg0
+người	N-H	1	sờ sờ	I-NP	I-SUB	*	I-Arg0
+khác	A	1	sờ sờ	I-NP	I-SUB	*))))	I-Arg0
+vẫn	R	1	sờ sờ	I-AP	I-PRD	(AP-PRD*	I-ArgM-TMP
+sờ sờ	A-H	1	sờ sờ	I-AP	I-PRD	*	I-Rel
+ra	R	1	sờ sờ	I-AP	I-PRD	*	I-ArgM-MNR
+đấy	T	1	sờ sờ	I-AP	I-PRD	*))	O
+
+vợ chồng	N-H	1	đầu gối tay ấp	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đầu gối tay ấp	X-H	1	đầu gối tay ấp	I-XP	O	(XP*))	I-Rel
+
+Khi	N-H	1	dám	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+xưa	N-H	1	dám	B-NP	I-TMP	(NP*)	I-ArgM-TMP
+16	M	1	dám	B-NP	I-TMP	(NP*	I-ArgM-TMP
+tuổi	Nu-H	1	dám	I-NP	I-TMP	*))	I-ArgM-TMP
+mình	P-H	1	dám	B-NP	I-SUB	(NP-SUB-1*)	I-Arg0
+còn	R	1	dám	I-VP	O	(VP*	I-ArgM-TMP
+dám	V-H	1	dám	I-VP	O	*	I-Rel
+tình nguyện	V-H	1	dám	B-VP	O	(VP*	I-Arg1
+nhập ngũ	V-H	1	dám	B-VP	O	(VP*	I-Arg1
+để	E-H	1	dám	I-PP	I-PRP	(PP-PRP*	I-ArgM-PRP
+đi	V-H	1	dám	I-VP	I-PRP	(VP*	I-ArgM-PRP
+đánh	V-H	1	dám	B-VP	I-PRP	(VP*	I-ArgM-PRP
+
+cú	Nc-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+sốc	N	1	là	I-NP	I-SUB	*	I-Arg0
+đó	P	1	là	I-NP	I-SUB	*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+họa	N-H	1	là	I-NP	O	(NP*	I-Arg1
+hay	C	1	là	I-NP	O	*	I-Arg1
+may	N-H	1	là	I-NP	O	*)))	I-Arg1
+
+ngày	N-H	1	mang	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+6	M	1	mang	I-NP	I-TMP	*	I-ArgM-TMP
+12	M	1	mang	I-NP	I-TMP	*	I-ArgM-TMP
+2004	M	1	mang	I-NP	I-TMP	*	I-ArgM-TMP
+là	V-H	1	mang	I-VP	I-TMP	(VP*	I-ArgM-TMP
+lần	N-H	1	mang	I-NP	I-TMP	(NP*	I-ArgM-TMP
+đầu tiên	A	1	mang	I-NP	I-TMP	*)))	I-ArgM-TMP
+chị	N-H	1	mang	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+mang	V-H	1	mang	I-VP	O	(VP*	I-Rel
+kiến thức	N-H	1	mang	I-NP	I-DOB	(NP-DOB*	I-Arg1
+học	V	1	mang	I-NP	I-DOB	*	I-Arg1
+được	R	1	mang	I-NP	I-DOB	*	I-Arg1
+của	E-H	1	mang	I-PP	I-DOB	(PP*	I-Arg1
+mình	P-H	1	mang	I-NP	I-DOB	(NP*))	I-Arg1
+truyền đạt	V-H	1	mang	I-VP	I-DOB	(VP*	I-Arg1
+đến	E-H	1	mang	I-PP	I-DOB	(PP*	I-Arg1
+các	L	1	mang	I-NP	I-DOB	(NP*	I-Arg1
+SV	Ny-H	1	mang	I-NP	I-DOB	*	I-Arg1
+VN	Ny	1	mang	I-NP	I-DOB	*))))))	I-Arg1
+
+nói	V-H	1	nói	I-VP	O	(S(NP-SUB(Np-H(VP*))))	I-Rel
+
+sắn	N-H	1	có	I-NP	I-TPC	(S(NP-TPC*	I-Arg1
+bắp	N-H	1	có	I-NP	I-TPC	*)	I-Arg1
+cũng	R	1	có	I-VP	O	(NP-SUB(VP*	I-ArgM-TMP
+không	R	1	có	I-VP	O	*	I-ArgM-NEG
+có	V-H	1	có	I-VP	O	*	I-Rel
+đủ	A	1	có	I-VP	O	*)))	I-ArgM-MNR
+
+họ	P-H	1	có	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+từ	E-H	1	có	I-PP	I-MNR	(PP-MNR*	I-ArgM-ADV
+chỗ	N-H	1	có	I-NP	I-MNR	(NP*	I-ArgM-ADV
+thiếu	V-H	1	có	I-VP	I-MNR	(VP*	I-ArgM-ADV
+thóc	N-H	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+ăn	V	1	có	I-NP	I-DOB	*)	I-ArgM-ADV
+hằng	R	1	có	B-NP	I-TMP	(NP-TMP*	I-ArgM-ADV
+năm	N-H	1	có	I-NP	I-TMP	*))))	I-ArgM-ADV
+nay	P-H	1	có	B-NP	B-TMP	(NP-TMP*)	I-ArgM-TMP
+lại	R	1	có	I-VP	O	(VP*	B-ArgM-TMP
+có	V-H	1	có	I-VP	O	*	I-Rel
+thừa	V-H	1	có	B-VP	O	(VP*	I-ArgM-MNR
+thóc	N-H	1	có	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+để	E-H	1	có	I-PP	O	(PP*	I-ArgM-PRP
+bán	V-H	1	có	I-VP	O	(VP*)))))	I-ArgM-PRP
+
+lặp	V-H	1	lặp đi lặp lại	I-VP	O	(S(NP-SUB(Np-H(VP*	I-Rel
+đi	R	1	lặp đi lặp lại	I-VP	O	*	I-Rel
+lặp	V-H	1	lặp đi lặp lại	I-VP	O	*	I-Rel
+lại	R	1	lặp đi lặp lại	I-VP	O	*	I-Rel
+mãi	R	1	lặp đi lặp lại	I-VP	O	*	I-ArgM-MNR
+câu	N-H	1	lặp đi lặp lại	I-NP	I-DOB	(NP-DOB*	I-Arg1
+nói	V	1	lặp đi lặp lại	I-NP	I-DOB	*	I-Arg1
+này	P	1	lặp đi lặp lại	I-NP	I-DOB	*)))))	I-Arg1
+
+kể	V-H	1	kể	I-VP	O	(S(NP-SUB(Np-H(VP*))))	I-Rel
+
+người	N-H	1	đến	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đến	V-H	1	đến	I-VP	O	(VP*	I-Rel
+đưa	V-H	1	đến	B-VP	O	(VP*	I-ArgM-PRP
+cơm	N-H	1	đến	I-NP	I-DOB	(NP-DOB*)	I-ArgM-PRP
+cho	E-H	1	đến	I-PP	I-IOB	(PP-IOB*	I-ArgM-PRP
+ăn	V-H	1	đến	I-VP	I-IOB	(VP*)))))	I-ArgM-PRP
+
+tay trái	N-H	1	nắm	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+có	V-H	1	nắm	I-VP	I-SUB	(VP*	I-Arg0
+vết	N-H	1	nắm	I-NP	I-DOB	(NP-DOB*	I-Arg0
+xăm	V	1	nắm	I-NP	I-DOB	*	I-Arg0
+hình	N-H	1	nắm	B-NP	I-DOB	(NP*	I-Arg0
+ngôi	Nc-H	1	nắm	B-NP	I-DOB	(NP*	I-Arg0
+sao	N	1	nắm	I-NP	I-DOB	*))	I-Arg0
+trên	E-H	1	nắm	I-PP	I-LOC	(PP-LOC*	I-Arg0
+cổ tay	N-H	1	nắm	I-NP	I-LOC	(NP*	I-Arg0
+của	E-H	1	nắm	I-PP	I-LOC	(PP*	I-Arg0
+cô	N-H	1	nắm	I-NP	I-LOC	(NP*)))))))	I-Arg0
+vẫn	R	1	nắm	I-VP	O	(VP*	I-ArgM-TMP
+nắm	V-H	1	nắm	I-VP	O	*	I-Rel
+chặt	A-H	1	nắm	I-AP	O	(AP*	I-ArgM-MNR
+lại	R	1	nắm	I-AP	O	*	I-ArgM-MNR
+Thật	R	1	nắm	B-AP	I-MDP	(AP-MDP*	I-ArgM-ADV
+khủng khiếp	A-H	1	nắm	I-AP	I-MDP	*))))	I-ArgM-ADV
+
+Ngoài	E-H	1	cho	I-PP	I-ADV	(S(PP-ADV*	I-ArgM-ADV
+tiền	N-H	1	cho	I-NP	I-ADV	(NP*	I-ArgM-ADV
+mua	V	1	cho	I-NP	I-ADV	*	I-ArgM-ADV
+vé	N	1	cho	I-NP	I-ADV	*	I-ArgM-ADV
+xe đò	N-H	1	cho	B-NP	I-ADV	(NP*)	I-ArgM-ADV
+sang	V-H	1	cho	I-VP	I-DIR	(VP-DIR*	I-ArgM-ADV
+ông	N-H	1	cho	I-NP	I-SUB	(NP-LOC(Np-H(NP-SUB*)	I-Arg0
+còn	R	1	cho	I-VP	O	(VP*	I-ArgM-TMP
+cho	V-H	1	cho	I-VP	O	*	I-Rel
+tôi	P-H	1	cho	I-NP	I-DOB	(NP-DOB*)	I-Arg2
+thêm	V-H	1	cho	I-VP	O	(VP*	I-Arg1
+500	M	1	cho	I-NP	O	(NP*	I-Arg1
+đồng	Nu-H	1	cho	I-NP	O	*	I-Arg1
+tiền	N	1	cho	I-NP	O	*	I-Arg1
+để	E-H	1	cho	I-PP	I-PRP	(Np(PP-PRP*	I-ArgM-PRP
+tiêu	V-H	1	cho	I-VP	I-PRP	(VP*	I-ArgM-PRP
+dọc	N-H	1	cho	I-NP	I-PRP	(NP*	I-ArgM-PRP
+đường	N	1	cho	I-NP	I-PRP	*)))))))))))))	I-ArgM-PRP
+
+hàng	R	1	chuẩn bị	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+chục	M	1	chuẩn bị	I-NP	I-SUB	*	I-Arg0
+tay	N-H	1	chuẩn bị	I-NP	I-SUB	*	I-Arg0
+buôn	V-H	1	chuẩn bị	I-VP	I-SUB	(VP*	I-Arg0
+ma túy	N-H	1	chuẩn bị	I-NP	I-SUB	(NP*)))	I-Arg0
+đã	R	1	chuẩn bị	I-VP	O	(VP*	I-ArgM-TMP
+và	C	1	chuẩn bị	I-VP	O	*	O
+chuẩn bị	V-H	1	chuẩn bị	I-VP	O	*	I-Rel
+dựa	V-H	1	chuẩn bị	B-VP	O	(VP*	I-Arg1
+cột	N-H	1	chuẩn bị	I-NP	I-DOB	(NP-DOB*	I-Arg1
+pháp trường	N	1	chuẩn bị	I-NP	I-DOB	*))))	I-Arg1
+
+phá	V-H	1	phá vỡ	I-VP	O	(S(NP-SUB(VP*	I-Rel
+vỡ	A	1	phá vỡ	I-VP	O	*	I-Rel
+trong	E-H	1	phá vỡ	I-PP	I-TMP	(PP-TMP*	I-ArgM-TMP
+thời gian	N-H	1	phá vỡ	I-NP	I-TMP	(NP*	I-ArgM-TMP
+vừa rồi	X	1	phá vỡ	I-NP	I-TMP	*)))))	I-ArgM-TMP
+
+Ma túy	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+chính	T	1	là	I-VP	O	(VP*	O
+là	V-H	1	là	I-VP	O	*	I-Rel
+con	Nc-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+ma	N	1	là	I-NP	I-DOB	*	I-Arg1
+độc ác	A-H	1	là	I-AP	I-DOB	(AP*	I-Arg1
+nhất	R	1	là	I-AP	I-DOB	*))))	I-Arg1
+
+nguyện vọng	N-H	1	nhiều	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+quá	R	1	nhiều	I-AP	I-PRD	(AP-PRD*	I-ArgM-EXT
+nhiều	A-H	1	nhiều	I-AP	I-PRD	*))	I-Rel
+
+trong	E-H	1	treo	I-PP	I-SUB	(S(PP-LOC-SUB*	I-Arg0
+nhà	N-H	1	treo	I-NP	I-SUB	(NP*))	I-Arg0
+vẫn	R	1	treo	I-VP	O	(VP*	I-ArgM-TMP
+treo	V-H	1	treo	I-VP	O	*	I-Rel
+một	M	1	treo	I-NP	I-DOB	(NP-DOB*	I-Arg1
+Huy chương	N-H	1	treo	I-NP	I-DOB	*	I-Arg1
+chống	V	1	treo	I-NP	I-DOB	*	I-Arg1
+hạng	N-H	1	treo	I-NP	I-DOB	(Np(NP*	I-Arg1
+ba	M	1	treo	I-NP	I-DOB	*)))))	I-Arg1
+
+Tôi	P-H	1	báo	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đã	R	1	báo	I-VP	O	(VP*	I-ArgM-TMP
+báo	V-H	1	báo	I-VP	O	*	I-Rel
+công an	N-H	1	báo	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+rồi	R	1	báo	I-VP	O	*))	I-ArgM-TMP
+
+các	L	1	gửi	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+con gái	N-H	1	gửi	I-NP	I-SUB	*)	I-Arg0
+gửi	V-H	1	gửi	I-VP	O	(VP*	I-Rel
+về	R	1	gửi	I-VP	O	*	I-ArgM-DIR
+cho	E-H	1	gửi	I-PP	I-IOB	(PP-IOB*	I-Arg2
+ông	N-H	1	gửi	I-NP	I-IOB	(NP*))	I-Arg2
+bao nhiêu	P-H	1	gửi	B-NP	O	(NP*)))	I-Arg1
+
+chỉ	R	1	làm	I-VP	O	(S(NP-SUB(VP*	I-ArgM-ADV
+làm	V-H	1	làm	I-VP	O	*	I-Rel
+khổ	A	1	làm	I-VP	O	*	I-ArgM-RES
+cụ	N-H	1	làm	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+thôi	T	1	làm	I-VP	O	*)))	I-ArgM-Partice
+
+xây	V-H	1	xây	I-VP	O	(S(NP-SUB(VP*	I-Rel
+cách	V-H	1	xây	B-VP	I-LOC	(VP-LOC*	I-ArgM-LOC
+một	M	1	xây	I-NP	I-DOB	(NP-DOB*	I-ArgM-LOC
+khoảng	N-H	1	xây	I-NP	I-DOB	*	I-ArgM-LOC
+sân	N	1	xây	I-NP	I-DOB	*)))))	I-ArgM-LOC
+
+Cụ	Nc-H	1	*E*	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+Y	Ny	1	*E*	I-NP	I-SUB	*)	I-Arg0
+không	R	1	*E*	I-VP	O	(VP*	I-ArgM-NEG
+*E*	V-H	1	*E*	I-VP	O	*	I-Rel
+con cái	N-H	1	*E*	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+con cái	N-H	1	bận	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+bận	A-H	1	bận	I-AP	I-PRD	(AP-PRD*	I-Rel
+tối mắt tối mũi	X	1	bận	I-AP	I-PRD	*))	I-ArgM-MNR
+
+anh	N-H	1	nói	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+nói	V-H	1	nói	I-VP	O	(VP*))	I-Rel
+
+Rễ	N-H	1	có	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+cây	N	1	có	I-NP	I-SUB	*	I-Arg0
+điên điển	N	1	có	I-NP	I-SUB	*)	I-Arg0
+có	V-H	1	có	I-VP	O	(VP*	I-Rel
+nốt	N-H	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+sần	A	1	có	I-NP	I-DOB	*	I-Arg1
+cố định	V-H	1	có	I-VP	I-DOB	(VP*	I-Arg1
+đạm	N-H	1	có	I-NP	I-DOB	(NP*)))))	I-Arg1
+
+phía	N-H	1	là	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+tây	N	1	là	I-NP	I-SUB	*)	I-Arg0
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+quận	N-H	1	là	I-NP	O	(NP*	I-Arg1
+9	M	1	là	I-NP	O	*	I-Arg1
+LBKT	LBKT	1	là	I-NP	O	*	I-Arg1
+TP HCM	Ny-H	1	là	B-NP	O	(NP*)	I-Arg1
+RBKT	RBKT	1	là	B-NP	O	*)))	I-Arg1
+
+chỉ	R	1	đổi	I-VP	O	(S(NP-SUB(VP*	I-ArgM-EXT
+cần	V-H	1	đổi	I-VP	O	*	I-ArgM-MOD
+đổi	V-H	1	đổi	B-VP	O	(VP*	I-Rel
+thổ	N-H	1	đổi	I-NP	I-DOB	(NP-DOB*)))))	I-Arg1
+
+không	R	1	kể	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+còn	R	1	kể	I-NP	I-SUB	*	I-Arg0
+ai	P-H	1	kể	I-NP	I-SUB	*)	I-Arg0
+buồn	V-H	1	kể	I-VP	O	(VP*	I-ArgM-MOD
+kể	V-H	1	kể	B-VP	O	(VP*)))	I-Rel
+
+đã	R	1	có	I-VP	O	(S(NP-SUB(VP*	I-ArgM-TMP
+có	V-H	1	có	I-VP	O	*	I-Rel
+nhiều	A	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+ý kiến	N-H	1	có	I-NP	I-DOB	*	I-Arg1
+về	E-H	1	có	I-PP	I-DOB	(PP*	I-Arg1
+kiến trúc	N-H	1	có	I-NP	I-DOB	(NP*	I-Arg1
+hiện hữu	N	1	có	I-NP	I-DOB	*	I-Arg1
+của	E-H	1	có	I-PP	I-DOB	(PP*	I-Arg1
+khu vực	N-H	1	có	I-NP	I-DOB	(NP*	I-Arg1
+mới	R	1	có	I-VP	I-DOB	(VP*	I-Arg1
+xây	V-H	1	có	I-VP	I-DOB	*	I-Arg1
+theo	E-H	1	có	I-PP	I-LOC	(PP-LOC*	I-Arg1
+trục	N-H	1	có	I-NP	I-LOC	(NP*	I-Arg1
+lộ	N	1	có	I-NP	I-LOC	*	I-Arg1
+25B	M	1	có	I-NP	I-LOC	*	I-Arg1
+này	P-H	1	có	B-NP	I-LOC	(NP*))))))))))))	I-Arg1
+
+phân	V-H	1	phân	I-VP	O	(S(NP-SUB(VP*	I-Rel
+lô	N-H	1	phân	I-NP	I-DOB	(NP-DOB*	I-ArgM-MNR
+trong	E-H	1	phân	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+một	M	1	phân	I-NP	I-LOC	(NP(NP*	I-ArgM-LOC
+rừng	N-H	1	phân	I-NP	I-LOC	*	I-ArgM-LOC
+cây cối	N-H	1	phân	I-NP	I-LOC	(NP*	I-ArgM-LOC
+um tùm	A	1	phân	I-NP	I-LOC	*))	I-ArgM-LOC
+và	C	1	phân	I-NP	I-LOC	*	I-ArgM-DIS
+những	L	1	phân	B-NP	I-LOC	(NP*	I-ArgM-LOC
+cánh	Nc-H	1	phân	I-NP	I-LOC	*	I-ArgM-LOC
+đồng	N	1	phân	I-NP	I-LOC	*	I-ArgM-LOC
+đang	R	1	phân	I-VP	I-LOC	(VP*	I-ArgM-LOC
+trồng	V-H	1	phân	I-VP	I-LOC	*	I-ArgM-LOC
+đầy	A	1	phân	I-NP	I-DOB	(NP-DOB*	I-ArgM-LOC
+khoai mì	N-H	1	phân	I-NP	I-DOB	*	I-ArgM-LOC
+đang	R	1	phân	B-NP	I-DOB	(NP*	I-ArgM-LOC
+tuổi	N-H	1	phân	I-NP	I-DOB	*	I-ArgM-LOC
+lớn	A	1	phân	I-NP	I-DOB	*))))))))))	I-ArgM-LOC
+
+mẹ	N-H	1	chôn	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+nó	P	1	chôn	I-NP	I-SUB	*)	I-Arg0
+không	R	1	chôn	I-VP	O	(VP*	I-ArgM-NEG
+muốn	V-H	1	chôn	I-VP	O	*	I-ArgM-MOD
+chôn	V-H	1	chôn	B-VP	O	(VP*	I-Rel
+nó	P-H	1	chôn	I-NP	I-DOB	(NP-DOB*)	I-Arg1
+theo	V-H	1	chôn	I-VP	O	(VP*)	I-Arg1
+đâu	T	1	chôn	B-VP	O	*)))	I-ArgM-Partice
+
+tháng	N-H	1	có	I-NP	I-TMP	(S(NP-TMP*	I-ArgM-TMP
+trước	N	1	có	I-NP	I-TMP	*)	I-ArgM-TMP
+làng	N-H	1	có	B-NP	I-SUB	(NP-SUB*)	I-Arg0
+có	V-H	1	có	I-VP	O	(VP*	I-Rel
+lễ	N-H	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+mừng	V-H	1	có	I-VP	I-DOB	(VP*	I-Arg1
+lúa	N-H	1	có	I-NP	B-DOB	(NP-DOB*	I-Arg1
+mới	A	1	có	I-NP	I-DOB	*)))))	I-Arg1
+
+nó	P-H	1	chết	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+không	R	1	chết	I-VP	O	(VP*	I-ArgM-NEG
+chết	V-H	1	chết	I-VP	O	*	I-Rel
+nữa	R	1	chết	I-VP	O	*))	I-ArgM-TMP
+
+nhà	N-H	1	túng	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đang	R	1	túng	I-VP	O	(VP*	O
+túng	V-H	1	túng	I-VP	O	*	I-Rel
+tiền	N-H	1	túng	I-NP	I-DOB	(NP-DOB*)))	I-Arg1
+
+cái	Nc-H	1	đeo bám	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+khó	A	1	đeo bám	I-NP	I-SUB	*	I-Arg0
+nghèo	A	1	đeo bám	I-NP	I-SUB	*)	I-Arg0
+vẫn	R	1	đeo bám	I-VP	O	(VP*	I-ArgM-TMP
+mãi	R	1	đeo bám	I-VP	O	*	B-ArgM-TMP
+đeo bám	V-H	1	đeo bám	I-VP	O	*	I-Rel
+suốt	A	1	đeo bám	I-NP	I-TMP	(NP-TMP*	I-ArgM-TMP
+mấy	L	1	đeo bám	I-NP	I-TMP	*	I-ArgM-TMP
+chục	M	1	đeo bám	I-NP	I-TMP	*	I-ArgM-TMP
+năm	N-H	1	đeo bám	I-NP	I-TMP	*)))	I-ArgM-TMP
+
+chúng tôi	P-H	1	đến	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đến	V-H	1	đến	I-VP	O	(VP*))	I-Rel
+
+tôi	P-H	1	chống cự	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đã	R	1	chống cự	I-VP	O	(VP*	I-ArgM-TMP
+chống cự	V-H	1	chống cự	I-VP	O	*	I-Rel
+quyết liệt	A	1	chống cự	I-VP	O	*))	I-ArgM-MNR
+
+Chị	N-H	1	van xin và vùng vẫy	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+van xin	V-H	1	van xin và vùng vẫy	I-VP	O	(VP(VP*)	I-Rel
+và	C	1	van xin và vùng vẫy	I-VP	O	*	I-Rel
+vùng vẫy	V-H	1	van xin và vùng vẫy	B-VP	O	(VP*)))	I-Rel
+
+tên	N-H	1	cắt xén	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+cắt xén	V-H	1	cắt xén	I-VP	O	(Np(VP*))))	I-Rel
+
+Bên	E-H	1	ì xèo	I-PP	I-LOC	(S(PP-LOC*	I-ArgM-LOC
+ngoài	N-H	1	ì xèo	I-NP	I-LOC	(NP*))	I-ArgM-LOC
+mấy	L	1	ì xèo	B-NP	I-SUB	(NP-SUB*	I-Arg0
+ông	Nc-H	1	ì xèo	I-NP	I-SUB	*	I-Arg0
+thợ	N	1	ì xèo	I-NP	I-SUB	*	I-Arg0
+ghim	V-H	1	ì xèo	I-VP	I-SUB	(VP(VP*	I-Arg0
+điện	N-H	1	ì xèo	I-NP	I-DOB	(NP-DOB*))	I-Arg0
+hàn	V-H	1	ì xèo	I-VP	I-SUB	(VP*	I-Arg0
+chì	N-H	1	ì xèo	I-NP	I-DOB	(NP-DOB*))))	I-Arg0
+ì xèo	V-H	1	ì xèo	I-VP	O	(VP*))	I-Rel
+
+anh	N-H	1	nói	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+nói	V-H	1	nói	I-VP	O	(VP*))	I-Rel
+
+chuyện	N-H	1	xảy	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+gì	P	1	xảy	I-NP	I-SUB	*)	I-Arg0
+xảy	V-H	1	xảy	I-VP	O	(VP*	I-Rel
+ra	R	1	xảy	I-VP	O	*))	I-ArgM-RES
+
+điện	N-H	1	giật	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+giật	V-H	1	giật	I-VP	O	(VP*))	I-Rel
+
+Đó	P-H	1	là	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+chỉ	R	1	là	I-VP	O	(VP*	I-ArgM-EXT
+là	V-H	1	là	I-VP	O	*	I-Rel
+rừng	N-H	1	là	I-NP	I-DOB	(NP-DOB*	I-Arg1
+ngụy trang	V	1	là	I-NP	I-DOB	*	I-Arg1
+thôi	T	1	là	I-NP	I-DOB	*)))	O
+
+anh em	N-H	1	chạy	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+bảo vệ	V-H	1	chạy	I-VP	I-SUB	(VP*	I-Arg0
+rừng	N-H	1	chạy	I-NP	I-DOB	(NP-DOB*)))	I-Arg0
+cứ	R	1	chạy	I-VP	O	(VP*	I-ArgM-TMP
+phải	V-H	1	chạy	I-VP	O	*	I-ArgM-MOD
+chạy	V-H	1	chạy	B-VP	O	(VP*	I-Rel
+theo đuôi	V-H	1	chạy	B-VP	O	(VP*))))	I-ArgM-MNR
+
+Dư luận	N-H	1	có	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+thì	C	1	có	O	O	*	I-ArgM-DIS
+có	V-H	1	có	I-VP	O	(VP*	I-Rel
+chuyện	N-H	1	có	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đó	P	1	có	I-NP	I-DOB	*)))	I-Arg1
+
+cả	P	1	chuyển	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+gia đình	N-H	1	chuyển	I-NP	I-SUB	*)	I-Arg0
+chuyển	V-H	1	chuyển	I-VP	O	(VP*	I-Rel
+sang	V	1	chuyển	I-VP	O	*	I-ArgM-DIR
+nghề	N-H	1	chuyển	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đập	V-H	1	chuyển	I-VP	I-DOB	(VP*	I-Arg1
+bao	N-H	1	chuyển	I-NP	B-DOB	(NP-DOB*)))	I-Arg1
+từ	E-H	1	chuyển	I-PP	I-TMP	(PP-TMP*	I-ArgM-TMP
+mấy	L	1	chuyển	I-NP	I-TMP	(NP*	I-ArgM-TMP
+chực	M	1	chuyển	I-NP	I-TMP	*	I-ArgM-TMP
+năm	N-H	1	chuyển	I-NP	I-TMP	*	I-ArgM-TMP
+nay	P	1	chuyển	I-NP	I-TMP	*))))	I-ArgM-TMP
+
+yêu cầu	V-H	1	yêu cầu	I-VP	O	(S(NP-SUB(VP*	I-Rel
+người	N-H	1	yêu cầu	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đập	V-H	1	yêu cầu	I-VP	I-DOB	(VP*	I-Arg1
+bao	N-H	1	yêu cầu	I-NP	B-DOB	(NP-DOB*	I-Arg1
+đến	V-H	1	yêu cầu	I-VP	I-DOB	(VP*	I-Arg2
+những	L	1	yêu cầu	I-NP	I-LOC	(NP-LOC*	I-Arg2
+vùng đất	N-H	1	yêu cầu	I-NP	I-LOC	*	I-Arg2
+trống	A-H	1	yêu cầu	I-AP	I-LOC	(AP*)	I-Arg2
+như	C	1	yêu cầu	I-NP	I-LOC	*	I-Arg2
+rạch	N-H	1	yêu cầu	B-NP	I-LOC	(NP*	I-Arg2
+để	E-H	1	yêu cầu	I-PP	I-PRP	(Np(PP-PRP*	I-ArgM-PRP
+làm	V-H	1	yêu cầu	I-VP	I-PRP	(VP*))))))))))))	I-ArgM-PRP
+
+gia đình	N-H	1	có	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đã	R	1	có	I-VP	O	(VP*	I-ArgM-TMP
+có	V-H	1	có	I-VP	O	*	I-Rel
+thâm niên	N-H	1	có	I-NP	I-TMP	(NP-TMP*	I-Arg1
+trên	A	1	có	B-NP	I-TMP	(NP*	I-Arg1
+mười	M	1	có	I-NP	I-TMP	*	I-Arg1
+năm	N-H	1	có	I-NP	I-TMP	*	I-Arg1
+đập	V-H	1	có	I-VP	I-TMP	(VP*	I-Arg1
+bao	N-H	1	có	I-NP	I-DOB	(NP-DOB*))	I-Arg1
+tại	E-H	1	có	I-PP	I-LOC	(PP-LOC*	I-Arg1
+đây	P-H	1	có	I-NP	I-LOC	(NP*))))))	I-Arg1
+
+Đi	V-H	1	còn lượn lờ	I-VP	I-ADV	(S(VP-ADV*	I-ArgM-ADV
+vào	E-H	1	còn lượn lờ	I-PP	I-TMP	(PP-TMP*	I-ArgM-ADV
+tầm	N-H	1	còn lượn lờ	I-NP	I-TMP	(NP*	I-ArgM-ADV
+này	P	1	còn lượn lờ	I-NP	I-TMP	*	I-ArgM-ADV
+mới	R	1	còn lượn lờ	I-VP	I-TMP	(VP*	I-ArgM-ADV
+có	V-H	1	còn lượn lờ	I-VP	I-TMP	*	I-ArgM-ADV
+nhiều	A-H	1	còn lượn lờ	I-AP	I-TMP	(AP*	I-ArgM-ADV
+chim	N-H	1	còn lượn lờ	I-NP	I-TMP	(NP*))))))	I-Arg1
+vả lại	C	1	còn lượn lờ	O	O	*	O
+giờ	N-H	1	còn lượn lờ	I-NP	I-TMP	(NP-TMP*	I-ArgM-TMP
+này	P	1	còn lượn lờ	I-NP	I-TMP	*)	I-ArgM-TMP
+mấy	L	1	còn lượn lờ	B-NP	I-SUB	(NP-SUB*	I-Arg0
+tay	N-H	1	còn lượn lờ	I-NP	I-SUB	*	I-Arg0
+kiểm lâm	N	1	còn lượn lờ	I-NP	I-SUB	*)	B-Arg0
+không	R	1	còn lượn lờ	I-VP	O	(VP*	I-ArgM-NEG
+còn	V-H	1	còn lượn lờ	I-VP	O	*	I-Rel
+lượn lờ	V-H	1	còn lượn lờ	B-VP	O	(VP*	I-Rel
+nữa	T	1	còn lượn lờ	I-VP	O	*)))	O
+
+trời	N-H	1	tối hẳn	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+tối	A-H	1	tối hẳn	I-AP	I-PRD	(AP-PRD*	I-Rel
+hẳn	R	1	tối hẳn	I-AP	I-PRD	*))	I-Rel
+
+nhà	N-H	1	kiếm được	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+anh	N	1	kiếm được	I-NP	I-SUB	*)	I-Arg0
+cũng	R	1	kiếm được	I-VP	O	(VP*	I-ArgM-TMP
+kiếm	V-H	1	kiếm được	I-VP	O	*	I-Rel
+được	R	1	kiếm được	I-VP	O	*	I-Rel
+250000	M	1	kiếm được	I-NP	I-DOB	(NP-DOB*	I-ArgM-EXT
+300000	M	1	kiếm được	I-NP	I-DOB	*	I-ArgM-EXT
+đồng	Nu-H	1	kiếm được	I-NP	I-DOB	*)))	I-ArgM-EXT
+
+những	L	1	hóa	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+thợ	N-H	1	hóa	I-NP	I-SUB	*	I-Arg0
+lặn	V	1	hóa	I-NP	I-SUB	*)	I-Arg0
+hóa	V-H	1	hóa	I-VP	O	(VP(VP*	I-Rel
+mình	N-H	1	hóa	I-VP	I-DOB	(NP-DOB*)	I-Arg1
+vào	E-H	1	hóa	I-VP	O	(PP*	I-Arg2
+bộ đồ	N-H	1	hóa	I-VP	O	(NP*	I-Arg2
+nhái	N	1	hóa	I-VP	O	*))	I-Arg2
+chỉ	R	1	hóa	I-VP	I-TMP	(PP-TMP*	I-ArgM-TMP
+trong	E-H	1	hóa	I-VP	I-TMP	*	I-ArgM-TMP
+dăm	M	1	hóa	I-VP	I-TMP	(NP*	I-ArgM-TMP
+phút	Nu-H	1	hóa	I-VP	I-TMP	*)))	I-ArgM-TMP
+rồi	C	1	hóa	I-VP	O	*	O
+nhảy	V-H	1	hóa	B-VP	O	(VP*	O
+ào ào	A-H	1	hóa	I-AP	O	(AP*)	O
+như	C	1	hóa	I-VP	O	*	O
+lao	V-H	1	hóa	B-VP	O	(VP*	O
+xuống	E-H	1	hóa	I-PP	I-DIR	(PP-DIR*	O
+biển	N	1	hóa	I-NP	I-DIR	(NP*))))	O
+lặn	V-H	1	hóa	I-VP	O	(VP*	O
+một mạch	N-H	1	hóa	I-NP	I-DOB	(NP-DOB*	O
+dài	A-H	1	hóa	I-AP	I-DOB	(AP*	O
+đến	E-H	1	hóa	I-PP	I-DOB	(PP*	O
+bốn	M	1	hóa	I-NP	I-DOB	(NP*	O
+giờ	Nu-H	1	hóa	I-NP	I-DOB	*)))	O
+mới	R	1	hóa	I-VP	I-DOB	(VP*	O
+ngoi	V-H	1	hóa	I-VP	I-DOB	*	O
+lên	R	1	hóa	I-VP	I-DOB	*)))))	O
+
+Họ	P-H	1	lên	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đang	R	1	lên	I-VP	O	(VP*	I-ArgM-TMP
+lên	V-H	1	lên	I-VP	O	*	I-Rel
+đấy	T	1	lên	I-VP	O	*))	I-ArgM-Partice
+
+chúng	P-H	1	va chạm	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+va chạm	V-H	1	va chạm	I-VP	O	(VP*	I-Rel
+khi	N-H	1	va chạm	I-NP	I-TMP	(NP-TMP*	I-ArgM-TMP
+chơi đùa	V-H	1	va chạm	I-VP	I-TMP	(VP*))))	I-ArgM-TMP
+
+Người	Nc-H	1	hiếu khách	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+quê	N	1	hiếu khách	I-NP	I-SUB	*)	I-Arg0
+hiếu khách	A-H	1	hiếu khách	I-AP	I-PRD	(AP-PRD*))	I-Rel
+
+Ở	E-H	1	dám chơi	I-PP	I-LOC	(S(PP-LOC*	I-ArgM-LOC
+trường	N-H	1	dám chơi	I-NP	I-LOC	(NP*))	I-ArgM-LOC
+không	R	1	dám chơi	B-NP	I-SUB	(NP-SUB*	I-Arg0
+đứa	Nc-H	1	dám chơi	I-NP	I-SUB	*	I-Arg0
+học trò	N	1	dám chơi	I-NP	I-SUB	*	I-Arg0
+nào	P	1	dám chơi	I-NP	I-SUB	*)	I-Arg0
+dám	V-H	1	dám chơi	I-VP	O	(VP*	I-Rel
+chơi	V-H	1	dám chơi	B-VP	O	(VP*	I-Rel
+với	E-H	1	dám chơi	I-PP	O	(PP*	I-ArgM-COM
+con	N-H	1	dám chơi	I-NP	O	(NP*	I-ArgM-COM
+anh	N	1	dám chơi	I-NP	O	*)))))	I-ArgM-COM
+
+cặp	N-H	1	sống	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+vợ chồng	N	1	sống	I-NP	I-SUB	*	I-Arg0
+trẻ	A-H	1	sống	I-AP	I-SUB	(AP*)	I-Arg0
+mới	R	1	sống	I-VP	I-SUB	(VP*	I-Arg0
+qua	V-H	1	sống	I-VP	I-SUB	*	I-Arg0
+tuổi	N-H	1	sống	I-NP	I-SUB	(NP*	I-Arg0
+20	M	1	sống	I-NP	I-SUB	*)	I-Arg0
+chưa	R	1	sống	I-AP	I-TMP	(AP-TMP*	I-Arg0
+lâu	A-H	1	sống	I-AP	I-TMP	*)))	I-Arg0
+sống	V-H	1	sống	I-VP	O	(VP*	I-Rel
+theo	E-H	1	sống	I-PP	O	(PP*	I-ArgM-MNR
+kiểu	N-H	1	sống	I-NP	I-DOB	(NP-DOB*	I-ArgM-MNR
+bốn	M	1	sống	B-NP	I-DOB	(NP*	I-ArgM-MNR
+không	N-H	1	sống	I-NP	I-DOB	*)))))	I-ArgM-MNR
+
+Chúng tôi	P-H	1	được	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+được	V-H	1	được	I-VP	O	(VP*	I-Rel
+sự	Nc-H	1	được	I-NP	I-DOB	(NP-DOB*	I-Arg1
+chăm sóc	V	1	được	I-NP	I-DOB	*	I-Arg1
+của	E-H	1	được	I-PP	I-DOB	(PP*	I-Arg1
+trung tâm	N-H	1	được	I-NP	I-DOB	(NP*	I-Arg1
+tư vấn	V	1	được	I-NP	I-DOB	*)))))	I-Arg1
+
+Đám cưới	N-H	1	liên quan	I-NP	I-SUB	(SQ(NP-SUB*)	I-Arg0
+thì	C	1	liên quan	O	O	*	I-ArgM-DIS
+liên quan	V-H	1	liên quan	I-VP	O	(VP*	I-Rel
+gì	P-H	1	liên quan	I-NP	I-DOB	(NP-DOB*)	O
+đến	E-H	1	liên quan	I-PP	O	(PP*	I-Arg2
+chuyện	N-H	1	liên quan	I-NP	O	(NP*	I-Arg2
+xe cộ	N	1	liên quan	I-NP	O	*))))	I-Arg2
+
+có lẽ	R	1	khắc	I-NP	I-ADV	(S(NP-ADV*	I-ArgM-MOD
+thế	P-H	1	khắc	I-NP	I-ADV	*)	I-ArgM-MOD
+mà	C	1	khắc	O	O	*	I-ArgM-DIS
+trên	E-H	1	khắc	I-PP	I-LOC	(PP-LOC*	I-ArgM-LOC
+ba	M	1	khắc	I-NP	I-LOC	(NP*	I-ArgM-LOC
+ngôi	Nc-H	1	khắc	I-NP	I-LOC	*	I-ArgM-LOC
+mộ	N	1	khắc	I-NP	I-LOC	*	I-ArgM-LOC
+liền	A-H	1	khắc	I-AP	I-LOC	(AP*	I-ArgM-LOC
+nhau	N	1	khắc	I-AP	I-LOC	*)	I-ArgM-LOC
+trong	E-H	1	khắc	I-PP	B-LOC	(PP-LOC*	I-ArgM-LOC
+nghĩa trang	N-H	1	khắc	I-NP	I-LOC	(NP*	I-ArgM-LOC
+ở	E-H	1	khắc	I-PP	B-LOC	(PP-LOC*	I-ArgM-LOC
+một	M	1	khắc	I-NP	I-SUB	(NP(Np-H(NP-SUB*	I-Arg0
+gia đình	N-H	1	khắc	I-NP	I-SUB	*)	I-Arg0
+đã	R	1	khắc	I-VP	O	(VP*	I-ArgM-TMP
+khắc	V-H	1	khắc	I-VP	O	*	I-Rel
+ba	M	1	khắc	I-NP	I-DOB	(NP-DOB*	I-Arg1
+chữ	N-H	1	khắc	I-NP	I-DOB	*	I-Arg1
+Hướng	V-H	1	khắc	I-VP	I-DOB	(VP*	I-Arg1
+gia hương	N-H	1	khắc	I-NP	I-LOC	(NP-LOC*)	I-Arg1
+LBKT	LBKT	1	khắc	I-VP	I-DOB	(VP*	I-Arg1
+vọng	V-H	1	khắc	I-VP	I-DOB	*	I-Arg1
+về	R	1	khắc	I-VP	I-DOB	*	I-Arg1
+quê nhà	N-H	1	khắc	I-NP	I-LOC	(NP-LOC*)	I-Arg1
+RBKT	RBKT	1	khắc	I-VP	I-DOB	*))))))))))))	I-Arg1
+
+Có	V-H	1	là	I-VP	I-SUB	(S(VP-SUB*	I-Arg0
+người	N-H	1	là	I-NP	I-SUB	(NP*))	I-Arg0
+nay	N-H	1	là	B-NP	I-TMP	(NP-TMP*)	I-ArgM-TMP
+là	V-H	1	là	I-VP	O	(VP*	I-Rel
+điền chủ	N-H	1	là	I-NP	O	(NP*	I-Arg1
+một	M	1	là	B-NP	O	(NP*	I-Arg1
+trang trại	N-H	1	là	I-NP	O	*	I-Arg1
+trồng	V-H	1	là	I-VP	O	(VP*	I-Arg1
+cam	N-H	1	là	I-NP	I-DOB	(NP-DOB*))	I-Arg1
+rộng	A-H	1	là	I-AP	O	(AP*	I-Arg1
+cả	P	1	là	I-NP	O	(NP*	I-Arg1
+ngàn	M	1	là	I-NP	O	*	I-Arg1
+hecta	Nu-H	1	là	I-NP	O	*))	I-Arg1
+lớn	A-H	1	là	I-AP	O	(AP*	I-Arg1
+nhất nhì	X	1	là	I-NP	O	(NP*	I-Arg1
+vùng	N-H	1	là	I-NP	O	*))))))	I-Arg1
+
+mỗi	M	1	nhận giúp	I-NP	I-SUB	(S(NP-SUB*	I-Arg0
+người	N-H	1	nhận giúp	I-NP	I-SUB	*)	I-Arg0
+nhận	V-H	1	nhận giúp	I-VP	O	(VP*	I-Rel
+giúp	V	1	nhận giúp	I-VP	O	*	I-Rel
+một	M	1	nhận giúp	I-NP	I-DOB	(NP-DOB*	I-Arg1
+đứa	N-H	1	nhận giúp	I-NP	I-DOB	*)))	I-Arg1
+
+Nếu	C	1	nhập	O	O	(S-CND*	O
+chính phủ	N-H	1	nhập	I-NP	I-SUB	(NP-SUB*)	I-Arg0
+nhập	V-H	1	nhập	I-VP	O	(VP*	I-Rel
+quốc tịch	N-H	1	nhập	I-NP	I-DOB	(NP-DOB*	I-Arg1
+cho	E-H	1	nhập	I-PP	I-IOB	(Np(PP-IOB*	I-Arg2
+những	L	1	nhập	I-NP	I-IOB	(NP*	I-Arg2
+người	Nc-H	1	nhập	I-NP	I-IOB	*	I-Arg2
+này	P	1	nhập	I-NP	I-IOB	(Np*)))))))	I-Arg2
+
+hôm nay	N-H	1	tập trung	I-NP	I-TMP	(S(NP-TMP*)	I-ArgM-TMP
+ở	E-H	1	tập trung	I-PP	I-SUB	(PP-LOC-SUB*	I-Arg0
+đây	P-H	1	tập trung	I-NP	I-SUB	(NP*))	I-Arg0
+tập trung	V-H	1	tập trung	I-VP	O	(VP*	I-Rel
+đông	A	1	tập trung	I-NP	I-DOB	(NP-DOB*	I-Arg1
+người	Nc-H	1	tập trung	I-NP	I-DOB	*	I-Arg1
+
+dù	C	1	sang	O	O	(S*	I-ArgM-DIS
+gia đình	N-H	1	sang	I-NP	I-SUB	(NP-SUB*	I-Arg0
+anh	N	1	sang	I-NP	I-SUB	*)	I-Arg0
+sang	V-H	1	sang	I-VP	O	(VP*	I-Rel
+đây	P-H	1	sang	I-NP	I-LOC	(NP-LOC*)	I-Arg4
+từ	E-H	1	sang	I-PP	I-TMP	(PP-TMP*	I-ArgM-TMP
+những	L	1	sang	I-NP	I-TMP	(NP*	I-ArgM-TMP
+năm	N-H	1	sang	I-NP	I-TMP	*	I-ArgM-TMP
+1930	M	1	sang	I-NP	I-TMP	*))))	I-ArgM-TMP
+
+trang trại	N-H	1	chật chội	I-NP	I-SUB	(S-CND(NP-SUB*	I-Arg0
+cũ	A	1	chật chội	I-NP	I-SUB	*)	I-Arg0
+quá	R	1	chật chội	I-AP	I-PRD	(AP-PRD*	I-ArgM-EXT
+chật chội	A-H	1	chật chội	I-AP	I-PRD	*))	I-Rel
+
+mình	P-H	1	vượt	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+phải	V-H	1	vượt	I-VP	O	(VP*	I-ArgM-MOD
+vượt	V-H	1	vượt	B-VP	O	(VP*	I-Rel
+qua	V	1	vượt	I-VP	O	*)))	I-ArgM-MNR
+
+mình	P-H	1	vỡ nợ	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+sắp	R	1	vỡ nợ	I-VP	O	(VP*	I-ArgM-TMP
+vỡ nợ	V-H	1	vỡ nợ	I-VP	O	*))	I-Rel
+
+tôi	P-H	1	đánh cược	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+đã	R	1	đánh cược	I-VP	O	(VP*	I-ArgM-TMP
+đánh cược	V-H	1	đánh cược	I-VP	O	*	I-Rel
+cả	P	1	đánh cược	I-NP	I-DOB	(NP-DOB(NP*	I-Arg1
+đời	N-H	1	đánh cược	I-NP	I-DOB	*	I-Arg1
+mình	P	1	đánh cược	I-NP	I-DOB	*)	I-Arg1
+thậm chí	C	1	đánh cược	I-NP	I-DOB	*	I-Arg1
+tính mạng	N-H	1	đánh cược	B-NP	I-DOB	(NP*))	I-Arg1
+cho	E-H	1	đánh cược	I-PP	O	(PP*	I-Arg2
+trận	N-H	1	đánh cược	I-NP	O	(NP*	I-Arg2
+đầu tiên	A	1	đánh cược	I-NP	O	*))))	I-Arg2
+
+tôi	P-H	1	õng ẹo	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+õng ẹo	A-H	1	õng ẹo	I-AP	I-PRD	(AP-PRD*	I-Rel
+như	C	1	õng ẹo	I-AP	I-PRD	*	I-ArgM-MNR
+con gái	N-H	1	õng ẹo	I-NP	I-PRD	(NP*)))	I-Arg1
+
+nội dung	N-H	1	tái hiện	I-NP	I-SUB	(S(NP-SUB*)	I-Arg0
+tái hiện	V-H	1	tái hiện	I-VP	O	(VP*	I-Rel
+cuộc đời	N-H	1	tái hiện	I-NP	I-DOB	(NP-DOB*	I-Arg1
+của	E-H	1	tái hiện	I-PP	I-DOB	(PP*	I-Arg1
+chính	T	1	tái hiện	I-NP	I-DOB	(NP*	I-Arg1
+mình	P-H	1	tái hiện	I-NP	I-DOB	*)))))	I-Arg1
+

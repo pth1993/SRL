@@ -321,11 +321,16 @@ def make_data_folds():
             os.mkdir('set/' + str(i))
         train_writer = codecs.open('set/' + str(i) + '/train.txt', 'w', 'utf8')
         test_writer = codecs.open('set/' + str(i) + '/test.txt', 'w', 'utf8')
+        dev_writer = codecs.open('set/' + str(i) + '/dev.txt', 'w', 'utf8')
         for j in range(kfold):
             if i == j:
                 for line in data_folds[j]:
                     test_writer.write(line)
                     test_writer.write('\n')
+            elif i+1 == j:
+                for line in data_folds[j]:
+                    dev_writer.write(line)
+                    dev_writer.write('\n')
             else:
                 for line in data_folds[j]:
                     train_writer.write(line)
@@ -335,5 +340,5 @@ def make_data_folds():
 
 
 if __name__ == '__main__':
-    main()
+    # main()
     make_data_folds()
